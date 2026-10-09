@@ -1,0 +1,24 @@
+# Method information
+
+- Method name: MAPPO-Lagrangian (MAPPO-L)
+- Paper title: Multi-Agent Constrained Policy Optimisation
+- Citation checked: arXiv:2110.02793; a formal conference or journal venue has not been confirmed
+- Paper URL: https://arxiv.org/abs/2110.02793
+- Official repository URL: https://github.com/chauncygu/Multi-Agent-Constrained-Policy-Optimisation
+- Commit: `b80a9f5b4a0049125a827be8fb9c477f69ae021b`
+- Local source: `../macpo/SOURCE/MAPPO-Lagrangian` (the source is not duplicated)
+- Commit date: 2024-04-16T20:40:32+08:00
+- Local acquisition date: 2026-09-02
+- License: MIT text; the upstream LICENSE contains unresolved Git merge-conflict markers
+- Third-party source modified: no
+- Official training entry: `MAPPO-Lagrangian/mappo_lagrangian/scripts/train/train_mujoco.py`
+- Aircraft adapter: `external_adapters/official_mappo_lagrangian.py`
+- Aircraft experiment entry: `run_official_mappo_lagrangian.py`
+- Original environment: multi-agent MuJoCo
+- Aircraft observation: separate local observation per actor and concatenated team observations for reward/cost critics
+- Aircraft action: shared five-dimensional continuous latent adapter used for all compatible external baselines
+- Training cost: trajectory-level binary hard-rule violation by default; step-indicator episodic sum is retained for sensitivity analysis
+- Information boundary: truth forms the training cost only and is unavailable to actors at execution
+- Relevance: official primal-dual constrained MARL baseline with an adaptive Lagrangian multiplier
+- Adaptation limit: semantic mode and target are rounded at the simulator boundary
+- Dependency note: the adapter loads the official algorithm core directly and does not install its obsolete Python 3.6-era experiment stack

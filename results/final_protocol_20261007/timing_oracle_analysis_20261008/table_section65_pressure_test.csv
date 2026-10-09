@@ -1,0 +1,5 @@
+﻿configuration,warning_now_retention_3,warning_now_retention_30,warning_now_mean_minimum_separation_m,warning_now_C03_violation_state_rate,warning_now_C02_violation_state_rate,warning_now_cumulative_reward_30,post_S02_first_recovery_3
+NoShield,0.77,0.0,221.27598456100546,1.0,0.0,25.551919608975634,0.76
+PartialShield,0.77,0.0,212.30782086419813,1.0,0.10500000000000001,23.92247508328452,0.6
+JointHeuristic,0.77,0.0,208.26751578659966,1.0,0.0,25.807177156485135,0.37
+DG-QP,0.96,0.0,629.8361980770273,0.0,0.999,10.157605228600037,0.54

@@ -1,0 +1,13 @@
+{
+  "figure_title_font": "SimHei 15pt",
+  "figure_other_fonts": "SimSun 12pt",
+  "table_protocol": "100 perturbed geometries; ten seeds; two episodes per distance per seed",
+  "figure_protocol": "fixed geometry; seed11; 2000m template; first S02 takeover",
+  "output_sha256": {
+    "results\\final_protocol_20261007\\timing_oracle_analysis_20261008\\table_section65_pressure_test.csv": "62c224d33a694d50d907c3006a8d07fc4faf5202a30660ef1ec484fe9965f42d",
+    "results\\final_protocol_20261007\\timing_oracle_analysis_20261008\\fig_section65_recovery_boundary_data.json": "e58a0d03209f5a9f9b0d9e7de7b844f5ed9b42a355684061adaad0221f1cb07d",
+    "figures_white\\04_experiments\\fig_section65_recovery_boundary.png": "8fcdd25d117bc110e3b60fd16c5a44a21fa85884f78012f358264854d5f3cba0",
+    "figures_white\\04_experiments\\fig_section65_recovery_boundary.svg": "69a0c131d7044a3822f649a9f3f57c6e0c3c5ffb0e0875281c1fd21f3103ed86",
+    "figures_white\\04_experiments\\fig_section65_recovery_boundary.pdf": "6b51798aad040e4a3e3b5e65491deda4ed7367831a035c21bc4f66080a87c76e"
+  }
+}

@@ -1,0 +1,7431 @@
+[
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 24.500000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "M04": 5,
+      "C02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 8.823327814136778,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 8.455994684973176,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "S02": 2,
+      "M04": 5,
+      "F04": 20,
+      "C04": 20
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 21.03572473931405,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "F04": 0,
+      "C02": 0,
+      "S02": 2,
+      "C03": 8,
+      "C05": 13,
+      "F03": 14,
+      "M06": 14,
+      "E06": 14,
+      "F01": 15
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 15.219999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "M04": 5,
+      "C02": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 13.419999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 5,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 12.139999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 4,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 14.099999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 3,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 12.299999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 13.499999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5,
+      "E02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 14.099999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 3,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 12.219999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5,
+      "E02": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 10.151166666666665,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "F04": 23,
+      "C04": 23
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 7.868999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 13.939999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 12.899999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5,
+      "E02": 16
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 12.219999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 12.219999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 14.099999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 4,
+      "M04": 5,
+      "E02": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 15.299999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 11.1,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5,
+      "C04": 25
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 11.7,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 10.591166666666664,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5,
+      "C04": 11,
+      "F04": 24
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 9.068999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5,
+      "F04": 9,
+      "C04": 9,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 12.739999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 4,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 14.459999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 12.219999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 12.139999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 13.499999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 14.099999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 11.1,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 11.1,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 9.551166666666665,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5,
+      "F04": 25,
+      "F01": 25,
+      "C04": 25,
+      "C05": 25
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 7.868999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 12.819999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 12.819999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 3,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 12.819999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 12.739999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 12.219999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "E02": 1,
+      "C02": 2,
+      "M04": 5,
+      "F01": 25,
+      "C04": 25,
+      "C05": 25
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 14.699999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5,
+      "E02": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 24.92000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 18.58820652382766,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 13.59538157301915,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "S02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 12.815992894149577,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "S02": 2,
+      "M04": 5,
+      "C03": 8,
+      "E02": 10,
+      "E06": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 18.37,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 5,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 20.380000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 16.86,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 17.74,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "E01": 2
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 20.740000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "E01": 2
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 18.73,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "E01": 2
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 21.730000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "E01": 2
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 18.740000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 19.581166666666665,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "E02": 2,
+      "F01": 5,
+      "C04": 5,
+      "C05": 5,
+      "M04": 5,
+      "E01": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 19.778999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "E02": 2,
+      "F04": 4,
+      "F01": 4,
+      "C04": 4,
+      "C05": 4,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 15.809999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "E01": 3
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 19.85,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "E01": 4,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 21.730000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5,
+      "E01": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 17.68,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 17.009999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 20.220000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "E01": 3
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 20.1,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5,
+      "C05": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 21.420000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "E01": 3,
+      "C02": 4
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 16.511166666666668,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "C04": 3,
+      "C05": 3,
+      "F01": 4,
+      "E01": 4
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 16.189,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "C04": 2,
+      "C05": 2,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 22.020000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "E01": 3,
+      "C02": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 16.86,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "E01": 3
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 23.020000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 4,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 14.459999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 19.700000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "E01": 2
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 17.979999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "E01": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 21.660000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 2,
+      "C02": 4,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 20.460000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 19.79433333333333,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5,
+      "F01": 6,
+      "C04": 6,
+      "C05": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 15.508999999999995,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C05": 0,
+      "E02": 1,
+      "C02": 5,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 15.819999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 20.3,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "E01": 2
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 18.5,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "E01": 2
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 21.650000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "E01": 2
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 16.019999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "E01": 2
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 23.01000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "E01": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 23.65999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 21.388802205793695,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 18.74671309601692,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "S02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 11.467692601645588,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "S02": 2,
+      "M04": 5,
+      "C03": 8,
+      "F04": 13,
+      "E06": 14,
+      "F03": 15,
+      "M06": 15,
+      "I06": 15
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 22.420000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 23.540000000000006,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 22.420000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 24.74000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 24.820000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 24.140000000000008,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 4,
+      "M04": 5,
+      "C05": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 20.1,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 23.020000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 23.351166666666664,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 20.909,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 23.020000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 24.74000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 24.74000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 24.820000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 23.020000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 23.020000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 23.620000000000008,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 23.020000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 24.47116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 23.389,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 24.140000000000008,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 21.900000000000006,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 21.820000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 24.22000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 24.82000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 23.819999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5,
+      "C05": 24,
+      "F01": 26
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 24.820000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 21.220000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 22.071166666666667,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 20.309,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5,
+      "F04": 17,
+      "C04": 17,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 24.22000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 24.74000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 24.220000000000006,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 24.500000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 24.22000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 23.620000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 8.100000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 5.8235503195698355,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 4.857896979660995,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "S02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 3.031477010474424,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "S02": 2,
+      "M04": 5,
+      "C03": 8,
+      "E06": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 7.151166666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 6.068999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 7.151166666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 6.068999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 7.151166666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 6.068999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 23.700000000000006,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 11,
+      "E02": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 20.826246388916353,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "C02": 1,
+      "E02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 6.661101325683658,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 2,
+      "C02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 4.831735771671782,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 1,
+      "S02": 2,
+      "E02": 2,
+      "C03": 8,
+      "E06": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 23.700000000000006,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 10,
+      "E02": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 23.100000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 7,
+      "E02": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 23.100000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 6,
+      "E02": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 22.500000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 7,
+      "E02": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 23.100000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 8,
+      "E02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 22.500000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 4,
+      "M04": 5,
+      "E02": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 23.100000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 6,
+      "E02": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 23.100000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 9,
+      "E02": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 22.751166666666663,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 3,
+      "E02": 4,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 21.069,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 23.739999999999995,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "M04": 5,
+      "C02": 10,
+      "E02": 11,
+      "C04": 22,
+      "C05": 22,
+      "F01": 23
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 23.100000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 8,
+      "E02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 23.700000000000006,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 8,
+      "E02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 23.100000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 8,
+      "E02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 23.100000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 4,
+      "M04": 5,
+      "E02": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 23.700000000000006,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 7,
+      "E02": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 23.100000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 8,
+      "E02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 23.700000000000006,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 6,
+      "E02": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 22.15116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 3,
+      "E02": 4,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 20.469,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 3,
+      "E02": 4,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 23.700000000000006,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 8,
+      "E02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 23.700000000000006,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 9,
+      "E02": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 22.500000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 5,
+      "M04": 5,
+      "E02": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 23.100000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 3,
+      "C04": 4,
+      "C05": 4,
+      "E02": 4,
+      "F01": 5,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 22.500000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 3,
+      "E02": 4,
+      "M04": 5,
+      "C04": 25,
+      "C05": 25,
+      "F01": 26
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 23.700000000000006,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 6,
+      "E02": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 23.100000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 6,
+      "E02": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 23.10000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 2,
+      "E02": 3,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 22.151166666666665,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 3,
+      "E02": 4,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 21.069000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 3,
+      "E02": 4,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 23.700000000000006,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 10,
+      "E02": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 23.700000000000006,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 9,
+      "E02": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 23.700000000000006,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 8,
+      "E02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 22.500000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "M04": 5,
+      "C02": 8,
+      "E02": 9,
+      "C04": 22,
+      "C05": 22,
+      "F01": 23
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 23.700000000000006,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 6,
+      "E02": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 22.500000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 3,
+      "E02": 4,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 7.400000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 20.479896937304108,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "C02": 0,
+      "M04": 5,
+      "E02": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 18.50525825767074,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "S02": 2,
+      "M04": 5,
+      "E02": 7,
+      "F01": 8,
+      "C04": 8,
+      "C05": 8,
+      "F04": 10,
+      "E01": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 17.498314643290676,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "S02": 2,
+      "M04": 5,
+      "E02": 6,
+      "C03": 8,
+      "E06": 14,
+      "F04": 22,
+      "F03": 22,
+      "M06": 22,
+      "C04": 22,
+      "C05": 22,
+      "I06": 22,
+      "F01": 23
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 22.299999999999994,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 21.539999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 23.3,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 22.099999999999994,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 21.779999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5,
+      "E01": 26
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 21.130000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5,
+      "E01": 15
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 20.860000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 2,
+      "M04": 5,
+      "E01": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 21.3,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5,
+      "E01": 15
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 22.370333333333328,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "C04": 2,
+      "C05": 2,
+      "M04": 5,
+      "F01": 6,
+      "F04": 16,
+      "M03": 19
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 20.393,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "F04": 4,
+      "F01": 4,
+      "C04": 4,
+      "C05": 4,
+      "M04": 5,
+      "E01": 10,
+      "M03": 21,
+      "F03": 28,
+      "M06": 28,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 23.059999999999995,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 23.020000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 22.23999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "C04": 4,
+      "C05": 4,
+      "E02": 4,
+      "F01": 5,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 22.05999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "E02": 2,
+      "M04": 5,
+      "C05": 24,
+      "F01": 26
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 22.059999999999995,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 2,
+      "M04": 5,
+      "E01": 16
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 20.9,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5,
+      "E01": 16
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 21.220000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 2,
+      "M04": 5,
+      "E01": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 22.779999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 2,
+      "M04": 5,
+      "E01": 25
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 21.071166666666663,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "C04": 2,
+      "C05": 2,
+      "F01": 4,
+      "E01": 4,
+      "M04": 5,
+      "F04": 19
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 20.756999999999994,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "C04": 2,
+      "C05": 2,
+      "E02": 2,
+      "F04": 4,
+      "F01": 4,
+      "M04": 5,
+      "M03": 22,
+      "F03": 27,
+      "M06": 27,
+      "E06": 27,
+      "E01": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 22.26,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 21.739999999999995,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 20.619999999999994,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 6,
+      "C05": 21,
+      "F01": 23
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 22.019999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 21.3,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 2,
+      "M04": 5,
+      "E01": 19
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 21.819999999999993,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 5,
+      "E01": 16
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 21.740000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5,
+      "E01": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 22.099999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 2,
+      "M04": 5,
+      "E01": 21
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 22.15433333333333,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "C04": 1,
+      "C05": 1,
+      "E02": 1,
+      "F01": 5,
+      "M04": 5,
+      "F04": 17,
+      "E01": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 19.587,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "C04": 2,
+      "C05": 2,
+      "F04": 4,
+      "F01": 4,
+      "M04": 5,
+      "E01": 17,
+      "M03": 18,
+      "F03": 28,
+      "M06": 28,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 21.739999999999995,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 22.05999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 23.10000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 23.059999999999995,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 21.019999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 20.619999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 8,
+      "E01": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 20.7,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 21.185407202736307,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "E01": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 20.222356229648845,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "S02": 2,
+      "F01": 4,
+      "E01": 8,
+      "F04": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 18.626011005864548,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "F04": 0,
+      "I06": 0,
+      "S02": 2,
+      "E02": 5,
+      "C03": 8,
+      "E01": 9,
+      "F03": 14,
+      "M06": 14,
+      "E06": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 22.859999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 22.779999999999994,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "E01": 0,
+      "C05": 3,
+      "F01": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 22.779999999999994,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "E01": 7,
+      "C05": 24,
+      "F01": 26
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 22.779999999999994,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 22.859999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 22.779999999999994,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 22.859999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 22.859999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 22.51116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "F01": 4,
+      "E01": 8,
+      "F04": 17
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 21.348999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "F04": 3,
+      "F01": 4,
+      "E01": 8,
+      "F03": 28,
+      "M06": 28,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 22.779999999999994,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 22.699999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "E01": 7,
+      "C05": 21,
+      "F01": 23
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 22.779999999999994,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 22.779999999999994,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 22.859999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 22.779999999999994,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 22.859999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 22.859999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 22.511166666666664,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "F01": 4,
+      "E01": 8,
+      "F04": 17
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 21.348999999999993,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "F04": 3,
+      "F01": 4,
+      "E01": 6,
+      "F03": 28,
+      "M06": 28,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 22.779999999999994,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 22.779999999999994,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 22.779999999999994,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 22.779999999999994,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 22.699999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 22.859999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 22.859999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 22.779999999999994,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "E01": 8,
+      "C05": 20,
+      "F01": 22
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 22.511166666666664,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "F01": 4,
+      "E01": 7,
+      "F04": 17
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 21.428999999999995,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "F04": 3,
+      "E01": 7,
+      "F03": 28,
+      "M06": 28,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 22.699999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 22.859999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 22.859999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 22.779999999999994,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 22.779999999999994,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 22.859999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 5,
+      "F01": 7,
+      "E01": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 23.69000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 8,
+      "E02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 22.09637116329305,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "C02": 0,
+      "E02": 1,
+      "M03": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 22.606154799760578,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "S02": 3,
+      "M03": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 19.031278521705392,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C04": 0,
+      "C02": 0,
+      "S02": 2,
+      "M03": 5,
+      "C03": 8,
+      "E06": 14,
+      "F04": 15,
+      "F03": 15,
+      "M06": 15,
+      "I06": 15,
+      "E02": 25
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 25.190000000000012,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M03": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 24.74000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 2,
+      "M03": 7,
+      "E02": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 24.500000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 2,
+      "E02": 6,
+      "M03": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 24.950000000000006,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 3,
+      "M03": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 24.66000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M03": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 24.88000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M03": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 24.97000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M03": 4,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 25.12000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M03": 4,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 24.551166666666663,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M03": 5,
+      "C02": 6,
+      "E02": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 22.558999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5,
+      "F04": 23,
+      "M03": 25,
+      "E06": 28,
+      "F03": 29,
+      "M06": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 24.96000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "C02": 1,
+      "E02": 2,
+      "M03": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 25.020000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M03": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 25.27000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 4,
+      "E02": 5,
+      "M03": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 25.490000000000013,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "M03": 4
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 25.41000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "M03": 4
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 25.32000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "M03": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 25.57000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "M03": 4
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 24.65000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E01": 2,
+      "E02": 2,
+      "M03": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 24.14116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M03": 4,
+      "M04": 5,
+      "F04": 21
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 23.599,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "F04": 7,
+      "M03": 7,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 24.06000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5,
+      "E02": 6,
+      "M03": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 24.740000000000013,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "E01": 3,
+      "M03": 5,
+      "C05": 26,
+      "F01": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 25.190000000000012,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "M03": 5,
+      "C02": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 24.210000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M03": 5,
+      "C02": 7,
+      "E02": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 23.449999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 1,
+      "E01": 2,
+      "E02": 2,
+      "C04": 6,
+      "C05": 6,
+      "F01": 7,
+      "M03": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 25.87000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "M03": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 24.52000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M03": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 24.52000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M03": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 24.24116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "E02": 1,
+      "C02": 4,
+      "M03": 8,
+      "F04": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 23.078999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "F04": 4,
+      "C04": 4,
+      "M03": 5,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 24.200000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 1,
+      "E02": 1,
+      "C02": 2,
+      "M03": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 24.500000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M03": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 25.19000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M03": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 24.96000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "E02": 1,
+      "M03": 4,
+      "C02": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 25.64000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "M03": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 21.510000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M03": 5,
+      "C05": 13,
+      "C04": 14,
+      "F01": 16
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 22.809999999999995,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "E02": 5,
+      "M03": 16
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 19.689224579332787,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "C02": 1,
+      "E02": 2,
+      "M04": 5,
+      "E01": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 13.397862880562963,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "E02": 1,
+      "S02": 2,
+      "C02": 5,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 7.757923035103088,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "F04": 0,
+      "C04": 0,
+      "I06": 0,
+      "C02": 1,
+      "S02": 2,
+      "E02": 2,
+      "C03": 8,
+      "E06": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 13.859999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "C02": 1,
+      "E02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 16.339999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "C02": 1,
+      "E02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 22.219999999999995,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "C02": 6,
+      "E02": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 21.94,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "C02": 5,
+      "M04": 5,
+      "E02": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 22.140000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "C02": 2,
+      "E02": 3,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 15.059999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5,
+      "C05": 20,
+      "C04": 25
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 19.54,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 5,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 21.340000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "C02": 5,
+      "E02": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 19.791166666666665,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 4,
+      "M04": 5,
+      "E02": 5,
+      "F04": 17,
+      "E01": 23
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 10.108999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5,
+      "F04": 6,
+      "F01": 6,
+      "C04": 6,
+      "C05": 6,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 18.019999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "E01": 0,
+      "C02": 1,
+      "E02": 2,
+      "C05": 26,
+      "F01": 29,
+      "C04": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 18.06,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "C02": 1,
+      "E02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 17.459999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "C02": 2,
+      "E02": 3,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 19.419999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "E01": 0,
+      "C02": 2,
+      "M04": 5,
+      "C04": 6,
+      "C05": 6,
+      "E02": 7,
+      "F01": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 21.86,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "C02": 2,
+      "E02": 3,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 19.459999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "C02": 5,
+      "E02": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 20.9,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 3,
+      "E02": 4,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 23.02,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 5,
+      "M04": 5,
+      "E02": 6,
+      "E01": 23
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 22.271166666666666,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C04": 4,
+      "E02": 6,
+      "C02": 8,
+      "F04": 17
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 16.269,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 2,
+      "M04": 5,
+      "E02": 6,
+      "F04": 15,
+      "C04": 15,
+      "C05": 15,
+      "F03": 28,
+      "M06": 28,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 20.980000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "C02": 3,
+      "E02": 4,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 21.46,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "C02": 8,
+      "E02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 21.54,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "C02": 7,
+      "E02": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 15.739999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 18.7,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "E01": 0,
+      "E02": 2,
+      "C02": 5,
+      "M04": 5,
+      "C04": 14,
+      "C05": 14,
+      "F01": 16
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 19.7,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "C02": 2,
+      "E02": 3,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 19.619999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "C02": 2,
+      "M04": 5,
+      "E02": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 18.419999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 17.791166666666665,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "E02": 2,
+      "C02": 5,
+      "M04": 5,
+      "F04": 22
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 19.389,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "C02": 1,
+      "E02": 2,
+      "M04": 5,
+      "F04": 12,
+      "F03": 28,
+      "M06": 28,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 21.019999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 3,
+      "E02": 4,
+      "M04": 5,
+      "C05": 21,
+      "E01": 22,
+      "F01": 23
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 22.94,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "E01": 0,
+      "C04": 2,
+      "C05": 2,
+      "E02": 2,
+      "F01": 4
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 20.419999999999995,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 3,
+      "E02": 4,
+      "M04": 5,
+      "C05": 20,
+      "E01": 20,
+      "F01": 22,
+      "C04": 25
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 14.899999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "C02": 3,
+      "E02": 4,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 16.459999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "C02": 2,
+      "M04": 5,
+      "E02": 27
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 17.459999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 2,
+      "E02": 3,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 23.40000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5,
+      "M03": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 20.524636684361514,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "E02": 1,
+      "C02": 3,
+      "M04": 5,
+      "M03": 23
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 18.56175629176696,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "C04": 1,
+      "E02": 1,
+      "S02": 2,
+      "C02": 3,
+      "F04": 9,
+      "F01": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 20.126317166101114,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "F04": 0,
+      "I04": 0,
+      "C04": 0,
+      "I06": 0,
+      "E02": 1,
+      "S02": 2,
+      "M03": 4,
+      "E01": 5,
+      "C02": 7,
+      "C03": 8,
+      "F03": 14,
+      "M06": 14,
+      "E06": 14,
+      "S01": 24
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 23.62,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M03": 4
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 23.41,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M03": 4
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 21.74,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M03": 4
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 21.98,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M03": 4
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 22.010000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M03": 4,
+      "E01": 4
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 22.840000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M03": 4
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 22.320000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M03": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 23.450000000000006,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M03": 22
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 20.78633333333333,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "C04": 1,
+      "E02": 1,
+      "F01": 4,
+      "C02": 4,
+      "F04": 19,
+      "M03": 25,
+      "S01": 26
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 19.494999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "C04": 1,
+      "E02": 1,
+      "F04": 3,
+      "C02": 3,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 24.23,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 13
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 23.319999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "M03": 5,
+      "C02": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 22.79,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "C04": 14,
+      "C05": 14,
+      "F01": 15
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 23.94000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M03": 4
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 24.26000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M03": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 24.570000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M03": 16
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 23.590000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 23.67000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 21.951166666666666,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "E01": 1,
+      "E02": 1,
+      "F01": 5,
+      "C04": 5,
+      "C02": 8,
+      "F04": 19,
+      "S01": 21
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 20.925,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "C02": 0,
+      "E02": 1,
+      "F04": 3,
+      "C04": 3,
+      "F01": 4,
+      "S01": 25,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 23.33,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M03": 4,
+      "C05": 20,
+      "F01": 22,
+      "C04": 25
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 24.269999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "M03": 4
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 23.79,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "M03": 4,
+      "C02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 24.760000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 4,
+      "M03": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 22.910000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 6,
+      "M03": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 23.520000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "M03": 4,
+      "C02": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 23.370000000000008,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M03": 23
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 21.330000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M03": 4
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 21.024333333333328,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "C02": 0,
+      "E02": 1,
+      "C04": 2,
+      "F01": 5,
+      "F04": 17,
+      "M03": 25
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 20.854999999999993,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "C02": 0,
+      "E02": 1,
+      "F04": 3,
+      "C04": 3,
+      "F01": 4,
+      "M03": 22,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 22.969999999999995,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M03": 4
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 23.86,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 13
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 23.15,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M03": 4
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 24.640000000000008,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 7,
+      "M03": 20
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 21.940000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M03": 4
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_hatrpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 22.61,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M03": 4
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  }
+]

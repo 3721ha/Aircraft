@@ -1,0 +1,3303 @@
+[
+  {
+    "seed": 101,
+    "distance": 2000.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 101,
+    "distance": 2000.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.26666666666666666,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 101,
+    "distance": 2000.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.8666666666666667,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 101,
+    "distance": 2000.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 2.1,
+    "qp_fallback_rate": 0.2
+  },
+  {
+    "seed": 101,
+    "distance": 2200.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 101,
+    "distance": 2200.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.2,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 101,
+    "distance": 2200.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.8666666666666667,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 101,
+    "distance": 2200.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 2.066666666666667,
+    "qp_fallback_rate": 0.2
+  },
+  {
+    "seed": 101,
+    "distance": 2400.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 101,
+    "distance": 2400.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.23333333333333334,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 101,
+    "distance": 2400.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 1.0333333333333334,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 101,
+    "distance": 2400.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 2.066666666666667,
+    "qp_fallback_rate": 0.16666666666666666
+  },
+  {
+    "seed": 101,
+    "distance": 2800.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 101,
+    "distance": 2800.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.23333333333333334,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 101,
+    "distance": 2800.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 0.8666666666666667,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 101,
+    "distance": 2800.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 2.066666666666667,
+    "qp_fallback_rate": 0.16666666666666666
+  },
+  {
+    "seed": 101,
+    "distance": 3200.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 101,
+    "distance": 3200.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 0.2,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 101,
+    "distance": 3200.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "intervention_rate": 0.8666666666666667,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 101,
+    "distance": 3200.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 2.066666666666667,
+    "qp_fallback_rate": 0.16666666666666666
+  },
+  {
+    "seed": 202,
+    "distance": 2000.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 202,
+    "distance": 2000.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.3,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 202,
+    "distance": 2000.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.7,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 202,
+    "distance": 2000.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 2.2666666666666666,
+    "qp_fallback_rate": 0.23333333333333334
+  },
+  {
+    "seed": 202,
+    "distance": 2200.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 202,
+    "distance": 2200.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.26666666666666666,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 202,
+    "distance": 2200.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.7666666666666667,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 202,
+    "distance": 2200.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 2.2,
+    "qp_fallback_rate": 0.2
+  },
+  {
+    "seed": 202,
+    "distance": 2400.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 202,
+    "distance": 2400.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.23333333333333334,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 202,
+    "distance": 2400.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.9,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 202,
+    "distance": 2400.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 2.2,
+    "qp_fallback_rate": 0.23333333333333334
+  },
+  {
+    "seed": 202,
+    "distance": 2800.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 202,
+    "distance": 2800.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.23333333333333334,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 202,
+    "distance": 2800.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 0.9,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 202,
+    "distance": 2800.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 2.2,
+    "qp_fallback_rate": 0.16666666666666666
+  },
+  {
+    "seed": 202,
+    "distance": 3200.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 202,
+    "distance": 3200.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 0.23333333333333334,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 202,
+    "distance": 3200.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "intervention_rate": 0.9,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 202,
+    "distance": 3200.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 2.2,
+    "qp_fallback_rate": 0.16666666666666666
+  },
+  {
+    "seed": 303,
+    "distance": 2000.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 303,
+    "distance": 2000.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.26666666666666666,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 303,
+    "distance": 2000.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.7666666666666667,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 303,
+    "distance": 2000.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 2.3333333333333335,
+    "qp_fallback_rate": 0.23333333333333334
+  },
+  {
+    "seed": 303,
+    "distance": 2200.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 303,
+    "distance": 2200.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.2,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 303,
+    "distance": 2200.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.8333333333333334,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 303,
+    "distance": 2200.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 2.2666666666666666,
+    "qp_fallback_rate": 0.2
+  },
+  {
+    "seed": 303,
+    "distance": 2400.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 303,
+    "distance": 2400.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.23333333333333334,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 303,
+    "distance": 2400.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.7666666666666667,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 303,
+    "distance": 2400.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 2.2666666666666666,
+    "qp_fallback_rate": 0.2
+  },
+  {
+    "seed": 303,
+    "distance": 2800.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 303,
+    "distance": 2800.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.2,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 303,
+    "distance": 2800.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 0.9666666666666667,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 303,
+    "distance": 2800.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 2.2666666666666666,
+    "qp_fallback_rate": 0.16666666666666666
+  },
+  {
+    "seed": 303,
+    "distance": 3200.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 303,
+    "distance": 3200.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 0.23333333333333334,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 303,
+    "distance": 3200.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "intervention_rate": 0.9,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 303,
+    "distance": 3200.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 2.2666666666666666,
+    "qp_fallback_rate": 0.16666666666666666
+  },
+  {
+    "seed": 404,
+    "distance": 2000.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 404,
+    "distance": 2000.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.26666666666666666,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 404,
+    "distance": 2000.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.7666666666666667,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 404,
+    "distance": 2000.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 2.2,
+    "qp_fallback_rate": 0.2
+  },
+  {
+    "seed": 404,
+    "distance": 2200.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 404,
+    "distance": 2200.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.2,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 404,
+    "distance": 2200.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.7,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 404,
+    "distance": 2200.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 2.066666666666667,
+    "qp_fallback_rate": 0.2
+  },
+  {
+    "seed": 404,
+    "distance": 2400.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 404,
+    "distance": 2400.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.23333333333333334,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 404,
+    "distance": 2400.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.6333333333333333,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 404,
+    "distance": 2400.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 2.066666666666667,
+    "qp_fallback_rate": 0.16666666666666666
+  },
+  {
+    "seed": 404,
+    "distance": 2800.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 404,
+    "distance": 2800.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.2,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 404,
+    "distance": 2800.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.6,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 404,
+    "distance": 2800.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 2.066666666666667,
+    "qp_fallback_rate": 0.16666666666666666
+  },
+  {
+    "seed": 404,
+    "distance": 3200.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 404,
+    "distance": 3200.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 0.2,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 404,
+    "distance": 3200.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 0.7,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 404,
+    "distance": 3200.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 2.066666666666667,
+    "qp_fallback_rate": 0.16666666666666666
+  },
+  {
+    "seed": 505,
+    "distance": 2000.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 505,
+    "distance": 2000.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.2,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 505,
+    "distance": 2000.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.7333333333333333,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 505,
+    "distance": 2000.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 2.2333333333333334,
+    "qp_fallback_rate": 0.23333333333333334
+  },
+  {
+    "seed": 505,
+    "distance": 2200.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 505,
+    "distance": 2200.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.16666666666666666,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 505,
+    "distance": 2200.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.6,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 505,
+    "distance": 2200.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 2.2,
+    "qp_fallback_rate": 0.2
+  },
+  {
+    "seed": 505,
+    "distance": 2400.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 505,
+    "distance": 2400.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.16666666666666666,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 505,
+    "distance": 2400.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.5333333333333333,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 505,
+    "distance": 2400.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 2.2,
+    "qp_fallback_rate": 0.2
+  },
+  {
+    "seed": 505,
+    "distance": 2800.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 505,
+    "distance": 2800.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.13333333333333333,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 505,
+    "distance": 2800.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 0.7333333333333333,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 505,
+    "distance": 2800.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 2.2666666666666666,
+    "qp_fallback_rate": 0.2
+  },
+  {
+    "seed": 505,
+    "distance": 3200.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 505,
+    "distance": 3200.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 0.13333333333333333,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 505,
+    "distance": 3200.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 0.6,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 505,
+    "distance": 3200.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 2.2,
+    "qp_fallback_rate": 0.16666666666666666
+  },
+  {
+    "seed": 606,
+    "distance": 2000.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 606,
+    "distance": 2000.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.26666666666666666,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 606,
+    "distance": 2000.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.7666666666666667,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 606,
+    "distance": 2000.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 2.1333333333333333,
+    "qp_fallback_rate": 0.23333333333333334
+  },
+  {
+    "seed": 606,
+    "distance": 2200.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 606,
+    "distance": 2200.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.2,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 606,
+    "distance": 2200.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.8333333333333334,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 606,
+    "distance": 2200.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 2.066666666666667,
+    "qp_fallback_rate": 0.2
+  },
+  {
+    "seed": 606,
+    "distance": 2400.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 606,
+    "distance": 2400.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.23333333333333334,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 606,
+    "distance": 2400.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.7666666666666667,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 606,
+    "distance": 2400.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 2.066666666666667,
+    "qp_fallback_rate": 0.2
+  },
+  {
+    "seed": 606,
+    "distance": 2800.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 606,
+    "distance": 2800.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.2,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 606,
+    "distance": 2800.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 0.6,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 606,
+    "distance": 2800.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 2.1,
+    "qp_fallback_rate": 0.2
+  },
+  {
+    "seed": 606,
+    "distance": 3200.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 606,
+    "distance": 3200.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 0.2,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 606,
+    "distance": 3200.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "intervention_rate": 0.6666666666666666,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 606,
+    "distance": 3200.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 2.066666666666667,
+    "qp_fallback_rate": 0.16666666666666666
+  },
+  {
+    "seed": 707,
+    "distance": 2000.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 707,
+    "distance": 2000.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.26666666666666666,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 707,
+    "distance": 2000.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.6666666666666666,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 707,
+    "distance": 2000.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 2.1333333333333333,
+    "qp_fallback_rate": 0.23333333333333334
+  },
+  {
+    "seed": 707,
+    "distance": 2200.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 707,
+    "distance": 2200.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.23333333333333334,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 707,
+    "distance": 2200.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.6333333333333333,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 707,
+    "distance": 2200.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 2.066666666666667,
+    "qp_fallback_rate": 0.2
+  },
+  {
+    "seed": 707,
+    "distance": 2400.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 707,
+    "distance": 2400.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.23333333333333334,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 707,
+    "distance": 2400.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.6666666666666666,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 707,
+    "distance": 2400.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 2.066666666666667,
+    "qp_fallback_rate": 0.16666666666666666
+  },
+  {
+    "seed": 707,
+    "distance": 2800.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 707,
+    "distance": 2800.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.16666666666666666,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 707,
+    "distance": 2800.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 0.7666666666666667,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 707,
+    "distance": 2800.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 2.066666666666667,
+    "qp_fallback_rate": 0.16666666666666666
+  },
+  {
+    "seed": 707,
+    "distance": 3200.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 707,
+    "distance": 3200.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 0.2,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 707,
+    "distance": 3200.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 0.6666666666666666,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 707,
+    "distance": 3200.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 2.066666666666667,
+    "qp_fallback_rate": 0.16666666666666666
+  },
+  {
+    "seed": 808,
+    "distance": 2000.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 808,
+    "distance": 2000.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.3,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 808,
+    "distance": 2000.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.9,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 808,
+    "distance": 2000.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 2.1,
+    "qp_fallback_rate": 0.2
+  },
+  {
+    "seed": 808,
+    "distance": 2200.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 808,
+    "distance": 2200.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.3,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 808,
+    "distance": 2200.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.8,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 808,
+    "distance": 2200.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 2.066666666666667,
+    "qp_fallback_rate": 0.16666666666666666
+  },
+  {
+    "seed": 808,
+    "distance": 2400.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 808,
+    "distance": 2400.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.26666666666666666,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 808,
+    "distance": 2400.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.8,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 808,
+    "distance": 2400.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 2.066666666666667,
+    "qp_fallback_rate": 0.2
+  },
+  {
+    "seed": 808,
+    "distance": 2800.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 808,
+    "distance": 2800.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.23333333333333334,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 808,
+    "distance": 2800.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 1.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 808,
+    "distance": 2800.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 2.066666666666667,
+    "qp_fallback_rate": 0.16666666666666666
+  },
+  {
+    "seed": 808,
+    "distance": 3200.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 808,
+    "distance": 3200.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 0.23333333333333334,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 808,
+    "distance": 3200.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "intervention_rate": 0.9,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 808,
+    "distance": 3200.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 2.066666666666667,
+    "qp_fallback_rate": 0.16666666666666666
+  },
+  {
+    "seed": 909,
+    "distance": 2000.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 909,
+    "distance": 2000.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.16666666666666666,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 909,
+    "distance": 2000.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.7,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 909,
+    "distance": 2000.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 2.1,
+    "qp_fallback_rate": 0.23333333333333334
+  },
+  {
+    "seed": 909,
+    "distance": 2200.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 909,
+    "distance": 2200.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.2,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 909,
+    "distance": 2200.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.8666666666666667,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 909,
+    "distance": 2200.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 2.066666666666667,
+    "qp_fallback_rate": 0.2
+  },
+  {
+    "seed": 909,
+    "distance": 2400.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 909,
+    "distance": 2400.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.23333333333333334,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 909,
+    "distance": 2400.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 0.9333333333333333,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 909,
+    "distance": 2400.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 2.066666666666667,
+    "qp_fallback_rate": 0.2
+  },
+  {
+    "seed": 909,
+    "distance": 2800.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 909,
+    "distance": 2800.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.16666666666666666,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 909,
+    "distance": 2800.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 0.9,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 909,
+    "distance": 2800.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 2.1333333333333333,
+    "qp_fallback_rate": 0.2
+  },
+  {
+    "seed": 909,
+    "distance": 3200.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 909,
+    "distance": 3200.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 0.16666666666666666,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 909,
+    "distance": 3200.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "intervention_rate": 0.8333333333333334,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 909,
+    "distance": 3200.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 2.066666666666667,
+    "qp_fallback_rate": 0.16666666666666666
+  },
+  {
+    "seed": 1001,
+    "distance": 2000.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 1001,
+    "distance": 2000.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.2,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 1001,
+    "distance": 2000.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.4666666666666667,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 1001,
+    "distance": 2000.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 0.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 2.1333333333333333,
+    "qp_fallback_rate": 0.2
+  },
+  {
+    "seed": 1001,
+    "distance": 2200.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 1001,
+    "distance": 2200.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.13333333333333333,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 1001,
+    "distance": 2200.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.5,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 1001,
+    "distance": 2200.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 2.066666666666667,
+    "qp_fallback_rate": 0.2
+  },
+  {
+    "seed": 1001,
+    "distance": 2400.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 1001,
+    "distance": 2400.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.16666666666666666,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 1001,
+    "distance": 2400.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.6666666666666666,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 1001,
+    "distance": 2400.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 2.066666666666667,
+    "qp_fallback_rate": 0.16666666666666666
+  },
+  {
+    "seed": 1001,
+    "distance": 2800.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 1001,
+    "distance": 2800.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.23333333333333334,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 1001,
+    "distance": 2800.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6
+    ],
+    "intervention_rate": 0.5666666666666667,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 1001,
+    "distance": 2800.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 2.066666666666667,
+    "qp_fallback_rate": 0.16666666666666666
+  },
+  {
+    "seed": 1001,
+    "distance": 3200.0,
+    "method": "NoShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 0.0,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 1001,
+    "distance": 3200.0,
+    "method": "PartialShield",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 0.2,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 1001,
+    "distance": 3200.0,
+    "method": "JointHeuristic",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 0.6666666666666666,
+    "qp_fallback_rate": 0.0
+  },
+  {
+    "seed": 1001,
+    "distance": 3200.0,
+    "method": "DG-QP",
+    "initial_safe": true,
+    "probe_safe": true,
+    "target_hard_safe_3step": 1.0,
+    "target_hard_safe_30step": 0.0,
+    "target_violation_steps": [
+      5,
+      6,
+      7
+    ],
+    "intervention_rate": 2.066666666666667,
+    "qp_fallback_rate": 0.16666666666666666
+  }
+]

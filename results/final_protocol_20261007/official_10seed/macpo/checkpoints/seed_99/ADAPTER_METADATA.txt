@@ -1,0 +1,5 @@
+repository=https://github.com/chauncygu/Multi-Agent-Constrained-Policy-Optimisation
+commit=b80a9f5b4a0049125a827be8fb9c477f69ae021b
+action_adapter=continuous latent Box(5) with joint semantic target decode
+training_cost=team hard-rule violation indicator
+cost_signal=episode_binary

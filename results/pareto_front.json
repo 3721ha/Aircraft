@@ -1,0 +1,14 @@
+[
+  {
+    "policy": "fixed_penalty",
+    "reward": 27.883214453957322,
+    "joint_satisfaction_rate": 0.0,
+    "intervention_rate": 0.0
+  },
+  {
+    "policy": "mappo_joint_shielded",
+    "reward": 27.98907804150063,
+    "joint_satisfaction_rate": 0.0,
+    "intervention_rate": 0.8047619047619047
+  }
+]

@@ -1,0 +1,96 @@
+{
+  "protocol": "fixed geometry; seed11; 2000m template; first S02 takeover",
+  "trigger_absolute_state_step": 3,
+  "DG_QP_steps": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "DG_QP_minimum_separation_m": [
+    655.4410392870989,
+    231.12739039718485,
+    229.63020287366083,
+    587.6952350514315,
+    960.3784296909288
+  ],
+  "reference_steps": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "reference_minimum_separation_m": [
+    655.4410392870989,
+    303.20430831255925,
+    420.7443727245238,
+    824.3173341346513
+  ],
+  "reference_controls": [
+    [
+      [
+        1.0,
+        -0.9999999999999999,
+        -1.0
+      ],
+      [
+        1.0,
+        1.0,
+        -1.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        1.0,
+        -1.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        1.0,
+        -1.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ]
+  ],
+  "DG_QP_restored_safe_state": [
+    false,
+    false,
+    false,
+    false,
+    true
+  ],
+  "reference_restored_safe_state": [
+    false,
+    false,
+    false,
+    true
+  ]
+}

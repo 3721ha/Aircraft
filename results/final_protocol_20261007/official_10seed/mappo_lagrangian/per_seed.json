@@ -1,0 +1,4096 @@
+[
+  {
+    "policy": "official_mappo_lagrangian",
+    "episodes": 40,
+    "mean_reward": 24.7596,
+    "joint_satisfaction_rate": 0.9,
+    "mean_intervention_rate": 0.0,
+    "mean_intervention_distance": 0.0,
+    "violation_rate": {
+      "C02": 0.6,
+      "C03": 0.025,
+      "C04": 0.075,
+      "C05": 0.075,
+      "E02": 0.6,
+      "E06": 0.1,
+      "F01": 0.05,
+      "M04": 0.975,
+      "S02": 0.075
+    },
+    "mean_first_violation_step": {
+      "C02": 12.875,
+      "C03": 8.0,
+      "C04": 17.0,
+      "C05": 17.667,
+      "E02": 13.875,
+      "E06": 24.5,
+      "F01": 14.0,
+      "M04": 5.0,
+      "S02": 1.333
+    },
+    "initial_infeasible_rate": 0.05,
+    "online_hard_violation_rate": 0.0,
+    "post_shield_hard_violation_rate": 0.0,
+    "post_truth_hard_violation_rate": 0.0325,
+    "qp_infeasible_rate": 0.0,
+    "conflict_rate": 0.0,
+    "replan_trigger_rate": 0.0,
+    "mean_belief_risk": 0.0,
+    "mean_pre_filter_belief_risk": 0.0,
+    "mean_post_filter_belief_risk": 0.0,
+    "mean_actor_time_ms": 1.96716,
+    "mean_online_time_ms": 0.0,
+    "tail_violation_rate": 1.0,
+    "risk_calibration_brier": 0.0,
+    "initially_feasible_episodes": 38,
+    "conditional_joint_satisfaction_rate": 0.94737,
+    "rule_conflict_event_rate": 0.0,
+    "rule_rule_conflict_step_rate": 0.0,
+    "rule_rule_resolution_rate": 0.0,
+    "mean_conflict_residual": 0.0,
+    "mean_solver_agents": 0.0,
+    "mean_solver_components": 0.0,
+    "max_solver_component_size": 0,
+    "cross_component_violation_rate": 0.0,
+    "cross_component_repair_rate": 0.0,
+    "seed": 11,
+    "repository": "https://github.com/chauncygu/Multi-Agent-Constrained-Policy-Optimisation",
+    "component": "MAPPO-Lagrangian",
+    "commit": "b80a9f5b4a0049125a827be8fb9c477f69ae021b",
+    "source_fingerprint": "b4154ae715fa0d1d24e72dbae5372c8b271ea9d64665019e52e1bb852f8993b1",
+    "safety_bound": 0.1,
+    "cost_signal": "episode_binary",
+    "selected_update": 15,
+    "selected_lagrangian_multipliers": [
+      0.7800765633583069,
+      0.7800365686416626,
+      0.7801110744476318
+    ],
+    "validation_trace": [
+      {
+        "update": 0,
+        "score": [
+          0.8,
+          -0.11666666666666667,
+          12.640800168921201
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.11666666666666667,
+        "mean_reward": 12.640800168921201,
+        "lagrangian_multipliers": [
+          0.78,
+          0.78,
+          0.78
+        ]
+      },
+      {
+        "update": 5,
+        "score": [
+          0.0,
+          -0.5277777777777778,
+          22.038698510899778
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.5277777777777778,
+        "mean_reward": 22.038698510899778,
+        "lagrangian_multipliers": [
+          0.7799373865127563,
+          0.779983401298523,
+          0.7799664735794067
+        ]
+      },
+      {
+        "update": 10,
+        "score": [
+          0.2,
+          -0.36944444444444446,
+          22.475841598276915
+        ],
+        "conditional_joint_satisfaction_rate": 0.2,
+        "post_truth_hard_violation_rate": 0.36944444444444446,
+        "mean_reward": 22.475841598276915,
+        "lagrangian_multipliers": [
+          0.779988169670105,
+          0.7800053954124451,
+          0.7800176739692688
+        ]
+      },
+      {
+        "update": 15,
+        "score": [
+          0.8,
+          -0.10833333333333334,
+          24.317107190889896
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.10833333333333334,
+        "mean_reward": 24.317107190889896,
+        "lagrangian_multipliers": [
+          0.7800765633583069,
+          0.7800365686416626,
+          0.7801110744476318
+        ]
+      },
+      {
+        "update": 20,
+        "score": [
+          0.8,
+          -0.10833333333333334,
+          23.92237640324912
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.10833333333333334,
+        "mean_reward": 23.92237640324912,
+        "lagrangian_multipliers": [
+          0.7800644636154175,
+          0.7800345420837402,
+          0.7801697850227356
+        ]
+      },
+      {
+        "update": 25,
+        "score": [
+          0.1,
+          -0.18611111111111112,
+          19.57777578573607
+        ],
+        "conditional_joint_satisfaction_rate": 0.1,
+        "post_truth_hard_violation_rate": 0.18611111111111112,
+        "mean_reward": 19.57777578573607,
+        "lagrangian_multipliers": [
+          0.7800780534744263,
+          0.7800253629684448,
+          0.7801874279975891
+        ]
+      },
+      {
+        "update": 30,
+        "score": [
+          0.0,
+          -0.28888888888888886,
+          24.43010164017807
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.28888888888888886,
+        "mean_reward": 24.43010164017807,
+        "lagrangian_multipliers": [
+          0.780108630657196,
+          0.7800529599189758,
+          0.7802422642707825
+        ]
+      },
+      {
+        "update": 35,
+        "score": [
+          0.0,
+          -0.3194444444444444,
+          23.927906881153465
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.3194444444444444,
+        "mean_reward": 23.927906881153465,
+        "lagrangian_multipliers": [
+          0.7801693677902222,
+          0.7800772786140442,
+          0.7802563905715942
+        ]
+      },
+      {
+        "update": 40,
+        "score": [
+          0.6,
+          -0.25555555555555554,
+          21.65130110501062
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.25555555555555554,
+        "mean_reward": 21.65130110501062,
+        "lagrangian_multipliers": [
+          0.7801953554153442,
+          0.7801312208175659,
+          0.7803710699081421
+        ]
+      },
+      {
+        "update": 45,
+        "score": [
+          0.6,
+          -0.38333333333333336,
+          20.591447039000244
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.38333333333333336,
+        "mean_reward": 20.591447039000244,
+        "lagrangian_multipliers": [
+          0.7801624536514282,
+          0.7801096439361572,
+          0.7803788781166077
+        ]
+      },
+      {
+        "update": 50,
+        "score": [
+          0.0,
+          -0.5666666666666667,
+          21.872740936139163
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.5666666666666667,
+        "mean_reward": 21.872740936139163,
+        "lagrangian_multipliers": [
+          0.7801969647407532,
+          0.7801705002784729,
+          0.7803595662117004
+        ]
+      },
+      {
+        "update": 55,
+        "score": [
+          0.0,
+          -0.5638888888888889,
+          21.37544973394148
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.5638888888888889,
+        "mean_reward": 21.37544973394148,
+        "lagrangian_multipliers": [
+          0.7802680134773254,
+          0.7802143096923828,
+          0.7804017066955566
+        ]
+      },
+      {
+        "update": 60,
+        "score": [
+          0.0,
+          -0.5638888888888889,
+          23.577519412677066
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.5638888888888889,
+        "mean_reward": 23.577519412677066,
+        "lagrangian_multipliers": [
+          0.7803018093109131,
+          0.780193567276001,
+          0.7804508805274963
+        ]
+      },
+      {
+        "update": 65,
+        "score": [
+          0.1,
+          -0.425,
+          25.849052563367042
+        ],
+        "conditional_joint_satisfaction_rate": 0.1,
+        "post_truth_hard_violation_rate": 0.425,
+        "mean_reward": 25.849052563367042,
+        "lagrangian_multipliers": [
+          0.7803407311439514,
+          0.7801851630210876,
+          0.7805110812187195
+        ]
+      },
+      {
+        "update": 70,
+        "score": [
+          0.0,
+          -0.46944444444444444,
+          23.30524404986141
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.46944444444444444,
+        "mean_reward": 23.30524404986141,
+        "lagrangian_multipliers": [
+          0.7803593277931213,
+          0.7802416682243347,
+          0.7805140018463135
+        ]
+      },
+      {
+        "update": 75,
+        "score": [
+          0.6,
+          -0.3861111111111111,
+          23.456489864137485
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.3861111111111111,
+        "mean_reward": 23.456489864137485,
+        "lagrangian_multipliers": [
+          0.7803630828857422,
+          0.7802844643592834,
+          0.7805916666984558
+        ]
+      },
+      {
+        "update": 80,
+        "score": [
+          0.6,
+          -0.28888888888888886,
+          24.030729197480337
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.28888888888888886,
+        "mean_reward": 24.030729197480337,
+        "lagrangian_multipliers": [
+          0.7803012132644653,
+          0.7802766561508179,
+          0.7806047201156616
+        ]
+      },
+      {
+        "update": 85,
+        "score": [
+          0.6,
+          -0.375,
+          23.363437453164096
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.375,
+        "mean_reward": 23.363437453164096,
+        "lagrangian_multipliers": [
+          0.7802895307540894,
+          0.7802295684814453,
+          0.7805793285369873
+        ]
+      },
+      {
+        "update": 90,
+        "score": [
+          0.6,
+          -0.37222222222222223,
+          23.370224602765706
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.37222222222222223,
+        "mean_reward": 23.370224602765706,
+        "lagrangian_multipliers": [
+          0.7802708745002747,
+          0.7802231907844543,
+          0.7805372476577759
+        ]
+      },
+      {
+        "update": 95,
+        "score": [
+          0.6,
+          -0.3861111111111111,
+          17.008257417365776
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.3861111111111111,
+        "mean_reward": 17.008257417365776,
+        "lagrangian_multipliers": [
+          0.7802563905715942,
+          0.7802605032920837,
+          0.7805400490760803
+        ]
+      },
+      {
+        "update": 100,
+        "score": [
+          0.6,
+          -0.38333333333333336,
+          23.828076911368854
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.38333333333333336,
+        "mean_reward": 23.828076911368854,
+        "lagrangian_multipliers": [
+          0.7802249789237976,
+          0.7802557945251465,
+          0.7805277705192566
+        ]
+      }
+    ],
+    "environment_steps": 3000,
+    "agent_decisions": 9000
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "episodes": 40,
+    "mean_reward": 23.92152,
+    "joint_satisfaction_rate": 0.725,
+    "mean_intervention_rate": 0.0,
+    "mean_intervention_distance": 0.0,
+    "violation_rate": {
+      "C02": 0.625,
+      "C03": 0.025,
+      "C04": 0.25,
+      "C05": 0.2,
+      "E02": 0.9,
+      "E06": 0.1,
+      "F01": 0.2,
+      "F03": 0.1,
+      "F04": 0.2,
+      "I06": 0.025,
+      "M03": 0.575,
+      "M04": 0.925,
+      "M06": 0.1,
+      "S02": 0.075
+    },
+    "mean_first_violation_step": {
+      "C02": 12.04,
+      "C03": 8.0,
+      "C04": 9.0,
+      "C05": 10.125,
+      "E02": 9.75,
+      "E06": 24.5,
+      "F01": 10.375,
+      "F03": 25.25,
+      "F04": 12.5,
+      "I06": 8.0,
+      "M03": 12.304,
+      "M04": 5.0,
+      "M06": 25.25,
+      "S02": 1.333
+    },
+    "initial_infeasible_rate": 0.05,
+    "online_hard_violation_rate": 0.0,
+    "post_shield_hard_violation_rate": 0.0,
+    "post_truth_hard_violation_rate": 0.14667,
+    "qp_infeasible_rate": 0.0,
+    "conflict_rate": 0.0,
+    "replan_trigger_rate": 0.0,
+    "mean_belief_risk": 0.0,
+    "mean_pre_filter_belief_risk": 0.0,
+    "mean_post_filter_belief_risk": 0.0,
+    "mean_actor_time_ms": 1.97528,
+    "mean_online_time_ms": 0.0,
+    "tail_violation_rate": 1.0,
+    "risk_calibration_brier": 0.0,
+    "initially_feasible_episodes": 38,
+    "conditional_joint_satisfaction_rate": 0.76316,
+    "rule_conflict_event_rate": 0.0,
+    "rule_rule_conflict_step_rate": 0.0,
+    "rule_rule_resolution_rate": 0.0,
+    "mean_conflict_residual": 0.0,
+    "mean_solver_agents": 0.0,
+    "mean_solver_components": 0.0,
+    "max_solver_component_size": 0,
+    "cross_component_violation_rate": 0.0,
+    "cross_component_repair_rate": 0.0,
+    "seed": 22,
+    "repository": "https://github.com/chauncygu/Multi-Agent-Constrained-Policy-Optimisation",
+    "component": "MAPPO-Lagrangian",
+    "commit": "b80a9f5b4a0049125a827be8fb9c477f69ae021b",
+    "source_fingerprint": "b4154ae715fa0d1d24e72dbae5372c8b271ea9d64665019e52e1bb852f8993b1",
+    "safety_bound": 0.1,
+    "cost_signal": "episode_binary",
+    "selected_update": 40,
+    "selected_lagrangian_multipliers": [
+      0.780240535736084,
+      0.780166506767273,
+      0.7802633047103882
+    ],
+    "validation_trace": [
+      {
+        "update": 0,
+        "score": [
+          0.6,
+          -0.34444444444444444,
+          24.062479738515133
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.34444444444444444,
+        "mean_reward": 24.062479738515133,
+        "lagrangian_multipliers": [
+          0.78,
+          0.78,
+          0.78
+        ]
+      },
+      {
+        "update": 5,
+        "score": [
+          0.0,
+          -0.5055555555555555,
+          22.35268726714631
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.5055555555555555,
+        "mean_reward": 22.35268726714631,
+        "lagrangian_multipliers": [
+          0.7799537181854248,
+          0.7799582481384277,
+          0.7799577116966248
+        ]
+      },
+      {
+        "update": 10,
+        "score": [
+          0.0,
+          -0.49722222222222223,
+          20.234894931771795
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.49722222222222223,
+        "mean_reward": 20.234894931771795,
+        "lagrangian_multipliers": [
+          0.7799925804138184,
+          0.7799921631813049,
+          0.7800189852714539
+        ]
+      },
+      {
+        "update": 15,
+        "score": [
+          0.5,
+          -0.36666666666666664,
+          22.97455268780557
+        ],
+        "conditional_joint_satisfaction_rate": 0.5,
+        "post_truth_hard_violation_rate": 0.36666666666666664,
+        "mean_reward": 22.97455268780557,
+        "lagrangian_multipliers": [
+          0.7800206542015076,
+          0.7799647450447083,
+          0.7800586223602295
+        ]
+      },
+      {
+        "update": 20,
+        "score": [
+          0.4,
+          -0.35555555555555557,
+          20.608493080308023
+        ],
+        "conditional_joint_satisfaction_rate": 0.4,
+        "post_truth_hard_violation_rate": 0.35555555555555557,
+        "mean_reward": 20.608493080308023,
+        "lagrangian_multipliers": [
+          0.7800369262695312,
+          0.7799971699714661,
+          0.7801123261451721
+        ]
+      },
+      {
+        "update": 25,
+        "score": [
+          0.1,
+          -0.55,
+          19.926465263423147
+        ],
+        "conditional_joint_satisfaction_rate": 0.1,
+        "post_truth_hard_violation_rate": 0.55,
+        "mean_reward": 19.926465263423147,
+        "lagrangian_multipliers": [
+          0.7800534963607788,
+          0.7800180315971375,
+          0.780116081237793
+        ]
+      },
+      {
+        "update": 30,
+        "score": [
+          0.1,
+          -0.5972222222222222,
+          20.088081352207745
+        ],
+        "conditional_joint_satisfaction_rate": 0.1,
+        "post_truth_hard_violation_rate": 0.5972222222222222,
+        "mean_reward": 20.088081352207745,
+        "lagrangian_multipliers": [
+          0.780135989189148,
+          0.7800695300102234,
+          0.7801772952079773
+        ]
+      },
+      {
+        "update": 35,
+        "score": [
+          0.2,
+          -0.37222222222222223,
+          22.4455309921151
+        ],
+        "conditional_joint_satisfaction_rate": 0.2,
+        "post_truth_hard_violation_rate": 0.37222222222222223,
+        "mean_reward": 22.4455309921151,
+        "lagrangian_multipliers": [
+          0.7801943421363831,
+          0.7801198363304138,
+          0.7802268266677856
+        ]
+      },
+      {
+        "update": 40,
+        "score": [
+          0.6,
+          -0.25277777777777777,
+          23.547700493519148
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.25277777777777777,
+        "mean_reward": 23.547700493519148,
+        "lagrangian_multipliers": [
+          0.780240535736084,
+          0.780166506767273,
+          0.7802633047103882
+        ]
+      },
+      {
+        "update": 45,
+        "score": [
+          0.0,
+          -0.39166666666666666,
+          24.09368826930026
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.39166666666666666,
+        "mean_reward": 24.09368826930026,
+        "lagrangian_multipliers": [
+          0.7802515625953674,
+          0.7801480889320374,
+          0.7803143858909607
+        ]
+      },
+      {
+        "update": 50,
+        "score": [
+          0.0,
+          -0.6055555555555555,
+          26.058308169853245
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.6055555555555555,
+        "mean_reward": 26.058308169853245,
+        "lagrangian_multipliers": [
+          0.7802838087081909,
+          0.7801465392112732,
+          0.7803725600242615
+        ]
+      },
+      {
+        "update": 55,
+        "score": [
+          0.0,
+          -0.5694444444444444,
+          26.045831767672734
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.5694444444444444,
+        "mean_reward": 26.045831767672734,
+        "lagrangian_multipliers": [
+          0.7803727984428406,
+          0.7801403999328613,
+          0.780458927154541
+        ]
+      },
+      {
+        "update": 60,
+        "score": [
+          0.0,
+          -0.5972222222222222,
+          26.18632282326892
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.5972222222222222,
+        "mean_reward": 26.18632282326892,
+        "lagrangian_multipliers": [
+          0.7804505825042725,
+          0.7801654934883118,
+          0.7805052995681763
+        ]
+      },
+      {
+        "update": 65,
+        "score": [
+          0.6,
+          -0.34444444444444444,
+          22.731140117316396
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.34444444444444444,
+        "mean_reward": 22.731140117316396,
+        "lagrangian_multipliers": [
+          0.7804989218711853,
+          0.7801992297172546,
+          0.7805561423301697
+        ]
+      },
+      {
+        "update": 70,
+        "score": [
+          0.0,
+          -0.5666666666666667,
+          29.256897371831062
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.5666666666666667,
+        "mean_reward": 29.256897371831062,
+        "lagrangian_multipliers": [
+          0.7804592251777649,
+          0.7802076935768127,
+          0.7806217670440674
+        ]
+      },
+      {
+        "update": 75,
+        "score": [
+          0.0,
+          -0.6444444444444445,
+          27.9250705312396
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.6444444444444445,
+        "mean_reward": 27.9250705312396,
+        "lagrangian_multipliers": [
+          0.7804878354072571,
+          0.780193030834198,
+          0.7806782722473145
+        ]
+      },
+      {
+        "update": 80,
+        "score": [
+          0.0,
+          -0.5694444444444444,
+          11.098137083129387
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.5694444444444444,
+        "mean_reward": 11.098137083129387,
+        "lagrangian_multipliers": [
+          0.7804892063140869,
+          0.7802588939666748,
+          0.7807102799415588
+        ]
+      },
+      {
+        "update": 85,
+        "score": [
+          0.1,
+          -0.3861111111111111,
+          17.1047776966672
+        ],
+        "conditional_joint_satisfaction_rate": 0.1,
+        "post_truth_hard_violation_rate": 0.3861111111111111,
+        "mean_reward": 17.1047776966672,
+        "lagrangian_multipliers": [
+          0.7804852724075317,
+          0.7803270220756531,
+          0.780765175819397
+        ]
+      },
+      {
+        "update": 90,
+        "score": [
+          0.6,
+          -0.34444444444444444,
+          27.718929881150846
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.34444444444444444,
+        "mean_reward": 27.718929881150846,
+        "lagrangian_multipliers": [
+          0.7804640531539917,
+          0.7802713513374329,
+          0.7807574272155762
+        ]
+      },
+      {
+        "update": 95,
+        "score": [
+          0.6,
+          -0.34444444444444444,
+          26.947897697301542
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.34444444444444444,
+        "mean_reward": 26.947897697301542,
+        "lagrangian_multipliers": [
+          0.7804926633834839,
+          0.7802808284759521,
+          0.7807460427284241
+        ]
+      },
+      {
+        "update": 100,
+        "score": [
+          0.6,
+          -0.34444444444444444,
+          26.863810557593904
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.34444444444444444,
+        "mean_reward": 26.863810557593904,
+        "lagrangian_multipliers": [
+          0.7804341316223145,
+          0.7802170515060425,
+          0.7806450128555298
+        ]
+      }
+    ],
+    "environment_steps": 3000,
+    "agent_decisions": 9000
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "episodes": 40,
+    "mean_reward": 25.16305,
+    "joint_satisfaction_rate": 0.9,
+    "mean_intervention_rate": 0.0,
+    "mean_intervention_distance": 0.0,
+    "violation_rate": {
+      "C03": 0.025,
+      "C04": 0.025,
+      "C05": 0.05,
+      "E06": 0.1,
+      "F01": 0.025,
+      "M04": 0.975,
+      "S02": 0.075
+    },
+    "mean_first_violation_step": {
+      "C03": 8.0,
+      "C04": 0.0,
+      "C05": 26.5,
+      "E06": 24.5,
+      "F01": 26.0,
+      "M04": 5.0,
+      "S02": 1.333
+    },
+    "initial_infeasible_rate": 0.05,
+    "online_hard_violation_rate": 0.0,
+    "post_shield_hard_violation_rate": 0.0,
+    "post_truth_hard_violation_rate": 0.01167,
+    "qp_infeasible_rate": 0.0,
+    "conflict_rate": 0.0,
+    "replan_trigger_rate": 0.0,
+    "mean_belief_risk": 0.0,
+    "mean_pre_filter_belief_risk": 0.0,
+    "mean_post_filter_belief_risk": 0.0,
+    "mean_actor_time_ms": 2.00995,
+    "mean_online_time_ms": 0.0,
+    "tail_violation_rate": 1.0,
+    "risk_calibration_brier": 0.0,
+    "initially_feasible_episodes": 38,
+    "conditional_joint_satisfaction_rate": 0.94737,
+    "rule_conflict_event_rate": 0.0,
+    "rule_rule_conflict_step_rate": 0.0,
+    "rule_rule_resolution_rate": 0.0,
+    "mean_conflict_residual": 0.0,
+    "mean_solver_agents": 0.0,
+    "mean_solver_components": 0.0,
+    "max_solver_component_size": 0,
+    "cross_component_violation_rate": 0.0,
+    "cross_component_repair_rate": 0.0,
+    "seed": 33,
+    "repository": "https://github.com/chauncygu/Multi-Agent-Constrained-Policy-Optimisation",
+    "component": "MAPPO-Lagrangian",
+    "commit": "b80a9f5b4a0049125a827be8fb9c477f69ae021b",
+    "source_fingerprint": "b4154ae715fa0d1d24e72dbae5372c8b271ea9d64665019e52e1bb852f8993b1",
+    "safety_bound": 0.1,
+    "cost_signal": "episode_binary",
+    "selected_update": 10,
+    "selected_lagrangian_multipliers": [
+      0.7799375057220459,
+      0.7800466418266296,
+      0.7800179719924927
+    ],
+    "validation_trace": [
+      {
+        "update": 0,
+        "score": [
+          0.9,
+          -0.027777777777777776,
+          6.707405131822399
+        ],
+        "conditional_joint_satisfaction_rate": 0.9,
+        "post_truth_hard_violation_rate": 0.027777777777777776,
+        "mean_reward": 6.707405131822399,
+        "lagrangian_multipliers": [
+          0.78,
+          0.78,
+          0.78
+        ]
+      },
+      {
+        "update": 5,
+        "score": [
+          0.9,
+          -0.027777777777777776,
+          8.636821275463305
+        ],
+        "conditional_joint_satisfaction_rate": 0.9,
+        "post_truth_hard_violation_rate": 0.027777777777777776,
+        "mean_reward": 8.636821275463305,
+        "lagrangian_multipliers": [
+          0.7799843549728394,
+          0.779999315738678,
+          0.7799789905548096
+        ]
+      },
+      {
+        "update": 10,
+        "score": [
+          0.9,
+          -0.027777777777777776,
+          24.761968579673976
+        ],
+        "conditional_joint_satisfaction_rate": 0.9,
+        "post_truth_hard_violation_rate": 0.027777777777777776,
+        "mean_reward": 24.761968579673976,
+        "lagrangian_multipliers": [
+          0.7799375057220459,
+          0.7800466418266296,
+          0.7800179719924927
+        ]
+      },
+      {
+        "update": 15,
+        "score": [
+          0.9,
+          -0.027777777777777776,
+          20.060515697068055
+        ],
+        "conditional_joint_satisfaction_rate": 0.9,
+        "post_truth_hard_violation_rate": 0.027777777777777776,
+        "mean_reward": 20.060515697068055,
+        "lagrangian_multipliers": [
+          0.7799850106239319,
+          0.7800268530845642,
+          0.780021607875824
+        ]
+      },
+      {
+        "update": 20,
+        "score": [
+          0.7,
+          -0.30833333333333335,
+          27.536899514449825
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.30833333333333335,
+        "mean_reward": 27.536899514449825,
+        "lagrangian_multipliers": [
+          0.7799992561340332,
+          0.7799904346466064,
+          0.779930055141449
+        ]
+      },
+      {
+        "update": 25,
+        "score": [
+          0.8,
+          -0.10277777777777777,
+          28.22033034725318
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.10277777777777777,
+        "mean_reward": 28.22033034725318,
+        "lagrangian_multipliers": [
+          0.7799615859985352,
+          0.7800135612487793,
+          0.779890775680542
+        ]
+      },
+      {
+        "update": 30,
+        "score": [
+          0.7,
+          -0.1361111111111111,
+          22.52182548952575
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.1361111111111111,
+        "mean_reward": 22.52182548952575,
+        "lagrangian_multipliers": [
+          0.77994704246521,
+          0.7800025343894958,
+          0.7798953056335449
+        ]
+      },
+      {
+        "update": 35,
+        "score": [
+          0.7,
+          -0.30833333333333335,
+          21.793421508236445
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.30833333333333335,
+        "mean_reward": 21.793421508236445,
+        "lagrangian_multipliers": [
+          0.7799482345581055,
+          0.7800185084342957,
+          0.779862105846405
+        ]
+      },
+      {
+        "update": 40,
+        "score": [
+          0.0,
+          -0.39444444444444443,
+          20.010647352687794
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.39444444444444443,
+        "mean_reward": 20.010647352687794,
+        "lagrangian_multipliers": [
+          0.7799485921859741,
+          0.7799744606018066,
+          0.7798128724098206
+        ]
+      },
+      {
+        "update": 45,
+        "score": [
+          0.6,
+          -0.33055555555555555,
+          23.05705457615517
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.33055555555555555,
+        "mean_reward": 23.05705457615517,
+        "lagrangian_multipliers": [
+          0.7799296379089355,
+          0.7800239324569702,
+          0.7798144817352295
+        ]
+      },
+      {
+        "update": 50,
+        "score": [
+          0.7,
+          -0.3277777777777778,
+          25.299515413151013
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.3277777777777778,
+        "mean_reward": 25.299515413151013,
+        "lagrangian_multipliers": [
+          0.7798666954040527,
+          0.779977023601532,
+          0.7797404527664185
+        ]
+      },
+      {
+        "update": 55,
+        "score": [
+          0.0,
+          -0.5527777777777778,
+          20.241861209946915
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.5527777777777778,
+        "mean_reward": 20.241861209946915,
+        "lagrangian_multipliers": [
+          0.7798303365707397,
+          0.7799078226089478,
+          0.7796686291694641
+        ]
+      },
+      {
+        "update": 60,
+        "score": [
+          0.0,
+          -0.6111111111111112,
+          22.31140795877131
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.6111111111111112,
+        "mean_reward": 22.31140795877131,
+        "lagrangian_multipliers": [
+          0.7798966765403748,
+          0.7799758315086365,
+          0.7797498106956482
+        ]
+      },
+      {
+        "update": 65,
+        "score": [
+          0.0,
+          -0.6555555555555556,
+          25.267159211538228
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.6555555555555556,
+        "mean_reward": 25.267159211538228,
+        "lagrangian_multipliers": [
+          0.7799086570739746,
+          0.7800084948539734,
+          0.7797620892524719
+        ]
+      },
+      {
+        "update": 70,
+        "score": [
+          0.0,
+          -0.5861111111111111,
+          23.991144669914604
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.5861111111111111,
+        "mean_reward": 23.991144669914604,
+        "lagrangian_multipliers": [
+          0.7799360156059265,
+          0.7799843549728394,
+          0.7798025012016296
+        ]
+      },
+      {
+        "update": 75,
+        "score": [
+          0.0,
+          -0.5777777777777777,
+          26.948555613835747
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.5777777777777777,
+        "mean_reward": 26.948555613835747,
+        "lagrangian_multipliers": [
+          0.7799372673034668,
+          0.780017077922821,
+          0.7798802852630615
+        ]
+      },
+      {
+        "update": 80,
+        "score": [
+          0.0,
+          -0.49444444444444446,
+          27.193005553647648
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.49444444444444446,
+        "mean_reward": 27.193005553647648,
+        "lagrangian_multipliers": [
+          0.7799769043922424,
+          0.7800745964050293,
+          0.779954195022583
+        ]
+      },
+      {
+        "update": 85,
+        "score": [
+          0.0,
+          -0.6194444444444445,
+          28.39221204174788
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.6194444444444445,
+        "mean_reward": 28.39221204174788,
+        "lagrangian_multipliers": [
+          0.7800058722496033,
+          0.7800746560096741,
+          0.7799191474914551
+        ]
+      },
+      {
+        "update": 90,
+        "score": [
+          0.0,
+          -0.46111111111111114,
+          16.286493166816925
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.46111111111111114,
+        "mean_reward": 16.286493166816925,
+        "lagrangian_multipliers": [
+          0.7800488471984863,
+          0.7801417112350464,
+          0.779906153678894
+        ]
+      },
+      {
+        "update": 95,
+        "score": [
+          0.7,
+          -0.23333333333333334,
+          18.58136433390801
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.23333333333333334,
+        "mean_reward": 18.58136433390801,
+        "lagrangian_multipliers": [
+          0.7801076769828796,
+          0.7801726460456848,
+          0.7799862027168274
+        ]
+      },
+      {
+        "update": 100,
+        "score": [
+          0.7,
+          -0.25,
+          27.0144936911113
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.25,
+        "mean_reward": 27.0144936911113,
+        "lagrangian_multipliers": [
+          0.7800936698913574,
+          0.780221164226532,
+          0.7799707651138306
+        ]
+      }
+    ],
+    "environment_steps": 3000,
+    "agent_decisions": 9000
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "episodes": 40,
+    "mean_reward": 25.07847,
+    "joint_satisfaction_rate": 0.9,
+    "mean_intervention_rate": 0.0,
+    "mean_intervention_distance": 0.0,
+    "violation_rate": {
+      "C03": 0.025,
+      "C04": 0.025,
+      "C05": 0.025,
+      "E02": 0.15,
+      "E06": 0.1,
+      "F01": 0.025,
+      "M04": 0.95,
+      "S02": 0.075
+    },
+    "mean_first_violation_step": {
+      "C03": 8.0,
+      "C04": 0.0,
+      "C05": 24.0,
+      "E02": 4.5,
+      "E06": 24.5,
+      "F01": 26.0,
+      "M04": 5.0,
+      "S02": 1.333
+    },
+    "initial_infeasible_rate": 0.05,
+    "online_hard_violation_rate": 0.0,
+    "post_shield_hard_violation_rate": 0.0,
+    "post_truth_hard_violation_rate": 0.01167,
+    "qp_infeasible_rate": 0.0,
+    "conflict_rate": 0.0,
+    "replan_trigger_rate": 0.0,
+    "mean_belief_risk": 0.0,
+    "mean_pre_filter_belief_risk": 0.0,
+    "mean_post_filter_belief_risk": 0.0,
+    "mean_actor_time_ms": 1.96719,
+    "mean_online_time_ms": 0.0,
+    "tail_violation_rate": 1.0,
+    "risk_calibration_brier": 0.0,
+    "initially_feasible_episodes": 38,
+    "conditional_joint_satisfaction_rate": 0.94737,
+    "rule_conflict_event_rate": 0.0,
+    "rule_rule_conflict_step_rate": 0.0,
+    "rule_rule_resolution_rate": 0.0,
+    "mean_conflict_residual": 0.0,
+    "mean_solver_agents": 0.0,
+    "mean_solver_components": 0.0,
+    "max_solver_component_size": 0,
+    "cross_component_violation_rate": 0.0,
+    "cross_component_repair_rate": 0.0,
+    "seed": 44,
+    "repository": "https://github.com/chauncygu/Multi-Agent-Constrained-Policy-Optimisation",
+    "component": "MAPPO-Lagrangian",
+    "commit": "b80a9f5b4a0049125a827be8fb9c477f69ae021b",
+    "source_fingerprint": "b4154ae715fa0d1d24e72dbae5372c8b271ea9d64665019e52e1bb852f8993b1",
+    "safety_bound": 0.1,
+    "cost_signal": "episode_binary",
+    "selected_update": 0,
+    "selected_lagrangian_multipliers": [
+      0.78,
+      0.78,
+      0.78
+    ],
+    "validation_trace": [
+      {
+        "update": 0,
+        "score": [
+          0.9,
+          -0.027777777777777776,
+          24.593365888770098
+        ],
+        "conditional_joint_satisfaction_rate": 0.9,
+        "post_truth_hard_violation_rate": 0.027777777777777776,
+        "mean_reward": 24.593365888770098,
+        "lagrangian_multipliers": [
+          0.78,
+          0.78,
+          0.78
+        ]
+      },
+      {
+        "update": 5,
+        "score": [
+          0.6,
+          -0.3638888888888889,
+          20.801503546928366
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.3638888888888889,
+        "mean_reward": 20.801503546928366,
+        "lagrangian_multipliers": [
+          0.7798932790756226,
+          0.7799244523048401,
+          0.7798800468444824
+        ]
+      },
+      {
+        "update": 10,
+        "score": [
+          0.6,
+          -0.3611111111111111,
+          24.077821108135065
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.3611111111111111,
+        "mean_reward": 24.077821108135065,
+        "lagrangian_multipliers": [
+          0.7798902988433838,
+          0.7798848748207092,
+          0.7799174785614014
+        ]
+      },
+      {
+        "update": 15,
+        "score": [
+          0.4,
+          -0.375,
+          22.56837368904236
+        ],
+        "conditional_joint_satisfaction_rate": 0.4,
+        "post_truth_hard_violation_rate": 0.375,
+        "mean_reward": 22.56837368904236,
+        "lagrangian_multipliers": [
+          0.7798728942871094,
+          0.779897153377533,
+          0.7798908948898315
+        ]
+      },
+      {
+        "update": 20,
+        "score": [
+          0.3,
+          -0.3861111111111111,
+          25.8995149162692
+        ],
+        "conditional_joint_satisfaction_rate": 0.3,
+        "post_truth_hard_violation_rate": 0.3861111111111111,
+        "mean_reward": 25.8995149162692,
+        "lagrangian_multipliers": [
+          0.7798927426338196,
+          0.7799891233444214,
+          0.7799261212348938
+        ]
+      },
+      {
+        "update": 25,
+        "score": [
+          0.0,
+          -0.65,
+          26.686818886355834
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.65,
+        "mean_reward": 26.686818886355834,
+        "lagrangian_multipliers": [
+          0.7798939347267151,
+          0.7800253629684448,
+          0.7799692153930664
+        ]
+      },
+      {
+        "update": 30,
+        "score": [
+          0.0,
+          -0.6416666666666667,
+          25.97324807370356
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.6416666666666667,
+        "mean_reward": 25.97324807370356,
+        "lagrangian_multipliers": [
+          0.7799274921417236,
+          0.7801181077957153,
+          0.7800192832946777
+        ]
+      },
+      {
+        "update": 35,
+        "score": [
+          0.0,
+          -0.7222222222222222,
+          23.744280319075298
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.7222222222222222,
+        "mean_reward": 23.744280319075298,
+        "lagrangian_multipliers": [
+          0.7799343466758728,
+          0.7801454067230225,
+          0.7800639867782593
+        ]
+      },
+      {
+        "update": 40,
+        "score": [
+          0.0,
+          -0.7,
+          26.784348995769687
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.7,
+        "mean_reward": 26.784348995769687,
+        "lagrangian_multipliers": [
+          0.779962956905365,
+          0.780241847038269,
+          0.7801500558853149
+        ]
+      },
+      {
+        "update": 45,
+        "score": [
+          0.0,
+          -0.6972222222222222,
+          17.44785987982541
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.6972222222222222,
+        "mean_reward": 17.44785987982541,
+        "lagrangian_multipliers": [
+          0.7800351977348328,
+          0.7802941203117371,
+          0.7801445722579956
+        ]
+      },
+      {
+        "update": 50,
+        "score": [
+          0.0,
+          -0.6583333333333333,
+          26.819671279038303
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.6583333333333333,
+        "mean_reward": 26.819671279038303,
+        "lagrangian_multipliers": [
+          0.7800521850585938,
+          0.7803559303283691,
+          0.7801443338394165
+        ]
+      },
+      {
+        "update": 55,
+        "score": [
+          0.0,
+          -0.5833333333333334,
+          24.884732559123833
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.5833333333333334,
+        "mean_reward": 24.884732559123833,
+        "lagrangian_multipliers": [
+          0.7800834774971008,
+          0.7804277539253235,
+          0.7802041172981262
+        ]
+      },
+      {
+        "update": 60,
+        "score": [
+          0.0,
+          -0.6972222222222222,
+          25.188921039962526
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.6972222222222222,
+        "mean_reward": 25.188921039962526,
+        "lagrangian_multipliers": [
+          0.7800889015197754,
+          0.780484139919281,
+          0.7801987528800964
+        ]
+      },
+      {
+        "update": 65,
+        "score": [
+          0.0,
+          -0.6305555555555555,
+          20.458943232292025
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.6305555555555555,
+        "mean_reward": 20.458943232292025,
+        "lagrangian_multipliers": [
+          0.7801231145858765,
+          0.7805294990539551,
+          0.7803094387054443
+        ]
+      },
+      {
+        "update": 70,
+        "score": [
+          0.0,
+          -0.7638888888888888,
+          24.5737743638779
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.7638888888888888,
+        "mean_reward": 24.5737743638779,
+        "lagrangian_multipliers": [
+          0.780133843421936,
+          0.7805961966514587,
+          0.7803590297698975
+        ]
+      },
+      {
+        "update": 75,
+        "score": [
+          0.0,
+          -0.7527777777777778,
+          24.01594372524367
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.7527777777777778,
+        "mean_reward": 24.01594372524367,
+        "lagrangian_multipliers": [
+          0.7801323533058167,
+          0.780641496181488,
+          0.780420184135437
+        ]
+      },
+      {
+        "update": 80,
+        "score": [
+          0.0,
+          -0.7583333333333333,
+          25.68445752827751
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.7583333333333333,
+        "mean_reward": 25.68445752827751,
+        "lagrangian_multipliers": [
+          0.780177652835846,
+          0.7807379961013794,
+          0.7804350852966309
+        ]
+      },
+      {
+        "update": 85,
+        "score": [
+          0.0,
+          -0.6611111111111111,
+          27.58804538322128
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.6611111111111111,
+        "mean_reward": 27.58804538322128,
+        "lagrangian_multipliers": [
+          0.78020840883255,
+          0.7807877659797668,
+          0.7804365158081055
+        ]
+      },
+      {
+        "update": 90,
+        "score": [
+          0.0,
+          -0.7388888888888889,
+          26.56731480467364
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.7388888888888889,
+        "mean_reward": 26.56731480467364,
+        "lagrangian_multipliers": [
+          0.7802421450614929,
+          0.7808613181114197,
+          0.7804446220397949
+        ]
+      },
+      {
+        "update": 95,
+        "score": [
+          0.0,
+          -0.6138888888888889,
+          27.057985040012056
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.6138888888888889,
+        "mean_reward": 27.057985040012056,
+        "lagrangian_multipliers": [
+          0.780256986618042,
+          0.780963659286499,
+          0.780511200428009
+        ]
+      },
+      {
+        "update": 100,
+        "score": [
+          0.0,
+          -0.5638888888888889,
+          27.171171552746117
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.5638888888888889,
+        "mean_reward": 27.171171552746117,
+        "lagrangian_multipliers": [
+          0.7802546620368958,
+          0.7810238599777222,
+          0.7806232571601868
+        ]
+      }
+    ],
+    "environment_steps": 3000,
+    "agent_decisions": 9000
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "episodes": 40,
+    "mean_reward": 22.55718,
+    "joint_satisfaction_rate": 0.8,
+    "mean_intervention_rate": 0.0,
+    "mean_intervention_distance": 0.0,
+    "violation_rate": {
+      "C02": 0.85,
+      "C03": 0.025,
+      "C04": 0.05,
+      "C05": 0.125,
+      "E02": 0.075,
+      "E06": 0.1,
+      "F01": 0.125,
+      "M04": 0.975,
+      "S02": 0.075
+    },
+    "mean_first_violation_step": {
+      "C02": 24.265,
+      "C03": 8.0,
+      "C04": 23.5,
+      "C05": 19.0,
+      "E02": 27.0,
+      "E06": 24.5,
+      "F01": 20.6,
+      "M04": 5.0,
+      "S02": 1.333
+    },
+    "initial_infeasible_rate": 0.05,
+    "online_hard_violation_rate": 0.0,
+    "post_shield_hard_violation_rate": 0.0,
+    "post_truth_hard_violation_rate": 0.0475,
+    "qp_infeasible_rate": 0.0,
+    "conflict_rate": 0.0,
+    "replan_trigger_rate": 0.0,
+    "mean_belief_risk": 0.0,
+    "mean_pre_filter_belief_risk": 0.0,
+    "mean_post_filter_belief_risk": 0.0,
+    "mean_actor_time_ms": 1.9815,
+    "mean_online_time_ms": 0.0,
+    "tail_violation_rate": 1.0,
+    "risk_calibration_brier": 0.0,
+    "initially_feasible_episodes": 38,
+    "conditional_joint_satisfaction_rate": 0.84211,
+    "rule_conflict_event_rate": 0.0,
+    "rule_rule_conflict_step_rate": 0.0,
+    "rule_rule_resolution_rate": 0.0,
+    "mean_conflict_residual": 0.0,
+    "mean_solver_agents": 0.0,
+    "mean_solver_components": 0.0,
+    "max_solver_component_size": 0,
+    "cross_component_violation_rate": 0.0,
+    "cross_component_repair_rate": 0.0,
+    "seed": 55,
+    "repository": "https://github.com/chauncygu/Multi-Agent-Constrained-Policy-Optimisation",
+    "component": "MAPPO-Lagrangian",
+    "commit": "b80a9f5b4a0049125a827be8fb9c477f69ae021b",
+    "source_fingerprint": "b4154ae715fa0d1d24e72dbae5372c8b271ea9d64665019e52e1bb852f8993b1",
+    "safety_bound": 0.1,
+    "cost_signal": "episode_binary",
+    "selected_update": 0,
+    "selected_lagrangian_multipliers": [
+      0.78,
+      0.78,
+      0.78
+    ],
+    "validation_trace": [
+      {
+        "update": 0,
+        "score": [
+          0.8,
+          -0.03888888888888889,
+          21.292397739733506
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.03888888888888889,
+        "mean_reward": 21.292397739733506,
+        "lagrangian_multipliers": [
+          0.78,
+          0.78,
+          0.78
+        ]
+      },
+      {
+        "update": 5,
+        "score": [
+          0.7,
+          -0.04722222222222222,
+          13.954106738516623
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.04722222222222222,
+        "mean_reward": 13.954106738516623,
+        "lagrangian_multipliers": [
+          0.7799972891807556,
+          0.7800009250640869,
+          0.7799491882324219
+        ]
+      },
+      {
+        "update": 10,
+        "score": [
+          0.1,
+          -0.36666666666666664,
+          20.859765912504407
+        ],
+        "conditional_joint_satisfaction_rate": 0.1,
+        "post_truth_hard_violation_rate": 0.36666666666666664,
+        "mean_reward": 20.859765912504407,
+        "lagrangian_multipliers": [
+          0.7799530625343323,
+          0.7799710035324097,
+          0.7799285650253296
+        ]
+      },
+      {
+        "update": 15,
+        "score": [
+          0.6,
+          -0.275,
+          22.193061490007334
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.275,
+        "mean_reward": 22.193061490007334,
+        "lagrangian_multipliers": [
+          0.7799432277679443,
+          0.7799950242042542,
+          0.7799740433692932
+        ]
+      },
+      {
+        "update": 20,
+        "score": [
+          0.3,
+          -0.2,
+          20.399117285081353
+        ],
+        "conditional_joint_satisfaction_rate": 0.3,
+        "post_truth_hard_violation_rate": 0.2,
+        "mean_reward": 20.399117285081353,
+        "lagrangian_multipliers": [
+          0.7799296379089355,
+          0.7799941897392273,
+          0.7799770832061768
+        ]
+      },
+      {
+        "update": 25,
+        "score": [
+          0.1,
+          -0.2638888888888889,
+          22.444364397271546
+        ],
+        "conditional_joint_satisfaction_rate": 0.1,
+        "post_truth_hard_violation_rate": 0.2638888888888889,
+        "mean_reward": 22.444364397271546,
+        "lagrangian_multipliers": [
+          0.7799201011657715,
+          0.7799682021141052,
+          0.7800326943397522
+        ]
+      },
+      {
+        "update": 30,
+        "score": [
+          0.0,
+          -0.43333333333333335,
+          12.518886150264423
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.43333333333333335,
+        "mean_reward": 12.518886150264423,
+        "lagrangian_multipliers": [
+          0.7799289226531982,
+          0.7800214886665344,
+          0.780103862285614
+        ]
+      },
+      {
+        "update": 35,
+        "score": [
+          0.0,
+          -0.5333333333333333,
+          11.485309390430388
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.5333333333333333,
+        "mean_reward": 11.485309390430388,
+        "lagrangian_multipliers": [
+          0.7799455523490906,
+          0.780103862285614,
+          0.780190646648407
+        ]
+      },
+      {
+        "update": 40,
+        "score": [
+          0.0,
+          -0.5861111111111111,
+          11.396137223044256
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.5861111111111111,
+        "mean_reward": 11.396137223044256,
+        "lagrangian_multipliers": [
+          0.7799597978591919,
+          0.7801533937454224,
+          0.7801815867424011
+        ]
+      },
+      {
+        "update": 45,
+        "score": [
+          0.0,
+          -0.6222222222222222,
+          17.471318744368713
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.6222222222222222,
+        "mean_reward": 17.471318744368713,
+        "lagrangian_multipliers": [
+          0.7799935340881348,
+          0.7801729440689087,
+          0.7801743745803833
+        ]
+      },
+      {
+        "update": 50,
+        "score": [
+          0.0,
+          -0.7444444444444445,
+          12.27961893088719
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.7444444444444445,
+        "mean_reward": 12.27961893088719,
+        "lagrangian_multipliers": [
+          0.7799867987632751,
+          0.78023761510849,
+          0.7801748514175415
+        ]
+      },
+      {
+        "update": 55,
+        "score": [
+          0.0,
+          -0.7361111111111112,
+          23.389497389491975
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.7361111111111112,
+        "mean_reward": 23.389497389491975,
+        "lagrangian_multipliers": [
+          0.7799760103225708,
+          0.7801479697227478,
+          0.7801326513290405
+        ]
+      },
+      {
+        "update": 60,
+        "score": [
+          0.0,
+          -0.7222222222222222,
+          28.467032327814568
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.7222222222222222,
+        "mean_reward": 28.467032327814568,
+        "lagrangian_multipliers": [
+          0.7799827456474304,
+          0.7801907658576965,
+          0.7801588773727417
+        ]
+      },
+      {
+        "update": 65,
+        "score": [
+          0.0,
+          -0.7083333333333334,
+          17.189628283282556
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.7083333333333334,
+        "mean_reward": 17.189628283282556,
+        "lagrangian_multipliers": [
+          0.7799758315086365,
+          0.7801794409751892,
+          0.7802100777626038
+        ]
+      },
+      {
+        "update": 70,
+        "score": [
+          0.0,
+          -0.8,
+          27.125812216028976
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.8,
+        "mean_reward": 27.125812216028976,
+        "lagrangian_multipliers": [
+          0.7800208926200867,
+          0.7802061438560486,
+          0.7802473306655884
+        ]
+      },
+      {
+        "update": 75,
+        "score": [
+          0.0,
+          -0.7972222222222223,
+          21.247978928748694
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.7972222222222223,
+        "mean_reward": 21.247978928748694,
+        "lagrangian_multipliers": [
+          0.7800843119621277,
+          0.7802543044090271,
+          0.7803199887275696
+        ]
+      },
+      {
+        "update": 80,
+        "score": [
+          0.0,
+          -0.6722222222222223,
+          25.770196786744574
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.6722222222222223,
+        "mean_reward": 25.770196786744574,
+        "lagrangian_multipliers": [
+          0.7801219820976257,
+          0.7802457213401794,
+          0.7803618907928467
+        ]
+      },
+      {
+        "update": 85,
+        "score": [
+          0.0,
+          -0.6944444444444444,
+          28.51639134081785
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.6944444444444444,
+        "mean_reward": 28.51639134081785,
+        "lagrangian_multipliers": [
+          0.7801595330238342,
+          0.7802464365959167,
+          0.7804141640663147
+        ]
+      },
+      {
+        "update": 90,
+        "score": [
+          0.0,
+          -0.7777777777777778,
+          28.264461178946107
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.7777777777777778,
+        "mean_reward": 28.264461178946107,
+        "lagrangian_multipliers": [
+          0.7801733016967773,
+          0.7802693247795105,
+          0.7804484367370605
+        ]
+      },
+      {
+        "update": 95,
+        "score": [
+          0.0,
+          -0.8,
+          28.10774254827746
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.8,
+        "mean_reward": 28.10774254827746,
+        "lagrangian_multipliers": [
+          0.7802340388298035,
+          0.7802351117134094,
+          0.7805247902870178
+        ]
+      },
+      {
+        "update": 100,
+        "score": [
+          0.0,
+          -0.8027777777777778,
+          27.461157554827867
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.8027777777777778,
+        "mean_reward": 27.461157554827867,
+        "lagrangian_multipliers": [
+          0.7802799344062805,
+          0.7802524566650391,
+          0.7805587649345398
+        ]
+      }
+    ],
+    "environment_steps": 3000,
+    "agent_decisions": 9000
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "episodes": 40,
+    "mean_reward": 20.69182,
+    "joint_satisfaction_rate": 0.85,
+    "mean_intervention_rate": 0.0,
+    "mean_intervention_distance": 0.0,
+    "violation_rate": {
+      "C02": 0.975,
+      "C03": 0.025,
+      "C04": 0.1,
+      "C05": 0.075,
+      "E02": 0.325,
+      "E06": 0.1,
+      "F01": 0.075,
+      "M04": 0.95,
+      "S02": 0.075
+    },
+    "mean_first_violation_step": {
+      "C02": 18.744,
+      "C03": 8.0,
+      "C04": 19.75,
+      "C05": 26.333,
+      "E02": 23.0,
+      "E06": 24.5,
+      "F01": 26.333,
+      "M04": 5.0,
+      "S02": 1.333
+    },
+    "initial_infeasible_rate": 0.05,
+    "online_hard_violation_rate": 0.0,
+    "post_shield_hard_violation_rate": 0.0,
+    "post_truth_hard_violation_rate": 0.01417,
+    "qp_infeasible_rate": 0.0,
+    "conflict_rate": 0.0,
+    "replan_trigger_rate": 0.0,
+    "mean_belief_risk": 0.0,
+    "mean_pre_filter_belief_risk": 0.0,
+    "mean_post_filter_belief_risk": 0.0,
+    "mean_actor_time_ms": 1.99034,
+    "mean_online_time_ms": 0.0,
+    "tail_violation_rate": 1.0,
+    "risk_calibration_brier": 0.0,
+    "initially_feasible_episodes": 38,
+    "conditional_joint_satisfaction_rate": 0.89474,
+    "rule_conflict_event_rate": 0.0,
+    "rule_rule_conflict_step_rate": 0.0,
+    "rule_rule_resolution_rate": 0.0,
+    "mean_conflict_residual": 0.0,
+    "mean_solver_agents": 0.0,
+    "mean_solver_components": 0.0,
+    "max_solver_component_size": 0,
+    "cross_component_violation_rate": 0.0,
+    "cross_component_repair_rate": 0.0,
+    "seed": 66,
+    "repository": "https://github.com/chauncygu/Multi-Agent-Constrained-Policy-Optimisation",
+    "component": "MAPPO-Lagrangian",
+    "commit": "b80a9f5b4a0049125a827be8fb9c477f69ae021b",
+    "source_fingerprint": "b4154ae715fa0d1d24e72dbae5372c8b271ea9d64665019e52e1bb852f8993b1",
+    "safety_bound": 0.1,
+    "cost_signal": "episode_binary",
+    "selected_update": 75,
+    "selected_lagrangian_multipliers": [
+      0.7799416184425354,
+      0.7802079916000366,
+      0.7799057364463806
+    ],
+    "validation_trace": [
+      {
+        "update": 0,
+        "score": [
+          0.7,
+          -0.2222222222222222,
+          21.637759058214694
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.2222222222222222,
+        "mean_reward": 21.637759058214694,
+        "lagrangian_multipliers": [
+          0.78,
+          0.78,
+          0.78
+        ]
+      },
+      {
+        "update": 5,
+        "score": [
+          0.8,
+          -0.15555555555555556,
+          22.601339392546652
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.15555555555555556,
+        "mean_reward": 22.601339392546652,
+        "lagrangian_multipliers": [
+          0.7799494862556458,
+          0.7799850106239319,
+          0.7799332737922668
+        ]
+      },
+      {
+        "update": 10,
+        "score": [
+          0.1,
+          -0.24722222222222223,
+          22.853491323255128
+        ],
+        "conditional_joint_satisfaction_rate": 0.1,
+        "post_truth_hard_violation_rate": 0.24722222222222223,
+        "mean_reward": 22.853491323255128,
+        "lagrangian_multipliers": [
+          0.7799692153930664,
+          0.7799826264381409,
+          0.7799306511878967
+        ]
+      },
+      {
+        "update": 15,
+        "score": [
+          0.1,
+          -0.15833333333333333,
+          22.144803536767625
+        ],
+        "conditional_joint_satisfaction_rate": 0.1,
+        "post_truth_hard_violation_rate": 0.15833333333333333,
+        "mean_reward": 22.144803536767625,
+        "lagrangian_multipliers": [
+          0.7800214886665344,
+          0.7800092101097107,
+          0.779918372631073
+        ]
+      },
+      {
+        "update": 20,
+        "score": [
+          0.8,
+          -0.10833333333333334,
+          23.670176923593232
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.10833333333333334,
+        "mean_reward": 23.670176923593232,
+        "lagrangian_multipliers": [
+          0.7800301909446716,
+          0.7800238728523254,
+          0.7798987030982971
+        ]
+      },
+      {
+        "update": 25,
+        "score": [
+          0.8,
+          -0.12222222222222222,
+          21.964122680980783
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.12222222222222222,
+        "mean_reward": 21.964122680980783,
+        "lagrangian_multipliers": [
+          0.779994785785675,
+          0.7800403833389282,
+          0.7799099087715149
+        ]
+      },
+      {
+        "update": 30,
+        "score": [
+          0.8,
+          -0.14166666666666666,
+          20.738090418339066
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.14166666666666666,
+        "mean_reward": 20.738090418339066,
+        "lagrangian_multipliers": [
+          0.7800559401512146,
+          0.7800217270851135,
+          0.7799227237701416
+        ]
+      },
+      {
+        "update": 35,
+        "score": [
+          0.4,
+          -0.17777777777777778,
+          25.837928201362843
+        ],
+        "conditional_joint_satisfaction_rate": 0.4,
+        "post_truth_hard_violation_rate": 0.17777777777777778,
+        "mean_reward": 25.837928201362843,
+        "lagrangian_multipliers": [
+          0.7800337076187134,
+          0.7800728678703308,
+          0.7799362540245056
+        ]
+      },
+      {
+        "update": 40,
+        "score": [
+          0.7,
+          -0.14166666666666666,
+          15.150464841294394
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.14166666666666666,
+        "mean_reward": 15.150464841294394,
+        "lagrangian_multipliers": [
+          0.7800295352935791,
+          0.7800198793411255,
+          0.7798722386360168
+        ]
+      },
+      {
+        "update": 45,
+        "score": [
+          0.1,
+          -0.18888888888888888,
+          23.781076574645045
+        ],
+        "conditional_joint_satisfaction_rate": 0.1,
+        "post_truth_hard_violation_rate": 0.18888888888888888,
+        "mean_reward": 23.781076574645045,
+        "lagrangian_multipliers": [
+          0.7800443172454834,
+          0.7800753712654114,
+          0.7798532247543335
+        ]
+      },
+      {
+        "update": 50,
+        "score": [
+          0.6,
+          -0.28055555555555556,
+          22.42041414674308
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.28055555555555556,
+        "mean_reward": 22.42041414674308,
+        "lagrangian_multipliers": [
+          0.7800281047821045,
+          0.7801296710968018,
+          0.7798964977264404
+        ]
+      },
+      {
+        "update": 55,
+        "score": [
+          0.6,
+          -0.3194444444444444,
+          27.476029100419108
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.3194444444444444,
+        "mean_reward": 27.476029100419108,
+        "lagrangian_multipliers": [
+          0.7799975872039795,
+          0.7800934314727783,
+          0.7798519730567932
+        ]
+      },
+      {
+        "update": 60,
+        "score": [
+          0.0,
+          -0.4722222222222222,
+          25.50218117831537
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.4722222222222222,
+        "mean_reward": 25.50218117831537,
+        "lagrangian_multipliers": [
+          0.7799140214920044,
+          0.7800723314285278,
+          0.7798179984092712
+        ]
+      },
+      {
+        "update": 65,
+        "score": [
+          0.1,
+          -0.3527777777777778,
+          22.20055552984483
+        ],
+        "conditional_joint_satisfaction_rate": 0.1,
+        "post_truth_hard_violation_rate": 0.3527777777777778,
+        "mean_reward": 22.20055552984483,
+        "lagrangian_multipliers": [
+          0.7799261808395386,
+          0.7801576852798462,
+          0.7799050807952881
+        ]
+      },
+      {
+        "update": 70,
+        "score": [
+          0.1,
+          -0.08333333333333333,
+          24.670486438997415
+        ],
+        "conditional_joint_satisfaction_rate": 0.1,
+        "post_truth_hard_violation_rate": 0.08333333333333333,
+        "mean_reward": 24.670486438997415,
+        "lagrangian_multipliers": [
+          0.7799237370491028,
+          0.7801691293716431,
+          0.7798694372177124
+        ]
+      },
+      {
+        "update": 75,
+        "score": [
+          0.9,
+          -0.022222222222222223,
+          20.44620047417968
+        ],
+        "conditional_joint_satisfaction_rate": 0.9,
+        "post_truth_hard_violation_rate": 0.022222222222222223,
+        "mean_reward": 20.44620047417968,
+        "lagrangian_multipliers": [
+          0.7799416184425354,
+          0.7802079916000366,
+          0.7799057364463806
+        ]
+      },
+      {
+        "update": 80,
+        "score": [
+          0.8,
+          -0.03333333333333333,
+          24.335878562242314
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.03333333333333333,
+        "mean_reward": 24.335878562242314,
+        "lagrangian_multipliers": [
+          0.7799597382545471,
+          0.7802260518074036,
+          0.7798945307731628
+        ]
+      },
+      {
+        "update": 85,
+        "score": [
+          0.8,
+          -0.03333333333333333,
+          19.370092986029245
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.03333333333333333,
+        "mean_reward": 19.370092986029245,
+        "lagrangian_multipliers": [
+          0.7799524664878845,
+          0.7802077531814575,
+          0.7798593640327454
+        ]
+      },
+      {
+        "update": 90,
+        "score": [
+          0.6,
+          -0.19722222222222222,
+          23.015919891728355
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.19722222222222222,
+        "mean_reward": 23.015919891728355,
+        "lagrangian_multipliers": [
+          0.7799168825149536,
+          0.7802485227584839,
+          0.7798823714256287
+        ]
+      },
+      {
+        "update": 95,
+        "score": [
+          0.7,
+          -0.09444444444444444,
+          16.18845104842753
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.09444444444444444,
+        "mean_reward": 16.18845104842753,
+        "lagrangian_multipliers": [
+          0.7798631191253662,
+          0.780197024345398,
+          0.7798197865486145
+        ]
+      },
+      {
+        "update": 100,
+        "score": [
+          0.0,
+          -0.28055555555555556,
+          23.551226906602405
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.28055555555555556,
+        "mean_reward": 23.551226906602405,
+        "lagrangian_multipliers": [
+          0.7799075841903687,
+          0.780197024345398,
+          0.7797881364822388
+        ]
+      }
+    ],
+    "environment_steps": 3000,
+    "agent_decisions": 9000
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "episodes": 40,
+    "mean_reward": 24.28241,
+    "joint_satisfaction_rate": 0.825,
+    "mean_intervention_rate": 0.0,
+    "mean_intervention_distance": 0.0,
+    "violation_rate": {
+      "C02": 0.8,
+      "C03": 0.025,
+      "C05": 0.1,
+      "E02": 0.8,
+      "E06": 0.1,
+      "F01": 0.1,
+      "M03": 0.8,
+      "M04": 0.975,
+      "S02": 0.075
+    },
+    "mean_first_violation_step": {
+      "C02": 1.25,
+      "C03": 8.0,
+      "C05": 13.25,
+      "E02": 1.438,
+      "E06": 24.5,
+      "F01": 15.25,
+      "M03": 9.656,
+      "M04": 5.0,
+      "S02": 1.333
+    },
+    "initial_infeasible_rate": 0.05,
+    "online_hard_violation_rate": 0.0,
+    "post_shield_hard_violation_rate": 0.0,
+    "post_truth_hard_violation_rate": 0.0575,
+    "qp_infeasible_rate": 0.0,
+    "conflict_rate": 0.0,
+    "replan_trigger_rate": 0.0,
+    "mean_belief_risk": 0.0,
+    "mean_pre_filter_belief_risk": 0.0,
+    "mean_post_filter_belief_risk": 0.0,
+    "mean_actor_time_ms": 2.00542,
+    "mean_online_time_ms": 0.0,
+    "tail_violation_rate": 1.0,
+    "risk_calibration_brier": 0.0,
+    "initially_feasible_episodes": 38,
+    "conditional_joint_satisfaction_rate": 0.86842,
+    "rule_conflict_event_rate": 0.0,
+    "rule_rule_conflict_step_rate": 0.0,
+    "rule_rule_resolution_rate": 0.0,
+    "mean_conflict_residual": 0.0,
+    "mean_solver_agents": 0.0,
+    "mean_solver_components": 0.0,
+    "max_solver_component_size": 0,
+    "cross_component_violation_rate": 0.0,
+    "cross_component_repair_rate": 0.0,
+    "seed": 77,
+    "repository": "https://github.com/chauncygu/Multi-Agent-Constrained-Policy-Optimisation",
+    "component": "MAPPO-Lagrangian",
+    "commit": "b80a9f5b4a0049125a827be8fb9c477f69ae021b",
+    "source_fingerprint": "b4154ae715fa0d1d24e72dbae5372c8b271ea9d64665019e52e1bb852f8993b1",
+    "safety_bound": 0.1,
+    "cost_signal": "episode_binary",
+    "selected_update": 5,
+    "selected_lagrangian_multipliers": [
+      0.7799951434135437,
+      0.7800096869468689,
+      0.7799856662750244
+    ],
+    "validation_trace": [
+      {
+        "update": 0,
+        "score": [
+          0.7,
+          -0.3138888888888889,
+          22.533000145229256
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.3138888888888889,
+        "mean_reward": 22.533000145229256,
+        "lagrangian_multipliers": [
+          0.78,
+          0.78,
+          0.78
+        ]
+      },
+      {
+        "update": 5,
+        "score": [
+          0.7,
+          -0.10833333333333334,
+          23.81400030253476
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.10833333333333334,
+        "mean_reward": 23.81400030253476,
+        "lagrangian_multipliers": [
+          0.7799951434135437,
+          0.7800096869468689,
+          0.7799856662750244
+        ]
+      },
+      {
+        "update": 10,
+        "score": [
+          0.7,
+          -0.10833333333333334,
+          19.67201884501076
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.10833333333333334,
+        "mean_reward": 19.67201884501076,
+        "lagrangian_multipliers": [
+          0.7799959778785706,
+          0.7800260186195374,
+          0.77997887134552
+        ]
+      },
+      {
+        "update": 15,
+        "score": [
+          0.6,
+          -0.13333333333333333,
+          11.653314549779942
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.13333333333333333,
+        "mean_reward": 11.653314549779942,
+        "lagrangian_multipliers": [
+          0.7799708843231201,
+          0.7799815535545349,
+          0.7799547910690308
+        ]
+      },
+      {
+        "update": 20,
+        "score": [
+          0.0,
+          -0.48055555555555557,
+          20.181617703918437
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.48055555555555557,
+        "mean_reward": 20.181617703918437,
+        "lagrangian_multipliers": [
+          0.7800977826118469,
+          0.780023992061615,
+          0.7799431681632996
+        ]
+      },
+      {
+        "update": 25,
+        "score": [
+          0.0,
+          -0.5083333333333333,
+          21.65680184628374
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.5083333333333333,
+        "mean_reward": 21.65680184628374,
+        "lagrangian_multipliers": [
+          0.7801756858825684,
+          0.7800553441047668,
+          0.7799760699272156
+        ]
+      },
+      {
+        "update": 30,
+        "score": [
+          0.4,
+          -0.07777777777777778,
+          10.283205291960076
+        ],
+        "conditional_joint_satisfaction_rate": 0.4,
+        "post_truth_hard_violation_rate": 0.07777777777777778,
+        "mean_reward": 10.283205291960076,
+        "lagrangian_multipliers": [
+          0.780263364315033,
+          0.7800756692886353,
+          0.7799580693244934
+        ]
+      },
+      {
+        "update": 35,
+        "score": [
+          0.7,
+          -0.1111111111111111,
+          24.68293916128796
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.1111111111111111,
+        "mean_reward": 24.68293916128796,
+        "lagrangian_multipliers": [
+          0.7802774906158447,
+          0.7800747752189636,
+          0.779990017414093
+        ]
+      },
+      {
+        "update": 40,
+        "score": [
+          0.0,
+          -0.5111111111111111,
+          23.0472617306809
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.5111111111111111,
+        "mean_reward": 23.0472617306809,
+        "lagrangian_multipliers": [
+          0.7803356051445007,
+          0.78011155128479,
+          0.7800053358078003
+        ]
+      },
+      {
+        "update": 45,
+        "score": [
+          0.0,
+          -0.425,
+          24.624532154712032
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.425,
+        "mean_reward": 24.624532154712032,
+        "lagrangian_multipliers": [
+          0.7803812623023987,
+          0.7801307439804077,
+          0.7800776958465576
+        ]
+      },
+      {
+        "update": 50,
+        "score": [
+          0.0,
+          -0.6972222222222222,
+          22.628161354650825
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.6972222222222222,
+        "mean_reward": 22.628161354650825,
+        "lagrangian_multipliers": [
+          0.7803674936294556,
+          0.7801419496536255,
+          0.7801229953765869
+        ]
+      },
+      {
+        "update": 55,
+        "score": [
+          0.0,
+          -0.7333333333333333,
+          26.16833390228672
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.7333333333333333,
+        "mean_reward": 26.16833390228672,
+        "lagrangian_multipliers": [
+          0.7803975939750671,
+          0.7801607847213745,
+          0.7801482677459717
+        ]
+      },
+      {
+        "update": 60,
+        "score": [
+          0.0,
+          -0.6611111111111111,
+          25.092656366609322
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.6611111111111111,
+        "mean_reward": 25.092656366609322,
+        "lagrangian_multipliers": [
+          0.7804410457611084,
+          0.7801616787910461,
+          0.7802146077156067
+        ]
+      },
+      {
+        "update": 65,
+        "score": [
+          0.0,
+          -0.6166666666666667,
+          27.410675464415675
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.6166666666666667,
+        "mean_reward": 27.410675464415675,
+        "lagrangian_multipliers": [
+          0.7804588079452515,
+          0.7802233099937439,
+          0.7802639007568359
+        ]
+      },
+      {
+        "update": 70,
+        "score": [
+          0.0,
+          -0.725,
+          25.49467957337328
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.725,
+        "mean_reward": 25.49467957337328,
+        "lagrangian_multipliers": [
+          0.7805213332176208,
+          0.7802525162696838,
+          0.7803120017051697
+        ]
+      },
+      {
+        "update": 75,
+        "score": [
+          0.0,
+          -0.7388888888888889,
+          27.47519450037767
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.7388888888888889,
+        "mean_reward": 27.47519450037767,
+        "lagrangian_multipliers": [
+          0.7805575728416443,
+          0.780208945274353,
+          0.7803717255592346
+        ]
+      },
+      {
+        "update": 80,
+        "score": [
+          0.0,
+          -0.7083333333333334,
+          27.568146330418614
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.7083333333333334,
+        "mean_reward": 27.568146330418614,
+        "lagrangian_multipliers": [
+          0.780650794506073,
+          0.7802205681800842,
+          0.7804204225540161
+        ]
+      },
+      {
+        "update": 85,
+        "score": [
+          0.0,
+          -0.8,
+          28.298176146933884
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.8,
+        "mean_reward": 28.298176146933884,
+        "lagrangian_multipliers": [
+          0.7807416319847107,
+          0.7802633047103882,
+          0.7804675102233887
+        ]
+      },
+      {
+        "update": 90,
+        "score": [
+          0.0,
+          -0.7861111111111111,
+          24.27558921792614
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.7861111111111111,
+        "mean_reward": 24.27558921792614,
+        "lagrangian_multipliers": [
+          0.7807994484901428,
+          0.7802702784538269,
+          0.7805076241493225
+        ]
+      },
+      {
+        "update": 95,
+        "score": [
+          0.0,
+          -0.8055555555555556,
+          19.53773020451617
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.8055555555555556,
+        "mean_reward": 19.53773020451617,
+        "lagrangian_multipliers": [
+          0.7808542251586914,
+          0.7803359031677246,
+          0.7805709838867188
+        ]
+      },
+      {
+        "update": 100,
+        "score": [
+          0.0,
+          -0.8055555555555556,
+          26.910992561142127
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.8055555555555556,
+        "mean_reward": 26.910992561142127,
+        "lagrangian_multipliers": [
+          0.7809253931045532,
+          0.7803962230682373,
+          0.7805958390235901
+        ]
+      }
+    ],
+    "environment_steps": 3000,
+    "agent_decisions": 9000
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "episodes": 40,
+    "mean_reward": 27.01063,
+    "joint_satisfaction_rate": 0.7,
+    "mean_intervention_rate": 0.0,
+    "mean_intervention_distance": 0.0,
+    "violation_rate": {
+      "C02": 0.2,
+      "C03": 0.025,
+      "C04": 0.05,
+      "C05": 0.25,
+      "E02": 0.55,
+      "E06": 0.1,
+      "F01": 0.175,
+      "F03": 0.1,
+      "F04": 0.2,
+      "I06": 0.025,
+      "M03": 0.225,
+      "M06": 0.1,
+      "S02": 0.075
+    },
+    "mean_first_violation_step": {
+      "C02": 12.625,
+      "C03": 8.0,
+      "C04": 7.0,
+      "C05": 5.9,
+      "E02": 9.955,
+      "E06": 24.5,
+      "F01": 11.571,
+      "F03": 24.5,
+      "F04": 8.625,
+      "I06": 0.0,
+      "M03": 7.444,
+      "M06": 24.5,
+      "S02": 1.333
+    },
+    "initial_infeasible_rate": 0.05,
+    "online_hard_violation_rate": 0.0,
+    "post_shield_hard_violation_rate": 0.0,
+    "post_truth_hard_violation_rate": 0.18833,
+    "qp_infeasible_rate": 0.0,
+    "conflict_rate": 0.0,
+    "replan_trigger_rate": 0.0,
+    "mean_belief_risk": 0.0,
+    "mean_pre_filter_belief_risk": 0.0,
+    "mean_post_filter_belief_risk": 0.0,
+    "mean_actor_time_ms": 2.01541,
+    "mean_online_time_ms": 0.0,
+    "tail_violation_rate": 1.0,
+    "risk_calibration_brier": 0.0,
+    "initially_feasible_episodes": 38,
+    "conditional_joint_satisfaction_rate": 0.73684,
+    "rule_conflict_event_rate": 0.0,
+    "rule_rule_conflict_step_rate": 0.0,
+    "rule_rule_resolution_rate": 0.0,
+    "mean_conflict_residual": 0.0,
+    "mean_solver_agents": 0.0,
+    "mean_solver_components": 0.0,
+    "max_solver_component_size": 0,
+    "cross_component_violation_rate": 0.0,
+    "cross_component_repair_rate": 0.0,
+    "seed": 88,
+    "repository": "https://github.com/chauncygu/Multi-Agent-Constrained-Policy-Optimisation",
+    "component": "MAPPO-Lagrangian",
+    "commit": "b80a9f5b4a0049125a827be8fb9c477f69ae021b",
+    "source_fingerprint": "b4154ae715fa0d1d24e72dbae5372c8b271ea9d64665019e52e1bb852f8993b1",
+    "safety_bound": 0.1,
+    "cost_signal": "episode_binary",
+    "selected_update": 25,
+    "selected_lagrangian_multipliers": [
+      0.7799197435379028,
+      0.7798787355422974,
+      0.779837429523468
+    ],
+    "validation_trace": [
+      {
+        "update": 0,
+        "score": [
+          0.6,
+          -0.20833333333333334,
+          23.064135347831296
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.20833333333333334,
+        "mean_reward": 23.064135347831296,
+        "lagrangian_multipliers": [
+          0.78,
+          0.78,
+          0.78
+        ]
+      },
+      {
+        "update": 5,
+        "score": [
+          0.6,
+          -0.3138888888888889,
+          22.306311790851627
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.3138888888888889,
+        "mean_reward": 22.306311790851627,
+        "lagrangian_multipliers": [
+          0.7799548506736755,
+          0.7799606919288635,
+          0.7799631357192993
+        ]
+      },
+      {
+        "update": 10,
+        "score": [
+          0.7,
+          -0.29444444444444445,
+          22.424077909381626
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.29444444444444445,
+        "mean_reward": 22.424077909381626,
+        "lagrangian_multipliers": [
+          0.7799485325813293,
+          0.7799583077430725,
+          0.7799379229545593
+        ]
+      },
+      {
+        "update": 15,
+        "score": [
+          0.6,
+          -0.3333333333333333,
+          28.35246822170767
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.3333333333333333,
+        "mean_reward": 28.35246822170767,
+        "lagrangian_multipliers": [
+          0.7799713015556335,
+          0.7799136638641357,
+          0.7799161076545715
+        ]
+      },
+      {
+        "update": 20,
+        "score": [
+          0.6,
+          -0.3055555555555556,
+          22.633971831578105
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.3055555555555556,
+        "mean_reward": 22.633971831578105,
+        "lagrangian_multipliers": [
+          0.7799456715583801,
+          0.779899537563324,
+          0.7799112200737
+        ]
+      },
+      {
+        "update": 25,
+        "score": [
+          0.7,
+          -0.2916666666666667,
+          26.15138536989655
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.2916666666666667,
+        "mean_reward": 26.15138536989655,
+        "lagrangian_multipliers": [
+          0.7799197435379028,
+          0.7798787355422974,
+          0.779837429523468
+        ]
+      },
+      {
+        "update": 30,
+        "score": [
+          0.6,
+          -0.3194444444444444,
+          26.844691178137367
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.3194444444444444,
+        "mean_reward": 26.844691178137367,
+        "lagrangian_multipliers": [
+          0.7799354791641235,
+          0.7798733115196228,
+          0.7798383831977844
+        ]
+      },
+      {
+        "update": 35,
+        "score": [
+          0.6,
+          -0.33611111111111114,
+          26.196958715571892
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.33611111111111114,
+        "mean_reward": 26.196958715571892,
+        "lagrangian_multipliers": [
+          0.7799432277679443,
+          0.7798941135406494,
+          0.7798708081245422
+        ]
+      },
+      {
+        "update": 40,
+        "score": [
+          0.5,
+          -0.3472222222222222,
+          25.817404233801213
+        ],
+        "conditional_joint_satisfaction_rate": 0.5,
+        "post_truth_hard_violation_rate": 0.3472222222222222,
+        "mean_reward": 25.817404233801213,
+        "lagrangian_multipliers": [
+          0.7799080610275269,
+          0.7798788547515869,
+          0.7798176407814026
+        ]
+      },
+      {
+        "update": 45,
+        "score": [
+          0.6,
+          -0.3194444444444444,
+          22.125955563561522
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.3194444444444444,
+        "mean_reward": 22.125955563561522,
+        "lagrangian_multipliers": [
+          0.7798594832420349,
+          0.7798478603363037,
+          0.7798087000846863
+        ]
+      },
+      {
+        "update": 50,
+        "score": [
+          0.6,
+          -0.3138888888888889,
+          22.45742193892781
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.3138888888888889,
+        "mean_reward": 22.45742193892781,
+        "lagrangian_multipliers": [
+          0.7798454165458679,
+          0.7797738313674927,
+          0.7798008322715759
+        ]
+      },
+      {
+        "update": 55,
+        "score": [
+          0.0,
+          -0.525,
+          20.38649691217144
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.525,
+        "mean_reward": 20.38649691217144,
+        "lagrangian_multipliers": [
+          0.7798490524291992,
+          0.7797369360923767,
+          0.7798176407814026
+        ]
+      },
+      {
+        "update": 60,
+        "score": [
+          0.6,
+          -0.3138888888888889,
+          24.84580212925053
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.3138888888888889,
+        "mean_reward": 24.84580212925053,
+        "lagrangian_multipliers": [
+          0.7798755168914795,
+          0.7796939611434937,
+          0.7798091769218445
+        ]
+      },
+      {
+        "update": 65,
+        "score": [
+          0.5,
+          -0.35555555555555557,
+          17.445560534241306
+        ],
+        "conditional_joint_satisfaction_rate": 0.5,
+        "post_truth_hard_violation_rate": 0.35555555555555557,
+        "mean_reward": 17.445560534241306,
+        "lagrangian_multipliers": [
+          0.7798660397529602,
+          0.7796366214752197,
+          0.7797847986221313
+        ]
+      },
+      {
+        "update": 70,
+        "score": [
+          0.1,
+          -0.3972222222222222,
+          27.226915860712708
+        ],
+        "conditional_joint_satisfaction_rate": 0.1,
+        "post_truth_hard_violation_rate": 0.3972222222222222,
+        "mean_reward": 27.226915860712708,
+        "lagrangian_multipliers": [
+          0.7798103094100952,
+          0.779636025428772,
+          0.7797876000404358
+        ]
+      },
+      {
+        "update": 75,
+        "score": [
+          0.5,
+          -0.35555555555555557,
+          15.681450022999494
+        ],
+        "conditional_joint_satisfaction_rate": 0.5,
+        "post_truth_hard_violation_rate": 0.35555555555555557,
+        "mean_reward": 15.681450022999494,
+        "lagrangian_multipliers": [
+          0.7798284292221069,
+          0.7796465158462524,
+          0.7797452807426453
+        ]
+      },
+      {
+        "update": 80,
+        "score": [
+          0.6,
+          -0.3388888888888889,
+          28.328366357417185
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.3388888888888889,
+        "mean_reward": 28.328366357417185,
+        "lagrangian_multipliers": [
+          0.7797466516494751,
+          0.7795389294624329,
+          0.7796462774276733
+        ]
+      },
+      {
+        "update": 85,
+        "score": [
+          0.7,
+          -0.3138888888888889,
+          27.099860439071904
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.3138888888888889,
+        "mean_reward": 27.099860439071904,
+        "lagrangian_multipliers": [
+          0.779669463634491,
+          0.7794838547706604,
+          0.7795811295509338
+        ]
+      },
+      {
+        "update": 90,
+        "score": [
+          0.6,
+          -0.3333333333333333,
+          28.515819888874717
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.3333333333333333,
+        "mean_reward": 28.515819888874717,
+        "lagrangian_multipliers": [
+          0.7795993685722351,
+          0.7794384360313416,
+          0.7794561386108398
+        ]
+      },
+      {
+        "update": 95,
+        "score": [
+          0.7,
+          -0.29444444444444445,
+          21.067282114548266
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.29444444444444445,
+        "mean_reward": 21.067282114548266,
+        "lagrangian_multipliers": [
+          0.7795959711074829,
+          0.7793997526168823,
+          0.7794017791748047
+        ]
+      },
+      {
+        "update": 100,
+        "score": [
+          0.6,
+          -0.3138888888888889,
+          27.114870455547244
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.3138888888888889,
+        "mean_reward": 27.114870455547244,
+        "lagrangian_multipliers": [
+          0.7795183062553406,
+          0.7793524861335754,
+          0.7794004678726196
+        ]
+      }
+    ],
+    "environment_steps": 3000,
+    "agent_decisions": 9000
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "episodes": 40,
+    "mean_reward": 29.45162,
+    "joint_satisfaction_rate": 0.775,
+    "mean_intervention_rate": 0.0,
+    "mean_intervention_distance": 0.0,
+    "violation_rate": {
+      "C02": 0.225,
+      "C04": 0.05,
+      "C05": 0.15,
+      "E01": 0.275,
+      "E02": 0.25,
+      "E06": 0.1,
+      "F01": 0.15,
+      "F04": 0.025,
+      "M03": 0.225,
+      "S02": 0.075
+    },
+    "mean_first_violation_step": {
+      "C02": 1.0,
+      "C04": 13.0,
+      "C05": 14.333,
+      "E01": 11.364,
+      "E02": 3.6,
+      "E06": 24.5,
+      "F01": 16.5,
+      "F04": 23.0,
+      "M03": 5.0,
+      "S02": 1.333
+    },
+    "initial_infeasible_rate": 0.05,
+    "online_hard_violation_rate": 0.0,
+    "post_shield_hard_violation_rate": 0.0,
+    "post_truth_hard_violation_rate": 0.07667,
+    "qp_infeasible_rate": 0.0,
+    "conflict_rate": 0.0,
+    "replan_trigger_rate": 0.0,
+    "mean_belief_risk": 0.0,
+    "mean_pre_filter_belief_risk": 0.0,
+    "mean_post_filter_belief_risk": 0.0,
+    "mean_actor_time_ms": 1.96229,
+    "mean_online_time_ms": 0.0,
+    "tail_violation_rate": 1.0,
+    "risk_calibration_brier": 0.0,
+    "initially_feasible_episodes": 38,
+    "conditional_joint_satisfaction_rate": 0.81579,
+    "rule_conflict_event_rate": 0.0,
+    "rule_rule_conflict_step_rate": 0.0,
+    "rule_rule_resolution_rate": 0.0,
+    "mean_conflict_residual": 0.0,
+    "mean_solver_agents": 0.0,
+    "mean_solver_components": 0.0,
+    "max_solver_component_size": 0,
+    "cross_component_violation_rate": 0.0,
+    "cross_component_repair_rate": 0.0,
+    "seed": 99,
+    "repository": "https://github.com/chauncygu/Multi-Agent-Constrained-Policy-Optimisation",
+    "component": "MAPPO-Lagrangian",
+    "commit": "b80a9f5b4a0049125a827be8fb9c477f69ae021b",
+    "source_fingerprint": "b4154ae715fa0d1d24e72dbae5372c8b271ea9d64665019e52e1bb852f8993b1",
+    "safety_bound": 0.1,
+    "cost_signal": "episode_binary",
+    "selected_update": 20,
+    "selected_lagrangian_multipliers": [
+      0.7801047563552856,
+      0.7800812721252441,
+      0.7799572348594666
+    ],
+    "validation_trace": [
+      {
+        "update": 0,
+        "score": [
+          0.6,
+          -0.19722222222222222,
+          15.230997982656225
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.19722222222222222,
+        "mean_reward": 15.230997982656225,
+        "lagrangian_multipliers": [
+          0.78,
+          0.78,
+          0.78
+        ]
+      },
+      {
+        "update": 5,
+        "score": [
+          0.6,
+          -0.30277777777777776,
+          22.301903140303637
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.30277777777777776,
+        "mean_reward": 22.301903140303637,
+        "lagrangian_multipliers": [
+          0.7799056172370911,
+          0.7799810171127319,
+          0.7799227833747864
+        ]
+      },
+      {
+        "update": 10,
+        "score": [
+          0.0,
+          -0.575,
+          19.911353381686926
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.575,
+        "mean_reward": 19.911353381686926,
+        "lagrangian_multipliers": [
+          0.7799471616744995,
+          0.7800301909446716,
+          0.7799191474914551
+        ]
+      },
+      {
+        "update": 15,
+        "score": [
+          0.0,
+          -0.21944444444444444,
+          28.62516801940173
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.21944444444444444,
+        "mean_reward": 28.62516801940173,
+        "lagrangian_multipliers": [
+          0.7799881100654602,
+          0.7800560593605042,
+          0.7799367308616638
+        ]
+      },
+      {
+        "update": 20,
+        "score": [
+          0.9,
+          -0.030555555555555555,
+          29.05550485770702
+        ],
+        "conditional_joint_satisfaction_rate": 0.9,
+        "post_truth_hard_violation_rate": 0.030555555555555555,
+        "mean_reward": 29.05550485770702,
+        "lagrangian_multipliers": [
+          0.7801047563552856,
+          0.7800812721252441,
+          0.7799572348594666
+        ]
+      },
+      {
+        "update": 25,
+        "score": [
+          0.0,
+          -0.6222222222222222,
+          22.39132165625094
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.6222222222222222,
+        "mean_reward": 22.39132165625094,
+        "lagrangian_multipliers": [
+          0.7801401615142822,
+          0.7801809906959534,
+          0.780027449131012
+        ]
+      },
+      {
+        "update": 30,
+        "score": [
+          0.0,
+          -0.5888888888888889,
+          23.17853392063491
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.5888888888888889,
+        "mean_reward": 23.17853392063491,
+        "lagrangian_multipliers": [
+          0.7802062630653381,
+          0.7802695035934448,
+          0.7801181077957153
+        ]
+      },
+      {
+        "update": 35,
+        "score": [
+          0.0,
+          -0.5888888888888889,
+          22.132126136149626
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.5888888888888889,
+        "mean_reward": 22.132126136149626,
+        "lagrangian_multipliers": [
+          0.7802172303199768,
+          0.78030925989151,
+          0.7802136540412903
+        ]
+      },
+      {
+        "update": 40,
+        "score": [
+          0.0,
+          -0.26666666666666666,
+          22.588165989228116
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.26666666666666666,
+        "mean_reward": 22.588165989228116,
+        "lagrangian_multipliers": [
+          0.7802652716636658,
+          0.780369758605957,
+          0.7803173661231995
+        ]
+      },
+      {
+        "update": 45,
+        "score": [
+          0.8,
+          -0.15555555555555556,
+          21.868320463112806
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.15555555555555556,
+        "mean_reward": 21.868320463112806,
+        "lagrangian_multipliers": [
+          0.7803245782852173,
+          0.780420184135437,
+          0.7803913950920105
+        ]
+      },
+      {
+        "update": 50,
+        "score": [
+          0.7,
+          -0.15833333333333333,
+          23.21365709501376
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.15833333333333333,
+        "mean_reward": 23.21365709501376,
+        "lagrangian_multipliers": [
+          0.7803463339805603,
+          0.7804048657417297,
+          0.7804117202758789
+        ]
+      },
+      {
+        "update": 55,
+        "score": [
+          0.6,
+          -0.19722222222222222,
+          21.711573777164713
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.19722222222222222,
+        "mean_reward": 21.711573777164713,
+        "lagrangian_multipliers": [
+          0.780397355556488,
+          0.7804464101791382,
+          0.7804335951805115
+        ]
+      },
+      {
+        "update": 60,
+        "score": [
+          0.6,
+          -0.21666666666666667,
+          21.51712625340603
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.21666666666666667,
+        "mean_reward": 21.51712625340603,
+        "lagrangian_multipliers": [
+          0.780388355255127,
+          0.7804691195487976,
+          0.7804500460624695
+        ]
+      },
+      {
+        "update": 65,
+        "score": [
+          0.0,
+          -0.5555555555555556,
+          24.398346078502104
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.5555555555555556,
+        "mean_reward": 24.398346078502104,
+        "lagrangian_multipliers": [
+          0.7804460525512695,
+          0.7805203795433044,
+          0.7805396318435669
+        ]
+      },
+      {
+        "update": 70,
+        "score": [
+          0.0,
+          -0.5472222222222223,
+          25.13161358087196
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.5472222222222223,
+        "mean_reward": 25.13161358087196,
+        "lagrangian_multipliers": [
+          0.7804065942764282,
+          0.7804961204528809,
+          0.7805943489074707
+        ]
+      },
+      {
+        "update": 75,
+        "score": [
+          0.0,
+          -0.5833333333333334,
+          27.134518096209977
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.5833333333333334,
+        "mean_reward": 27.134518096209977,
+        "lagrangian_multipliers": [
+          0.7804055213928223,
+          0.780518114566803,
+          0.7806568145751953
+        ]
+      },
+      {
+        "update": 80,
+        "score": [
+          0.6,
+          -0.325,
+          16.37972667773923
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.325,
+        "mean_reward": 16.37972667773923,
+        "lagrangian_multipliers": [
+          0.78044593334198,
+          0.780570924282074,
+          0.7807250618934631
+        ]
+      },
+      {
+        "update": 85,
+        "score": [
+          0.2,
+          -0.4444444444444444,
+          27.25162665945484
+        ],
+        "conditional_joint_satisfaction_rate": 0.2,
+        "post_truth_hard_violation_rate": 0.4444444444444444,
+        "mean_reward": 27.25162665945484,
+        "lagrangian_multipliers": [
+          0.7804473042488098,
+          0.7805371284484863,
+          0.7807090878486633
+        ]
+      },
+      {
+        "update": 90,
+        "score": [
+          0.3,
+          -0.31666666666666665,
+          27.055456449173175
+        ],
+        "conditional_joint_satisfaction_rate": 0.3,
+        "post_truth_hard_violation_rate": 0.31666666666666665,
+        "mean_reward": 27.055456449173175,
+        "lagrangian_multipliers": [
+          0.7804504632949829,
+          0.7805484533309937,
+          0.7807865738868713
+        ]
+      },
+      {
+        "update": 95,
+        "score": [
+          0.6,
+          -0.30833333333333335,
+          27.774681028167922
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.30833333333333335,
+        "mean_reward": 27.774681028167922,
+        "lagrangian_multipliers": [
+          0.780476450920105,
+          0.7805383205413818,
+          0.7808148264884949
+        ]
+      },
+      {
+        "update": 100,
+        "score": [
+          0.6,
+          -0.30277777777777776,
+          27.50318709411864
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.30277777777777776,
+        "mean_reward": 27.50318709411864,
+        "lagrangian_multipliers": [
+          0.7804025411605835,
+          0.7805486917495728,
+          0.780750572681427
+        ]
+      }
+    ],
+    "environment_steps": 3000,
+    "agent_decisions": 9000
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "episodes": 40,
+    "mean_reward": 17.12587,
+    "joint_satisfaction_rate": 0.85,
+    "mean_intervention_rate": 0.0,
+    "mean_intervention_distance": 0.0,
+    "violation_rate": {
+      "C02": 1.0,
+      "C03": 0.025,
+      "C04": 0.075,
+      "C05": 0.075,
+      "E02": 0.95,
+      "E06": 0.1,
+      "F01": 0.075,
+      "M04": 1.0,
+      "S02": 0.075
+    },
+    "mean_first_violation_step": {
+      "C02": 0.0,
+      "C03": 8.0,
+      "C04": 16.667,
+      "C05": 16.667,
+      "E02": 13.263,
+      "E06": 24.5,
+      "F01": 16.667,
+      "M04": 5.0,
+      "S02": 1.333
+    },
+    "initial_infeasible_rate": 0.05,
+    "online_hard_violation_rate": 0.0,
+    "post_shield_hard_violation_rate": 0.0,
+    "post_truth_hard_violation_rate": 0.02083,
+    "qp_infeasible_rate": 0.0,
+    "conflict_rate": 0.0,
+    "replan_trigger_rate": 0.0,
+    "mean_belief_risk": 0.0,
+    "mean_pre_filter_belief_risk": 0.0,
+    "mean_post_filter_belief_risk": 0.0,
+    "mean_actor_time_ms": 2.02253,
+    "mean_online_time_ms": 0.0,
+    "tail_violation_rate": 1.0,
+    "risk_calibration_brier": 0.0,
+    "initially_feasible_episodes": 38,
+    "conditional_joint_satisfaction_rate": 0.89474,
+    "rule_conflict_event_rate": 0.0,
+    "rule_rule_conflict_step_rate": 0.0,
+    "rule_rule_resolution_rate": 0.0,
+    "mean_conflict_residual": 0.0,
+    "mean_solver_agents": 0.0,
+    "mean_solver_components": 0.0,
+    "max_solver_component_size": 0,
+    "cross_component_violation_rate": 0.0,
+    "cross_component_repair_rate": 0.0,
+    "seed": 111,
+    "repository": "https://github.com/chauncygu/Multi-Agent-Constrained-Policy-Optimisation",
+    "component": "MAPPO-Lagrangian",
+    "commit": "b80a9f5b4a0049125a827be8fb9c477f69ae021b",
+    "source_fingerprint": "b4154ae715fa0d1d24e72dbae5372c8b271ea9d64665019e52e1bb852f8993b1",
+    "safety_bound": 0.1,
+    "cost_signal": "episode_binary",
+    "selected_update": 5,
+    "selected_lagrangian_multipliers": [
+      0.7800553441047668,
+      0.7799553871154785,
+      0.7799888849258423
+    ],
+    "validation_trace": [
+      {
+        "update": 0,
+        "score": [
+          0.7,
+          -0.19166666666666668,
+          20.659829896864615
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.19166666666666668,
+        "mean_reward": 20.659829896864615,
+        "lagrangian_multipliers": [
+          0.78,
+          0.78,
+          0.78
+        ]
+      },
+      {
+        "update": 5,
+        "score": [
+          0.8,
+          -0.03888888888888889,
+          16.72136397615181
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.03888888888888889,
+        "mean_reward": 16.72136397615181,
+        "lagrangian_multipliers": [
+          0.7800553441047668,
+          0.7799553871154785,
+          0.7799888849258423
+        ]
+      },
+      {
+        "update": 10,
+        "score": [
+          0.4,
+          -0.1527777777777778,
+          24.392166973272666
+        ],
+        "conditional_joint_satisfaction_rate": 0.4,
+        "post_truth_hard_violation_rate": 0.1527777777777778,
+        "mean_reward": 24.392166973272666,
+        "lagrangian_multipliers": [
+          0.7800973653793335,
+          0.7799985408782959,
+          0.7800503969192505
+        ]
+      },
+      {
+        "update": 15,
+        "score": [
+          0.4,
+          -0.3388888888888889,
+          21.666789103829696
+        ],
+        "conditional_joint_satisfaction_rate": 0.4,
+        "post_truth_hard_violation_rate": 0.3388888888888889,
+        "mean_reward": 21.666789103829696,
+        "lagrangian_multipliers": [
+          0.7800949811935425,
+          0.77994704246521,
+          0.7800719738006592
+        ]
+      },
+      {
+        "update": 20,
+        "score": [
+          0.5,
+          -0.3611111111111111,
+          14.594701871535378
+        ],
+        "conditional_joint_satisfaction_rate": 0.5,
+        "post_truth_hard_violation_rate": 0.3611111111111111,
+        "mean_reward": 14.594701871535378,
+        "lagrangian_multipliers": [
+          0.78006911277771,
+          0.7799543738365173,
+          0.7800825238227844
+        ]
+      },
+      {
+        "update": 25,
+        "score": [
+          0.2,
+          -0.3861111111111111,
+          13.65114779996592
+        ],
+        "conditional_joint_satisfaction_rate": 0.2,
+        "post_truth_hard_violation_rate": 0.3861111111111111,
+        "mean_reward": 13.65114779996592,
+        "lagrangian_multipliers": [
+          0.7800686955451965,
+          0.7799401879310608,
+          0.7800770998001099
+        ]
+      },
+      {
+        "update": 30,
+        "score": [
+          0.6,
+          -0.30277777777777776,
+          23.4830472547915
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.30277777777777776,
+        "mean_reward": 23.4830472547915,
+        "lagrangian_multipliers": [
+          0.7800955176353455,
+          0.779949426651001,
+          0.7800948619842529
+        ]
+      },
+      {
+        "update": 35,
+        "score": [
+          0.6,
+          -0.3111111111111111,
+          21.455986896525022
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.3111111111111111,
+        "mean_reward": 21.455986896525022,
+        "lagrangian_multipliers": [
+          0.7800866365432739,
+          0.7799760103225708,
+          0.7800929546356201
+        ]
+      },
+      {
+        "update": 40,
+        "score": [
+          0.1,
+          -0.37777777777777777,
+          22.634151542342646
+        ],
+        "conditional_joint_satisfaction_rate": 0.1,
+        "post_truth_hard_violation_rate": 0.37777777777777777,
+        "mean_reward": 22.634151542342646,
+        "lagrangian_multipliers": [
+          0.7800679206848145,
+          0.7799234986305237,
+          0.7799909114837646
+        ]
+      },
+      {
+        "update": 45,
+        "score": [
+          0.0,
+          -0.48333333333333334,
+          22.916581822045462
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.48333333333333334,
+        "mean_reward": 22.916581822045462,
+        "lagrangian_multipliers": [
+          0.780131995677948,
+          0.7799757719039917,
+          0.7800840735435486
+        ]
+      },
+      {
+        "update": 50,
+        "score": [
+          0.7,
+          -0.12222222222222222,
+          22.453505884126955
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.12222222222222222,
+        "mean_reward": 22.453505884126955,
+        "lagrangian_multipliers": [
+          0.7801958918571472,
+          0.7800260782241821,
+          0.780117392539978
+        ]
+      },
+      {
+        "update": 55,
+        "score": [
+          0.7,
+          -0.08888888888888889,
+          19.63866117070433
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.08888888888888889,
+        "mean_reward": 19.63866117070433,
+        "lagrangian_multipliers": [
+          0.7801474928855896,
+          0.7800639867782593,
+          0.780123770236969
+        ]
+      },
+      {
+        "update": 60,
+        "score": [
+          0.7,
+          -0.18611111111111112,
+          24.41900636991657
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.18611111111111112,
+        "mean_reward": 24.41900636991657,
+        "lagrangian_multipliers": [
+          0.7801538109779358,
+          0.7800689339637756,
+          0.7801607847213745
+        ]
+      },
+      {
+        "update": 65,
+        "score": [
+          0.6,
+          -0.275,
+          18.41085530741925
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.275,
+        "mean_reward": 18.41085530741925,
+        "lagrangian_multipliers": [
+          0.7800946831703186,
+          0.7800674438476562,
+          0.7801010012626648
+        ]
+      },
+      {
+        "update": 70,
+        "score": [
+          0.6,
+          -0.35833333333333334,
+          13.609434014417817
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.35833333333333334,
+        "mean_reward": 13.609434014417817,
+        "lagrangian_multipliers": [
+          0.7800763249397278,
+          0.7800878882408142,
+          0.7800922989845276
+        ]
+      },
+      {
+        "update": 75,
+        "score": [
+          0.3,
+          -0.34444444444444444,
+          29.04316013367232
+        ],
+        "conditional_joint_satisfaction_rate": 0.3,
+        "post_truth_hard_violation_rate": 0.34444444444444444,
+        "mean_reward": 29.04316013367232,
+        "lagrangian_multipliers": [
+          0.7799975872039795,
+          0.780057430267334,
+          0.7800658941268921
+        ]
+      },
+      {
+        "update": 80,
+        "score": [
+          0.6,
+          -0.3138888888888889,
+          25.02401740365049
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.3138888888888889,
+        "mean_reward": 25.02401740365049,
+        "lagrangian_multipliers": [
+          0.7799729108810425,
+          0.7800240516662598,
+          0.780095100402832
+        ]
+      },
+      {
+        "update": 85,
+        "score": [
+          0.6,
+          -0.3055555555555556,
+          26.904891612077563
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.3055555555555556,
+        "mean_reward": 26.904891612077563,
+        "lagrangian_multipliers": [
+          0.779961884021759,
+          0.7800377011299133,
+          0.7801289558410645
+        ]
+      },
+      {
+        "update": 90,
+        "score": [
+          0.0,
+          -0.4777777777777778,
+          26.951098282443642
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.4777777777777778,
+        "mean_reward": 26.951098282443642,
+        "lagrangian_multipliers": [
+          0.7799195647239685,
+          0.7800230979919434,
+          0.7800968885421753
+        ]
+      },
+      {
+        "update": 95,
+        "score": [
+          0.0,
+          -0.5555555555555556,
+          20.88968590670915
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.5555555555555556,
+        "mean_reward": 20.88968590670915,
+        "lagrangian_multipliers": [
+          0.7799602150917053,
+          0.7800036668777466,
+          0.7801268696784973
+        ]
+      },
+      {
+        "update": 100,
+        "score": [
+          0.0,
+          -0.5611111111111111,
+          11.390823281326975
+        ],
+        "conditional_joint_satisfaction_rate": 0.0,
+        "post_truth_hard_violation_rate": 0.5611111111111111,
+        "mean_reward": 11.390823281326975,
+        "lagrangian_multipliers": [
+          0.7800295352935791,
+          0.7799809575080872,
+          0.7801497578620911
+        ]
+      }
+    ],
+    "environment_steps": 3000,
+    "agent_decisions": 9000
+  }
+]

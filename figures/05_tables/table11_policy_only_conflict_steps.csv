@@ -1,0 +1,36 @@
+﻿场景,case,t,方法,原生动作A0/A1/A2,全部真值记录,核心冲突规则后果
+失联—意图,communication_intent,0,本文方法,CRITICAL/COVER/SUPPORT,"F01:0, C04:0, C05:0, E01","F01:0, C04:0, C05:0"
+失联—意图,communication_intent,0,MAPPO,RECOVER/RECOVER/RECOVER,C02,C02
+失联—意图,communication_intent,0,HAPPO,RECOVER/COVER/COVER,无违规,无核心违规
+失联—意图,communication_intent,0,HATRPO,RECOVER/RECOVER/RECOVER,C02,C02
+失联—意图,communication_intent,0,MACPO,RECOVER/COVER/RECOVER,无违规,无核心违规
+失联—意图,communication_intent,0,MAPPO-Lagrangian,EXIT/RECOVER/COVER,无违规,无核心违规
+失联—意图,communication_intent,0,MAT,RECOVER/RECOVER/COVER,无违规,无核心违规
+时限—信息,deadline_information,0,本文方法,CRITICAL/COVER/SUPPORT,"I02:0, M02, E01","I02:0, M02"
+时限—信息,deadline_information,0,MAPPO,RECOVER/RECOVER/RECOVER,"C02, M02","C02, M02"
+时限—信息,deadline_information,0,HAPPO,RECOVER/COVER/COVER,M02,M02
+时限—信息,deadline_information,0,HATRPO,RECOVER/RECOVER/RECOVER,"C02, M02","C02, M02"
+时限—信息,deadline_information,0,MACPO,RECOVER/COVER/RECOVER,M02,M02
+时限—信息,deadline_information,0,MAPPO-Lagrangian,EXIT/RECOVER/COVER,M02,M02
+时限—信息,deadline_information,0,MAT,RECOVER/RECOVER/COVER,M02,M02
+双支援,dual_support,1,本文方法,CRITICAL/COVER/SUPPORT,"C03:0, C03:1, E01","C03:0, C03:1"
+双支援,dual_support,1,MAPPO,RECOVER/RECOVER/RECOVER,"C03:0, C03:1, C02","C03:0, C03:1, C02"
+双支援,dual_support,1,HAPPO,COVER/COVER/COVER,"C03:0, C03:1, E01, E02:1","C03:0, C03:1"
+双支援,dual_support,1,HATRPO,RECOVER/RECOVER/RECOVER,"C03:0, C03:1, C02","C03:0, C03:1, C02"
+双支援,dual_support,1,MACPO,RECOVER/COVER/RECOVER,"C03:0, C03:1","C03:0, C03:1"
+双支援,dual_support,1,MAPPO-Lagrangian,EXIT/RECOVER/RECOVER,"C03:0, C03:1, C02","C03:0, C03:1, C02"
+双支援,dual_support,1,MAT,RECOVER/RECOVER/COVER,"C03:0, C03:1","C03:0, C03:1"
+支援—安全,support_separation,0,本文方法,CRITICAL/COVER/SUPPORT,"C03:0, E01",C03:0
+支援—安全,support_separation,0,MAPPO,RECOVER/RECOVER/RECOVER,"C03:0, C02","C03:0, C02"
+支援—安全,support_separation,0,HAPPO,COVER/COVER/COVER,"C03:0, E01",C03:0
+支援—安全,support_separation,0,HATRPO,RECOVER/RECOVER/COVER,C03:0,C03:0
+支援—安全,support_separation,0,MACPO,RECOVER/COVER/RECOVER,C03:0,C03:0
+支援—安全,support_separation,0,MAPPO-Lagrangian,EXIT/RECOVER/COVER,C03:0,C03:0
+支援—安全,support_separation,0,MAT,RECOVER/RECOVER/COVER,C03:0,C03:0
+低资源—覆盖,coverage_resource,16,本文方法,CRITICAL/COVER/SUPPORT,"F04:0, E01",F04:0
+低资源—覆盖,coverage_resource,16,MAPPO,RECOVER/RECOVER/RECOVER,C02,C02
+低资源—覆盖,coverage_resource,16,HAPPO,RECOVER/COVER/COVER,无违规,无核心违规
+低资源—覆盖,coverage_resource,16,HATRPO,RECOVER/RECOVER/COVER,无违规,无核心违规
+低资源—覆盖,coverage_resource,16,MACPO,RECOVER/COVER/RECOVER,无违规,无核心违规
+低资源—覆盖,coverage_resource,16,MAPPO-Lagrangian,EXIT/RECOVER/COVER,无违规,无核心违规
+低资源—覆盖,coverage_resource,16,MAT,RECOVER/RECOVER/COVER,无违规,无核心违规

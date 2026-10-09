@@ -1,0 +1,9 @@
+| 方法 | 执行动作 A0/A1/A2 | 执行后核心规则结果 | QP 状态 |
+| --- | --- | --- | --- |
+| 本文方法 | HOLD/COVER/SUPPORT | C03:1 | optimal |
+| MAPPO | RECOVER/RECOVER/RECOVER | C03:0, C03:1, C02 | optimal |
+| HAPPO | COVER/COVER/SUPPORT | C03:1 | optimal |
+| HATRPO | RECOVER/RECOVER/RECOVER | C03:0, C03:1, C02 | optimal |
+| MACPO | RECOVER/COVER/RECOVER | C03:0, C03:1 | optimal |
+| MAPPO-Lagrangian | EXIT/RECOVER/SUPPORT | C03:1, C02 | optimal |
+| MAT | RECOVER/RECOVER/SUPPORT | C03:1, C02 | optimal |

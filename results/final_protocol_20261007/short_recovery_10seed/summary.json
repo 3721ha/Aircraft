@@ -1,0 +1,211 @@
+{
+  "metadata": {
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505,
+      606,
+      707,
+      808,
+      909,
+      1001
+    ],
+    "distances": [
+      2000.0,
+      2200.0,
+      2400.0,
+      2800.0,
+      3200.0
+    ],
+    "horizon": 30,
+    "probe_steps": 8,
+    "target_rules": [
+      "S02",
+      "S03"
+    ]
+  },
+  "summary": [
+    {
+      "distance": 2000.0,
+      "method": "NoShield",
+      "n": 10,
+      "three_step_recovery_rate": 0.0,
+      "thirty_step_recovery_rate": 0.0,
+      "mean_intervention_rate": 0.0,
+      "mean_qp_fallback_rate": 0.0
+    },
+    {
+      "distance": 2000.0,
+      "method": "PartialShield",
+      "n": 10,
+      "three_step_recovery_rate": 0.0,
+      "thirty_step_recovery_rate": 0.0,
+      "mean_intervention_rate": 0.25,
+      "mean_qp_fallback_rate": 0.0
+    },
+    {
+      "distance": 2000.0,
+      "method": "JointHeuristic",
+      "n": 10,
+      "three_step_recovery_rate": 0.0,
+      "thirty_step_recovery_rate": 0.0,
+      "mean_intervention_rate": 0.7333333333333333,
+      "mean_qp_fallback_rate": 0.0
+    },
+    {
+      "distance": 2000.0,
+      "method": "DG-QP",
+      "n": 10,
+      "three_step_recovery_rate": 0.0,
+      "thirty_step_recovery_rate": 0.0,
+      "mean_intervention_rate": 2.1733333333333333,
+      "mean_qp_fallback_rate": 0.22000000000000003
+    },
+    {
+      "distance": 2200.0,
+      "method": "NoShield",
+      "n": 10,
+      "three_step_recovery_rate": 1.0,
+      "thirty_step_recovery_rate": 0.0,
+      "mean_intervention_rate": 0.0,
+      "mean_qp_fallback_rate": 0.0
+    },
+    {
+      "distance": 2200.0,
+      "method": "PartialShield",
+      "n": 10,
+      "three_step_recovery_rate": 1.0,
+      "thirty_step_recovery_rate": 0.0,
+      "mean_intervention_rate": 0.21000000000000002,
+      "mean_qp_fallback_rate": 0.0
+    },
+    {
+      "distance": 2200.0,
+      "method": "JointHeuristic",
+      "n": 10,
+      "three_step_recovery_rate": 1.0,
+      "thirty_step_recovery_rate": 0.0,
+      "mean_intervention_rate": 0.74,
+      "mean_qp_fallback_rate": 0.0
+    },
+    {
+      "distance": 2200.0,
+      "method": "DG-QP",
+      "n": 10,
+      "three_step_recovery_rate": 1.0,
+      "thirty_step_recovery_rate": 0.0,
+      "mean_intervention_rate": 2.1133333333333337,
+      "mean_qp_fallback_rate": 0.19666666666666668
+    },
+    {
+      "distance": 2400.0,
+      "method": "NoShield",
+      "n": 10,
+      "three_step_recovery_rate": 1.0,
+      "thirty_step_recovery_rate": 0.0,
+      "mean_intervention_rate": 0.0,
+      "mean_qp_fallback_rate": 0.0
+    },
+    {
+      "distance": 2400.0,
+      "method": "PartialShield",
+      "n": 10,
+      "three_step_recovery_rate": 1.0,
+      "thirty_step_recovery_rate": 0.0,
+      "mean_intervention_rate": 0.22333333333333333,
+      "mean_qp_fallback_rate": 0.0
+    },
+    {
+      "distance": 2400.0,
+      "method": "JointHeuristic",
+      "n": 10,
+      "three_step_recovery_rate": 1.0,
+      "thirty_step_recovery_rate": 0.0,
+      "mean_intervention_rate": 0.77,
+      "mean_qp_fallback_rate": 0.0
+    },
+    {
+      "distance": 2400.0,
+      "method": "DG-QP",
+      "n": 10,
+      "three_step_recovery_rate": 1.0,
+      "thirty_step_recovery_rate": 0.0,
+      "mean_intervention_rate": 2.1133333333333337,
+      "mean_qp_fallback_rate": 0.19
+    },
+    {
+      "distance": 2800.0,
+      "method": "NoShield",
+      "n": 10,
+      "three_step_recovery_rate": 1.0,
+      "thirty_step_recovery_rate": 0.0,
+      "mean_intervention_rate": 0.0,
+      "mean_qp_fallback_rate": 0.0
+    },
+    {
+      "distance": 2800.0,
+      "method": "PartialShield",
+      "n": 10,
+      "three_step_recovery_rate": 1.0,
+      "thirty_step_recovery_rate": 0.0,
+      "mean_intervention_rate": 0.2,
+      "mean_qp_fallback_rate": 0.0
+    },
+    {
+      "distance": 2800.0,
+      "method": "JointHeuristic",
+      "n": 10,
+      "three_step_recovery_rate": 1.0,
+      "thirty_step_recovery_rate": 0.0,
+      "mean_intervention_rate": 0.79,
+      "mean_qp_fallback_rate": 0.0
+    },
+    {
+      "distance": 2800.0,
+      "method": "DG-QP",
+      "n": 10,
+      "three_step_recovery_rate": 1.0,
+      "thirty_step_recovery_rate": 0.0,
+      "mean_intervention_rate": 2.13,
+      "mean_qp_fallback_rate": 0.17666666666666667
+    },
+    {
+      "distance": 3200.0,
+      "method": "NoShield",
+      "n": 10,
+      "three_step_recovery_rate": 1.0,
+      "thirty_step_recovery_rate": 0.0,
+      "mean_intervention_rate": 0.0,
+      "mean_qp_fallback_rate": 0.0
+    },
+    {
+      "distance": 3200.0,
+      "method": "PartialShield",
+      "n": 10,
+      "three_step_recovery_rate": 1.0,
+      "thirty_step_recovery_rate": 0.0,
+      "mean_intervention_rate": 0.2,
+      "mean_qp_fallback_rate": 0.0
+    },
+    {
+      "distance": 3200.0,
+      "method": "JointHeuristic",
+      "n": 10,
+      "three_step_recovery_rate": 1.0,
+      "thirty_step_recovery_rate": 0.0,
+      "mean_intervention_rate": 0.77,
+      "mean_qp_fallback_rate": 0.0
+    },
+    {
+      "distance": 3200.0,
+      "method": "DG-QP",
+      "n": 10,
+      "three_step_recovery_rate": 1.0,
+      "thirty_step_recovery_rate": 0.0,
+      "mean_intervention_rate": 2.1133333333333337,
+      "mean_qp_fallback_rate": 0.16666666666666666
+    }
+  ]
+}

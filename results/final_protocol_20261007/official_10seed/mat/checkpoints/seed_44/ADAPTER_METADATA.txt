@@ -1,0 +1,5 @@
+repository=https://github.com/PKU-MARL/Multi-Agent-Transformer
+commit=be3ff49c8264d454c1fe2c41582aa2bfc98498c8
+execution_information=centralized joint sequence of all local observations
+action_adapter=continuous latent Box(5) with joint semantic target decode
+license=not provided by upstream repository

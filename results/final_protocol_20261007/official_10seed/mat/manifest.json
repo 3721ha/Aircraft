@@ -1,0 +1,47 @@
+{
+  "method": "MAT",
+  "implementation": "official TransformerPolicy + MATTrainer + SharedReplayBuffer",
+  "repository": "https://github.com/PKU-MARL/Multi-Agent-Transformer",
+  "commit": "be3ff49c8264d454c1fe2c41582aa2bfc98498c8",
+  "source_fingerprints": [
+    "32784daefe156c22b233fdcf2aa68ee2b6b07d990f711806dabb8f69ab72a613"
+  ],
+  "license": "no LICENSE file in pinned upstream repository; redistribution permission is not established",
+  "third_party_source_modified": false,
+  "adapter": "external_adapters/official_mat.py",
+  "observation": "joint sequence of all agents' local observations",
+  "execution_information": "centralized communication; stronger than decentralized local execution",
+  "action_adapter": "common continuous latent Box(5), decoded to mode, controls and target",
+  "safety_constraint": "none; MAT is a strong sequence-modeling MARL baseline",
+  "adaptation_limit": "mode and target are rounded at the simulator boundary; communication advantage must be disclosed",
+  "seed_policy": {
+    "training": "seed*100000 + 300000 + update (shared by all external baselines)",
+    "validation": "550000 + seed*1000 + index",
+    "test": "same frozen make_scenarios protocol as the paper benchmark"
+  },
+  "checkpoint_selection": "maximize conditional joint STL, then minimize truth hard violation, then maximize reward on validation scenarios",
+  "arguments": {
+    "seeds": [
+      11,
+      22,
+      33,
+      44,
+      55,
+      66,
+      77,
+      88,
+      99,
+      111
+    ],
+    "updates": 100,
+    "episodes": 40,
+    "horizon": 30,
+    "aircraft": 3,
+    "ppo_epoch": 5,
+    "embedding_size": 64,
+    "transformer_blocks": 1,
+    "attention_heads": 1,
+    "checkpoint_interval": 5,
+    "output": "results\\final_protocol_20261007\\official_10seed\\mat"
+  }
+}

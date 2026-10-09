@@ -1,0 +1,1117 @@
+{
+  "metadata": {
+    "protocol": "shared_actual_violation_then_paired_takeover_v1",
+    "seeds": [
+      11,
+      22,
+      33,
+      44,
+      55,
+      66,
+      77,
+      88,
+      99,
+      111
+    ],
+    "distances": [
+      2000.0,
+      2200.0,
+      2400.0,
+      2800.0,
+      3200.0
+    ],
+    "episodes_per_seed_distance": 1,
+    "position_jitter_m": 0.0,
+    "trigger_rule": "S02",
+    "max_trigger_steps": 12,
+    "horizon_after_takeover": 30,
+    "stable_steps": 2,
+    "target_rules": [
+      "S02",
+      "S03"
+    ],
+    "protocol_overrides": {
+      "support_response_deadline": 0,
+      "noise_position": 0.0,
+      "noise_speed": 0.0,
+      "belief_ttc_threshold": 6.0,
+      "safe_trend_window": 4
+    },
+    "endpoint_definition": "After a common actual target-rule violation (k=0), return to a state with no S02/S03 violation AND no unsafe S03 trend within k=1,2,3. Confirmation and recurrence are reported separately.",
+    "thirty_step_definition": "Enter the restored safe set within 3 actions and remain in it at every subsequent executed state through action 30.",
+    "trigger_policy": "unshielded rule_agnostic_policy; identical to the old nominal policy",
+    "inclusion": "initially hard-safe and shared trigger reached; no feasibility/success filtering after trigger",
+    "pairing": "deepcopy common environment, RNG, observations, and truth-monitor deadlines; DG belief warmed with common observations only",
+    "interpretation": "Shield ablation with a fixed nominal policy, not retrained-policy comparison. Post-violation recovery does not erase the triggering safety breach; minimum separation must also be reported. Exact zero-jitter geometry is not 10 independently sampled geometries.",
+    "requested_cases": 50,
+    "triggered_cases": 50,
+    "excluded_initial_unsafe": 0,
+    "trigger_not_reached": 0,
+    "code_sha256": {
+      "D:\\project\\vsproject\\Aircraft\\run_post_violation_recovery_experiments.py": "1d8a4ebe0a96fc144f97d6e99ac825d2d4332d87a3a66dc082a9d0f95bfd1cdd",
+      "run_short_recovery_experiments.py": "f290db1d52a9047a149579a4e7af6e08e345731bc617b4d4ab2a8d7e93c464fc",
+      "aircraft_sim\\__init__.py": "1c30dea3f76fb8c840ff26a2318b3a7354e4475237d38ec1f5feef9e148d82e2",
+      "aircraft_sim\\baselines.py": "adf9a0cd7ba2aa2616d9d2392d716e7fd1cc1c741200bead3007cb3f7d0299a4",
+      "aircraft_sim\\belief.py": "d3616e05ceddd1d6b489727ae581d3783896549d075828fcf55d2f2c3fccde88",
+      "aircraft_sim\\config.py": "6fc19d45e7989c0f69598cae129448419879be0c1c9f6abd8c3f309188e8d5c6",
+      "aircraft_sim\\env.py": "37d7577017f42790fe5c90b15369128141de175b6d37e1a0ae4c051ee377a4eb",
+      "aircraft_sim\\evaluation.py": "ea0265dcce06af5de53e49d8f0d5fb6089372d59621abec8f66aa8ed3f70de4e",
+      "aircraft_sim\\high_fidelity.py": "f236e48282ca5e31d9b703d195c647d885a367a736dee2c047e1147913328374",
+      "aircraft_sim\\jsbsim_env.py": "e419d4b6f1ff958087ea83bbefb8d99f0d10797bb6d2703508d1ca07834ad576",
+      "aircraft_sim\\mappo.py": "f076ef2dd8742cf277a40e11881f710cfa725244b56689db67b99c9386c07b8f",
+      "aircraft_sim\\metrics.py": "7189025f91ee205a4fa8353f29565a02221ff50806b3c252fc8bb4b3fc4e4d39",
+      "aircraft_sim\\models.py": "19588887f064934e50f6b5e5dc75054070b18d6f8849dadd7e5daf0b1be45be5",
+      "aircraft_sim\\policies.py": "b676b830d1470b8b27d2bdc575f10700de4c979314e443ef968ceec994c1f8a0",
+      "aircraft_sim\\qp_shield.py": "01f7cd7eb0a7854333bc66a5b86ffcac8360470aa531ecef0e3dc19aefbe6f11",
+      "aircraft_sim\\risk_calibration.py": "8d2a3a09f4ad82a93eac2d803317a20d9b06e1d6649ad0ceaf9a68fab658d7fd",
+      "aircraft_sim\\rl_api.py": "2a5db9f46e847ef2d099483a8188bee437eae728d6880c6fcd0bb89af93e245c",
+      "aircraft_sim\\rule_graph.py": "ccba638cc81e7873c899afe58d00094e57a1402ad05109fa45120995768e010e",
+      "aircraft_sim\\rules.py": "13cd3567db92eac41885ecd10574dcf8f0149e5ff05544bb6ff40de09e56f036",
+      "aircraft_sim\\scenarios.py": "9e1dee4a3b9406420577e9fab41eed1f07a47c5c608087af0e9bb8810c2b60cb",
+      "aircraft_sim\\shield.py": "70fd21bd78a95be534b93131c7662941996de23f5c53aad86d104b43fe1e9483",
+      "aircraft_sim\\stl.py": "0e1d0087e896d554650a87d8613482563e0f1e9a0065c528979c52abbf77c450"
+    }
+  },
+  "summary": [
+    {
+      "distance": 2000.0,
+      "method": "NoShield",
+      "n_triggered_episodes": 10,
+      "recovered_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "confirmed_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_30": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "rule_clear_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "target_violation_state_rate": {
+        "mean": 0.1,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "minimum_separation_after_takeover_m": {
+        "mean": 219.3695399487707,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "intervention_rate": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "qp_fallback_rate": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "mean_first_recovery_step_among_recovered": 4,
+      "n_recovered_by_30": 10
+    },
+    {
+      "distance": 2000.0,
+      "method": "PartialShield",
+      "n_triggered_episodes": 10,
+      "recovered_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "confirmed_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_30": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "rule_clear_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "target_violation_state_rate": {
+        "mean": 0.1,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "minimum_separation_after_takeover_m": {
+        "mean": 224.8772158682814,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "intervention_rate": {
+        "mean": 0.26,
+        "seed_mean_sd": 0.03784308081316977,
+        "n_seeds": 10
+      },
+      "qp_fallback_rate": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "mean_first_recovery_step_among_recovered": 4,
+      "n_recovered_by_30": 10
+    },
+    {
+      "distance": 2000.0,
+      "method": "JointHeuristic",
+      "n_triggered_episodes": 10,
+      "recovered_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "confirmed_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_30": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "rule_clear_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "target_violation_state_rate": {
+        "mean": 0.1,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "minimum_separation_after_takeover_m": {
+        "mean": 230.06914173908874,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "intervention_rate": {
+        "mean": 0.73,
+        "seed_mean_sd": 0.07277565730583477,
+        "n_seeds": 10
+      },
+      "qp_fallback_rate": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "mean_first_recovery_step_among_recovered": 4,
+      "n_recovered_by_30": 10
+    },
+    {
+      "distance": 2000.0,
+      "method": "DG-QP",
+      "n_triggered_episodes": 10,
+      "recovered_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "confirmed_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_30": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "rule_clear_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "target_violation_state_rate": {
+        "mean": 0.1,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "minimum_separation_after_takeover_m": {
+        "mean": 229.63020287366083,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "intervention_rate": {
+        "mean": 2.033333333333333,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "qp_fallback_rate": {
+        "mean": 0.1,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "mean_first_recovery_step_among_recovered": 4,
+      "n_recovered_by_30": 10
+    },
+    {
+      "distance": 2200.0,
+      "method": "NoShield",
+      "n_triggered_episodes": 10,
+      "recovered_within_3_steps": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "confirmed_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_3_and_held_to_30": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_30": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "rule_clear_within_3_steps": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "target_violation_state_rate": {
+        "mean": 0.06666666666666667,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "minimum_separation_after_takeover_m": {
+        "mean": 164.58720075815862,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "intervention_rate": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "qp_fallback_rate": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "mean_first_recovery_step_among_recovered": 3,
+      "n_recovered_by_30": 10
+    },
+    {
+      "distance": 2200.0,
+      "method": "PartialShield",
+      "n_triggered_episodes": 10,
+      "recovered_within_3_steps": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "confirmed_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_3_and_held_to_30": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_30": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "rule_clear_within_3_steps": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "target_violation_state_rate": {
+        "mean": 0.06666666666666667,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "minimum_separation_after_takeover_m": {
+        "mean": 151.48343649813526,
+        "seed_mean_sd": 3.0569191510514195,
+        "n_seeds": 10
+      },
+      "intervention_rate": {
+        "mean": 0.19333333333333333,
+        "seed_mean_sd": 0.03784308081316978,
+        "n_seeds": 10
+      },
+      "qp_fallback_rate": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "mean_first_recovery_step_among_recovered": 3,
+      "n_recovered_by_30": 10
+    },
+    {
+      "distance": 2200.0,
+      "method": "JointHeuristic",
+      "n_triggered_episodes": 10,
+      "recovered_within_3_steps": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "confirmed_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_3_and_held_to_30": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_30": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "rule_clear_within_3_steps": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "target_violation_state_rate": {
+        "mean": 0.06666666666666667,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "minimum_separation_after_takeover_m": {
+        "mean": 148.4758448676258,
+        "seed_mean_sd": 3.0947060811531184,
+        "n_seeds": 10
+      },
+      "intervention_rate": {
+        "mean": 0.5633333333333334,
+        "seed_mean_sd": 0.07277565730583471,
+        "n_seeds": 10
+      },
+      "qp_fallback_rate": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "mean_first_recovery_step_among_recovered": 3,
+      "n_recovered_by_30": 10
+    },
+    {
+      "distance": 2200.0,
+      "method": "DG-QP",
+      "n_triggered_episodes": 10,
+      "recovered_within_3_steps": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "confirmed_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_3_and_held_to_30": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_30": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "rule_clear_within_3_steps": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "target_violation_state_rate": {
+        "mean": 0.06666666666666667,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "minimum_separation_after_takeover_m": {
+        "mean": 147.01175404629487,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "intervention_rate": {
+        "mean": 2.0366666666666666,
+        "seed_mean_sd": 0.0105409255338947,
+        "n_seeds": 10
+      },
+      "qp_fallback_rate": {
+        "mean": 0.06666666666666667,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "mean_first_recovery_step_among_recovered": 3,
+      "n_recovered_by_30": 10
+    },
+    {
+      "distance": 2400.0,
+      "method": "NoShield",
+      "n_triggered_episodes": 10,
+      "recovered_within_3_steps": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "confirmed_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_3_and_held_to_30": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_30": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "rule_clear_within_3_steps": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "target_violation_state_rate": {
+        "mean": 0.06666666666666667,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "minimum_separation_after_takeover_m": {
+        "mean": 201.82736812089212,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "intervention_rate": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "qp_fallback_rate": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "mean_first_recovery_step_among_recovered": 3,
+      "n_recovered_by_30": 10
+    },
+    {
+      "distance": 2400.0,
+      "method": "PartialShield",
+      "n_triggered_episodes": 10,
+      "recovered_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "confirmed_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_30": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "rule_clear_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "target_violation_state_rate": {
+        "mean": 0.1,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "minimum_separation_after_takeover_m": {
+        "mean": 201.34808696283505,
+        "seed_mean_sd": 0.040991743265398575,
+        "n_seeds": 10
+      },
+      "intervention_rate": {
+        "mean": 0.25666666666666665,
+        "seed_mean_sd": 0.03531166351571267,
+        "n_seeds": 10
+      },
+      "qp_fallback_rate": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "mean_first_recovery_step_among_recovered": 4,
+      "n_recovered_by_30": 10
+    },
+    {
+      "distance": 2400.0,
+      "method": "JointHeuristic",
+      "n_triggered_episodes": 10,
+      "recovered_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "confirmed_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_30": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "rule_clear_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "target_violation_state_rate": {
+        "mean": 0.1,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "minimum_separation_after_takeover_m": {
+        "mean": 204.86334437990962,
+        "seed_mean_sd": 1.2078077266848533,
+        "n_seeds": 10
+      },
+      "intervention_rate": {
+        "mean": 0.71,
+        "seed_mean_sd": 0.1100504934614612,
+        "n_seeds": 10
+      },
+      "qp_fallback_rate": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "mean_first_recovery_step_among_recovered": 4,
+      "n_recovered_by_30": 10
+    },
+    {
+      "distance": 2400.0,
+      "method": "DG-QP",
+      "n_triggered_episodes": 10,
+      "recovered_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "confirmed_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_30": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "rule_clear_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "target_violation_state_rate": {
+        "mean": 0.1,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "minimum_separation_after_takeover_m": {
+        "mean": 206.0420293428011,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "intervention_rate": {
+        "mean": 2.0366666666666666,
+        "seed_mean_sd": 0.0105409255338947,
+        "n_seeds": 10
+      },
+      "qp_fallback_rate": {
+        "mean": 0.1,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "mean_first_recovery_step_among_recovered": 4,
+      "n_recovered_by_30": 10
+    },
+    {
+      "distance": 2800.0,
+      "method": "NoShield",
+      "n_triggered_episodes": 10,
+      "recovered_within_3_steps": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "confirmed_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_3_and_held_to_30": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_30": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "rule_clear_within_3_steps": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "target_violation_state_rate": {
+        "mean": 0.06666666666666667,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "minimum_separation_after_takeover_m": {
+        "mean": 223.567757469707,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "intervention_rate": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "qp_fallback_rate": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "mean_first_recovery_step_among_recovered": 3,
+      "n_recovered_by_30": 10
+    },
+    {
+      "distance": 2800.0,
+      "method": "PartialShield",
+      "n_triggered_episodes": 10,
+      "recovered_within_3_steps": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "confirmed_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_3_and_held_to_30": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_30": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "rule_clear_within_3_steps": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "target_violation_state_rate": {
+        "mean": 0.06666666666666667,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "minimum_separation_after_takeover_m": {
+        "mean": 216.686196859319,
+        "seed_mean_sd": 1.1083746212691918,
+        "n_seeds": 10
+      },
+      "intervention_rate": {
+        "mean": 0.20333333333333334,
+        "seed_mean_sd": 0.01892154040658489,
+        "n_seeds": 10
+      },
+      "qp_fallback_rate": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "mean_first_recovery_step_among_recovered": 3,
+      "n_recovered_by_30": 10
+    },
+    {
+      "distance": 2800.0,
+      "method": "JointHeuristic",
+      "n_triggered_episodes": 10,
+      "recovered_within_3_steps": {
+        "mean": 0.3,
+        "seed_mean_sd": 0.48304589153964794,
+        "n_seeds": 10
+      },
+      "confirmed_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_3_and_held_to_30": {
+        "mean": 0.3,
+        "seed_mean_sd": 0.48304589153964794,
+        "n_seeds": 10
+      },
+      "recovered_by_30": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "rule_clear_within_3_steps": {
+        "mean": 0.3,
+        "seed_mean_sd": 0.48304589153964794,
+        "n_seeds": 10
+      },
+      "target_violation_state_rate": {
+        "mean": 0.09,
+        "seed_mean_sd": 0.01610152971798827,
+        "n_seeds": 10
+      },
+      "minimum_separation_after_takeover_m": {
+        "mean": 217.99787775284642,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "intervention_rate": {
+        "mean": 0.6266666666666666,
+        "seed_mean_sd": 0.07336699564097411,
+        "n_seeds": 10
+      },
+      "qp_fallback_rate": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "mean_first_recovery_step_among_recovered": 3.7,
+      "n_recovered_by_30": 10
+    },
+    {
+      "distance": 2800.0,
+      "method": "DG-QP",
+      "n_triggered_episodes": 10,
+      "recovered_within_3_steps": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "confirmed_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_3_and_held_to_30": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_30": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "rule_clear_within_3_steps": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "target_violation_state_rate": {
+        "mean": 0.06666666666666667,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "minimum_separation_after_takeover_m": {
+        "mean": 218.34484223353206,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "intervention_rate": {
+        "mean": 2.033333333333333,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "qp_fallback_rate": {
+        "mean": 0.1,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "mean_first_recovery_step_among_recovered": 3,
+      "n_recovered_by_30": 10
+    },
+    {
+      "distance": 3200.0,
+      "method": "NoShield",
+      "n_triggered_episodes": 10,
+      "recovered_within_3_steps": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "confirmed_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_3_and_held_to_30": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_30": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "rule_clear_within_3_steps": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "target_violation_state_rate": {
+        "mean": 0.06666666666666667,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "minimum_separation_after_takeover_m": {
+        "mean": 285.17598409481553,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "intervention_rate": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "qp_fallback_rate": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "mean_first_recovery_step_among_recovered": 3,
+      "n_recovered_by_30": 10
+    },
+    {
+      "distance": 3200.0,
+      "method": "PartialShield",
+      "n_triggered_episodes": 10,
+      "recovered_within_3_steps": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "confirmed_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_3_and_held_to_30": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_30": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "rule_clear_within_3_steps": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "target_violation_state_rate": {
+        "mean": 0.06666666666666667,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "minimum_separation_after_takeover_m": {
+        "mean": 275.2662006690498,
+        "seed_mean_sd": 2.7867435393624955,
+        "n_seeds": 10
+      },
+      "intervention_rate": {
+        "mean": 0.21333333333333335,
+        "seed_mean_sd": 0.02810913475705226,
+        "n_seeds": 10
+      },
+      "qp_fallback_rate": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "mean_first_recovery_step_among_recovered": 3,
+      "n_recovered_by_30": 10
+    },
+    {
+      "distance": 3200.0,
+      "method": "JointHeuristic",
+      "n_triggered_episodes": 10,
+      "recovered_within_3_steps": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "confirmed_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_3_and_held_to_30": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_30": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "rule_clear_within_3_steps": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "target_violation_state_rate": {
+        "mean": 0.06666666666666667,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "minimum_separation_after_takeover_m": {
+        "mean": 274.31366921118394,
+        "seed_mean_sd": 2.630438693562435,
+        "n_seeds": 10
+      },
+      "intervention_rate": {
+        "mean": 0.5833333333333333,
+        "seed_mean_sd": 0.061363116762151435,
+        "n_seeds": 10
+      },
+      "qp_fallback_rate": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "mean_first_recovery_step_among_recovered": 3,
+      "n_recovered_by_30": 10
+    },
+    {
+      "distance": 3200.0,
+      "method": "DG-QP",
+      "n_triggered_episodes": 10,
+      "recovered_within_3_steps": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "confirmed_within_3_steps": {
+        "mean": 0.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_3_and_held_to_30": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "recovered_by_30": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "rule_clear_within_3_steps": {
+        "mean": 1.0,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "target_violation_state_rate": {
+        "mean": 0.06666666666666667,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "minimum_separation_after_takeover_m": {
+        "mean": 272.9896563722794,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "intervention_rate": {
+        "mean": 2.04,
+        "seed_mean_sd": 0.014054567378526268,
+        "n_seeds": 10
+      },
+      "qp_fallback_rate": {
+        "mean": 0.06666666666666667,
+        "seed_mean_sd": 0.0,
+        "n_seeds": 10
+      },
+      "mean_first_recovery_step_among_recovered": 3,
+      "n_recovered_by_30": 10
+    }
+  ]
+}

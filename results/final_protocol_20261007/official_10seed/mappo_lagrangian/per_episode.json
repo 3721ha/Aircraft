@@ -1,0 +1,6988 @@
+[
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 24.300000000000008,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 11,
+      "E02": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 22.688251649267237,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "M04": 5,
+      "C02": 9,
+      "C05": 10,
+      "E02": 10,
+      "F01": 12,
+      "C04": 22
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 22.733131013361838,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 2,
+      "M04": 5,
+      "C02": 10,
+      "E02": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 20.601975056621047,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C04": 0,
+      "S02": 2,
+      "C03": 8,
+      "C02": 12,
+      "E02": 13,
+      "E06": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 24.90000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 12,
+      "E02": 13
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 24.90000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "M04": 5,
+      "C05": 14,
+      "F01": 16,
+      "C02": 28,
+      "C04": 29,
+      "E02": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 24.90000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 15,
+      "E02": 16
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 24.90000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 17,
+      "E02": 18
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 24.300000000000008,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 6,
+      "E02": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 25.15116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 23.468999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 10,
+      "E02": 11,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 24.90000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 13,
+      "E02": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 24.90000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 17,
+      "E02": 18
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 24.90000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 15,
+      "E02": 16
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 24.551166666666663,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 13,
+      "E02": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 23.468999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 10,
+      "E02": 11,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 24.90000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 10,
+      "E02": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 24.90000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 13,
+      "E02": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 24.90000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 8,
+      "E02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 24.90000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 10,
+      "E02": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 24.90000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 16,
+      "E02": 17,
+      "C05": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 24.551166666666663,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 8,
+      "E02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 24.068999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 24.90000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 16,
+      "E02": 17
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 24.90000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 14,
+      "E02": 15
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 24.90000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 16,
+      "E02": 17
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 24.379999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E02": 18
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 22.89397982357784,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 22.069831966716666,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 2,
+      "M04": 5,
+      "F04": 11,
+      "F01": 11,
+      "C04": 11,
+      "C05": 11,
+      "E02": 13,
+      "C02": 21
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 19.686665560506732,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C04": 0,
+      "S02": 2,
+      "F04": 8,
+      "C03": 8,
+      "I06": 8,
+      "E02": 10,
+      "C02": 14,
+      "E06": 14,
+      "F03": 16,
+      "M06": 16,
+      "M03": 18
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 24.880000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 18,
+      "E02": 19
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 24.09,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 8,
+      "E02": 9,
+      "M03": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 24.219999999999995,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E02": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 23.93,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 7,
+      "E02": 8,
+      "M03": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 24.239999999999995,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 5,
+      "M04": 5,
+      "E02": 6,
+      "M03": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 23.479999999999993,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 2,
+      "E02": 3,
+      "M04": 5,
+      "M03": 6,
+      "F01": 14,
+      "C04": 14,
+      "C05": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 23.769999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 2,
+      "E02": 3,
+      "M04": 5,
+      "M03": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 24.769999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E02": 15,
+      "M03": 18
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 23.42116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 3,
+      "E02": 4,
+      "M04": 5,
+      "M03": 7,
+      "C04": 9,
+      "F04": 17
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 22.328999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 2,
+      "E02": 3,
+      "M04": 5,
+      "M03": 6,
+      "F04": 9,
+      "F01": 9,
+      "C04": 9,
+      "C05": 9,
+      "E06": 28,
+      "F03": 29,
+      "M06": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 24.299999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E02": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 24.87,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 12,
+      "E02": 13,
+      "M03": 16
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 24.439999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 5,
+      "M03": 13
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 24.770000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E02": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 24.930000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E02": 16,
+      "M03": 19
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 24.25,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E02": 7,
+      "C02": 25
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 24.379999999999995,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 24.459999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 23.97116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "M04": 5,
+      "F01": 9,
+      "C04": 9,
+      "C05": 9,
+      "E02": 11,
+      "C02": 14,
+      "F04": 18,
+      "M03": 18
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 23.258999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "M04": 5,
+      "F04": 11,
+      "F01": 11,
+      "C04": 11,
+      "C05": 11,
+      "E02": 13,
+      "C02": 18,
+      "M03": 22,
+      "F03": 28,
+      "M06": 28,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 24.08,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M03": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 24.619999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 24.379999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E02": 18
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 24.599999999999994,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "M04": 5,
+      "C04": 9,
+      "C05": 9,
+      "F01": 11,
+      "E02": 11,
+      "M03": 17
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 23.939999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E02": 8,
+      "C02": 26
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 23.859999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E02": 15,
+      "C02": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 24.190000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 3,
+      "E02": 4,
+      "M04": 5,
+      "M03": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 23.56,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 5,
+      "M04": 5,
+      "E02": 6,
+      "M03": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 23.71116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "M04": 5,
+      "F01": 9,
+      "C04": 9,
+      "C05": 9,
+      "E02": 11,
+      "F04": 17,
+      "C02": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 23.019,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "M04": 5,
+      "F04": 9,
+      "F01": 9,
+      "C04": 9,
+      "C05": 9,
+      "E02": 11,
+      "C02": 15,
+      "M03": 19,
+      "F03": 28,
+      "M06": 28,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 24.459999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E02": 17
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 23.929999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E02": 13,
+      "M03": 17,
+      "C02": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 24.459999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E02": 16
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 24.009999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 6,
+      "E02": 7,
+      "M03": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 23.93,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 6,
+      "E02": 7,
+      "M03": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 24.32,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 2,
+      "E02": 3,
+      "M04": 5,
+      "M03": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 23.859373102075672,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 23.190235096912666,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 21.312086185670704,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C04": 0,
+      "S02": 2,
+      "C03": 8,
+      "E06": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C05": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 25.15116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 24.068999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 25.15116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 24.068999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "M04": 5,
+      "C05": 24,
+      "F01": 26
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 25.15116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 24.068999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 25.26000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E02": 22
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 23.661288597789618,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 22.8518178388494,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 21.025355657173534,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C04": 0,
+      "S02": 2,
+      "C03": 8,
+      "E06": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 25.420000000000012,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 25.34000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 25.420000000000012,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 25.420000000000012,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 25.420000000000012,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 25.15116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 24.068999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 25.340000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 25.420000000000012,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "M04": 5,
+      "C05": 24,
+      "F01": 26
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 25.26000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 25.42000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 25.071166666666663,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 24.068999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 25.34000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 25.26000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 25.42000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 25.34000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 25.42000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 25.26000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 25.15116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 23.988999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 25.34000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 9.9,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 17.666608202653464,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "M04": 5,
+      "C02": 18
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 20.14228129942697,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 2,
+      "M04": 5,
+      "C02": 23,
+      "E02": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 20.717954803293054,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 2,
+      "C03": 8,
+      "E06": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 22.940000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 24
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 21.740000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 23
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 22.860000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 26
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 25.26000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "M04": 5,
+      "C04": 25,
+      "C05": 25,
+      "F01": 26
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 22.26,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 24
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 23.460000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 27
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 24.660000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 23.460000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 26
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 23.111166666666662,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 27
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 23.228999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E06": 28,
+      "C02": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 24.94,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "M04": 5,
+      "C04": 22,
+      "C05": 22,
+      "F01": 23
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 22.860000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 25
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 23.980000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 25,
+      "E02": 26
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 22.860000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 26
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 22.860000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 24
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 23.460000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 24
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 23.380000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 25,
+      "E02": 26
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 22.78,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 26
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 23.111166666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 26
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 19.708999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 20,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 22.26,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 24
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 21.14,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 20
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 23.460000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 27
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 25.180000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 3,
+      "F01": 5,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 25.180000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "M04": 5,
+      "C05": 24,
+      "F01": 26
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 23.460000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 25
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 24.060000000000006,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 27
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 23.380000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 27
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 23.031166666666664,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 26
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 21.428999999999995,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 26,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 22.860000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 25
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 22.860000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 26
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 21.66,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 24
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 25.26000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "M04": 5,
+      "C05": 21,
+      "F01": 23
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 23.460000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 26
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 22.26,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 25
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 23.25999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 4
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 19.027930690633294,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "M04": 5,
+      "C02": 19
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 19.414517031432894,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 2,
+      "M04": 5,
+      "C02": 20
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 17.72002939666153,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C04": 0,
+      "S02": 2,
+      "C03": 8,
+      "E06": 14,
+      "C02": 20
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 21.749999999999982,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 19,
+      "E02": 23
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 20.54999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 19
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 20.09999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 18
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 20.54999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 19
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 21.749999999999982,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 19,
+      "E02": 27
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 20.09999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 18
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 19.649999999999984,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 17
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 20.999999999999982,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 20
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 20.35116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 18,
+      "E02": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 18.668999999999993,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 18,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 21.899999999999984,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 18,
+      "E02": 22
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 19.649999999999984,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 17
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 23.249999999999993,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "M04": 5,
+      "C02": 17,
+      "F01": 23,
+      "C04": 23,
+      "C05": 23,
+      "E02": 25
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 20.69999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "M04": 5,
+      "C02": 18,
+      "F01": 28,
+      "C04": 28,
+      "C05": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 20.09999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 18
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 21.299999999999983,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 18,
+      "E02": 23
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 21.749999999999982,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 19,
+      "E02": 24
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 20.09999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 18
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 21.85116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 20,
+      "E02": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 20.01899999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 21,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 20.54999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 19
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 21.44999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 17,
+      "E02": 23
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 21.749999999999982,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "M04": 5,
+      "C02": 19,
+      "F01": 28,
+      "C04": 28,
+      "C05": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 20.54999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 19
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 20.54999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 19
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 20.019999999999982,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 18
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 20.09999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 18
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 21.299999999999983,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 18,
+      "E02": 23
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 20.20116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 19
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 19.568999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 20,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 21.599999999999984,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 20,
+      "E02": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 23.84999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E02": 19,
+      "C02": 22
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 20.019999999999982,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 18
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 20.54999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 19
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 20.54999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 19
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 20.54999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 19
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 23.83473932530419,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 22.446618060160827,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "S02": 2,
+      "M03": 5,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 21.05471767352345,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 2,
+      "C03": 8,
+      "E06": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 24.15000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M04": 5,
+      "M03": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 25.05000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "C05": 3,
+      "F01": 5,
+      "M03": 5,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 23.70000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M04": 5,
+      "M03": 13,
+      "C05": 24,
+      "F01": 26
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 24.600000000000012,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M04": 5,
+      "M03": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 24.600000000000012,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 2,
+      "E02": 3,
+      "M04": 5,
+      "M03": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 25.05000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M03": 5,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 24.15000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M04": 5,
+      "M03": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 24.15000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M04": 5,
+      "M03": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 23.801166666666667,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 2,
+      "E02": 3,
+      "M04": 5,
+      "M03": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 24.068999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 24.15000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M04": 5,
+      "M03": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 24.15000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M04": 5,
+      "M03": 12,
+      "C05": 21,
+      "F01": 23
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 23.70000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M04": 5,
+      "M03": 15
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 25.05000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M03": 5,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 24.15000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M04": 5,
+      "M03": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 24.15000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M04": 5,
+      "M03": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 24.15000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M04": 5,
+      "M03": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 25.15116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 22.718999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M04": 5,
+      "M03": 11,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 24.600000000000012,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 2,
+      "E02": 3,
+      "M04": 5,
+      "M03": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 24.15000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M04": 5,
+      "M03": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 24.15000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M04": 5,
+      "M03": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 24.600000000000012,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M04": 5,
+      "M03": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 24.15000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M04": 5,
+      "M03": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 24.600000000000012,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M04": 5,
+      "M03": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 24.600000000000012,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M04": 5,
+      "M03": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 24.600000000000012,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 2,
+      "E02": 3,
+      "M04": 5,
+      "M03": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 25.15116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 22.718999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 4,
+      "M04": 5,
+      "E02": 5,
+      "M03": 13,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 25.05000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M03": 5,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 25.05000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M03": 5,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 24.600000000000012,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 2,
+      "E02": 3,
+      "M04": 5,
+      "M03": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 24.15000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M04": 5,
+      "M03": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 24.600000000000012,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "C05": 5,
+      "M04": 5,
+      "F01": 7,
+      "M03": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 23.09999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 26.27834538419593,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "E02": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 24.485923552078887,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "S02": 2,
+      "F01": 4,
+      "F04": 9,
+      "C02": 13
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 22.520426931055212,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "F04": 0,
+      "C04": 0,
+      "I06": 0,
+      "S02": 2,
+      "C03": 8,
+      "C02": 11,
+      "F03": 14,
+      "M06": 14,
+      "E06": 14,
+      "E02": 24
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 27.009999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 17
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 27.47,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 27.24,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 22
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 27.009999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 27.24,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 27.47,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 27.24,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 27.7,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 27.351166666666664,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "F01": 4,
+      "E02": 10,
+      "F04": 17,
+      "C02": 17
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 25.808999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "F04": 3,
+      "F01": 4,
+      "C02": 11,
+      "E02": 12,
+      "F03": 28,
+      "M06": 28,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 27.009999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 27.009999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 28.159999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 5,
+      "M03": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 27.7,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 27.24,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 27.699999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 3,
+      "M03": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 27.009999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "E02": 16,
+      "C05": 20,
+      "F01": 22
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 27.47,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 27.811166666666665,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "E02": 3,
+      "M03": 6,
+      "F04": 17,
+      "C02": 17
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 26.728999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "E02": 1,
+      "F04": 3,
+      "C02": 3,
+      "M03": 7,
+      "F03": 28,
+      "M06": 28,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 27.699999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 6,
+      "M03": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 27.47,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 26,
+      "F01": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 27.7,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 27.47,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 27.93,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 6,
+      "M03": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 27.47,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 28.39,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M03": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 27.47,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 27.351166666666664,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "F01": 4,
+      "E02": 5,
+      "M03": 8,
+      "F04": 17,
+      "C02": 17
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 25.808999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "F04": 3,
+      "C02": 12,
+      "F03": 28,
+      "M06": 28,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 27.24,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 27.7,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 27.7,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 27.009999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 27.699999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 3,
+      "M03": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 26.549999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 13,
+      "C04": 14,
+      "F01": 15,
+      "E02": 17
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 28.54,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 4
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 28.350779096888523,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 27.400279238989263,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 2,
+      "F04": 23,
+      "E01": 23
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 25.77307138517792,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C04": 0,
+      "S02": 2,
+      "E06": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 29.92,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 13
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 30.0,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 30.0,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 29.92,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 13
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 29.4,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M03": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 29.4,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M03": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 30.0,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 30.0,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 29.651166666666665,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 27.968999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M03": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 29.84,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "E01": 3,
+      "C05": 26,
+      "F01": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 29.4,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M03": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 30.0,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 30.0,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 5,
+      "F01": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 30.0,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 30.0,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 30.0,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 30.0,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 29.651166666666665,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 28.569,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 29.92,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 19
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 29.92,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 29.4,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M03": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 29.92,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 3
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 30.0,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 13,
+      "F01": 15
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 29.4,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M03": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 29.4,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M03": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 29.4,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M03": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 29.651166666666665,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 27.968999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 1,
+      "M03": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 29.92,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "E01": 20,
+      "C05": 21,
+      "F01": 23
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 30.0,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 1,
+      "F01": 4
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 29.46,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "E01": 9,
+      "C05": 20,
+      "F01": 22,
+      "C04": 26,
+      "E02": 27
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 29.92,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 13
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 30.0,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 30.0,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 19.500000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 16.596835113528243,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "C02": 0,
+      "M04": 5,
+      "E02": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 13.240866597672273,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "S02": 2,
+      "M04": 5,
+      "E02": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 16.43673743119262,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "S02": 2,
+      "M04": 5,
+      "C03": 8,
+      "E06": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 17.099999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 9.9,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "F01": 18,
+      "C04": 18,
+      "C05": 18,
+      "E02": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 18.3,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 13
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 16.499999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 18.3,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 17.7,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 19.500000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 17.7,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 18.551166666666667,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 17.468999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 12,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 18.3,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 13
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 17.099999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 13
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 17.7,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 18.3,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 18.3,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 17.7,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 13
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 19.500000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 18.900000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 19.151166666666665,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 10.868999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "F01": 10,
+      "C04": 10,
+      "C05": 10,
+      "E02": 12,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 15.899999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 21
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 18.3,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 13
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 18.3,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 18.3,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 18.3,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 15.899999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 18.3,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 13
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 19.500000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 17.951166666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 15.068999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 11,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 17.7,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 13
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 18.3,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 9.3,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "F01": 22,
+      "C04": 22,
+      "C05": 22,
+      "E02": 24
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 17.7,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 17.099999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 13
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo_lagrangian",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 16.499999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  }
+]

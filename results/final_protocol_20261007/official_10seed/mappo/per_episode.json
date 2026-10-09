@@ -1,0 +1,6956 @@
+[
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 5.9575319019864175,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 5.988710581809,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "S02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 2.8900292746186618,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "S02": 2,
+      "M04": 5,
+      "C03": 8,
+      "E06": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 7.151166666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 6.068999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 7.151166666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 6.068999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 7.151166666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 6.068999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 23.579999999999995,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 19.346799007575935,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "E01": 0,
+      "E02": 2
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 18.680129358253552,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "E01": 0,
+      "S02": 2,
+      "F01": 4,
+      "F04": 9,
+      "E02": 10,
+      "C04": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 16.312709602195913,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "F04": 0,
+      "C04": 0,
+      "I06": 0,
+      "E01": 0,
+      "S02": 2,
+      "C03": 8,
+      "F03": 14,
+      "M06": 14,
+      "E06": 14,
+      "E02": 15
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 20.94,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "E02": 19
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 21.180000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "E02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 21.180000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 1,
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 21.020000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "E02": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 20.94,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "E02": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 20.94,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "E01": 0,
+      "C05": 10,
+      "F01": 12,
+      "E02": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 20.78,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "E02": 16
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 21.18,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "E01": 2
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 20.671166666666657,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "E01": 0,
+      "F01": 4,
+      "E02": 8,
+      "F04": 17
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 19.428999999999995,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "E01": 0,
+      "F04": 3,
+      "F01": 4,
+      "C04": 7,
+      "E02": 7,
+      "F03": 28,
+      "M06": 28,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 20.94,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "E02": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 21.099999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "E02": 13
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 21.26,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "E02": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 21.099999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "E02": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 21.180000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "E02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 21.18,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "E02": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 20.86,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "E02": 17,
+      "C05": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 21.1,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 1,
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 20.75116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "E01": 0,
+      "F01": 4,
+      "E02": 15,
+      "F04": 17,
+      "C04": 26
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 19.988999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "E01": 0,
+      "F04": 3,
+      "E02": 3,
+      "F01": 4,
+      "C04": 6,
+      "C02": 18,
+      "F03": 28,
+      "M06": 28,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 21.18,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "E02": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 21.02,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "E02": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 21.02,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "E02": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 20.94,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "E01": 0,
+      "C05": 8,
+      "E02": 9,
+      "F01": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 21.259999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "E02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 21.1,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "E02": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 21.18,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "E02": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 21.02,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "E02": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 20.51116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "E01": 0,
+      "F01": 4,
+      "C04": 6,
+      "E02": 6,
+      "F04": 17
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 19.668999999999993,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "E01": 0,
+      "F04": 3,
+      "F01": 4,
+      "E02": 12,
+      "C04": 13,
+      "F03": 28,
+      "M06": 28,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 21.34,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 2,
+      "E02": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 21.419999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "E02": 20
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 20.78,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "E02": 13
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 21.26,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "E02": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 20.94,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "E02": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 20.86,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "E02": 19
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 24.66000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5,
+      "E02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 16.672224827159038,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 12.742060236582804,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "S02": 2,
+      "M04": 5,
+      "E02": 16
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 11.503321826606456,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "S02": 2,
+      "M04": 5,
+      "C03": 8,
+      "E06": 14,
+      "E02": 16
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 20.1,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 20.1,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 18.900000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 20.1,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 18.900000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 18.900000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 9,
+      "C05": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 18.3,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 18.900000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 17.951166666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 16.869,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 9,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 20.700000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 18.900000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 19.500000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 18.3,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 20.1,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 18.3,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 20.1,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 19.500000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 19.151166666666665,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 17.468999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 11,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 18.900000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 18.900000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 18.900000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 21.300000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 21.900000000000006,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 4,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 17.099999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 16,
+      "C04": 25,
+      "C05": 25,
+      "F01": 27
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 19.500000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 18.900000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 20.351166666666664,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 18.068999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 10,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 19.500000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 23
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 20.700000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 19.500000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 19.500000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 18.900000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 19.500000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 5.832097990243395,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 4.9562491515892075,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "S02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 18.379378078471273,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "S02": 2,
+      "C03": 8,
+      "E06": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 7.151166666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 6.068999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 7.151166666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 6.068999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 7.151166666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 6.068999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 20.1,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 13.026054355862199,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "C02": 0,
+      "M04": 5,
+      "E02": 25
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 6.660752684190778,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "S02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 3.6382472919693516,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "S02": 2,
+      "M04": 5,
+      "C03": 8,
+      "E06": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 9.3,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 8.700000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 8.100000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 9.3,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 27
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 7.751166666666665,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 8.468999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 10.86,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "C04": 22,
+      "C05": 22,
+      "F01": 25
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 11.1,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 8.100000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 8.100000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 8.700000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 7.151166666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 7.868999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 9.9,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 9.3,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 9.3,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "F01": 13,
+      "C04": 13,
+      "C05": 13
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 8.700000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "C05": 24,
+      "F01": 28,
+      "C04": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 8.100000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 7.751166666666665,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 8.468999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 8.700000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 8.100000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 11.1,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 8.100000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "F01": 27,
+      "C04": 27,
+      "C05": 27
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 9.3,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 24.140000000000008,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 23.86288528652438,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 22.985554864987193,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 21.08466221171114,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "F04": 0,
+      "C04": 0,
+      "I06": 0,
+      "S02": 2,
+      "C03": 8,
+      "E06": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 25.26000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 25.420000000000012,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 25.34000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 25.26000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 25.420000000000012,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 25.26000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 25.34000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 25.34000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 24.99116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 23.908999999999995,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 25.34000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 25.34000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 25.18000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C05": 3
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 25.26000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 25.26000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 25.34000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 25.420000000000012,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 25.420000000000012,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 24.99116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 23.988999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 25.26000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 25.34000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 25.26000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 25.34000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 25.34000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 25.34000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 25.26000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 25.34000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 25.071166666666663,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 23.988999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 25.26000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 25.34000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 25.34000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 25.420000000000012,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 25.34000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 25.34000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 5.804804205833646,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 5.066221230905023,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "S02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 3.5234049675089936,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "S02": 2,
+      "M04": 5,
+      "C03": 8,
+      "E06": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 7.151166666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 6.068999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 7.151166666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 6.068999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 7.151166666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 6.068999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 23.74,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 22.345902546090304,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "E02": 7,
+      "C02": 26
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 20.22434106255855,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C04": 1,
+      "C05": 1,
+      "E02": 1,
+      "S02": 2,
+      "E01": 2,
+      "F01": 4,
+      "F04": 9,
+      "C02": 15
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 19.7136195279124,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "F04": 0,
+      "I06": 0,
+      "S02": 2,
+      "C02": 7,
+      "C03": 8,
+      "E02": 8,
+      "E06": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 22.5,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "E02": 3,
+      "C02": 13,
+      "C04": 22,
+      "C05": 22,
+      "F01": 23
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 24.22,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 2
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 23.620000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 1,
+      "E02": 1,
+      "C02": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 22.86,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 3,
+      "C02": 21,
+      "E01": 22
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 23.979999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 4
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 22.7,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 4,
+      "C02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 21.94,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 2,
+      "C02": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 23.22,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 2,
+      "E01": 9,
+      "C02": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 23.15116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C04": 1,
+      "C05": 1,
+      "E02": 1,
+      "F01": 4,
+      "E01": 9,
+      "F04": 17,
+      "C02": 19
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 22.389000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C04": 1,
+      "C05": 1,
+      "E02": 1,
+      "F04": 3,
+      "F01": 4,
+      "C02": 6,
+      "E01": 21,
+      "F03": 28,
+      "M06": 28,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 23.54,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 2,
+      "C02": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 23.54,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 3,
+      "E02": 4
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 24.060000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 4,
+      "E02": 4
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 22.779999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 3,
+      "E01": 7,
+      "C02": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 22.7,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 1,
+      "E02": 1,
+      "C02": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 23.299999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 2,
+      "E02": 2,
+      "C02": 20
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 23.9,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "E02": 2,
+      "C05": 20,
+      "F01": 22
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 22.019999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 2,
+      "C02": 3,
+      "E01": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 23.791166666666662,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C04": 1,
+      "C05": 1,
+      "E02": 1,
+      "F04": 17,
+      "C02": 18
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 21.028999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C04": 1,
+      "C05": 1,
+      "E02": 1,
+      "F04": 3,
+      "E01": 3,
+      "C02": 10,
+      "F03": 28,
+      "M06": 28,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 22.18,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 2,
+      "E02": 3
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 22.500000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 2,
+      "C02": 4
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 22.859999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 2,
+      "C02": 4
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 23.540000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 2,
+      "C02": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 23.9,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "E02": 4,
+      "C05": 5,
+      "E01": 5,
+      "F01": 7,
+      "C04": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 23.9,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 23.219999999999995,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 2,
+      "E01": 4,
+      "C02": 13
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 23.22,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 2,
+      "E01": 26,
+      "C02": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 22.31116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C04": 1,
+      "C05": 1,
+      "E02": 1,
+      "F01": 4,
+      "E01": 4,
+      "F04": 17,
+      "C02": 21
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 21.949,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C04": 1,
+      "C05": 1,
+      "E02": 1,
+      "F04": 3,
+      "C02": 9,
+      "F03": 28,
+      "M06": 28,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 24.14,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 2
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 22.259999999999994,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 3,
+      "E01": 19,
+      "C02": 21
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 23.620000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 3,
+      "C02": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 24.06,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 2,
+      "E01": 13
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 23.06,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 2,
+      "E02": 4,
+      "C02": 25
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 22.699999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 2,
+      "C02": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 5.7824264112494275,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 4.892151813565514,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "S02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 3.2189306711382355,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "S02": 2,
+      "M04": 5,
+      "C03": 8,
+      "E06": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 7.151166666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 6.068999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 7.151166666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 6.068999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 7.151166666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 6.068999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 20.860000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 20.47799142112841,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "E01": 0,
+      "E02": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 16.718244286770528,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C04": 1,
+      "C05": 1,
+      "E01": 1,
+      "E02": 1,
+      "S02": 2,
+      "F04": 13,
+      "F01": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 18.010262709970885,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C04": 0,
+      "F04": 1,
+      "I06": 1,
+      "E01": 1,
+      "E02": 1,
+      "S02": 2,
+      "C03": 8,
+      "E06": 14,
+      "F03": 16,
+      "M06": 16
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 22.539999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "E02": 2
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 22.779999999999994,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "E01": 0,
+      "E02": 2,
+      "C05": 5,
+      "F01": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 22.699999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 1,
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 22.859999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 4,
+      "E02": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 23.019999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 23.09999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 23.019999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 20
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 22.859999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 15
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 22.40031943122907,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "F01": 4,
+      "C04": 4,
+      "C05": 4,
+      "E01": 4,
+      "F04": 19,
+      "S02": 24
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 21.668999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 22.459999999999994,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "E02": 2
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 22.539999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "E02": 2
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 23.09999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 13,
+      "F01": 15
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 22.859999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 8,
+      "E02": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 23.019999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 22.699999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 4,
+      "E02": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 23.09999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 22.859999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "E02": 2
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 22.751166666666663,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 21,
+      "F01": 23
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 21.668999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 1,
+      "F01": 4,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 22.61999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "E01": 0,
+      "E02": 2,
+      "C05": 20,
+      "F01": 22
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 22.61999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "E02": 2
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 22.459999999999994,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0,
+      "E02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 22.859999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 7,
+      "E02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 22.93999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 1,
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 23.019999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 22
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 23.019999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 22.859999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 22.591166666666663,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C04": 2,
+      "C05": 2,
+      "E01": 2,
+      "F01": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 21.508999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "F04": 10,
+      "C04": 10,
+      "C05": 10,
+      "E01": 10,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 22.939999999999994,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 0
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 22.859999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 24,
+      "E02": 26
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 22.22,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "E01": 0,
+      "E02": 2,
+      "C05": 7,
+      "F01": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 23.09999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 23.09999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_mappo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 23.019999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  }
+]

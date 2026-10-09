@@ -1,0 +1,3022 @@
+[
+  {
+    "policy": "official_macpo",
+    "episodes": 40,
+    "mean_reward": 24.48691,
+    "joint_satisfaction_rate": 0.875,
+    "mean_intervention_rate": 0.0,
+    "mean_intervention_distance": 0.0,
+    "violation_rate": {
+      "C02": 0.175,
+      "C03": 0.025,
+      "C04": 0.05,
+      "C05": 0.075,
+      "E01": 0.025,
+      "E02": 0.725,
+      "E06": 0.1,
+      "F01": 0.075,
+      "F04": 0.05,
+      "I06": 0.025,
+      "M04": 0.525,
+      "S02": 0.075
+    },
+    "mean_first_violation_step": {
+      "C02": 9.714,
+      "C03": 8.0,
+      "C04": 8.5,
+      "C05": 9.0,
+      "E01": 1.0,
+      "E02": 1.621,
+      "E06": 24.5,
+      "F01": 12.333,
+      "F04": 2.0,
+      "I06": 1.0,
+      "M04": 5.0,
+      "S02": 1.333
+    },
+    "initial_infeasible_rate": 0.05,
+    "online_hard_violation_rate": 0.0,
+    "post_shield_hard_violation_rate": 0.0,
+    "post_truth_hard_violation_rate": 0.02917,
+    "qp_infeasible_rate": 0.0,
+    "conflict_rate": 0.0,
+    "replan_trigger_rate": 0.0,
+    "mean_belief_risk": 0.0,
+    "mean_pre_filter_belief_risk": 0.0,
+    "mean_post_filter_belief_risk": 0.0,
+    "mean_actor_time_ms": 1.71279,
+    "mean_online_time_ms": 0.0,
+    "tail_violation_rate": 1.0,
+    "risk_calibration_brier": 0.0,
+    "initially_feasible_episodes": 38,
+    "conditional_joint_satisfaction_rate": 0.92105,
+    "rule_conflict_event_rate": 0.0,
+    "rule_rule_conflict_step_rate": 0.0,
+    "rule_rule_resolution_rate": 0.0,
+    "mean_conflict_residual": 0.0,
+    "mean_solver_agents": 0.0,
+    "mean_solver_components": 0.0,
+    "max_solver_component_size": 0,
+    "cross_component_violation_rate": 0.0,
+    "cross_component_repair_rate": 0.0,
+    "seed": 11,
+    "repository": "https://github.com/chauncygu/Multi-Agent-Constrained-Policy-Optimisation",
+    "commit": "b80a9f5b4a0049125a827be8fb9c477f69ae021b",
+    "source_fingerprint": "b4154ae715fa0d1d24e72dbae5372c8b271ea9d64665019e52e1bb852f8993b1",
+    "safety_bound": 0.1,
+    "kl_threshold": 0.01,
+    "cost_signal": "episode_binary",
+    "selected_update": 15,
+    "validation_trace": [
+      {
+        "update": 0,
+        "score": [
+          0.8,
+          -0.11666666666666667,
+          12.640800168921201
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.11666666666666667,
+        "mean_reward": 12.640800168921201
+      },
+      {
+        "update": 5,
+        "score": [
+          0.6,
+          -0.18333333333333332,
+          23.188069243648325
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.18333333333333332,
+        "mean_reward": 23.188069243648325
+      },
+      {
+        "update": 10,
+        "score": [
+          0.8,
+          -0.11666666666666667,
+          23.92404349866942
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.11666666666666667,
+        "mean_reward": 23.92404349866942
+      },
+      {
+        "update": 15,
+        "score": [
+          0.8,
+          -0.07777777777777778,
+          23.26814262881614
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.07777777777777778,
+        "mean_reward": 23.26814262881614
+      },
+      {
+        "update": 20,
+        "score": [
+          0.7,
+          -0.20277777777777778,
+          21.00202980367345
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.20277777777777778,
+        "mean_reward": 21.00202980367345
+      },
+      {
+        "update": 25,
+        "score": [
+          0.6,
+          -0.3416666666666667,
+          22.405716993690785
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.3416666666666667,
+        "mean_reward": 22.405716993690785
+      },
+      {
+        "update": 30,
+        "score": [
+          0.6,
+          -0.3416666666666667,
+          22.226533563731284
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.3416666666666667,
+        "mean_reward": 22.226533563731284
+      },
+      {
+        "update": 35,
+        "score": [
+          0.6,
+          -0.34444444444444444,
+          22.43676295656941
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.34444444444444444,
+        "mean_reward": 22.43676295656941
+      },
+      {
+        "update": 40,
+        "score": [
+          0.6,
+          -0.3388888888888889,
+          22.337054491800462
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.3388888888888889,
+        "mean_reward": 22.337054491800462
+      },
+      {
+        "update": 45,
+        "score": [
+          0.6,
+          -0.3277777777777778,
+          22.263047299774026
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.3277777777777778,
+        "mean_reward": 22.263047299774026
+      },
+      {
+        "update": 50,
+        "score": [
+          0.6,
+          -0.25,
+          22.502796042848015
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.25,
+        "mean_reward": 22.502796042848015
+      },
+      {
+        "update": 55,
+        "score": [
+          0.6,
+          -0.30833333333333335,
+          22.105658625232767
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.30833333333333335,
+        "mean_reward": 22.105658625232767
+      },
+      {
+        "update": 60,
+        "score": [
+          0.6,
+          -0.2861111111111111,
+          21.694549967677606
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.2861111111111111,
+        "mean_reward": 21.694549967677606
+      },
+      {
+        "update": 65,
+        "score": [
+          0.6,
+          -0.2638888888888889,
+          21.668175093564823
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.2638888888888889,
+        "mean_reward": 21.668175093564823
+      },
+      {
+        "update": 70,
+        "score": [
+          0.6,
+          -0.28888888888888886,
+          21.735252190461257
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.28888888888888886,
+        "mean_reward": 21.735252190461257
+      },
+      {
+        "update": 75,
+        "score": [
+          0.6,
+          -0.35833333333333334,
+          21.603914255920277
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.35833333333333334,
+        "mean_reward": 21.603914255920277
+      },
+      {
+        "update": 80,
+        "score": [
+          0.6,
+          -0.3416666666666667,
+          21.46402058503847
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.3416666666666667,
+        "mean_reward": 21.46402058503847
+      },
+      {
+        "update": 85,
+        "score": [
+          0.6,
+          -0.3055555555555556,
+          21.34973126678082
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.3055555555555556,
+        "mean_reward": 21.34973126678082
+      },
+      {
+        "update": 90,
+        "score": [
+          0.6,
+          -0.2861111111111111,
+          21.455440947544705
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.2861111111111111,
+        "mean_reward": 21.455440947544705
+      },
+      {
+        "update": 95,
+        "score": [
+          0.6,
+          -0.2861111111111111,
+          21.43719897358768
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.2861111111111111,
+        "mean_reward": 21.43719897358768
+      },
+      {
+        "update": 100,
+        "score": [
+          0.6,
+          -0.30277777777777776,
+          21.459158139032244
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.30277777777777776,
+        "mean_reward": 21.459158139032244
+      }
+    ],
+    "environment_steps": 3000,
+    "agent_decisions": 9000
+  },
+  {
+    "policy": "official_macpo",
+    "episodes": 40,
+    "mean_reward": 22.24869,
+    "joint_satisfaction_rate": 0.75,
+    "mean_intervention_rate": 0.0,
+    "mean_intervention_distance": 0.0,
+    "violation_rate": {
+      "C02": 0.25,
+      "C03": 0.025,
+      "C04": 0.2,
+      "C05": 0.25,
+      "E01": 0.625,
+      "E02": 0.825,
+      "E06": 0.1,
+      "F01": 0.2,
+      "F03": 0.1,
+      "F04": 0.15,
+      "I06": 0.025,
+      "M06": 0.1,
+      "S02": 0.075
+    },
+    "mean_first_violation_step": {
+      "C02": 13.6,
+      "C03": 8.0,
+      "C04": 9.125,
+      "C05": 4.8,
+      "E01": 18.12,
+      "E02": 6.576,
+      "E06": 24.5,
+      "F01": 4.75,
+      "F03": 24.5,
+      "F04": 5.833,
+      "I06": 1.0,
+      "M06": 24.5,
+      "S02": 1.333
+    },
+    "initial_infeasible_rate": 0.05,
+    "online_hard_violation_rate": 0.0,
+    "post_shield_hard_violation_rate": 0.0,
+    "post_truth_hard_violation_rate": 0.11917,
+    "qp_infeasible_rate": 0.0,
+    "conflict_rate": 0.0,
+    "replan_trigger_rate": 0.0,
+    "mean_belief_risk": 0.0,
+    "mean_pre_filter_belief_risk": 0.0,
+    "mean_post_filter_belief_risk": 0.0,
+    "mean_actor_time_ms": 1.67193,
+    "mean_online_time_ms": 0.0,
+    "tail_violation_rate": 1.0,
+    "risk_calibration_brier": 0.0,
+    "initially_feasible_episodes": 38,
+    "conditional_joint_satisfaction_rate": 0.78947,
+    "rule_conflict_event_rate": 0.0,
+    "rule_rule_conflict_step_rate": 0.0,
+    "rule_rule_resolution_rate": 0.0,
+    "mean_conflict_residual": 0.0,
+    "mean_solver_agents": 0.0,
+    "mean_solver_components": 0.0,
+    "max_solver_component_size": 0,
+    "cross_component_violation_rate": 0.0,
+    "cross_component_repair_rate": 0.0,
+    "seed": 22,
+    "repository": "https://github.com/chauncygu/Multi-Agent-Constrained-Policy-Optimisation",
+    "commit": "b80a9f5b4a0049125a827be8fb9c477f69ae021b",
+    "source_fingerprint": "b4154ae715fa0d1d24e72dbae5372c8b271ea9d64665019e52e1bb852f8993b1",
+    "safety_bound": 0.1,
+    "kl_threshold": 0.01,
+    "cost_signal": "episode_binary",
+    "selected_update": 100,
+    "validation_trace": [
+      {
+        "update": 0,
+        "score": [
+          0.6,
+          -0.34444444444444444,
+          24.062479738515133
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.34444444444444444,
+        "mean_reward": 24.062479738515133
+      },
+      {
+        "update": 5,
+        "score": [
+          0.6,
+          -0.3416666666666667,
+          22.547570998818173
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.3416666666666667,
+        "mean_reward": 22.547570998818173
+      },
+      {
+        "update": 10,
+        "score": [
+          0.6,
+          -0.2916666666666667,
+          22.558174630622215
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.2916666666666667,
+        "mean_reward": 22.558174630622215
+      },
+      {
+        "update": 15,
+        "score": [
+          0.6,
+          -0.2861111111111111,
+          22.63074238900137
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.2861111111111111,
+        "mean_reward": 22.63074238900137
+      },
+      {
+        "update": 20,
+        "score": [
+          0.6,
+          -0.26944444444444443,
+          21.91928475488363
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.26944444444444443,
+        "mean_reward": 21.91928475488363
+      },
+      {
+        "update": 25,
+        "score": [
+          0.6,
+          -0.26944444444444443,
+          21.32541203230657
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.26944444444444443,
+        "mean_reward": 21.32541203230657
+      },
+      {
+        "update": 30,
+        "score": [
+          0.6,
+          -0.33611111111111114,
+          21.051585958165536
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.33611111111111114,
+        "mean_reward": 21.051585958165536
+      },
+      {
+        "update": 35,
+        "score": [
+          0.6,
+          -0.29444444444444445,
+          21.484561711195976
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.29444444444444445,
+        "mean_reward": 21.484561711195976
+      },
+      {
+        "update": 40,
+        "score": [
+          0.6,
+          -0.26666666666666666,
+          21.95422183210911
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.26666666666666666,
+        "mean_reward": 21.95422183210911
+      },
+      {
+        "update": 45,
+        "score": [
+          0.6,
+          -0.24722222222222223,
+          22.046887830573596
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.24722222222222223,
+        "mean_reward": 22.046887830573596
+      },
+      {
+        "update": 50,
+        "score": [
+          0.6,
+          -0.2777777777777778,
+          22.123075629355032
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.2777777777777778,
+        "mean_reward": 22.123075629355032
+      },
+      {
+        "update": 55,
+        "score": [
+          0.6,
+          -0.23333333333333334,
+          21.704739144008695
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.23333333333333334,
+        "mean_reward": 21.704739144008695
+      },
+      {
+        "update": 60,
+        "score": [
+          0.7,
+          -0.2388888888888889,
+          21.79554881354322
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.2388888888888889,
+        "mean_reward": 21.79554881354322
+      },
+      {
+        "update": 65,
+        "score": [
+          0.7,
+          -0.24444444444444444,
+          21.686582685377292
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.24444444444444444,
+        "mean_reward": 21.686582685377292
+      },
+      {
+        "update": 70,
+        "score": [
+          0.6,
+          -0.26944444444444443,
+          21.83193422917445
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.26944444444444443,
+        "mean_reward": 21.83193422917445
+      },
+      {
+        "update": 75,
+        "score": [
+          0.6,
+          -0.28055555555555556,
+          21.738952769342955
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.28055555555555556,
+        "mean_reward": 21.738952769342955
+      },
+      {
+        "update": 80,
+        "score": [
+          0.6,
+          -0.26944444444444443,
+          21.146303407518815
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.26944444444444443,
+        "mean_reward": 21.146303407518815
+      },
+      {
+        "update": 85,
+        "score": [
+          0.6,
+          -0.25277777777777777,
+          21.482915617393985
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.25277777777777777,
+        "mean_reward": 21.482915617393985
+      },
+      {
+        "update": 90,
+        "score": [
+          0.6,
+          -0.26944444444444443,
+          21.953534102674656
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.26944444444444443,
+        "mean_reward": 21.953534102674656
+      },
+      {
+        "update": 95,
+        "score": [
+          0.7,
+          -0.24444444444444444,
+          21.89336464050808
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.24444444444444444,
+        "mean_reward": 21.89336464050808
+      },
+      {
+        "update": 100,
+        "score": [
+          0.7,
+          -0.23333333333333334,
+          21.730740111594812
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.23333333333333334,
+        "mean_reward": 21.730740111594812
+      }
+    ],
+    "environment_steps": 3000,
+    "agent_decisions": 9000
+  },
+  {
+    "policy": "official_macpo",
+    "episodes": 40,
+    "mean_reward": 7.14669,
+    "joint_satisfaction_rate": 0.925,
+    "mean_intervention_rate": 0.0,
+    "mean_intervention_distance": 0.0,
+    "violation_rate": {
+      "C02": 1.0,
+      "C03": 0.025,
+      "E06": 0.1,
+      "M04": 1.0,
+      "S02": 0.075
+    },
+    "mean_first_violation_step": {
+      "C02": 0.0,
+      "C03": 8.0,
+      "E06": 24.5,
+      "M04": 5.0,
+      "S02": 1.333
+    },
+    "initial_infeasible_rate": 0.05,
+    "online_hard_violation_rate": 0.0,
+    "post_shield_hard_violation_rate": 0.0,
+    "post_truth_hard_violation_rate": 0.00833,
+    "qp_infeasible_rate": 0.0,
+    "conflict_rate": 0.0,
+    "replan_trigger_rate": 0.0,
+    "mean_belief_risk": 0.0,
+    "mean_pre_filter_belief_risk": 0.0,
+    "mean_post_filter_belief_risk": 0.0,
+    "mean_actor_time_ms": 1.69583,
+    "mean_online_time_ms": 0.0,
+    "tail_violation_rate": 1.0,
+    "risk_calibration_brier": 0.0,
+    "initially_feasible_episodes": 38,
+    "conditional_joint_satisfaction_rate": 0.97368,
+    "rule_conflict_event_rate": 0.0,
+    "rule_rule_conflict_step_rate": 0.0,
+    "rule_rule_resolution_rate": 0.0,
+    "mean_conflict_residual": 0.0,
+    "mean_solver_agents": 0.0,
+    "mean_solver_components": 0.0,
+    "max_solver_component_size": 0,
+    "cross_component_violation_rate": 0.0,
+    "cross_component_repair_rate": 0.0,
+    "seed": 33,
+    "repository": "https://github.com/chauncygu/Multi-Agent-Constrained-Policy-Optimisation",
+    "commit": "b80a9f5b4a0049125a827be8fb9c477f69ae021b",
+    "source_fingerprint": "b4154ae715fa0d1d24e72dbae5372c8b271ea9d64665019e52e1bb852f8993b1",
+    "safety_bound": 0.1,
+    "kl_threshold": 0.01,
+    "cost_signal": "episode_binary",
+    "selected_update": 0,
+    "validation_trace": [
+      {
+        "update": 0,
+        "score": [
+          0.9,
+          -0.027777777777777776,
+          6.707405131822399
+        ],
+        "conditional_joint_satisfaction_rate": 0.9,
+        "post_truth_hard_violation_rate": 0.027777777777777776,
+        "mean_reward": 6.707405131822399
+      },
+      {
+        "update": 5,
+        "score": [
+          0.9,
+          -0.03333333333333333,
+          7.605311550159868
+        ],
+        "conditional_joint_satisfaction_rate": 0.9,
+        "post_truth_hard_violation_rate": 0.03333333333333333,
+        "mean_reward": 7.605311550159868
+      },
+      {
+        "update": 10,
+        "score": [
+          0.9,
+          -0.03888888888888889,
+          7.454022117407202
+        ],
+        "conditional_joint_satisfaction_rate": 0.9,
+        "post_truth_hard_violation_rate": 0.03888888888888889,
+        "mean_reward": 7.454022117407202
+      },
+      {
+        "update": 15,
+        "score": [
+          0.8,
+          -0.044444444444444446,
+          7.696878890718543
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.044444444444444446,
+        "mean_reward": 7.696878890718543
+      },
+      {
+        "update": 20,
+        "score": [
+          0.8,
+          -0.11388888888888889,
+          9.337446223432257
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.11388888888888889,
+        "mean_reward": 9.337446223432257
+      },
+      {
+        "update": 25,
+        "score": [
+          0.8,
+          -0.06111111111111111,
+          8.589759603535546
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.06111111111111111,
+        "mean_reward": 8.589759603535546
+      },
+      {
+        "update": 30,
+        "score": [
+          0.8,
+          -0.030555555555555555,
+          7.597580781502632
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.030555555555555555,
+        "mean_reward": 7.597580781502632
+      },
+      {
+        "update": 35,
+        "score": [
+          0.8,
+          -0.030555555555555555,
+          7.898606820857517
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.030555555555555555,
+        "mean_reward": 7.898606820857517
+      },
+      {
+        "update": 40,
+        "score": [
+          0.8,
+          -0.05277777777777778,
+          10.024072208742975
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.05277777777777778,
+        "mean_reward": 10.024072208742975
+      },
+      {
+        "update": 45,
+        "score": [
+          0.7,
+          -0.19166666666666668,
+          15.351930606462735
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.19166666666666668,
+        "mean_reward": 15.351930606462735
+      },
+      {
+        "update": 50,
+        "score": [
+          0.7,
+          -0.25277777777777777,
+          19.469271353290996
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.25277777777777777,
+        "mean_reward": 19.469271353290996
+      },
+      {
+        "update": 55,
+        "score": [
+          0.7,
+          -0.24722222222222223,
+          21.031576551862198
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.24722222222222223,
+        "mean_reward": 21.031576551862198
+      },
+      {
+        "update": 60,
+        "score": [
+          0.7,
+          -0.125,
+          17.441704732508672
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.125,
+        "mean_reward": 17.441704732508672
+      },
+      {
+        "update": 65,
+        "score": [
+          0.7,
+          -0.15833333333333333,
+          19.229658277005115
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.15833333333333333,
+        "mean_reward": 19.229658277005115
+      },
+      {
+        "update": 70,
+        "score": [
+          0.7,
+          -0.2388888888888889,
+          21.11840372132942
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.2388888888888889,
+        "mean_reward": 21.11840372132942
+      },
+      {
+        "update": 75,
+        "score": [
+          0.7,
+          -0.25555555555555554,
+          21.697598163857805
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.25555555555555554,
+        "mean_reward": 21.697598163857805
+      },
+      {
+        "update": 80,
+        "score": [
+          0.7,
+          -0.2611111111111111,
+          21.81847954511643
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.2611111111111111,
+        "mean_reward": 21.81847954511643
+      },
+      {
+        "update": 85,
+        "score": [
+          0.7,
+          -0.2611111111111111,
+          21.395564966147006
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.2611111111111111,
+        "mean_reward": 21.395564966147006
+      },
+      {
+        "update": 90,
+        "score": [
+          0.7,
+          -0.2638888888888889,
+          21.04879254372975
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.2638888888888889,
+        "mean_reward": 21.04879254372975
+      },
+      {
+        "update": 95,
+        "score": [
+          0.7,
+          -0.25833333333333336,
+          21.586024130436467
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.25833333333333336,
+        "mean_reward": 21.586024130436467
+      },
+      {
+        "update": 100,
+        "score": [
+          0.7,
+          -0.2722222222222222,
+          22.051676367033465
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.2722222222222222,
+        "mean_reward": 22.051676367033465
+      }
+    ],
+    "environment_steps": 3000,
+    "agent_decisions": 9000
+  },
+  {
+    "policy": "official_macpo",
+    "episodes": 40,
+    "mean_reward": 25.07847,
+    "joint_satisfaction_rate": 0.9,
+    "mean_intervention_rate": 0.0,
+    "mean_intervention_distance": 0.0,
+    "violation_rate": {
+      "C03": 0.025,
+      "C04": 0.025,
+      "C05": 0.025,
+      "E02": 0.15,
+      "E06": 0.1,
+      "F01": 0.025,
+      "M04": 0.95,
+      "S02": 0.075
+    },
+    "mean_first_violation_step": {
+      "C03": 8.0,
+      "C04": 0.0,
+      "C05": 24.0,
+      "E02": 4.5,
+      "E06": 24.5,
+      "F01": 26.0,
+      "M04": 5.0,
+      "S02": 1.333
+    },
+    "initial_infeasible_rate": 0.05,
+    "online_hard_violation_rate": 0.0,
+    "post_shield_hard_violation_rate": 0.0,
+    "post_truth_hard_violation_rate": 0.01167,
+    "qp_infeasible_rate": 0.0,
+    "conflict_rate": 0.0,
+    "replan_trigger_rate": 0.0,
+    "mean_belief_risk": 0.0,
+    "mean_pre_filter_belief_risk": 0.0,
+    "mean_post_filter_belief_risk": 0.0,
+    "mean_actor_time_ms": 1.6978,
+    "mean_online_time_ms": 0.0,
+    "tail_violation_rate": 1.0,
+    "risk_calibration_brier": 0.0,
+    "initially_feasible_episodes": 38,
+    "conditional_joint_satisfaction_rate": 0.94737,
+    "rule_conflict_event_rate": 0.0,
+    "rule_rule_conflict_step_rate": 0.0,
+    "rule_rule_resolution_rate": 0.0,
+    "mean_conflict_residual": 0.0,
+    "mean_solver_agents": 0.0,
+    "mean_solver_components": 0.0,
+    "max_solver_component_size": 0,
+    "cross_component_violation_rate": 0.0,
+    "cross_component_repair_rate": 0.0,
+    "seed": 44,
+    "repository": "https://github.com/chauncygu/Multi-Agent-Constrained-Policy-Optimisation",
+    "commit": "b80a9f5b4a0049125a827be8fb9c477f69ae021b",
+    "source_fingerprint": "b4154ae715fa0d1d24e72dbae5372c8b271ea9d64665019e52e1bb852f8993b1",
+    "safety_bound": 0.1,
+    "kl_threshold": 0.01,
+    "cost_signal": "episode_binary",
+    "selected_update": 0,
+    "validation_trace": [
+      {
+        "update": 0,
+        "score": [
+          0.9,
+          -0.027777777777777776,
+          24.593365888770098
+        ],
+        "conditional_joint_satisfaction_rate": 0.9,
+        "post_truth_hard_violation_rate": 0.027777777777777776,
+        "mean_reward": 24.593365888770098
+      },
+      {
+        "update": 5,
+        "score": [
+          0.9,
+          -0.027777777777777776,
+          23.461696043538282
+        ],
+        "conditional_joint_satisfaction_rate": 0.9,
+        "post_truth_hard_violation_rate": 0.027777777777777776,
+        "mean_reward": 23.461696043538282
+      },
+      {
+        "update": 10,
+        "score": [
+          0.7,
+          -0.075,
+          20.237763774186813
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.075,
+        "mean_reward": 20.237763774186813
+      },
+      {
+        "update": 15,
+        "score": [
+          0.6,
+          -0.08611111111111111,
+          19.67978053010474
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.08611111111111111,
+        "mean_reward": 19.67978053010474
+      },
+      {
+        "update": 20,
+        "score": [
+          0.6,
+          -0.06944444444444445,
+          21.50153891199545
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.06944444444444445,
+        "mean_reward": 21.50153891199545
+      },
+      {
+        "update": 25,
+        "score": [
+          0.7,
+          -0.05,
+          21.934064590126795
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.05,
+        "mean_reward": 21.934064590126795
+      },
+      {
+        "update": 30,
+        "score": [
+          0.8,
+          -0.04722222222222222,
+          21.861517060986852
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.04722222222222222,
+        "mean_reward": 21.861517060986852
+      },
+      {
+        "update": 35,
+        "score": [
+          0.8,
+          -0.04722222222222222,
+          21.216129694169023
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.04722222222222222,
+        "mean_reward": 21.216129694169023
+      },
+      {
+        "update": 40,
+        "score": [
+          0.8,
+          -0.05277777777777778,
+          22.293524666392102
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.05277777777777778,
+        "mean_reward": 22.293524666392102
+      },
+      {
+        "update": 45,
+        "score": [
+          0.8,
+          -0.03333333333333333,
+          19.750834220302647
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.03333333333333333,
+        "mean_reward": 19.750834220302647
+      },
+      {
+        "update": 50,
+        "score": [
+          0.8,
+          -0.03333333333333333,
+          21.07132687510583
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.03333333333333333,
+        "mean_reward": 21.07132687510583
+      },
+      {
+        "update": 55,
+        "score": [
+          0.8,
+          -0.03333333333333333,
+          20.977472888633386
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.03333333333333333,
+        "mean_reward": 20.977472888633386
+      },
+      {
+        "update": 60,
+        "score": [
+          0.9,
+          -0.027777777777777776,
+          20.47778457182784
+        ],
+        "conditional_joint_satisfaction_rate": 0.9,
+        "post_truth_hard_violation_rate": 0.027777777777777776,
+        "mean_reward": 20.47778457182784
+      },
+      {
+        "update": 65,
+        "score": [
+          0.8,
+          -0.03888888888888889,
+          20.723536130017738
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.03888888888888889,
+        "mean_reward": 20.723536130017738
+      },
+      {
+        "update": 70,
+        "score": [
+          0.8,
+          -0.03888888888888889,
+          21.47611872206936
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.03888888888888889,
+        "mean_reward": 21.47611872206936
+      },
+      {
+        "update": 75,
+        "score": [
+          0.8,
+          -0.03333333333333333,
+          22.76400644261344
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.03333333333333333,
+        "mean_reward": 22.76400644261344
+      },
+      {
+        "update": 80,
+        "score": [
+          0.8,
+          -0.03333333333333333,
+          23.36386887524941
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.03333333333333333,
+        "mean_reward": 23.36386887524941
+      },
+      {
+        "update": 85,
+        "score": [
+          0.8,
+          -0.03611111111111111,
+          21.660074564524766
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.03611111111111111,
+        "mean_reward": 21.660074564524766
+      },
+      {
+        "update": 90,
+        "score": [
+          0.7,
+          -0.03888888888888889,
+          22.601452976653388
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.03888888888888889,
+        "mean_reward": 22.601452976653388
+      },
+      {
+        "update": 95,
+        "score": [
+          0.7,
+          -0.05277777777777778,
+          21.758875586187326
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.05277777777777778,
+        "mean_reward": 21.758875586187326
+      },
+      {
+        "update": 100,
+        "score": [
+          0.7,
+          -0.05277777777777778,
+          21.938934337759218
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.05277777777777778,
+        "mean_reward": 21.938934337759218
+      }
+    ],
+    "environment_steps": 3000,
+    "agent_decisions": 9000
+  },
+  {
+    "policy": "official_macpo",
+    "episodes": 40,
+    "mean_reward": 24.26626,
+    "joint_satisfaction_rate": 0.85,
+    "mean_intervention_rate": 0.0,
+    "mean_intervention_distance": 0.0,
+    "violation_rate": {
+      "C02": 0.25,
+      "C03": 0.025,
+      "C05": 0.1,
+      "E01": 0.025,
+      "E02": 0.925,
+      "E06": 0.1,
+      "F01": 0.075,
+      "M04": 0.075,
+      "S02": 0.075
+    },
+    "mean_first_violation_step": {
+      "C02": 18.3,
+      "C03": 8.0,
+      "C05": 12.0,
+      "E01": 1.0,
+      "E02": 1.27,
+      "E06": 24.5,
+      "F01": 18.0,
+      "M04": 5.0,
+      "S02": 1.333
+    },
+    "initial_infeasible_rate": 0.05,
+    "online_hard_violation_rate": 0.0,
+    "post_shield_hard_violation_rate": 0.0,
+    "post_truth_hard_violation_rate": 0.03833,
+    "qp_infeasible_rate": 0.0,
+    "conflict_rate": 0.0,
+    "replan_trigger_rate": 0.0,
+    "mean_belief_risk": 0.0,
+    "mean_pre_filter_belief_risk": 0.0,
+    "mean_post_filter_belief_risk": 0.0,
+    "mean_actor_time_ms": 1.67865,
+    "mean_online_time_ms": 0.0,
+    "tail_violation_rate": 1.0,
+    "risk_calibration_brier": 0.0,
+    "initially_feasible_episodes": 38,
+    "conditional_joint_satisfaction_rate": 0.89474,
+    "rule_conflict_event_rate": 0.0,
+    "rule_rule_conflict_step_rate": 0.0,
+    "rule_rule_resolution_rate": 0.0,
+    "mean_conflict_residual": 0.0,
+    "mean_solver_agents": 0.0,
+    "mean_solver_components": 0.0,
+    "max_solver_component_size": 0,
+    "cross_component_violation_rate": 0.0,
+    "cross_component_repair_rate": 0.0,
+    "seed": 55,
+    "repository": "https://github.com/chauncygu/Multi-Agent-Constrained-Policy-Optimisation",
+    "commit": "b80a9f5b4a0049125a827be8fb9c477f69ae021b",
+    "source_fingerprint": "b4154ae715fa0d1d24e72dbae5372c8b271ea9d64665019e52e1bb852f8993b1",
+    "safety_bound": 0.1,
+    "kl_threshold": 0.01,
+    "cost_signal": "episode_binary",
+    "selected_update": 40,
+    "validation_trace": [
+      {
+        "update": 0,
+        "score": [
+          0.8,
+          -0.03888888888888889,
+          21.292397739733506
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.03888888888888889,
+        "mean_reward": 21.292397739733506
+      },
+      {
+        "update": 5,
+        "score": [
+          0.8,
+          -0.03888888888888889,
+          20.823706820936568
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.03888888888888889,
+        "mean_reward": 20.823706820936568
+      },
+      {
+        "update": 10,
+        "score": [
+          0.6,
+          -0.08333333333333333,
+          17.02883536908529
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.08333333333333333,
+        "mean_reward": 17.02883536908529
+      },
+      {
+        "update": 15,
+        "score": [
+          0.6,
+          -0.09444444444444444,
+          20.962369055790322
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.09444444444444444,
+        "mean_reward": 20.962369055790322
+      },
+      {
+        "update": 20,
+        "score": [
+          0.7,
+          -0.06666666666666667,
+          21.45727138488436
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.06666666666666667,
+        "mean_reward": 21.45727138488436
+      },
+      {
+        "update": 25,
+        "score": [
+          0.8,
+          -0.03888888888888889,
+          21.823364294804403
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.03888888888888889,
+        "mean_reward": 21.823364294804403
+      },
+      {
+        "update": 30,
+        "score": [
+          0.8,
+          -0.03888888888888889,
+          23.394224247534368
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.03888888888888889,
+        "mean_reward": 23.394224247534368
+      },
+      {
+        "update": 35,
+        "score": [
+          0.9,
+          -0.027777777777777776,
+          23.417207460019142
+        ],
+        "conditional_joint_satisfaction_rate": 0.9,
+        "post_truth_hard_violation_rate": 0.027777777777777776,
+        "mean_reward": 23.417207460019142
+      },
+      {
+        "update": 40,
+        "score": [
+          0.9,
+          -0.027777777777777776,
+          23.88599393351551
+        ],
+        "conditional_joint_satisfaction_rate": 0.9,
+        "post_truth_hard_violation_rate": 0.027777777777777776,
+        "mean_reward": 23.88599393351551
+      },
+      {
+        "update": 45,
+        "score": [
+          0.9,
+          -0.027777777777777776,
+          23.80503487794431
+        ],
+        "conditional_joint_satisfaction_rate": 0.9,
+        "post_truth_hard_violation_rate": 0.027777777777777776,
+        "mean_reward": 23.80503487794431
+      },
+      {
+        "update": 50,
+        "score": [
+          0.9,
+          -0.027777777777777776,
+          23.411223999551
+        ],
+        "conditional_joint_satisfaction_rate": 0.9,
+        "post_truth_hard_violation_rate": 0.027777777777777776,
+        "mean_reward": 23.411223999551
+      },
+      {
+        "update": 55,
+        "score": [
+          0.9,
+          -0.027777777777777776,
+          23.33709230162205
+        ],
+        "conditional_joint_satisfaction_rate": 0.9,
+        "post_truth_hard_violation_rate": 0.027777777777777776,
+        "mean_reward": 23.33709230162205
+      },
+      {
+        "update": 60,
+        "score": [
+          0.7,
+          -0.058333333333333334,
+          23.131794636131588
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.058333333333333334,
+        "mean_reward": 23.131794636131588
+      },
+      {
+        "update": 65,
+        "score": [
+          0.7,
+          -0.06388888888888888,
+          23.07498711722096
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.06388888888888888,
+        "mean_reward": 23.07498711722096
+      },
+      {
+        "update": 70,
+        "score": [
+          0.7,
+          -0.06388888888888888,
+          23.173017725907187
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.06388888888888888,
+        "mean_reward": 23.173017725907187
+      },
+      {
+        "update": 75,
+        "score": [
+          0.7,
+          -0.06666666666666667,
+          22.862952217214087
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.06666666666666667,
+        "mean_reward": 22.862952217214087
+      },
+      {
+        "update": 80,
+        "score": [
+          0.7,
+          -0.06666666666666667,
+          22.719254014917496
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.06666666666666667,
+        "mean_reward": 22.719254014917496
+      },
+      {
+        "update": 85,
+        "score": [
+          0.7,
+          -0.06666666666666667,
+          22.494604302508236
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.06666666666666667,
+        "mean_reward": 22.494604302508236
+      },
+      {
+        "update": 90,
+        "score": [
+          0.7,
+          -0.06666666666666667,
+          22.477046021744062
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.06666666666666667,
+        "mean_reward": 22.477046021744062
+      },
+      {
+        "update": 95,
+        "score": [
+          0.7,
+          -0.06944444444444445,
+          23.197341587127752
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.06944444444444445,
+        "mean_reward": 23.197341587127752
+      },
+      {
+        "update": 100,
+        "score": [
+          0.7,
+          -0.07222222222222222,
+          23.759957117524255
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.07222222222222222,
+        "mean_reward": 23.759957117524255
+      }
+    ],
+    "environment_steps": 3000,
+    "agent_decisions": 9000
+  },
+  {
+    "policy": "official_macpo",
+    "episodes": 40,
+    "mean_reward": 21.69417,
+    "joint_satisfaction_rate": 0.75,
+    "mean_intervention_rate": 0.0,
+    "mean_intervention_distance": 0.0,
+    "violation_rate": {
+      "C02": 0.65,
+      "C03": 0.025,
+      "C04": 0.05,
+      "C05": 0.225,
+      "E01": 0.45,
+      "E02": 0.95,
+      "E06": 0.1,
+      "F01": 0.225,
+      "F03": 0.1,
+      "F04": 0.175,
+      "M04": 0.425,
+      "M06": 0.1,
+      "S02": 0.075
+    },
+    "mean_first_violation_step": {
+      "C02": 8.154,
+      "C03": 8.0,
+      "C04": 17.5,
+      "C05": 3.889,
+      "E01": 16.111,
+      "E02": 4.447,
+      "E06": 24.5,
+      "F01": 7.111,
+      "F03": 26.5,
+      "F04": 10.571,
+      "M04": 5.0,
+      "M06": 26.5,
+      "S02": 1.333
+    },
+    "initial_infeasible_rate": 0.05,
+    "online_hard_violation_rate": 0.0,
+    "post_shield_hard_violation_rate": 0.0,
+    "post_truth_hard_violation_rate": 0.1475,
+    "qp_infeasible_rate": 0.0,
+    "conflict_rate": 0.0,
+    "replan_trigger_rate": 0.0,
+    "mean_belief_risk": 0.0,
+    "mean_pre_filter_belief_risk": 0.0,
+    "mean_post_filter_belief_risk": 0.0,
+    "mean_actor_time_ms": 1.68216,
+    "mean_online_time_ms": 0.0,
+    "tail_violation_rate": 1.0,
+    "risk_calibration_brier": 0.0,
+    "initially_feasible_episodes": 38,
+    "conditional_joint_satisfaction_rate": 0.78947,
+    "rule_conflict_event_rate": 0.0,
+    "rule_rule_conflict_step_rate": 0.0,
+    "rule_rule_resolution_rate": 0.0,
+    "mean_conflict_residual": 0.0,
+    "mean_solver_agents": 0.0,
+    "mean_solver_components": 0.0,
+    "max_solver_component_size": 0,
+    "cross_component_violation_rate": 0.0,
+    "cross_component_repair_rate": 0.0,
+    "seed": 66,
+    "repository": "https://github.com/chauncygu/Multi-Agent-Constrained-Policy-Optimisation",
+    "commit": "b80a9f5b4a0049125a827be8fb9c477f69ae021b",
+    "source_fingerprint": "b4154ae715fa0d1d24e72dbae5372c8b271ea9d64665019e52e1bb852f8993b1",
+    "safety_bound": 0.1,
+    "kl_threshold": 0.01,
+    "cost_signal": "episode_binary",
+    "selected_update": 25,
+    "validation_trace": [
+      {
+        "update": 0,
+        "score": [
+          0.7,
+          -0.2222222222222222,
+          21.637759058214694
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.2222222222222222,
+        "mean_reward": 21.637759058214694
+      },
+      {
+        "update": 5,
+        "score": [
+          0.7,
+          -0.24166666666666667,
+          22.438852091016468
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.24166666666666667,
+        "mean_reward": 22.438852091016468
+      },
+      {
+        "update": 10,
+        "score": [
+          0.7,
+          -0.225,
+          21.305055345654505
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.225,
+        "mean_reward": 21.305055345654505
+      },
+      {
+        "update": 15,
+        "score": [
+          0.7,
+          -0.2111111111111111,
+          21.001679388547274
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.2111111111111111,
+        "mean_reward": 21.001679388547274
+      },
+      {
+        "update": 20,
+        "score": [
+          0.7,
+          -0.16111111111111112,
+          19.93065820897802
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.16111111111111112,
+        "mean_reward": 19.93065820897802
+      },
+      {
+        "update": 25,
+        "score": [
+          0.8,
+          -0.15833333333333333,
+          20.899026411475578
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.15833333333333333,
+        "mean_reward": 20.899026411475578
+      },
+      {
+        "update": 30,
+        "score": [
+          0.8,
+          -0.15833333333333333,
+          18.400137392425314
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.15833333333333333,
+        "mean_reward": 18.400137392425314
+      },
+      {
+        "update": 35,
+        "score": [
+          0.8,
+          -0.15833333333333333,
+          18.54618668175767
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.15833333333333333,
+        "mean_reward": 18.54618668175767
+      },
+      {
+        "update": 40,
+        "score": [
+          0.8,
+          -0.15833333333333333,
+          19.66177430417007
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.15833333333333333,
+        "mean_reward": 19.66177430417007
+      },
+      {
+        "update": 45,
+        "score": [
+          0.7,
+          -0.16111111111111112,
+          19.5127454302564
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.16111111111111112,
+        "mean_reward": 19.5127454302564
+      },
+      {
+        "update": 50,
+        "score": [
+          0.7,
+          -0.17222222222222222,
+          20.71583719567847
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.17222222222222222,
+        "mean_reward": 20.71583719567847
+      },
+      {
+        "update": 55,
+        "score": [
+          0.7,
+          -0.18055555555555555,
+          21.0910008989308
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.18055555555555555,
+        "mean_reward": 21.0910008989308
+      },
+      {
+        "update": 60,
+        "score": [
+          0.7,
+          -0.25277777777777777,
+          21.544347173750666
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.25277777777777777,
+        "mean_reward": 21.544347173750666
+      },
+      {
+        "update": 65,
+        "score": [
+          0.7,
+          -0.25555555555555554,
+          21.80826090248303
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.25555555555555554,
+        "mean_reward": 21.80826090248303
+      },
+      {
+        "update": 70,
+        "score": [
+          0.7,
+          -0.2638888888888889,
+          21.735161610278976
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.2638888888888889,
+        "mean_reward": 21.735161610278976
+      },
+      {
+        "update": 75,
+        "score": [
+          0.7,
+          -0.2611111111111111,
+          21.06374763524025
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.2611111111111111,
+        "mean_reward": 21.06374763524025
+      },
+      {
+        "update": 80,
+        "score": [
+          0.7,
+          -0.24444444444444444,
+          21.014562381309048
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.24444444444444444,
+        "mean_reward": 21.014562381309048
+      },
+      {
+        "update": 85,
+        "score": [
+          0.7,
+          -0.24722222222222223,
+          21.183145447644993
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.24722222222222223,
+        "mean_reward": 21.183145447644993
+      },
+      {
+        "update": 90,
+        "score": [
+          0.7,
+          -0.2361111111111111,
+          20.86925429140742
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.2361111111111111,
+        "mean_reward": 20.86925429140742
+      },
+      {
+        "update": 95,
+        "score": [
+          0.7,
+          -0.23055555555555557,
+          20.622613059250146
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.23055555555555557,
+        "mean_reward": 20.622613059250146
+      },
+      {
+        "update": 100,
+        "score": [
+          0.7,
+          -0.19722222222222222,
+          19.896332213205906
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.19722222222222222,
+        "mean_reward": 19.896332213205906
+      }
+    ],
+    "environment_steps": 3000,
+    "agent_decisions": 9000
+  },
+  {
+    "policy": "official_macpo",
+    "episodes": 40,
+    "mean_reward": 22.06274,
+    "joint_satisfaction_rate": 0.8,
+    "mean_intervention_rate": 0.0,
+    "mean_intervention_distance": 0.0,
+    "violation_rate": {
+      "C02": 0.525,
+      "C03": 0.025,
+      "C04": 0.15,
+      "C05": 0.1,
+      "E01": 0.9,
+      "E02": 1.0,
+      "E06": 0.1,
+      "F01": 0.1,
+      "F03": 0.075,
+      "F04": 0.1,
+      "I06": 0.025,
+      "M04": 0.325,
+      "M06": 0.075,
+      "S02": 0.075
+    },
+    "mean_first_violation_step": {
+      "C02": 3.571,
+      "C03": 8.0,
+      "C04": 6.667,
+      "C05": 9.0,
+      "E01": 7.278,
+      "E02": 1.925,
+      "E06": 24.5,
+      "F01": 10.5,
+      "F03": 23.333,
+      "F04": 12.75,
+      "I06": 0.0,
+      "M04": 5.0,
+      "M06": 23.333,
+      "S02": 1.333
+    },
+    "initial_infeasible_rate": 0.05,
+    "online_hard_violation_rate": 0.0,
+    "post_shield_hard_violation_rate": 0.0,
+    "post_truth_hard_violation_rate": 0.04,
+    "qp_infeasible_rate": 0.0,
+    "conflict_rate": 0.0,
+    "replan_trigger_rate": 0.0,
+    "mean_belief_risk": 0.0,
+    "mean_pre_filter_belief_risk": 0.0,
+    "mean_post_filter_belief_risk": 0.0,
+    "mean_actor_time_ms": 1.8166,
+    "mean_online_time_ms": 0.0,
+    "tail_violation_rate": 1.0,
+    "risk_calibration_brier": 0.0,
+    "initially_feasible_episodes": 38,
+    "conditional_joint_satisfaction_rate": 0.84211,
+    "rule_conflict_event_rate": 0.0,
+    "rule_rule_conflict_step_rate": 0.0,
+    "rule_rule_resolution_rate": 0.0,
+    "mean_conflict_residual": 0.0,
+    "mean_solver_agents": 0.0,
+    "mean_solver_components": 0.0,
+    "max_solver_component_size": 0,
+    "cross_component_violation_rate": 0.0,
+    "cross_component_repair_rate": 0.0,
+    "seed": 77,
+    "repository": "https://github.com/chauncygu/Multi-Agent-Constrained-Policy-Optimisation",
+    "commit": "b80a9f5b4a0049125a827be8fb9c477f69ae021b",
+    "source_fingerprint": "b4154ae715fa0d1d24e72dbae5372c8b271ea9d64665019e52e1bb852f8993b1",
+    "safety_bound": 0.1,
+    "kl_threshold": 0.01,
+    "cost_signal": "episode_binary",
+    "selected_update": 70,
+    "validation_trace": [
+      {
+        "update": 0,
+        "score": [
+          0.7,
+          -0.3138888888888889,
+          22.533000145229256
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.3138888888888889,
+        "mean_reward": 22.533000145229256
+      },
+      {
+        "update": 5,
+        "score": [
+          0.6,
+          -0.3138888888888889,
+          22.62784920874734
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.3138888888888889,
+        "mean_reward": 22.62784920874734
+      },
+      {
+        "update": 10,
+        "score": [
+          0.5,
+          -0.28055555555555556,
+          22.25889427019979
+        ],
+        "conditional_joint_satisfaction_rate": 0.5,
+        "post_truth_hard_violation_rate": 0.28055555555555556,
+        "mean_reward": 22.25889427019979
+      },
+      {
+        "update": 15,
+        "score": [
+          0.5,
+          -0.18055555555555555,
+          22.18458747235474
+        ],
+        "conditional_joint_satisfaction_rate": 0.5,
+        "post_truth_hard_violation_rate": 0.18055555555555555,
+        "mean_reward": 22.18458747235474
+      },
+      {
+        "update": 20,
+        "score": [
+          0.5,
+          -0.13333333333333333,
+          21.19728736018462
+        ],
+        "conditional_joint_satisfaction_rate": 0.5,
+        "post_truth_hard_violation_rate": 0.13333333333333333,
+        "mean_reward": 21.19728736018462
+      },
+      {
+        "update": 25,
+        "score": [
+          0.5,
+          -0.19444444444444445,
+          20.11061336669515
+        ],
+        "conditional_joint_satisfaction_rate": 0.5,
+        "post_truth_hard_violation_rate": 0.19444444444444445,
+        "mean_reward": 20.11061336669515
+      },
+      {
+        "update": 30,
+        "score": [
+          0.6,
+          -0.18611111111111112,
+          19.781226402824263
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.18611111111111112,
+        "mean_reward": 19.781226402824263
+      },
+      {
+        "update": 35,
+        "score": [
+          0.7,
+          -0.1527777777777778,
+          21.208068636810054
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.1527777777777778,
+        "mean_reward": 21.208068636810054
+      },
+      {
+        "update": 40,
+        "score": [
+          0.7,
+          -0.26666666666666666,
+          22.214367268921176
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.26666666666666666,
+        "mean_reward": 22.214367268921176
+      },
+      {
+        "update": 45,
+        "score": [
+          0.7,
+          -0.2972222222222222,
+          21.69798425282657
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.2972222222222222,
+        "mean_reward": 21.69798425282657
+      },
+      {
+        "update": 50,
+        "score": [
+          0.7,
+          -0.2222222222222222,
+          21.691401642154506
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.2222222222222222,
+        "mean_reward": 21.691401642154506
+      },
+      {
+        "update": 55,
+        "score": [
+          0.6,
+          -0.2388888888888889,
+          21.017217503761245
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.2388888888888889,
+        "mean_reward": 21.017217503761245
+      },
+      {
+        "update": 60,
+        "score": [
+          0.6,
+          -0.12222222222222222,
+          21.497009880512863
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.12222222222222222,
+        "mean_reward": 21.497009880512863
+      },
+      {
+        "update": 65,
+        "score": [
+          0.7,
+          -0.11666666666666667,
+          21.44007018667877
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.11666666666666667,
+        "mean_reward": 21.44007018667877
+      },
+      {
+        "update": 70,
+        "score": [
+          0.8,
+          -0.09444444444444444,
+          21.534264573014198
+        ],
+        "conditional_joint_satisfaction_rate": 0.8,
+        "post_truth_hard_violation_rate": 0.09444444444444444,
+        "mean_reward": 21.534264573014198
+      },
+      {
+        "update": 75,
+        "score": [
+          0.7,
+          -0.11388888888888889,
+          21.91245334371581
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.11388888888888889,
+        "mean_reward": 21.91245334371581
+      },
+      {
+        "update": 80,
+        "score": [
+          0.6,
+          -0.1527777777777778,
+          21.363978821182585
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.1527777777777778,
+        "mean_reward": 21.363978821182585
+      },
+      {
+        "update": 85,
+        "score": [
+          0.7,
+          -0.1361111111111111,
+          21.909438200423605
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.1361111111111111,
+        "mean_reward": 21.909438200423605
+      },
+      {
+        "update": 90,
+        "score": [
+          0.7,
+          -0.12222222222222222,
+          21.87462715820855
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.12222222222222222,
+        "mean_reward": 21.87462715820855
+      },
+      {
+        "update": 95,
+        "score": [
+          0.7,
+          -0.10833333333333334,
+          21.93042938180896
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.10833333333333334,
+        "mean_reward": 21.93042938180896
+      },
+      {
+        "update": 100,
+        "score": [
+          0.7,
+          -0.10833333333333334,
+          21.410142245250416
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.10833333333333334,
+        "mean_reward": 21.410142245250416
+      }
+    ],
+    "environment_steps": 3000,
+    "agent_decisions": 9000
+  },
+  {
+    "policy": "official_macpo",
+    "episodes": 40,
+    "mean_reward": 22.33709,
+    "joint_satisfaction_rate": 0.775,
+    "mean_intervention_rate": 0.0,
+    "mean_intervention_distance": 0.0,
+    "violation_rate": {
+      "C02": 0.9,
+      "C03": 0.025,
+      "C04": 0.125,
+      "C05": 0.275,
+      "E01": 0.25,
+      "E02": 1.0,
+      "E06": 0.1,
+      "F01": 0.125,
+      "F04": 0.075,
+      "M04": 0.875,
+      "S02": 0.075
+    },
+    "mean_first_violation_step": {
+      "C02": 1.472,
+      "C03": 8.0,
+      "C04": 12.6,
+      "C05": 6.545,
+      "E01": 14.5,
+      "E02": 2.825,
+      "E06": 24.5,
+      "F01": 16.8,
+      "F04": 8.667,
+      "M04": 5.0,
+      "S02": 1.333
+    },
+    "initial_infeasible_rate": 0.05,
+    "online_hard_violation_rate": 0.0,
+    "post_shield_hard_violation_rate": 0.0,
+    "post_truth_hard_violation_rate": 0.03583,
+    "qp_infeasible_rate": 0.0,
+    "conflict_rate": 0.0,
+    "replan_trigger_rate": 0.0,
+    "mean_belief_risk": 0.0,
+    "mean_pre_filter_belief_risk": 0.0,
+    "mean_post_filter_belief_risk": 0.0,
+    "mean_actor_time_ms": 1.69747,
+    "mean_online_time_ms": 0.0,
+    "tail_violation_rate": 1.0,
+    "risk_calibration_brier": 0.0,
+    "initially_feasible_episodes": 38,
+    "conditional_joint_satisfaction_rate": 0.81579,
+    "rule_conflict_event_rate": 0.0,
+    "rule_rule_conflict_step_rate": 0.0,
+    "rule_rule_resolution_rate": 0.0,
+    "mean_conflict_residual": 0.0,
+    "mean_solver_agents": 0.0,
+    "mean_solver_components": 0.0,
+    "max_solver_component_size": 0,
+    "cross_component_violation_rate": 0.0,
+    "cross_component_repair_rate": 0.0,
+    "seed": 88,
+    "repository": "https://github.com/chauncygu/Multi-Agent-Constrained-Policy-Optimisation",
+    "commit": "b80a9f5b4a0049125a827be8fb9c477f69ae021b",
+    "source_fingerprint": "b4154ae715fa0d1d24e72dbae5372c8b271ea9d64665019e52e1bb852f8993b1",
+    "safety_bound": 0.1,
+    "kl_threshold": 0.01,
+    "cost_signal": "episode_binary",
+    "selected_update": 40,
+    "validation_trace": [
+      {
+        "update": 0,
+        "score": [
+          0.6,
+          -0.20833333333333334,
+          23.064135347831296
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.20833333333333334,
+        "mean_reward": 23.064135347831296
+      },
+      {
+        "update": 5,
+        "score": [
+          0.6,
+          -0.3138888888888889,
+          22.05671822515656
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.3138888888888889,
+        "mean_reward": 22.05671822515656
+      },
+      {
+        "update": 10,
+        "score": [
+          0.6,
+          -0.26666666666666666,
+          22.460701938517065
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.26666666666666666,
+        "mean_reward": 22.460701938517065
+      },
+      {
+        "update": 15,
+        "score": [
+          0.6,
+          -0.1388888888888889,
+          22.08757367332868
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.1388888888888889,
+        "mean_reward": 22.08757367332868
+      },
+      {
+        "update": 20,
+        "score": [
+          0.6,
+          -0.1638888888888889,
+          22.67862156789465
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.1638888888888889,
+        "mean_reward": 22.67862156789465
+      },
+      {
+        "update": 25,
+        "score": [
+          0.6,
+          -0.10277777777777777,
+          22.55523094991507
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.10277777777777777,
+        "mean_reward": 22.55523094991507
+      },
+      {
+        "update": 30,
+        "score": [
+          0.7,
+          -0.1111111111111111,
+          22.13276604618787
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.1111111111111111,
+        "mean_reward": 22.13276604618787
+      },
+      {
+        "update": 35,
+        "score": [
+          0.7,
+          -0.1111111111111111,
+          21.554283412294186
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.1111111111111111,
+        "mean_reward": 21.554283412294186
+      },
+      {
+        "update": 40,
+        "score": [
+          0.7,
+          -0.06111111111111111,
+          22.28208225797646
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.06111111111111111,
+        "mean_reward": 22.28208225797646
+      },
+      {
+        "update": 45,
+        "score": [
+          0.7,
+          -0.15833333333333333,
+          22.720675310199415
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.15833333333333333,
+        "mean_reward": 22.720675310199415
+      },
+      {
+        "update": 50,
+        "score": [
+          0.6,
+          -0.18055555555555555,
+          22.839695463506974
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.18055555555555555,
+        "mean_reward": 22.839695463506974
+      },
+      {
+        "update": 55,
+        "score": [
+          0.6,
+          -0.12777777777777777,
+          21.195965862205853
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.12777777777777777,
+        "mean_reward": 21.195965862205853
+      },
+      {
+        "update": 60,
+        "score": [
+          0.6,
+          -0.11388888888888889,
+          22.12894097843132
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.11388888888888889,
+        "mean_reward": 22.12894097843132
+      },
+      {
+        "update": 65,
+        "score": [
+          0.6,
+          -0.18333333333333332,
+          22.105343261595205
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.18333333333333332,
+        "mean_reward": 22.105343261595205
+      },
+      {
+        "update": 70,
+        "score": [
+          0.6,
+          -0.19722222222222222,
+          22.43728349478111
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.19722222222222222,
+        "mean_reward": 22.43728349478111
+      },
+      {
+        "update": 75,
+        "score": [
+          0.6,
+          -0.2,
+          22.367756703381158
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.2,
+        "mean_reward": 22.367756703381158
+      },
+      {
+        "update": 80,
+        "score": [
+          0.6,
+          -0.20277777777777778,
+          21.80131931251512
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.20277777777777778,
+        "mean_reward": 21.80131931251512
+      },
+      {
+        "update": 85,
+        "score": [
+          0.6,
+          -0.225,
+          22.050846719320305
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.225,
+        "mean_reward": 22.050846719320305
+      },
+      {
+        "update": 90,
+        "score": [
+          0.6,
+          -0.17777777777777778,
+          21.08936050708992
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.17777777777777778,
+        "mean_reward": 21.08936050708992
+      },
+      {
+        "update": 95,
+        "score": [
+          0.6,
+          -0.18888888888888888,
+          21.449892361707043
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.18888888888888888,
+        "mean_reward": 21.449892361707043
+      },
+      {
+        "update": 100,
+        "score": [
+          0.6,
+          -0.18333333333333332,
+          22.272429236437592
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.18333333333333332,
+        "mean_reward": 22.272429236437592
+      }
+    ],
+    "environment_steps": 3000,
+    "agent_decisions": 9000
+  },
+  {
+    "policy": "official_macpo",
+    "episodes": 40,
+    "mean_reward": 16.96356,
+    "joint_satisfaction_rate": 0.775,
+    "mean_intervention_rate": 0.0,
+    "mean_intervention_distance": 0.0,
+    "violation_rate": {
+      "C02": 0.85,
+      "C03": 0.025,
+      "C04": 0.25,
+      "C05": 0.275,
+      "E01": 0.2,
+      "E02": 0.2,
+      "E06": 0.1,
+      "F01": 0.15,
+      "F04": 0.1,
+      "M04": 0.8,
+      "S02": 0.075
+    },
+    "mean_first_violation_step": {
+      "C02": 1.853,
+      "C03": 8.0,
+      "C04": 6.3,
+      "C05": 3.909,
+      "E01": 3.25,
+      "E02": 7.375,
+      "E06": 24.5,
+      "F01": 9.833,
+      "F04": 5.25,
+      "M04": 5.0,
+      "S02": 1.333
+    },
+    "initial_infeasible_rate": 0.05,
+    "online_hard_violation_rate": 0.0,
+    "post_shield_hard_violation_rate": 0.0,
+    "post_truth_hard_violation_rate": 0.02917,
+    "qp_infeasible_rate": 0.0,
+    "conflict_rate": 0.0,
+    "replan_trigger_rate": 0.0,
+    "mean_belief_risk": 0.0,
+    "mean_pre_filter_belief_risk": 0.0,
+    "mean_post_filter_belief_risk": 0.0,
+    "mean_actor_time_ms": 1.69249,
+    "mean_online_time_ms": 0.0,
+    "tail_violation_rate": 1.0,
+    "risk_calibration_brier": 0.0,
+    "initially_feasible_episodes": 38,
+    "conditional_joint_satisfaction_rate": 0.81579,
+    "rule_conflict_event_rate": 0.0,
+    "rule_rule_conflict_step_rate": 0.0,
+    "rule_rule_resolution_rate": 0.0,
+    "mean_conflict_residual": 0.0,
+    "mean_solver_agents": 0.0,
+    "mean_solver_components": 0.0,
+    "max_solver_component_size": 0,
+    "cross_component_violation_rate": 0.0,
+    "cross_component_repair_rate": 0.0,
+    "seed": 99,
+    "repository": "https://github.com/chauncygu/Multi-Agent-Constrained-Policy-Optimisation",
+    "commit": "b80a9f5b4a0049125a827be8fb9c477f69ae021b",
+    "source_fingerprint": "b4154ae715fa0d1d24e72dbae5372c8b271ea9d64665019e52e1bb852f8993b1",
+    "safety_bound": 0.1,
+    "kl_threshold": 0.01,
+    "cost_signal": "episode_binary",
+    "selected_update": 30,
+    "validation_trace": [
+      {
+        "update": 0,
+        "score": [
+          0.6,
+          -0.19722222222222222,
+          15.230997982656225
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.19722222222222222,
+        "mean_reward": 15.230997982656225
+      },
+      {
+        "update": 5,
+        "score": [
+          0.6,
+          -0.18611111111111112,
+          19.700493190091013
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.18611111111111112,
+        "mean_reward": 19.700493190091013
+      },
+      {
+        "update": 10,
+        "score": [
+          0.6,
+          -0.16944444444444445,
+          17.1747259879455
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.16944444444444445,
+        "mean_reward": 17.1747259879455
+      },
+      {
+        "update": 15,
+        "score": [
+          0.6,
+          -0.1388888888888889,
+          15.936660573555345
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.1388888888888889,
+        "mean_reward": 15.936660573555345
+      },
+      {
+        "update": 20,
+        "score": [
+          0.6,
+          -0.09166666666666666,
+          15.663140655775043
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.09166666666666666,
+        "mean_reward": 15.663140655775043
+      },
+      {
+        "update": 25,
+        "score": [
+          0.7,
+          -0.09444444444444444,
+          15.182901242972639
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.09444444444444444,
+        "mean_reward": 15.182901242972639
+      },
+      {
+        "update": 30,
+        "score": [
+          0.7,
+          -0.058333333333333334,
+          17.436969116954433
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.058333333333333334,
+        "mean_reward": 17.436969116954433
+      },
+      {
+        "update": 35,
+        "score": [
+          0.7,
+          -0.07222222222222222,
+          17.463006368076762
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.07222222222222222,
+        "mean_reward": 17.463006368076762
+      },
+      {
+        "update": 40,
+        "score": [
+          0.7,
+          -0.10277777777777777,
+          20.872791873188373
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.10277777777777777,
+        "mean_reward": 20.872791873188373
+      },
+      {
+        "update": 45,
+        "score": [
+          0.6,
+          -0.11388888888888889,
+          20.634880938437743
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.11388888888888889,
+        "mean_reward": 20.634880938437743
+      },
+      {
+        "update": 50,
+        "score": [
+          0.6,
+          -0.11666666666666667,
+          21.009323439095134
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.11666666666666667,
+        "mean_reward": 21.009323439095134
+      },
+      {
+        "update": 55,
+        "score": [
+          0.7,
+          -0.08611111111111111,
+          21.576179223704298
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.08611111111111111,
+        "mean_reward": 21.576179223704298
+      },
+      {
+        "update": 60,
+        "score": [
+          0.6,
+          -0.17222222222222222,
+          21.824681555205114
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.17222222222222222,
+        "mean_reward": 21.824681555205114
+      },
+      {
+        "update": 65,
+        "score": [
+          0.7,
+          -0.16944444444444445,
+          21.574399944447432
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.16944444444444445,
+        "mean_reward": 21.574399944447432
+      },
+      {
+        "update": 70,
+        "score": [
+          0.6,
+          -0.22777777777777777,
+          22.61392157938262
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.22777777777777777,
+        "mean_reward": 22.61392157938262
+      },
+      {
+        "update": 75,
+        "score": [
+          0.6,
+          -0.225,
+          21.780850836101596
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.225,
+        "mean_reward": 21.780850836101596
+      },
+      {
+        "update": 80,
+        "score": [
+          0.6,
+          -0.2222222222222222,
+          22.27987434746206
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.2222222222222222,
+        "mean_reward": 22.27987434746206
+      },
+      {
+        "update": 85,
+        "score": [
+          0.6,
+          -0.21944444444444444,
+          21.91579824126619
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.21944444444444444,
+        "mean_reward": 21.91579824126619
+      },
+      {
+        "update": 90,
+        "score": [
+          0.6,
+          -0.225,
+          21.752717748007218
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.225,
+        "mean_reward": 21.752717748007218
+      },
+      {
+        "update": 95,
+        "score": [
+          0.6,
+          -0.21388888888888888,
+          21.768866904309778
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.21388888888888888,
+        "mean_reward": 21.768866904309778
+      },
+      {
+        "update": 100,
+        "score": [
+          0.6,
+          -0.21666666666666667,
+          21.221493162876264
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.21666666666666667,
+        "mean_reward": 21.221493162876264
+      }
+    ],
+    "environment_steps": 3000,
+    "agent_decisions": 9000
+  },
+  {
+    "policy": "official_macpo",
+    "episodes": 40,
+    "mean_reward": 21.09847,
+    "joint_satisfaction_rate": 0.725,
+    "mean_intervention_rate": 0.0,
+    "mean_intervention_distance": 0.0,
+    "violation_rate": {
+      "C02": 0.75,
+      "C03": 0.025,
+      "C04": 0.15,
+      "C05": 0.225,
+      "E01": 0.925,
+      "E02": 0.925,
+      "E06": 0.1,
+      "F01": 0.175,
+      "F03": 0.075,
+      "F04": 0.2,
+      "I06": 0.025,
+      "M04": 0.575,
+      "M06": 0.075,
+      "S02": 0.075
+    },
+    "mean_first_violation_step": {
+      "C02": 1.967,
+      "C03": 8.0,
+      "C04": 11.667,
+      "C05": 8.111,
+      "E01": 8.432,
+      "E02": 6.514,
+      "E06": 24.5,
+      "F01": 17.429,
+      "F03": 25.0,
+      "F04": 13.5,
+      "I06": 0.0,
+      "M04": 5.0,
+      "M06": 25.0,
+      "S02": 1.333
+    },
+    "initial_infeasible_rate": 0.05,
+    "online_hard_violation_rate": 0.0,
+    "post_shield_hard_violation_rate": 0.0,
+    "post_truth_hard_violation_rate": 0.105,
+    "qp_infeasible_rate": 0.0,
+    "conflict_rate": 0.0,
+    "replan_trigger_rate": 0.0,
+    "mean_belief_risk": 0.0,
+    "mean_pre_filter_belief_risk": 0.0,
+    "mean_post_filter_belief_risk": 0.0,
+    "mean_actor_time_ms": 1.68117,
+    "mean_online_time_ms": 0.0,
+    "tail_violation_rate": 1.0,
+    "risk_calibration_brier": 0.0,
+    "initially_feasible_episodes": 38,
+    "conditional_joint_satisfaction_rate": 0.76316,
+    "rule_conflict_event_rate": 0.0,
+    "rule_rule_conflict_step_rate": 0.0,
+    "rule_rule_resolution_rate": 0.0,
+    "mean_conflict_residual": 0.0,
+    "mean_solver_agents": 0.0,
+    "mean_solver_components": 0.0,
+    "max_solver_component_size": 0,
+    "cross_component_violation_rate": 0.0,
+    "cross_component_repair_rate": 0.0,
+    "seed": 111,
+    "repository": "https://github.com/chauncygu/Multi-Agent-Constrained-Policy-Optimisation",
+    "commit": "b80a9f5b4a0049125a827be8fb9c477f69ae021b",
+    "source_fingerprint": "b4154ae715fa0d1d24e72dbae5372c8b271ea9d64665019e52e1bb852f8993b1",
+    "safety_bound": 0.1,
+    "kl_threshold": 0.01,
+    "cost_signal": "episode_binary",
+    "selected_update": 40,
+    "validation_trace": [
+      {
+        "update": 0,
+        "score": [
+          0.7,
+          -0.19166666666666668,
+          20.659829896864615
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.19166666666666668,
+        "mean_reward": 20.659829896864615
+      },
+      {
+        "update": 5,
+        "score": [
+          0.6,
+          -0.2,
+          20.95521632021344
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.2,
+        "mean_reward": 20.95521632021344
+      },
+      {
+        "update": 10,
+        "score": [
+          0.7,
+          -0.18055555555555555,
+          21.075207443918686
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.18055555555555555,
+        "mean_reward": 21.075207443918686
+      },
+      {
+        "update": 15,
+        "score": [
+          0.6,
+          -0.225,
+          21.203163221333266
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.225,
+        "mean_reward": 21.203163221333266
+      },
+      {
+        "update": 20,
+        "score": [
+          0.6,
+          -0.23333333333333334,
+          21.602327031617648
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.23333333333333334,
+        "mean_reward": 21.602327031617648
+      },
+      {
+        "update": 25,
+        "score": [
+          0.6,
+          -0.20555555555555555,
+          20.743230982485052
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.20555555555555555,
+        "mean_reward": 20.743230982485052
+      },
+      {
+        "update": 30,
+        "score": [
+          0.6,
+          -0.18055555555555555,
+          20.566659801512202
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.18055555555555555,
+        "mean_reward": 20.566659801512202
+      },
+      {
+        "update": 35,
+        "score": [
+          0.7,
+          -0.19722222222222222,
+          20.636165291797838
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.19722222222222222,
+        "mean_reward": 20.636165291797838
+      },
+      {
+        "update": 40,
+        "score": [
+          0.7,
+          -0.16944444444444445,
+          20.333342544264422
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.16944444444444445,
+        "mean_reward": 20.333342544264422
+      },
+      {
+        "update": 45,
+        "score": [
+          0.7,
+          -0.2111111111111111,
+          19.99801253841716
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.2111111111111111,
+        "mean_reward": 19.99801253841716
+      },
+      {
+        "update": 50,
+        "score": [
+          0.7,
+          -0.2111111111111111,
+          20.064321648893117
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.2111111111111111,
+        "mean_reward": 20.064321648893117
+      },
+      {
+        "update": 55,
+        "score": [
+          0.6,
+          -0.25277777777777777,
+          21.099970148150387
+        ],
+        "conditional_joint_satisfaction_rate": 0.6,
+        "post_truth_hard_violation_rate": 0.25277777777777777,
+        "mean_reward": 21.099970148150387
+      },
+      {
+        "update": 60,
+        "score": [
+          0.7,
+          -0.18888888888888888,
+          21.38701495574631
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.18888888888888888,
+        "mean_reward": 21.38701495574631
+      },
+      {
+        "update": 65,
+        "score": [
+          0.7,
+          -0.18055555555555555,
+          21.10397600456484
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.18055555555555555,
+        "mean_reward": 21.10397600456484
+      },
+      {
+        "update": 70,
+        "score": [
+          0.7,
+          -0.21388888888888888,
+          20.885849340233634
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.21388888888888888,
+        "mean_reward": 20.885849340233634
+      },
+      {
+        "update": 75,
+        "score": [
+          0.7,
+          -0.2,
+          21.09594291987473
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.2,
+        "mean_reward": 21.09594291987473
+      },
+      {
+        "update": 80,
+        "score": [
+          0.7,
+          -0.2111111111111111,
+          21.660381096904192
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.2111111111111111,
+        "mean_reward": 21.660381096904192
+      },
+      {
+        "update": 85,
+        "score": [
+          0.7,
+          -0.21666666666666667,
+          20.793379665991242
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.21666666666666667,
+        "mean_reward": 20.793379665991242
+      },
+      {
+        "update": 90,
+        "score": [
+          0.7,
+          -0.21666666666666667,
+          20.64239422281076
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.21666666666666667,
+        "mean_reward": 20.64239422281076
+      },
+      {
+        "update": 95,
+        "score": [
+          0.7,
+          -0.21666666666666667,
+          21.687512574452793
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.21666666666666667,
+        "mean_reward": 21.687512574452793
+      },
+      {
+        "update": 100,
+        "score": [
+          0.7,
+          -0.21666666666666667,
+          21.539161160717793
+        ],
+        "conditional_joint_satisfaction_rate": 0.7,
+        "post_truth_hard_violation_rate": 0.21666666666666667,
+        "mean_reward": 21.539161160717793
+      }
+    ],
+    "environment_steps": 3000,
+    "agent_decisions": 9000
+  }
+]

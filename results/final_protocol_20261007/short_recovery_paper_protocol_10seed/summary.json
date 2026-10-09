@@ -1,0 +1,220 @@
+{
+  "metadata": {
+    "seeds": [
+      11,
+      22,
+      33,
+      44,
+      55,
+      66,
+      77,
+      88,
+      99,
+      111
+    ],
+    "distances": [
+      2000.0,
+      2200.0,
+      2400.0,
+      2800.0,
+      3200.0
+    ],
+    "horizon": 30,
+    "probe_steps": 8,
+    "target_rules": [
+      "S02",
+      "S03"
+    ],
+    "protocol_overrides": {
+      "support_response_deadline": 0,
+      "noise_position": 0.0,
+      "noise_speed": 0.0,
+      "belief_ttc_threshold": 6.0,
+      "safe_trend_window": 4
+    },
+    "initial_state": "hard_safe",
+    "endpoint_definition": "No S02/S03 violation within the first 3 or 30 executed steps; this is safety retention, not post-violation recovery."
+  },
+  "summary": [
+    {
+      "distance": 2000.0,
+      "method": "NoShield",
+      "n": 10,
+      "three_step_safety_retention_rate": 0.0,
+      "thirty_step_safety_retention_rate": 0.0,
+      "mean_intervention_rate": 0.0,
+      "mean_qp_fallback_rate": 0.0
+    },
+    {
+      "distance": 2000.0,
+      "method": "PartialShield",
+      "n": 10,
+      "three_step_safety_retention_rate": 0.0,
+      "thirty_step_safety_retention_rate": 0.0,
+      "mean_intervention_rate": 0.25,
+      "mean_qp_fallback_rate": 0.0
+    },
+    {
+      "distance": 2000.0,
+      "method": "JointHeuristic",
+      "n": 10,
+      "three_step_safety_retention_rate": 0.0,
+      "thirty_step_safety_retention_rate": 0.0,
+      "mean_intervention_rate": 0.72,
+      "mean_qp_fallback_rate": 0.0
+    },
+    {
+      "distance": 2000.0,
+      "method": "DG-QP",
+      "n": 10,
+      "three_step_safety_retention_rate": 1.0,
+      "thirty_step_safety_retention_rate": 0.0,
+      "mean_intervention_rate": 2.2,
+      "mean_qp_fallback_rate": 0.06666666666666667
+    },
+    {
+      "distance": 2200.0,
+      "method": "NoShield",
+      "n": 10,
+      "three_step_safety_retention_rate": 1.0,
+      "thirty_step_safety_retention_rate": 0.0,
+      "mean_intervention_rate": 0.0,
+      "mean_qp_fallback_rate": 0.0
+    },
+    {
+      "distance": 2200.0,
+      "method": "PartialShield",
+      "n": 10,
+      "three_step_safety_retention_rate": 1.0,
+      "thirty_step_safety_retention_rate": 0.0,
+      "mean_intervention_rate": 0.18333333333333335,
+      "mean_qp_fallback_rate": 0.0
+    },
+    {
+      "distance": 2200.0,
+      "method": "JointHeuristic",
+      "n": 10,
+      "three_step_safety_retention_rate": 1.0,
+      "thirty_step_safety_retention_rate": 0.0,
+      "mean_intervention_rate": 0.79,
+      "mean_qp_fallback_rate": 0.0
+    },
+    {
+      "distance": 2200.0,
+      "method": "DG-QP",
+      "n": 10,
+      "three_step_safety_retention_rate": 1.0,
+      "thirty_step_safety_retention_rate": 0.0,
+      "mean_intervention_rate": 2.1,
+      "mean_qp_fallback_rate": 0.1
+    },
+    {
+      "distance": 2400.0,
+      "method": "NoShield",
+      "n": 10,
+      "three_step_safety_retention_rate": 1.0,
+      "thirty_step_safety_retention_rate": 0.0,
+      "mean_intervention_rate": 0.0,
+      "mean_qp_fallback_rate": 0.0
+    },
+    {
+      "distance": 2400.0,
+      "method": "PartialShield",
+      "n": 10,
+      "three_step_safety_retention_rate": 1.0,
+      "thirty_step_safety_retention_rate": 0.0,
+      "mean_intervention_rate": 0.24666666666666667,
+      "mean_qp_fallback_rate": 0.0
+    },
+    {
+      "distance": 2400.0,
+      "method": "JointHeuristic",
+      "n": 10,
+      "three_step_safety_retention_rate": 1.0,
+      "thirty_step_safety_retention_rate": 0.0,
+      "mean_intervention_rate": 0.9200000000000002,
+      "mean_qp_fallback_rate": 0.0
+    },
+    {
+      "distance": 2400.0,
+      "method": "DG-QP",
+      "n": 10,
+      "three_step_safety_retention_rate": 1.0,
+      "thirty_step_safety_retention_rate": 0.0,
+      "mean_intervention_rate": 2.1666666666666665,
+      "mean_qp_fallback_rate": 0.1
+    },
+    {
+      "distance": 2800.0,
+      "method": "NoShield",
+      "n": 10,
+      "three_step_safety_retention_rate": 1.0,
+      "thirty_step_safety_retention_rate": 0.0,
+      "mean_intervention_rate": 0.0,
+      "mean_qp_fallback_rate": 0.0
+    },
+    {
+      "distance": 2800.0,
+      "method": "PartialShield",
+      "n": 10,
+      "three_step_safety_retention_rate": 1.0,
+      "thirty_step_safety_retention_rate": 0.0,
+      "mean_intervention_rate": 0.18666666666666668,
+      "mean_qp_fallback_rate": 0.0
+    },
+    {
+      "distance": 2800.0,
+      "method": "JointHeuristic",
+      "n": 10,
+      "three_step_safety_retention_rate": 1.0,
+      "thirty_step_safety_retention_rate": 0.0,
+      "mean_intervention_rate": 0.79,
+      "mean_qp_fallback_rate": 0.0
+    },
+    {
+      "distance": 2800.0,
+      "method": "DG-QP",
+      "n": 10,
+      "three_step_safety_retention_rate": 1.0,
+      "thirty_step_safety_retention_rate": 0.0,
+      "mean_intervention_rate": 2.1333333333333333,
+      "mean_qp_fallback_rate": 0.06666666666666667
+    },
+    {
+      "distance": 3200.0,
+      "method": "NoShield",
+      "n": 10,
+      "three_step_safety_retention_rate": 1.0,
+      "thirty_step_safety_retention_rate": 0.0,
+      "mean_intervention_rate": 0.0,
+      "mean_qp_fallback_rate": 0.0
+    },
+    {
+      "distance": 3200.0,
+      "method": "PartialShield",
+      "n": 10,
+      "three_step_safety_retention_rate": 1.0,
+      "thirty_step_safety_retention_rate": 0.0,
+      "mean_intervention_rate": 0.18666666666666668,
+      "mean_qp_fallback_rate": 0.0
+    },
+    {
+      "distance": 3200.0,
+      "method": "JointHeuristic",
+      "n": 10,
+      "three_step_safety_retention_rate": 1.0,
+      "thirty_step_safety_retention_rate": 0.0,
+      "mean_intervention_rate": 0.77,
+      "mean_qp_fallback_rate": 0.0
+    },
+    {
+      "distance": 3200.0,
+      "method": "DG-QP",
+      "n": 10,
+      "three_step_safety_retention_rate": 1.0,
+      "thirty_step_safety_retention_rate": 0.0,
+      "mean_intervention_rate": 2.2,
+      "mean_qp_fallback_rate": 0.03333333333333333
+    }
+  ]
+}

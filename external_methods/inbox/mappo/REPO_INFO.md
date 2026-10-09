@@ -1,0 +1,24 @@
+# Method information
+
+- Method name: MAPPO
+- Paper title: The Surprising Effectiveness of PPO in Cooperative Multi-Agent Games
+- Year and venue: 2022, NeurIPS 36 Datasets and Benchmarks Track
+- Paper URL: https://arxiv.org/abs/2103.01955
+- Official repository URL: https://github.com/marlbenchmark/on-policy
+- Commit: `de66d7a4b23fac2513f56f96f73b3f5cb96695ac`
+- Commit date: 2024-07-18T18:00:36+08:00
+- Local acquisition date: 2026-09-02
+- License: MIT
+- Third-party source modified: no
+- Official training entry: `onpolicy/scripts/train/train_mpe.py` or the environment-specific scripts under `onpolicy/scripts/`
+- Aircraft adapter: `external_adapters/official_mappo.py`
+- Aircraft smoke entry: `run_official_mappo.py`
+- Original environments: SMAC/SMACv2, MPE, Hanabi and Google Research Football
+- Aircraft observation space: local fixed-width observation for the shared actor
+- Aircraft critic input: concatenated team observations
+- Aircraft action adaptation: shared continuous latent `Box(5)` by default; the earlier MultiDiscrete grid is retained only for sensitivity analysis
+- Execution information: local observation only
+- Pretrained Aircraft checkpoint included: smoke checkpoint only; not a paper result
+- Known compatibility issue: upstream pins Python 3.6-era dependencies (`gym==0.17.2`, `numpy==1.18.5`, `torch==1.5.1` in the README). The adapter imports the official algorithm core directly under the current environment and does not install the obsolete environment stack.
+- Fairness note: mode and target are rounded only at the simulator boundary. The formal experiment uses the same latent action mapping as MACPO, MAPPO-Lagrangian and other compatible external baselines.
+- Relevance: official unconstrained cooperative MARL baseline for the nominal learned policy.

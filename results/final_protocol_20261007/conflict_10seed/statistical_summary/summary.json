@@ -1,0 +1,290 @@
+[
+  {
+    "scenario": "capability_dwell",
+    "method": "DG-QP",
+    "n": 10,
+    "truth_hard_violation_rate": 0.09333333333333334,
+    "target_hard_success_rate": 1.0,
+    "intervention_rate": 1.23,
+    "qp_infeasible_rate": 0.0
+  },
+  {
+    "scenario": "capability_dwell",
+    "method": "JointHeuristic",
+    "n": 10,
+    "truth_hard_violation_rate": 0.18,
+    "target_hard_success_rate": 1.0,
+    "intervention_rate": 0.5133333333333333,
+    "qp_infeasible_rate": 0.0
+  },
+  {
+    "scenario": "capability_dwell",
+    "method": "NoShield",
+    "n": 10,
+    "truth_hard_violation_rate": 0.5866666666666667,
+    "target_hard_success_rate": 0.0,
+    "intervention_rate": 0.0,
+    "qp_infeasible_rate": 0.0
+  },
+  {
+    "scenario": "capability_dwell",
+    "method": "PartialShield",
+    "n": 10,
+    "truth_hard_violation_rate": 0.18,
+    "target_hard_success_rate": 1.0,
+    "intervention_rate": 0.5133333333333333,
+    "qp_infeasible_rate": 0.0
+  },
+  {
+    "scenario": "communication_intent",
+    "method": "DG-QP",
+    "n": 10,
+    "truth_hard_violation_rate": 0.0,
+    "target_hard_success_rate": 1.0,
+    "intervention_rate": 1.4166666666666665,
+    "qp_infeasible_rate": 0.0
+  },
+  {
+    "scenario": "communication_intent",
+    "method": "JointHeuristic",
+    "n": 10,
+    "truth_hard_violation_rate": 0.6,
+    "target_hard_success_rate": 0.0,
+    "intervention_rate": 0.0,
+    "qp_infeasible_rate": 0.0
+  },
+  {
+    "scenario": "communication_intent",
+    "method": "NoShield",
+    "n": 10,
+    "truth_hard_violation_rate": 0.6,
+    "target_hard_success_rate": 0.0,
+    "intervention_rate": 0.0,
+    "qp_infeasible_rate": 0.0
+  },
+  {
+    "scenario": "communication_intent",
+    "method": "PartialShield",
+    "n": 10,
+    "truth_hard_violation_rate": 0.6,
+    "target_hard_success_rate": 0.0,
+    "intervention_rate": 0.0,
+    "qp_infeasible_rate": 0.0
+  },
+  {
+    "scenario": "coverage_resource",
+    "method": "DG-QP",
+    "n": 10,
+    "truth_hard_violation_rate": 0.11666666666666667,
+    "target_hard_success_rate": 0.1,
+    "intervention_rate": 1.3433333333333333,
+    "qp_infeasible_rate": 0.0
+  },
+  {
+    "scenario": "coverage_resource",
+    "method": "JointHeuristic",
+    "n": 10,
+    "truth_hard_violation_rate": 0.18333333333333332,
+    "target_hard_success_rate": 0.0,
+    "intervention_rate": 0.69,
+    "qp_infeasible_rate": 0.0
+  },
+  {
+    "scenario": "coverage_resource",
+    "method": "NoShield",
+    "n": 10,
+    "truth_hard_violation_rate": 0.8,
+    "target_hard_success_rate": 0.0,
+    "intervention_rate": 0.0,
+    "qp_infeasible_rate": 0.0
+  },
+  {
+    "scenario": "coverage_resource",
+    "method": "PartialShield",
+    "n": 10,
+    "truth_hard_violation_rate": 0.18333333333333332,
+    "target_hard_success_rate": 0.0,
+    "intervention_rate": 0.69,
+    "qp_infeasible_rate": 0.0
+  },
+  {
+    "scenario": "deadline_information",
+    "method": "DG-QP",
+    "n": 10,
+    "truth_hard_violation_rate": 0.0,
+    "target_hard_success_rate": 1.0,
+    "intervention_rate": 1.5133333333333332,
+    "qp_infeasible_rate": 0.0
+  },
+  {
+    "scenario": "deadline_information",
+    "method": "JointHeuristic",
+    "n": 10,
+    "truth_hard_violation_rate": 0.08666666666666667,
+    "target_hard_success_rate": 1.0,
+    "intervention_rate": 1.0,
+    "qp_infeasible_rate": 0.0
+  },
+  {
+    "scenario": "deadline_information",
+    "method": "NoShield",
+    "n": 10,
+    "truth_hard_violation_rate": 1.0,
+    "target_hard_success_rate": 0.0,
+    "intervention_rate": 0.0,
+    "qp_infeasible_rate": 0.0
+  },
+  {
+    "scenario": "deadline_information",
+    "method": "PartialShield",
+    "n": 10,
+    "truth_hard_violation_rate": 0.08666666666666667,
+    "target_hard_success_rate": 1.0,
+    "intervention_rate": 1.0,
+    "qp_infeasible_rate": 0.0
+  },
+  {
+    "scenario": "dual_support",
+    "method": "DG-QP",
+    "n": 10,
+    "truth_hard_violation_rate": 0.0,
+    "target_hard_success_rate": 1.0,
+    "intervention_rate": 1.5066666666666666,
+    "qp_infeasible_rate": 0.0
+  },
+  {
+    "scenario": "dual_support",
+    "method": "JointHeuristic",
+    "n": 10,
+    "truth_hard_violation_rate": 0.08666666666666667,
+    "target_hard_success_rate": 1.0,
+    "intervention_rate": 0.006666666666666666,
+    "qp_infeasible_rate": 0.0
+  },
+  {
+    "scenario": "dual_support",
+    "method": "NoShield",
+    "n": 10,
+    "truth_hard_violation_rate": 0.08666666666666667,
+    "target_hard_success_rate": 1.0,
+    "intervention_rate": 0.0,
+    "qp_infeasible_rate": 0.0
+  },
+  {
+    "scenario": "dual_support",
+    "method": "PartialShield",
+    "n": 10,
+    "truth_hard_violation_rate": 0.08666666666666667,
+    "target_hard_success_rate": 1.0,
+    "intervention_rate": 0.006666666666666666,
+    "qp_infeasible_rate": 0.0
+  },
+  {
+    "scenario": "mission_recovery",
+    "method": "DG-QP",
+    "n": 10,
+    "truth_hard_violation_rate": 0.043333333333333335,
+    "target_hard_success_rate": 1.0,
+    "intervention_rate": 1.42,
+    "qp_infeasible_rate": 0.16666666666666669
+  },
+  {
+    "scenario": "mission_recovery",
+    "method": "JointHeuristic",
+    "n": 10,
+    "truth_hard_violation_rate": 0.18,
+    "target_hard_success_rate": 1.0,
+    "intervention_rate": 0.5133333333333333,
+    "qp_infeasible_rate": 0.0
+  },
+  {
+    "scenario": "mission_recovery",
+    "method": "NoShield",
+    "n": 10,
+    "truth_hard_violation_rate": 0.5866666666666667,
+    "target_hard_success_rate": 0.0,
+    "intervention_rate": 0.0,
+    "qp_infeasible_rate": 0.0
+  },
+  {
+    "scenario": "mission_recovery",
+    "method": "PartialShield",
+    "n": 10,
+    "truth_hard_violation_rate": 0.18,
+    "target_hard_success_rate": 1.0,
+    "intervention_rate": 0.5133333333333333,
+    "qp_infeasible_rate": 0.0
+  },
+  {
+    "scenario": "risk_continuity",
+    "method": "DG-QP",
+    "n": 10,
+    "truth_hard_violation_rate": 0.0,
+    "target_hard_success_rate": 1.0,
+    "intervention_rate": 1.53,
+    "qp_infeasible_rate": 0.0
+  },
+  {
+    "scenario": "risk_continuity",
+    "method": "JointHeuristic",
+    "n": 10,
+    "truth_hard_violation_rate": 0.5933333333333334,
+    "target_hard_success_rate": 1.0,
+    "intervention_rate": 0.09,
+    "qp_infeasible_rate": 0.0
+  },
+  {
+    "scenario": "risk_continuity",
+    "method": "NoShield",
+    "n": 10,
+    "truth_hard_violation_rate": 0.6,
+    "target_hard_success_rate": 1.0,
+    "intervention_rate": 0.0,
+    "qp_infeasible_rate": 0.0
+  },
+  {
+    "scenario": "risk_continuity",
+    "method": "PartialShield",
+    "n": 10,
+    "truth_hard_violation_rate": 0.5933333333333334,
+    "target_hard_success_rate": 1.0,
+    "intervention_rate": 0.04666666666666667,
+    "qp_infeasible_rate": 0.0
+  },
+  {
+    "scenario": "support_separation",
+    "method": "DG-QP",
+    "n": 10,
+    "truth_hard_violation_rate": 0.13333333333333333,
+    "target_hard_success_rate": 0.0,
+    "intervention_rate": 2.1733333333333333,
+    "qp_infeasible_rate": 0.22000000000000003
+  },
+  {
+    "scenario": "support_separation",
+    "method": "JointHeuristic",
+    "n": 10,
+    "truth_hard_violation_rate": 0.21666666666666665,
+    "target_hard_success_rate": 0.0,
+    "intervention_rate": 0.7333333333333333,
+    "qp_infeasible_rate": 0.0
+  },
+  {
+    "scenario": "support_separation",
+    "method": "NoShield",
+    "n": 10,
+    "truth_hard_violation_rate": 0.22000000000000003,
+    "target_hard_success_rate": 0.0,
+    "intervention_rate": 0.0,
+    "qp_infeasible_rate": 0.0
+  },
+  {
+    "scenario": "support_separation",
+    "method": "PartialShield",
+    "n": 10,
+    "truth_hard_violation_rate": 0.22000000000000003,
+    "target_hard_success_rate": 0.0,
+    "intervention_rate": 0.25,
+    "qp_infeasible_rate": 0.0
+  }
+]

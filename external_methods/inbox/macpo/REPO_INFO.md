@@ -1,0 +1,25 @@
+# Method information
+
+- Method name: MACPO (Multi-Agent Constrained Policy Optimisation)
+- Paper title: Multi-Agent Constrained Policy Optimisation
+- Citation checked: arXiv:2110.02793; a formal conference or journal venue has not been confirmed
+- Paper URL: https://arxiv.org/abs/2110.02793
+- Official repository URL: https://github.com/chauncygu/Multi-Agent-Constrained-Policy-Optimisation
+- Commit: `b80a9f5b4a0049125a827be8fb9c477f69ae021b`
+- Commit date: 2024-04-16T20:40:32+08:00
+- Local acquisition date: 2026-09-02
+- License: MIT text; the upstream LICENSE contains unresolved Git merge-conflict markers around attribution and the final line
+- Third-party source modified: no
+- Official training entry: `MACPO/macpo/scripts/train_mujoco.sh` calling `train_mujoco.py`
+- Aircraft adapter: `external_adapters/official_macpo.py`
+- Aircraft experiment entry: `run_official_macpo.py`
+- Original environment: multi-agent MuJoCo
+- Aircraft observation space: separate local observation for each actor; concatenated team observations for centralized reward and cost critics
+- Aircraft action adaptation: five-dimensional continuous Gaussian latent action, clipped to `[-1, 1]`, then decoded to semantic mode, three controls and target
+- Training cost: trajectory-level binary hard-rule violation by default; the earlier step-indicator episodic sum is retained for sensitivity analysis
+- Information boundary: environment truth forms the training cost only and is not present in actor observations
+- Pretrained Aircraft checkpoint included: no paper-result checkpoint
+- Known compatibility issue: upstream targets Python 3.6, PyTorch 1.5.1 and Gym 0.17.2. The adapter imports the official algorithm core under the current environment and bypasses eager imports of optional experiment logging dependencies.
+- Upstream reporting issue: `r_macpo.py` adds reward critic `value_loss` to the `cost_loss` trace field. The adapter leaves source behavior unchanged, so this field must not be interpreted as the cost-critic loss.
+- Fairness note: semantic mode and target are rounded after continuous Gaussian sampling. Formal comparison must disclose this mapping and include an action-adapter sensitivity check.
+- Relevance: official constrained multi-agent policy-optimization baseline using reward and cost critics, a CPO trust region, conjugate gradients and backtracking line search.

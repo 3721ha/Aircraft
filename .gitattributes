@@ -1,0 +1,5 @@
+# Keep the reproducibility-critical raw traces in Git LFS; the largest trace
+# exceeds GitHub's regular 100 MB object limit.
+results/final_protocol_20261007/conflict_traces_seed11/step_trace.json filter=lfs diff=lfs merge=lfs -text
+results/final_protocol_20261007/conflict_traces_seed11/conflict_steps.json filter=lfs diff=lfs merge=lfs -text
+results/final_protocol_20261007/post_violation_recovery_10seed_20261008/step_trace.jsonl filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,7130 @@
+[
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 23.339999999999993,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 16.38302164698827,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "E02": 1,
+      "C05": 10,
+      "C02": 12,
+      "F01": 14,
+      "C04": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 21.174650362037635,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "S02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 19.07811096533918,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "F04": 1,
+      "I06": 1,
+      "E01": 1,
+      "E02": 1,
+      "S02": 2,
+      "C03": 8,
+      "E06": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 25.26000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 23.70000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 25.34000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 23.380000000000006,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "E02": 4,
+      "C05": 14,
+      "F01": 16,
+      "C02": 27
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 25.420000000000012,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 25.34000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 25.420000000000012,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 24.67116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 23.348999999999993,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "E02": 1,
+      "F04": 3,
+      "C04": 3,
+      "C05": 3,
+      "F01": 7,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 23.980000000000008,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 25.34000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 25.34000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 25.26000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 25.420000000000012,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 25.26000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 25.26000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 25.34000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 24.83116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 23.988999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 25.10000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 25.18000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 25.18000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 25.10000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 25.18000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 25.34000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 24.82000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 24.99116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 23.748999999999995,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 25.34000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 25.34000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 25.34000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 25.420000000000012,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 11,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 25.02000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 20.94,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "E01": 2
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 22.065250875923113,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "E01": 1,
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 21.67940870080039,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "E02": 1,
+      "S02": 2,
+      "F01": 4,
+      "E01": 4,
+      "F04": 9,
+      "C02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 20.002293190985693,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "F04": 0,
+      "C02": 0,
+      "I06": 1,
+      "E02": 1,
+      "S02": 2,
+      "C03": 8,
+      "F03": 14,
+      "M06": 14,
+      "E06": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 23.419999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 23.09999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 23.900000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "E01": 16
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 22.779999999999994,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 8,
+      "E01": 16
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 23.14,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "E01": 18,
+      "C02": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 19.22,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 3,
+      "C05": 10,
+      "C02": 12,
+      "C04": 25,
+      "E01": 25
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 23.259999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "E01": 24
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 22.939999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "E01": 19
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 22.831166666666665,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "F01": 4,
+      "E02": 4,
+      "C04": 7,
+      "F04": 17,
+      "E01": 24
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 17.108999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "F04": 3,
+      "E02": 3,
+      "F01": 4,
+      "C04": 8,
+      "C02": 11,
+      "F03": 28,
+      "M06": 28,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 23.25999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 23.1,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 8,
+      "E02": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 23.019999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 23.34,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 13,
+      "E02": 15
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 22.459999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 18,
+      "E02": 27
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 23.58,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 23.58,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C05": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 22.779999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 15,
+      "E02": 25
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 17.391166666666667,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "F01": 4,
+      "C04": 6,
+      "E02": 6,
+      "C02": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 18.989,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "F04": 3,
+      "F01": 4,
+      "C04": 7,
+      "E02": 7,
+      "C02": 13,
+      "F03": 28,
+      "M06": 28,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 23.58,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 2
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 22.61999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 13,
+      "E02": 15
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 23.740000000000006,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 23.22,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 8,
+      "F01": 10,
+      "C04": 10,
+      "E02": 10,
+      "E01": 19,
+      "C02": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 23.020000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 15,
+      "E02": 17
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 23.019999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 23.01999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "E01": 17
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 23.500000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 6,
+      "E01": 22
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 16.551166666666667,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "F01": 4,
+      "C04": 9,
+      "E02": 11,
+      "C02": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 20.789,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C04": 1,
+      "C05": 1,
+      "E02": 1,
+      "F04": 3,
+      "F01": 4,
+      "C02": 7,
+      "E01": 26,
+      "F03": 28,
+      "M06": 28,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 23.419999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 23.019999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 23.18,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 20,
+      "E01": 24
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 23.019999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 23.09999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 22,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 23.25999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 3
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 5.825442596368327,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 4.8578246941877286,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "S02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 3.0236657198841588,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "S02": 2,
+      "M04": 5,
+      "C03": 8,
+      "E06": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 7.151166666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 6.068999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 7.151166666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 6.068999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 7.151166666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 6.068999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 33,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 7.500000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 25.26000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E02": 22
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 23.661288597789618,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 22.8518178388494,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 21.025355657173534,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C04": 0,
+      "S02": 2,
+      "C03": 8,
+      "E06": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 25.420000000000012,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 25.34000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 25.420000000000012,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 25.420000000000012,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 25.420000000000012,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 25.15116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 24.068999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 25.340000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 25.420000000000012,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "M04": 5,
+      "C05": 24,
+      "F01": 26
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 25.26000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 25.42000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 25.071166666666663,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 24.068999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 25.34000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 25.26000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 25.42000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 25.34000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 25.42000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 25.26000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 25.15116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 23.988999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 25.34000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 44,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 25.50000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 23.019999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 1,
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 23.828647432556995,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 22.703510644437948,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 20.997840553762593,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 2,
+      "C03": 8,
+      "E06": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 23.740000000000006,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 24.78000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 24.86000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 24.700000000000006,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 24.86000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 24.500000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 3
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 24.18000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 24
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 24.860000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 24.35116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 23.348999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 24.78000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 24.940000000000012,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 24.86000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 24.620000000000008,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 23.26,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 24
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 24.78000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 24.94000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 24.020000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 24.591166666666663,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 23.429,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 24.100000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 26
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 24.700000000000006,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 24.700000000000006,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 24.540000000000006,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "E02": 1,
+      "C05": 3,
+      "F01": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 24.260000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5,
+      "C05": 24,
+      "F01": 26
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 24.86000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 24.860000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 24.78000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 24.591166666666663,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C05": 0,
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 22.828999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 26,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 24.78000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 24.78000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 24.260000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 24
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 24.78000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "E02": 1,
+      "C05": 21,
+      "F01": 23
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 23.940000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 27
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 55,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 24.94000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 23.25999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "E01": 3
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 16.23131131504239,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "C02": 1,
+      "M04": 5,
+      "E02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 22.236833008903446,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "E02": 1,
+      "S02": 2,
+      "F01": 4,
+      "F04": 9,
+      "C02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 7.858244042332571,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "S02": 2,
+      "M04": 5,
+      "C03": 8,
+      "E06": 14,
+      "F04": 22,
+      "F03": 22,
+      "M06": 22,
+      "C04": 22,
+      "C05": 22,
+      "F01": 23
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 24.100000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 22.61999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 23.73999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "E01": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 24.22,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "E01": 16
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 22.740000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 24
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 24.06,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "E01": 13
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 23.860000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 12.299999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 3,
+      "C02": 4,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 23.15116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "E02": 1,
+      "F01": 4,
+      "F04": 17,
+      "E01": 20
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 22.388999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "F04": 3,
+      "C02": 3,
+      "F01": 4,
+      "M04": 5,
+      "E02": 8,
+      "E01": 16,
+      "F03": 28,
+      "M06": 28,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 23.659999999999993,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "E01": 17
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 23.179999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "E01": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 23.73999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "E02": 1,
+      "F01": 13,
+      "C04": 13,
+      "C05": 13,
+      "E01": 13
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 24.459999999999994,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E02": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 23.299999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 5,
+      "E01": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 19.259999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E02": 7,
+      "C02": 16
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 21.820000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 23.620000000000008,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 2,
+      "M04": 5,
+      "E02": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 19.511166666666657,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "F01": 4,
+      "E02": 5,
+      "C02": 17
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 22.788999999999994,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "E02": 1,
+      "F04": 3,
+      "F01": 4,
+      "C02": 5,
+      "E01": 19,
+      "F03": 28,
+      "M06": 28,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 23.9,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "E01": 13
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 23.419999999999995,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "E01": 21
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 24.100000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 24.78,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E02": 18,
+      "E01": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 20.46,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 14,
+      "E02": 15
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 20.14,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 21.62,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E02": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 19.419999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 9,
+      "E02": 13
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 19.911166666666663,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "F01": 4,
+      "E02": 5,
+      "F04": 17,
+      "C02": 23
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 22.148999999999994,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "F04": 3,
+      "C02": 3,
+      "F01": 4,
+      "M04": 5,
+      "E02": 11,
+      "E01": 23,
+      "F03": 28,
+      "M06": 28,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 24.059999999999995,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 24.540000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 22.779999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5,
+      "E01": 16
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 23.420000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E02": 9,
+      "C02": 12,
+      "E01": 17
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 19.819999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 12,
+      "E01": 23
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 66,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 15.139999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 3,
+      "E02": 4,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 22.29999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 20.215376995427995,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "E02": 2,
+      "E01": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 18.6195882091396,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 1,
+      "S02": 2,
+      "E02": 2,
+      "F01": 5,
+      "C04": 5,
+      "C05": 5,
+      "E01": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 18.154281100174234,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "F04": 0,
+      "C04": 0,
+      "I06": 0,
+      "C02": 1,
+      "S02": 2,
+      "E01": 2,
+      "E02": 2,
+      "C03": 8,
+      "F03": 14,
+      "M06": 14,
+      "E06": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 22.139999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "E01": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 24.860000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 21.619999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 2,
+      "E01": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 21.339999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5,
+      "E01": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 21.9,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 2,
+      "M04": 5,
+      "E01": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 21.86,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 2,
+      "M04": 5,
+      "E01": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 23.659999999999993,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "E01": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 21.58,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 2,
+      "E02": 3,
+      "M04": 5,
+      "E01": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 22.79116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C04": 1,
+      "C05": 1,
+      "E01": 1,
+      "E02": 1,
+      "C02": 2,
+      "F01": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 20.508999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 2,
+      "M04": 5,
+      "E02": 13,
+      "F04": 19,
+      "E01": 19,
+      "F03": 28,
+      "M06": 28,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 22.219999999999995,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "E01": 3
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 23.26,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "E01": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 21.9,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "E01": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 22.26,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "E01": 8,
+      "C02": 16
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 22.419999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 8,
+      "E01": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 22.02,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 2,
+      "E01": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 22.54,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "E01": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 23.419999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 4,
+      "M04": 5,
+      "E01": 17
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 22.59116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 20.988999999999994,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 2,
+      "E02": 3,
+      "M04": 5,
+      "F04": 28,
+      "F03": 28,
+      "M06": 28,
+      "F01": 28,
+      "C04": 28,
+      "C05": 28,
+      "E01": 28,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 21.139999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 1,
+      "E02": 1,
+      "C02": 4
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 22.059999999999995,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 2,
+      "E02": 2
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 21.82,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "E01": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 22.699999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "E01": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 21.539999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 2,
+      "E01": 3
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 22.34,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "M04": 5,
+      "E01": 7,
+      "C02": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 22.34,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 2,
+      "M04": 5,
+      "E01": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 23.41999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 4,
+      "M04": 5,
+      "E01": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 22.911166666666663,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C04": 2,
+      "C05": 2,
+      "E01": 2,
+      "E02": 2,
+      "F01": 4
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 21.668999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "E02": 3,
+      "F04": 4,
+      "C04": 4,
+      "E01": 4,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 23.499999999999993,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "M04": 5,
+      "E01": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 22.300000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "E01": 4
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 21.979999999999993,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "E01": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 22.86,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "E01": 7,
+      "E02": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 21.539999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 2,
+      "E01": 3
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 77,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 23.220000000000006,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 23.019999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 8,
+      "E02": 17
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 22.060540400732364,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "E02": 5,
+      "E01": 20
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 21.872075534577856,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "C02": 1,
+      "S02": 2,
+      "E02": 2,
+      "M04": 5,
+      "F04": 19
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 20.790442588978742,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "F04": 0,
+      "C02": 0,
+      "E02": 1,
+      "S02": 2,
+      "C03": 8,
+      "E06": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 24.420000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5,
+      "C05": 21,
+      "F01": 23
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 22.14,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 22.740000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 24.1,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 22.980000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5,
+      "E01": 25
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 23.220000000000006,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 22.540000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 2,
+      "C02": 4,
+      "M04": 5,
+      "E01": 17
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 18.34,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5,
+      "E01": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 22.951166666666662,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "C02": 1,
+      "E02": 2,
+      "M04": 5,
+      "F01": 6,
+      "C04": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 21.349,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C05": 0,
+      "C02": 2,
+      "M04": 5,
+      "E02": 6,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 22.180000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 22.139999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 2,
+      "C02": 4,
+      "M04": 5,
+      "E01": 13
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 23.14,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 21.500000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 21.500000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 23.140000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 23.220000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 24.020000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 23.39116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C05": 0,
+      "C02": 1,
+      "M04": 5,
+      "E02": 13
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 22.989,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "C02": 1,
+      "E02": 2,
+      "M04": 5,
+      "F04": 7,
+      "E01": 7,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 21.860000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 20.06,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5,
+      "C05": 26,
+      "F01": 29,
+      "C04": 29
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 23.380000000000006,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 2,
+      "C02": 4,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 23.62,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5,
+      "E01": 13
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 14.459999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5,
+      "F01": 10,
+      "C04": 10,
+      "C05": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 22.700000000000006,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 2,
+      "C02": 5,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 23.460000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 22.700000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 23.711166666666667,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C04": 2,
+      "C05": 2,
+      "E02": 3,
+      "C02": 5,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 19.629,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C05": 0,
+      "C02": 1,
+      "E02": 2,
+      "M04": 5,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 24.540000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 2,
+      "E01": 15
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 22.380000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5,
+      "E01": 21
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 21.580000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 22.900000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 25.020000000000007,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 2
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 88,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 21.73999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5,
+      "C05": 13,
+      "F01": 16,
+      "C04": 16
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 25.26000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 11.219998428420212,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "C02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 22.139389633103516,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "E01": 0,
+      "S02": 2,
+      "F01": 8,
+      "C04": 8,
+      "F04": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 17.58231277050093,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C04": 0,
+      "S02": 2,
+      "C02": 2,
+      "C03": 8,
+      "E06": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 18.580000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 15.139999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 12.899999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 15.819999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 6,
+      "E02": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 11.979999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 24.620000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "M04": 5,
+      "C05": 20,
+      "F01": 22,
+      "C04": 22,
+      "E01": 22,
+      "E02": 22
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 14.619999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 23.820000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 13.431166666666662,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C05": 0,
+      "E01": 0,
+      "C02": 2,
+      "C04": 3,
+      "E02": 3
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 21.308999999999994,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 1,
+      "C04": 2,
+      "C05": 2,
+      "F04": 3,
+      "F01": 4,
+      "E01": 4,
+      "E02": 11,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 15.219999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 19.1,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 12.739999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 13.339999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "C05": 5,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 13.419999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 23.580000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 13.419999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 25.100000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 12.991166666666665,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C05": 0,
+      "E01": 0,
+      "C02": 2,
+      "C04": 3,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 21.268999999999995,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "E01": 0,
+      "C02": 3,
+      "F04": 4,
+      "F01": 4,
+      "C04": 4,
+      "E02": 4,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 15.739999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5,
+      "C02": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 12.819999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 11.459999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 17.9,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 14.019999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 1,
+      "M04": 5,
+      "F01": 15,
+      "C04": 15,
+      "C05": 15
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 14.379999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 14.539999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 23.539999999999992,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 18.911166666666666,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "E01": 0,
+      "C02": 2,
+      "C04": 3,
+      "M04": 5,
+      "F01": 6,
+      "E02": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 15.429000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "E01": 0,
+      "F04": 3,
+      "C04": 3,
+      "C02": 7,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 12.139999999999999,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 4,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 11.62,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C05": 1,
+      "C02": 2,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 25.18000000000001,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 12.739999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 15.139999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 99,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 24.379999999999995,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {},
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "safe_internal",
+    "episode": 0,
+    "initial_hard_safe": true,
+    "reward": 22.740000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 4,
+      "E02": 8,
+      "C02": 19
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "boundary",
+    "episode": 1,
+    "initial_hard_safe": false,
+    "reward": 19.579686832496314,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "S02": 0,
+      "E01": 1,
+      "E02": 1
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "conflict",
+    "episode": 2,
+    "initial_hard_safe": true,
+    "reward": 19.17722118501204,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "S02": 2,
+      "C04": 3,
+      "E01": 3,
+      "F04": 9,
+      "E02": 12,
+      "F01": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "protocol_conflict",
+    "episode": 3,
+    "initial_hard_safe": false,
+    "reward": 17.741273942236123,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "F04": 0,
+      "I06": 0,
+      "S02": 2,
+      "E01": 3,
+      "C03": 8,
+      "E06": 14,
+      "F03": 19,
+      "M06": 19
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 4,
+    "initial_hard_safe": true,
+    "reward": 22.939999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 2,
+      "E01": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 5,
+    "initial_hard_safe": true,
+    "reward": 23.980000000000008,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "C05": 5,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 6,
+    "initial_hard_safe": true,
+    "reward": 21.060000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 2,
+      "E01": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 7,
+    "initial_hard_safe": true,
+    "reward": 21.540000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "E01": 3
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 8,
+    "initial_hard_safe": true,
+    "reward": 18.259999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5,
+      "E01": 12,
+      "E02": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 9,
+    "initial_hard_safe": true,
+    "reward": 21.82,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 8,
+      "E02": 15
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 10,
+    "initial_hard_safe": true,
+    "reward": 21.140000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5,
+      "E01": 14
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 11,
+    "initial_hard_safe": true,
+    "reward": 20.34,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E02": 2,
+      "M04": 5,
+      "E01": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 12,
+    "initial_hard_safe": true,
+    "reward": 21.151166666666665,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "F01": 4,
+      "C04": 4,
+      "C05": 4,
+      "M04": 5,
+      "F04": 19,
+      "E01": 19,
+      "E02": 22
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 13,
+    "initial_hard_safe": true,
+    "reward": 18.668999999999997,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5,
+      "F04": 6,
+      "E01": 6,
+      "F03": 28,
+      "M06": 28,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 14,
+    "initial_hard_safe": true,
+    "reward": 21.419999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5,
+      "E01": 7,
+      "E02": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 15,
+    "initial_hard_safe": true,
+    "reward": 21.860000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "E01": 4
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 16,
+    "initial_hard_safe": true,
+    "reward": 21.780000000000005,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "E02": 2,
+      "C02": 5,
+      "M04": 5,
+      "E01": 11,
+      "C05": 13,
+      "F01": 15
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 17,
+    "initial_hard_safe": true,
+    "reward": 20.859999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5,
+      "E02": 8,
+      "E01": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 18,
+    "initial_hard_safe": true,
+    "reward": 20.06,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5,
+      "E01": 9,
+      "E02": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 19,
+    "initial_hard_safe": true,
+    "reward": 21.540000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "E01": 4,
+      "E02": 12
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 20,
+    "initial_hard_safe": true,
+    "reward": 21.060000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5,
+      "E02": 6,
+      "E01": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 21,
+    "initial_hard_safe": true,
+    "reward": 21.820000000000004,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "E01": 4
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 22,
+    "initial_hard_safe": true,
+    "reward": 21.19116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5,
+      "F04": 19,
+      "F01": 19,
+      "C04": 19,
+      "C05": 19,
+      "E01": 19
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 23,
+    "initial_hard_safe": true,
+    "reward": 18.589,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "C02": 1,
+      "M04": 5,
+      "E02": 9,
+      "F04": 22,
+      "F01": 22,
+      "C04": 22,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 24,
+    "initial_hard_safe": true,
+    "reward": 20.859999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 1,
+      "M04": 5,
+      "E02": 8,
+      "E01": 11,
+      "C05": 20,
+      "F01": 22
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 25,
+    "initial_hard_safe": true,
+    "reward": 22.54,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 2,
+      "E01": 11
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 26,
+    "initial_hard_safe": true,
+    "reward": 19.939999999999998,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 2,
+      "M04": 5,
+      "E01": 13
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 27,
+    "initial_hard_safe": true,
+    "reward": 21.78,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5,
+      "E01": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 28,
+    "initial_hard_safe": true,
+    "reward": 21.699999999999996,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 2,
+      "E01": 4,
+      "E02": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 29,
+    "initial_hard_safe": true,
+    "reward": 20.059999999999995,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5,
+      "E01": 7,
+      "E02": 20
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 30,
+    "initial_hard_safe": true,
+    "reward": 21.380000000000003,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 2,
+      "C02": 4,
+      "M04": 5,
+      "E01": 8
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 31,
+    "initial_hard_safe": true,
+    "reward": 21.5,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 4,
+      "E02": 27
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 32,
+    "initial_hard_safe": true,
+    "reward": 22.55116666666666,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C02": 0,
+      "E02": 1,
+      "M04": 5,
+      "F01": 12,
+      "C04": 12,
+      "C05": 12,
+      "E01": 12,
+      "F04": 23
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 33,
+    "initial_hard_safe": true,
+    "reward": 20.108999999999995,
+    "steps": 30,
+    "joint_hard_satisfied": false,
+    "violations": {
+      "C05": 0,
+      "C02": 2,
+      "E02": 3,
+      "M04": 5,
+      "F04": 10,
+      "C04": 10,
+      "E01": 10,
+      "F03": 28,
+      "M06": 28,
+      "E06": 28
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 34,
+    "initial_hard_safe": true,
+    "reward": 22.220000000000002,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 7,
+      "E02": 9
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 35,
+    "initial_hard_safe": true,
+    "reward": 21.5,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 0,
+      "M04": 5,
+      "E01": 10,
+      "E02": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 36,
+    "initial_hard_safe": true,
+    "reward": 23.22,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E02": 1,
+      "C02": 3,
+      "M04": 5
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 37,
+    "initial_hard_safe": true,
+    "reward": 20.7,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 4,
+      "E02": 4,
+      "C02": 6
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 38,
+    "initial_hard_safe": true,
+    "reward": 21.819999999999993,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "C02": 1,
+      "M04": 5,
+      "E01": 7,
+      "E02": 7
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  },
+  {
+    "policy": "official_macpo",
+    "seed": 111,
+    "scenario_type": "sampled",
+    "episode": 39,
+    "initial_hard_safe": true,
+    "reward": 21.740000000000006,
+    "steps": 30,
+    "joint_hard_satisfied": true,
+    "violations": {
+      "E01": 10
+    },
+    "intervention_count": 0,
+    "intervention_rate": 0.0,
+    "intervention_distance": 0.0
+  }
+]

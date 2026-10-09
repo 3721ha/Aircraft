@@ -1,0 +1,5 @@
+repository=https://github.com/chauncygu/Multi-Agent-Constrained-Policy-Optimisation
+commit=b80a9f5b4a0049125a827be8fb9c477f69ae021b
+component=MAPPO-Lagrangian
+action_adapter=continuous latent Box(5) with joint semantic target decode
+cost_signal=episode_binary

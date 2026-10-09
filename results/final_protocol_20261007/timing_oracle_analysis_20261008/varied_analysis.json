@@ -1,0 +1,2464 @@
+{
+  "metadata": {
+    "protocol": "warning_clock_timing_plus_truth_recovery_reference_v1",
+    "seeds": [
+      11,
+      22,
+      33,
+      44,
+      55,
+      66,
+      77,
+      88,
+      99,
+      111
+    ],
+    "distances": [
+      2000.0,
+      2200.0,
+      2400.0,
+      2800.0,
+      3200.0
+    ],
+    "episodes_per_seed_distance": 2,
+    "position_jitter_m": 100.0,
+    "horizon_from_warning": 30,
+    "timings": [
+      "warning_now",
+      "warning_plus_1",
+      "warning_plus_2",
+      "first_S02_violation"
+    ],
+    "target_rules": [
+      "S02",
+      "S03"
+    ],
+    "protocol_overrides": {
+      "support_response_deadline": 0,
+      "noise_position": 0.0,
+      "noise_speed": 0.0,
+      "belief_ttc_threshold": 6.0,
+      "safe_trend_window": 4
+    },
+    "warning_definition": "First unsafe TTC/closest-distance trend on a shared unshielded prefix, assessed offline in truth. Not expired S03 and not an operational online trigger.",
+    "comparison_clock": "Every branch ends 30 executed steps after the same warning; pre-takeover violations/rewards are included. No reset of S03 history.",
+    "nominal_policy": "fixed rule_agnostic_policy; shield ablation, not learned-policy evaluation",
+    "reference_definition": "82 fixed 3-step sequences plus multi-start full-truth SLSQP max-min sampled separation with physically valid state and restored safety at step 3; validated in actual environment, not certified global upper bound.",
+    "oracle_starts": 3,
+    "oracle_maxiter": 80,
+    "unique_oracle_physical_states": 100,
+    "requested_cases": 100,
+    "ready_cases": 100,
+    "excluded_cases": 0,
+    "code_sha256": {
+      "D:\\project\\vsproject\\Aircraft\\run_intervention_timing_oracle_experiments.py": "b9b0d453cdc4483fcdbdf37e12c737be7eee0cc0c04b9aa96ad5bad2119cebcf",
+      "run_post_violation_recovery_experiments.py": "1d8a4ebe0a96fc144f97d6e99ac825d2d4332d87a3a66dc082a9d0f95bfd1cdd",
+      "run_short_recovery_experiments.py": "f290db1d52a9047a149579a4e7af6e08e345731bc617b4d4ab2a8d7e93c464fc",
+      "aircraft_sim\\__init__.py": "1c30dea3f76fb8c840ff26a2318b3a7354e4475237d38ec1f5feef9e148d82e2",
+      "aircraft_sim\\baselines.py": "adf9a0cd7ba2aa2616d9d2392d716e7fd1cc1c741200bead3007cb3f7d0299a4",
+      "aircraft_sim\\belief.py": "d3616e05ceddd1d6b489727ae581d3783896549d075828fcf55d2f2c3fccde88",
+      "aircraft_sim\\config.py": "6fc19d45e7989c0f69598cae129448419879be0c1c9f6abd8c3f309188e8d5c6",
+      "aircraft_sim\\env.py": "37d7577017f42790fe5c90b15369128141de175b6d37e1a0ae4c051ee377a4eb",
+      "aircraft_sim\\evaluation.py": "ea0265dcce06af5de53e49d8f0d5fb6089372d59621abec8f66aa8ed3f70de4e",
+      "aircraft_sim\\high_fidelity.py": "f236e48282ca5e31d9b703d195c647d885a367a736dee2c047e1147913328374",
+      "aircraft_sim\\jsbsim_env.py": "e419d4b6f1ff958087ea83bbefb8d99f0d10797bb6d2703508d1ca07834ad576",
+      "aircraft_sim\\mappo.py": "f076ef2dd8742cf277a40e11881f710cfa725244b56689db67b99c9386c07b8f",
+      "aircraft_sim\\metrics.py": "7189025f91ee205a4fa8353f29565a02221ff50806b3c252fc8bb4b3fc4e4d39",
+      "aircraft_sim\\models.py": "19588887f064934e50f6b5e5dc75054070b18d6f8849dadd7e5daf0b1be45be5",
+      "aircraft_sim\\policies.py": "b676b830d1470b8b27d2bdc575f10700de4c979314e443ef968ceec994c1f8a0",
+      "aircraft_sim\\qp_shield.py": "01f7cd7eb0a7854333bc66a5b86ffcac8360470aa531ecef0e3dc19aefbe6f11",
+      "aircraft_sim\\risk_calibration.py": "8d2a3a09f4ad82a93eac2d803317a20d9b06e1d6649ad0ceaf9a68fab658d7fd",
+      "aircraft_sim\\rl_api.py": "2a5db9f46e847ef2d099483a8188bee437eae728d6880c6fcd0bb89af93e245c",
+      "aircraft_sim\\rule_graph.py": "ccba638cc81e7873c899afe58d00094e57a1402ad05109fa45120995768e010e",
+      "aircraft_sim\\rules.py": "13cd3567db92eac41885ecd10574dcf8f0149e5ff05544bb6ff40de09e56f036",
+      "aircraft_sim\\scenarios.py": "9e1dee4a3b9406420577e9fab41eed1f07a47c5c608087af0e9bb8810c2b60cb",
+      "aircraft_sim\\shield.py": "70fd21bd78a95be534b93131c7662941996de23f5c53aad86d104b43fe1e9483",
+      "aircraft_sim\\stl.py": "0e1d0087e896d554650a87d8613482563e0f1e9a0065c528979c52abbf77c450"
+    }
+  },
+  "audit": {
+    "directory": "results\\final_protocol_20261007\\timing_oracle_varied_10seed_20261008",
+    "requested_cases": 100,
+    "ready_cases": 100,
+    "excluded_cases": 0,
+    "timing_branches": 1600,
+    "trace_steps": 48000,
+    "reference_states_replayed": 600,
+    "verified_source_files": 23,
+    "all_checks_passed": true,
+    "unique_reference_physical_states": 100,
+    "input_sha256": {
+      "cases.json": "a25cff3ad6dc6e3e5039d862c4f4fac8926a13c8737c32961239bed594cf875a",
+      "oracle_per_seed.json": "1c77ef2b07dad084ab1d0f592b865afad43a731aa653ebf348c86fab8dd58dbf",
+      "paper_table.md": "d79b1d28116cba840b066bc4c784939590b74bd09cb724d6747ba8733820f11e",
+      "summary.json": "0fe6a7f22f9a7d410f6fd9e747a5a4326cfdcf6ab77edf995df69c1f4226a315",
+      "timing_per_seed.json": "64c46cef144280801ccb1462c062e78e20e62f6aeb7c12eb355dced430fc671d",
+      "timing_step_trace.jsonl.gz": "f09c54c1a8ffc57999a7aeff942bc29fc4143c60338f81a5c9c495a9437f40e7"
+    }
+  },
+  "immediate": [
+    {
+      "method": "DG-QP",
+      "n_episodes": 100,
+      "target_safety_retention_3step": {
+        "mean": 0.96,
+        "n_seeds": 10,
+        "seed_sd": 0.06992058987801009
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "S02_safety_retention_30step": {
+        "mean": 0.12000000000000001,
+        "n_seeds": 10,
+        "seed_sd": 0.10327955589886445
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 629.8361980770273,
+        "n_seeds": 10,
+        "seed_sd": 30.55839607548714
+      },
+      "target_violation_state_rate": {
+        "mean": 0.07633333333333334,
+        "n_seeds": 10,
+        "seed_sd": 0.009222891541976504
+      },
+      "S02_violation_state_rate": {
+        "mean": 0.063,
+        "n_seeds": 10,
+        "seed_sd": 0.009743627230397223
+      },
+      "C03_violation_state_rate": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.999,
+        "n_seeds": 10,
+        "seed_sd": 0.002249828525701851
+      },
+      "support_service_state_rate": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 10.157605228600037,
+        "n_seeds": 10,
+        "seed_sd": 0.10591492265797448
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.2574333333333335,
+        "n_seeds": 10,
+        "seed_sd": 0.001595131481867374
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.083,
+        "n_seeds": 10,
+        "seed_sd": 0.009355793082231502
+      }
+    },
+    {
+      "method": "JointHeuristic",
+      "n_episodes": 100,
+      "target_safety_retention_3step": {
+        "mean": 0.77,
+        "n_seeds": 10,
+        "seed_sd": 0.0823272602348565
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "S02_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 208.26751578659966,
+        "n_seeds": 10,
+        "seed_sd": 16.52281530310667
+      },
+      "target_violation_state_rate": {
+        "mean": 0.13166666666666665,
+        "n_seeds": 10,
+        "seed_sd": 0.002832788618662653
+      },
+      "S02_violation_state_rate": {
+        "mean": 0.13133333333333333,
+        "n_seeds": 10,
+        "seed_sd": 0.002810913475705221
+      },
+      "C03_violation_state_rate": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "support_service_state_rate": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 25.807177156485135,
+        "n_seeds": 10,
+        "seed_sd": 0.04001753388718497
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.34130000000000027,
+        "n_seeds": 10,
+        "seed_sd": 0.0011806045741457347
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      }
+    },
+    {
+      "method": "NoShield",
+      "n_episodes": 100,
+      "target_safety_retention_3step": {
+        "mean": 0.77,
+        "n_seeds": 10,
+        "seed_sd": 0.0823272602348565
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "S02_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 221.27598456100546,
+        "n_seeds": 10,
+        "seed_sd": 13.325506051149917
+      },
+      "target_violation_state_rate": {
+        "mean": 0.10833333333333334,
+        "n_seeds": 10,
+        "seed_sd": 0.002832788618662658
+      },
+      "S02_violation_state_rate": {
+        "mean": 0.108,
+        "n_seeds": 10,
+        "seed_sd": 0.0023306863292670023
+      },
+      "C03_violation_state_rate": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "support_service_state_rate": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 25.551919608975634,
+        "n_seeds": 10,
+        "seed_sd": 0.03494303351207798
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.3600000000000002,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      }
+    },
+    {
+      "method": "PartialShield",
+      "n_episodes": 100,
+      "target_safety_retention_3step": {
+        "mean": 0.77,
+        "n_seeds": 10,
+        "seed_sd": 0.0823272602348565
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "S02_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 212.30782086419813,
+        "n_seeds": 10,
+        "seed_sd": 13.999946938236384
+      },
+      "target_violation_state_rate": {
+        "mean": 0.11366666666666667,
+        "n_seeds": 10,
+        "seed_sd": 0.005079613089183319
+      },
+      "S02_violation_state_rate": {
+        "mean": 0.11333333333333334,
+        "n_seeds": 10,
+        "seed_sd": 0.004157397096415491
+      },
+      "C03_violation_state_rate": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.10500000000000001,
+        "n_seeds": 10,
+        "seed_sd": 0.004779069592801462
+      },
+      "support_service_state_rate": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 23.92247508328452,
+        "n_seeds": 10,
+        "seed_sd": 0.09518993235079272
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.33790000000000026,
+        "n_seeds": 10,
+        "seed_sd": 0.0008613798863695165
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      }
+    }
+  ],
+  "DG_timing": [
+    {
+      "distance": 2000.0,
+      "timing": "first_S02_violation",
+      "n_episodes": 20,
+      "target_safety_retention_3step": {
+        "mean": 0.15,
+        "n_seeds": 10,
+        "seed_sd": 0.24152294576982397
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "S02_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 190.42046391776123,
+        "n_seeds": 10,
+        "seed_sd": 42.621331983107304
+      },
+      "target_violation_state_rate": {
+        "mean": 0.12833333333333333,
+        "n_seeds": 10,
+        "seed_sd": 0.008050764858994131
+      },
+      "S02_violation_state_rate": {
+        "mean": 0.12833333333333333,
+        "n_seeds": 10,
+        "seed_sd": 0.008050764858994131
+      },
+      "C03_violation_state_rate": {
+        "mean": 0.10500000000000001,
+        "n_seeds": 10,
+        "seed_sd": 0.008050764858994131
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.8933333333333333,
+        "n_seeds": 10,
+        "seed_sd": 0.00860662965823873
+      },
+      "support_service_state_rate": {
+        "mean": 0.895,
+        "n_seeds": 10,
+        "seed_sd": 0.008050764858994157
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 10.502783893866125,
+        "n_seeds": 10,
+        "seed_sd": 0.22279463350242784
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.2641666666666668,
+        "n_seeds": 10,
+        "seed_sd": 0.005343162239353148
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.095,
+        "n_seeds": 10,
+        "seed_sd": 0.008050764858994131
+      }
+    },
+    {
+      "distance": 2000.0,
+      "timing": "warning_now",
+      "n_episodes": 20,
+      "target_safety_retention_3step": {
+        "mean": 0.8,
+        "n_seeds": 10,
+        "seed_sd": 0.3496029493900505
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "S02_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 603.193955424788,
+        "n_seeds": 10,
+        "seed_sd": 65.14606610075195
+      },
+      "target_violation_state_rate": {
+        "mean": 0.06333333333333334,
+        "n_seeds": 10,
+        "seed_sd": 0.025819888974716113
+      },
+      "S02_violation_state_rate": {
+        "mean": 0.06333333333333334,
+        "n_seeds": 10,
+        "seed_sd": 0.025819888974716113
+      },
+      "C03_violation_state_rate": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.9983333333333333,
+        "n_seeds": 10,
+        "seed_sd": 0.00527046276694728
+      },
+      "support_service_state_rate": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 10.13099205384092,
+        "n_seeds": 10,
+        "seed_sd": 0.2823981502176448
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.2565000000000001,
+        "n_seeds": 10,
+        "seed_sd": 0.005635535401295886
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.085,
+        "n_seeds": 10,
+        "seed_sd": 0.022838671990104965
+      }
+    },
+    {
+      "distance": 2000.0,
+      "timing": "warning_plus_1",
+      "n_episodes": 20,
+      "target_safety_retention_3step": {
+        "mean": 0.25,
+        "n_seeds": 10,
+        "seed_sd": 0.3535533905932738
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "S02_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 378.60620573265066,
+        "n_seeds": 10,
+        "seed_sd": 55.98385355529124
+      },
+      "target_violation_state_rate": {
+        "mean": 0.12166666666666667,
+        "n_seeds": 10,
+        "seed_sd": 0.017655831757856334
+      },
+      "S02_violation_state_rate": {
+        "mean": 0.12166666666666667,
+        "n_seeds": 10,
+        "seed_sd": 0.017655831757856334
+      },
+      "C03_violation_state_rate": {
+        "mean": 0.03333333333333333,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.965,
+        "n_seeds": 10,
+        "seed_sd": 0.005270462766947316
+      },
+      "support_service_state_rate": {
+        "mean": 0.9666666666666667,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 9.815678821840008,
+        "n_seeds": 10,
+        "seed_sd": 0.3287240923971823
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.2565000000000001,
+        "n_seeds": 10,
+        "seed_sd": 0.005635535401295886
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.14833333333333332,
+        "n_seeds": 10,
+        "seed_sd": 0.024152294576982394
+      }
+    },
+    {
+      "distance": 2000.0,
+      "timing": "warning_plus_2",
+      "n_episodes": 20,
+      "target_safety_retention_3step": {
+        "mean": 0.15,
+        "n_seeds": 10,
+        "seed_sd": 0.24152294576982397
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "S02_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 163.22202358715953,
+        "n_seeds": 10,
+        "seed_sd": 31.813364448169416
+      },
+      "target_violation_state_rate": {
+        "mean": 0.135,
+        "n_seeds": 10,
+        "seed_sd": 0.012297746456210361
+      },
+      "S02_violation_state_rate": {
+        "mean": 0.135,
+        "n_seeds": 10,
+        "seed_sd": 0.012297746456210361
+      },
+      "C03_violation_state_rate": {
+        "mean": 0.06666666666666667,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.9316666666666666,
+        "n_seeds": 10,
+        "seed_sd": 0.00527046276694728
+      },
+      "support_service_state_rate": {
+        "mean": 0.9333333333333333,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 9.618265977888797,
+        "n_seeds": 10,
+        "seed_sd": 0.20696029199158264
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.2630000000000002,
+        "n_seeds": 10,
+        "seed_sd": 0.005921294486433001
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.155,
+        "n_seeds": 10,
+        "seed_sd": 0.01372121003914274
+      }
+    },
+    {
+      "distance": 2200.0,
+      "timing": "first_S02_violation",
+      "n_episodes": 20,
+      "target_safety_retention_3step": {
+        "mean": 0.7,
+        "n_seeds": 10,
+        "seed_sd": 0.4216370213557839
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "S02_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 184.68891103135132,
+        "n_seeds": 10,
+        "seed_sd": 56.950357049538816
+      },
+      "target_violation_state_rate": {
+        "mean": 0.11333333333333334,
+        "n_seeds": 10,
+        "seed_sd": 0.013146843962443588
+      },
+      "S02_violation_state_rate": {
+        "mean": 0.11333333333333334,
+        "n_seeds": 10,
+        "seed_sd": 0.013146843962443588
+      },
+      "C03_violation_state_rate": {
+        "mean": 0.12333333333333334,
+        "n_seeds": 10,
+        "seed_sd": 0.014054567378526128
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.875,
+        "n_seeds": 10,
+        "seed_sd": 0.016197088596792482
+      },
+      "support_service_state_rate": {
+        "mean": 0.8766666666666667,
+        "n_seeds": 10,
+        "seed_sd": 0.01405456737852612
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 10.929257944363503,
+        "n_seeds": 10,
+        "seed_sd": 0.3492539215565963
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.2683333333333335,
+        "n_seeds": 10,
+        "seed_sd": 0.00527046276694729
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.08666666666666667,
+        "n_seeds": 10,
+        "seed_sd": 0.013146843962443594
+      }
+    },
+    {
+      "distance": 2200.0,
+      "timing": "warning_now",
+      "n_episodes": 20,
+      "target_safety_retention_3step": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "S02_safety_retention_30step": {
+        "mean": 0.05,
+        "n_seeds": 10,
+        "seed_sd": 0.15811388300841897
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 596.5674278093355,
+        "n_seeds": 10,
+        "seed_sd": 66.92711292211351
+      },
+      "target_violation_state_rate": {
+        "mean": 0.08166666666666668,
+        "n_seeds": 10,
+        "seed_sd": 0.014593250596181887
+      },
+      "S02_violation_state_rate": {
+        "mean": 0.07500000000000001,
+        "n_seeds": 10,
+        "seed_sd": 0.0238953479640073
+      },
+      "C03_violation_state_rate": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.9983333333333333,
+        "n_seeds": 10,
+        "seed_sd": 0.00527046276694728
+      },
+      "support_service_state_rate": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 10.043356903824286,
+        "n_seeds": 10,
+        "seed_sd": 0.18438739444640354
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.2571666666666668,
+        "n_seeds": 10,
+        "seed_sd": 0.0043779751788545545
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.08666666666666667,
+        "n_seeds": 10,
+        "seed_sd": 0.010540925533894598
+      }
+    },
+    {
+      "distance": 2200.0,
+      "timing": "warning_plus_1",
+      "n_episodes": 20,
+      "target_safety_retention_3step": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "S02_safety_retention_30step": {
+        "mean": 0.05,
+        "n_seeds": 10,
+        "seed_sd": 0.15811388300841897
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 486.56531067052794,
+        "n_seeds": 10,
+        "seed_sd": 73.79175179397721
+      },
+      "target_violation_state_rate": {
+        "mean": 0.095,
+        "n_seeds": 10,
+        "seed_sd": 0.011249142628509217
+      },
+      "S02_violation_state_rate": {
+        "mean": 0.09333333333333334,
+        "n_seeds": 10,
+        "seed_sd": 0.016101529717988266
+      },
+      "C03_violation_state_rate": {
+        "mean": 0.03333333333333333,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.965,
+        "n_seeds": 10,
+        "seed_sd": 0.005270462766947316
+      },
+      "support_service_state_rate": {
+        "mean": 0.9666666666666667,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 10.279332289515583,
+        "n_seeds": 10,
+        "seed_sd": 0.19922539538459952
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.2571666666666668,
+        "n_seeds": 10,
+        "seed_sd": 0.0043779751788545545
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.125,
+        "n_seeds": 10,
+        "seed_sd": 0.02115492529406641
+      }
+    },
+    {
+      "distance": 2200.0,
+      "timing": "warning_plus_2",
+      "n_episodes": 20,
+      "target_safety_retention_3step": {
+        "mean": 0.85,
+        "n_seeds": 10,
+        "seed_sd": 0.3374742788552764
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "S02_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 292.16045346855225,
+        "n_seeds": 10,
+        "seed_sd": 113.90575661372085
+      },
+      "target_violation_state_rate": {
+        "mean": 0.12,
+        "n_seeds": 10,
+        "seed_sd": 0.023306863292670028
+      },
+      "S02_violation_state_rate": {
+        "mean": 0.12,
+        "n_seeds": 10,
+        "seed_sd": 0.023306863292670028
+      },
+      "C03_violation_state_rate": {
+        "mean": 0.06666666666666667,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.9316666666666666,
+        "n_seeds": 10,
+        "seed_sd": 0.00527046276694728
+      },
+      "support_service_state_rate": {
+        "mean": 0.9333333333333333,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 10.136836474488408,
+        "n_seeds": 10,
+        "seed_sd": 0.40143384056323367
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.2633333333333335,
+        "n_seeds": 10,
+        "seed_sd": 0.004906533814626595
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.14666666666666667,
+        "n_seeds": 10,
+        "seed_sd": 0.018921540406584884
+      }
+    },
+    {
+      "distance": 2400.0,
+      "timing": "first_S02_violation",
+      "n_episodes": 20,
+      "target_safety_retention_3step": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "S02_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 178.5160119127874,
+        "n_seeds": 10,
+        "seed_sd": 42.25709173741898
+      },
+      "target_violation_state_rate": {
+        "mean": 0.12166666666666667,
+        "n_seeds": 10,
+        "seed_sd": 0.011249142628509212
+      },
+      "S02_violation_state_rate": {
+        "mean": 0.12166666666666667,
+        "n_seeds": 10,
+        "seed_sd": 0.011249142628509212
+      },
+      "C03_violation_state_rate": {
+        "mean": 0.13333333333333333,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.8666666666666667,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "support_service_state_rate": {
+        "mean": 0.8666666666666667,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 10.95494992420372,
+        "n_seeds": 10,
+        "seed_sd": 0.10226302276975259
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.27166666666666683,
+        "n_seeds": 10,
+        "seed_sd": 0.003685138655950443
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.09666666666666668,
+        "n_seeds": 10,
+        "seed_sd": 0.007027283689263064
+      }
+    },
+    {
+      "distance": 2400.0,
+      "timing": "warning_now",
+      "n_episodes": 20,
+      "target_safety_retention_3step": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "S02_safety_retention_30step": {
+        "mean": 0.15,
+        "n_seeds": 10,
+        "seed_sd": 0.3374742788552764
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 647.5757149329138,
+        "n_seeds": 10,
+        "seed_sd": 77.37048644798604
+      },
+      "target_violation_state_rate": {
+        "mean": 0.08,
+        "n_seeds": 10,
+        "seed_sd": 0.020487876571761973
+      },
+      "S02_violation_state_rate": {
+        "mean": 0.05666666666666667,
+        "n_seeds": 10,
+        "seed_sd": 0.028544961285922512
+      },
+      "C03_violation_state_rate": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "C02_violation_state_rate": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "support_service_state_rate": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 10.160467443277506,
+        "n_seeds": 10,
+        "seed_sd": 0.18328030903925294
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.2585000000000001,
+        "n_seeds": 10,
+        "seed_sd": 0.0036387828652917247
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.09166666666666667,
+        "n_seeds": 10,
+        "seed_sd": 0.025153847605937266
+      }
+    },
+    {
+      "distance": 2400.0,
+      "timing": "warning_plus_1",
+      "n_episodes": 20,
+      "target_safety_retention_3step": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "S02_safety_retention_30step": {
+        "mean": 0.05,
+        "n_seeds": 10,
+        "seed_sd": 0.15811388300841897
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 539.2789563612904,
+        "n_seeds": 10,
+        "seed_sd": 53.7466254101346
+      },
+      "target_violation_state_rate": {
+        "mean": 0.09666666666666668,
+        "n_seeds": 10,
+        "seed_sd": 0.013146843962443592
+      },
+      "S02_violation_state_rate": {
+        "mean": 0.085,
+        "n_seeds": 10,
+        "seed_sd": 0.01657381543352922
+      },
+      "C03_violation_state_rate": {
+        "mean": 0.03333333333333333,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.9666666666666667,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "support_service_state_rate": {
+        "mean": 0.9666666666666667,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 10.418218579380339,
+        "n_seeds": 10,
+        "seed_sd": 0.14219203132756444
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.2585000000000001,
+        "n_seeds": 10,
+        "seed_sd": 0.0036387828652917247
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.11666666666666667,
+        "n_seeds": 10,
+        "seed_sd": 0.02078698548207746
+      }
+    },
+    {
+      "distance": 2400.0,
+      "timing": "warning_plus_2",
+      "n_episodes": 20,
+      "target_safety_retention_3step": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "S02_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 340.0961712343643,
+        "n_seeds": 10,
+        "seed_sd": 39.701549622882126
+      },
+      "target_violation_state_rate": {
+        "mean": 0.12833333333333333,
+        "n_seeds": 10,
+        "seed_sd": 0.008050764858994131
+      },
+      "S02_violation_state_rate": {
+        "mean": 0.12666666666666668,
+        "n_seeds": 10,
+        "seed_sd": 0.011653431646335014
+      },
+      "C03_violation_state_rate": {
+        "mean": 0.06666666666666667,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.9333333333333333,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "support_service_state_rate": {
+        "mean": 0.9333333333333333,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 10.159313117135941,
+        "n_seeds": 10,
+        "seed_sd": 0.12261455639835508
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.2650000000000002,
+        "n_seeds": 10,
+        "seed_sd": 0.003685138655950443
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.15166666666666667,
+        "n_seeds": 10,
+        "seed_sd": 0.012297746456210361
+      }
+    },
+    {
+      "distance": 2800.0,
+      "timing": "first_S02_violation",
+      "n_episodes": 20,
+      "target_safety_retention_3step": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "S02_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 231.8473451226182,
+        "n_seeds": 10,
+        "seed_sd": 63.857631413956575
+      },
+      "target_violation_state_rate": {
+        "mean": 0.10833333333333334,
+        "n_seeds": 10,
+        "seed_sd": 0.01178511301977579
+      },
+      "S02_violation_state_rate": {
+        "mean": 0.10833333333333334,
+        "n_seeds": 10,
+        "seed_sd": 0.01178511301977579
+      },
+      "C03_violation_state_rate": {
+        "mean": 0.13333333333333333,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.865,
+        "n_seeds": 10,
+        "seed_sd": 0.00527046276694728
+      },
+      "support_service_state_rate": {
+        "mean": 0.8666666666666667,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 11.247308181123364,
+        "n_seeds": 10,
+        "seed_sd": 0.18349566968004113
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.27150000000000024,
+        "n_seeds": 10,
+        "seed_sd": 0.0032820123306093216
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.08333333333333334,
+        "n_seeds": 10,
+        "seed_sd": 0.013608276348795436
+      }
+    },
+    {
+      "distance": 2800.0,
+      "timing": "warning_now",
+      "n_episodes": 20,
+      "target_safety_retention_3step": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "S02_safety_retention_30step": {
+        "mean": 0.3,
+        "n_seeds": 10,
+        "seed_sd": 0.25819888974716115
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 676.2260301778034,
+        "n_seeds": 10,
+        "seed_sd": 64.9914186427303
+      },
+      "target_violation_state_rate": {
+        "mean": 0.07333333333333333,
+        "n_seeds": 10,
+        "seed_sd": 0.016101529717988266
+      },
+      "S02_violation_state_rate": {
+        "mean": 0.051666666666666666,
+        "n_seeds": 10,
+        "seed_sd": 0.025398065445916582
+      },
+      "C03_violation_state_rate": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.9983333333333333,
+        "n_seeds": 10,
+        "seed_sd": 0.00527046276694728
+      },
+      "support_service_state_rate": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 10.273572065292502,
+        "n_seeds": 10,
+        "seed_sd": 0.20521853396467843
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.2578333333333335,
+        "n_seeds": 10,
+        "seed_sd": 0.0031476034387144932
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.07166666666666667,
+        "n_seeds": 10,
+        "seed_sd": 0.019325030145473432
+      }
+    },
+    {
+      "distance": 2800.0,
+      "timing": "warning_plus_1",
+      "n_episodes": 20,
+      "target_safety_retention_3step": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "S02_safety_retention_30step": {
+        "mean": 0.05,
+        "n_seeds": 10,
+        "seed_sd": 0.15811388300841897
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 554.3246831323662,
+        "n_seeds": 10,
+        "seed_sd": 65.13070546941962
+      },
+      "target_violation_state_rate": {
+        "mean": 0.09000000000000001,
+        "n_seeds": 10,
+        "seed_sd": 0.011653431646335017
+      },
+      "S02_violation_state_rate": {
+        "mean": 0.08,
+        "n_seeds": 10,
+        "seed_sd": 0.01892154040658489
+      },
+      "C03_violation_state_rate": {
+        "mean": 0.03333333333333333,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.965,
+        "n_seeds": 10,
+        "seed_sd": 0.005270462766947316
+      },
+      "support_service_state_rate": {
+        "mean": 0.9666666666666667,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 10.540556642714897,
+        "n_seeds": 10,
+        "seed_sd": 0.25938377466738
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.2585000000000002,
+        "n_seeds": 10,
+        "seed_sd": 0.0021444732295131668
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.12,
+        "n_seeds": 10,
+        "seed_sd": 0.023306863292670035
+      }
+    },
+    {
+      "distance": 2800.0,
+      "timing": "warning_plus_2",
+      "n_episodes": 20,
+      "target_safety_retention_3step": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "S02_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 375.207367801833,
+        "n_seeds": 10,
+        "seed_sd": 62.5192189845935
+      },
+      "target_violation_state_rate": {
+        "mean": 0.11833333333333333,
+        "n_seeds": 10,
+        "seed_sd": 0.014593250596181882
+      },
+      "S02_violation_state_rate": {
+        "mean": 0.11666666666666667,
+        "n_seeds": 10,
+        "seed_sd": 0.01571348402636772
+      },
+      "C03_violation_state_rate": {
+        "mean": 0.06666666666666667,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.9316666666666666,
+        "n_seeds": 10,
+        "seed_sd": 0.00527046276694728
+      },
+      "support_service_state_rate": {
+        "mean": 0.9333333333333333,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 10.413222895745145,
+        "n_seeds": 10,
+        "seed_sd": 0.2074222694446661
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.2646666666666669,
+        "n_seeds": 10,
+        "seed_sd": 0.0032203059435976663
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.15,
+        "n_seeds": 10,
+        "seed_sd": 0.01924500897298752
+      }
+    },
+    {
+      "distance": 3200.0,
+      "timing": "first_S02_violation",
+      "n_episodes": 20,
+      "target_safety_retention_3step": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "S02_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 266.79705227558713,
+        "n_seeds": 10,
+        "seed_sd": 49.53917543307695
+      },
+      "target_violation_state_rate": {
+        "mean": 0.10666666666666667,
+        "n_seeds": 10,
+        "seed_sd": 0.008606629658238702
+      },
+      "S02_violation_state_rate": {
+        "mean": 0.10500000000000001,
+        "n_seeds": 10,
+        "seed_sd": 0.008050764858994131
+      },
+      "C03_violation_state_rate": {
+        "mean": 0.135,
+        "n_seeds": 10,
+        "seed_sd": 0.005270462766947297
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.865,
+        "n_seeds": 10,
+        "seed_sd": 0.00527046276694728
+      },
+      "support_service_state_rate": {
+        "mean": 0.865,
+        "n_seeds": 10,
+        "seed_sd": 0.00527046276694728
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 11.393376243448877,
+        "n_seeds": 10,
+        "seed_sd": 0.18417911503284728
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.27083333333333354,
+        "n_seeds": 10,
+        "seed_sd": 0.005944704044175738
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.07500000000000001,
+        "n_seeds": 10,
+        "seed_sd": 0.008784104611578837
+      }
+    },
+    {
+      "distance": 3200.0,
+      "timing": "warning_now",
+      "n_episodes": 20,
+      "target_safety_retention_3step": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "S02_safety_retention_30step": {
+        "mean": 0.1,
+        "n_seeds": 10,
+        "seed_sd": 0.21081851067789195
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 625.6178620402961,
+        "n_seeds": 10,
+        "seed_sd": 50.35164249386506
+      },
+      "target_violation_state_rate": {
+        "mean": 0.08333333333333334,
+        "n_seeds": 10,
+        "seed_sd": 0.015713484026367727
+      },
+      "S02_violation_state_rate": {
+        "mean": 0.06833333333333334,
+        "n_seeds": 10,
+        "seed_sd": 0.018341748910243535
+      },
+      "C03_violation_state_rate": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "C02_violation_state_rate": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "support_service_state_rate": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 10.179637676764976,
+        "n_seeds": 10,
+        "seed_sd": 0.24211771772056884
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.2571666666666669,
+        "n_seeds": 10,
+        "seed_sd": 0.006287848363075949
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.08,
+        "n_seeds": 10,
+        "seed_sd": 0.015315609724544692
+      }
+    },
+    {
+      "distance": 3200.0,
+      "timing": "warning_plus_1",
+      "n_episodes": 20,
+      "target_safety_retention_3step": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "S02_safety_retention_30step": {
+        "mean": 0.05,
+        "n_seeds": 10,
+        "seed_sd": 0.15811388300841897
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 541.879232620997,
+        "n_seeds": 10,
+        "seed_sd": 81.73573580939129
+      },
+      "target_violation_state_rate": {
+        "mean": 0.095,
+        "n_seeds": 10,
+        "seed_sd": 0.0158113883008419
+      },
+      "S02_violation_state_rate": {
+        "mean": 0.085,
+        "n_seeds": 10,
+        "seed_sd": 0.025398065445916582
+      },
+      "C03_violation_state_rate": {
+        "mean": 0.03333333333333333,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.9666666666666667,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "support_service_state_rate": {
+        "mean": 0.9666666666666667,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 10.503062403597824,
+        "n_seeds": 10,
+        "seed_sd": 0.2324340863840435
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.2575000000000002,
+        "n_seeds": 10,
+        "seed_sd": 0.005624571314254596
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.11666666666666667,
+        "n_seeds": 10,
+        "seed_sd": 0.029397236789606557
+      }
+    },
+    {
+      "distance": 3200.0,
+      "timing": "warning_plus_2",
+      "n_episodes": 20,
+      "target_safety_retention_3step": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "S02_safety_retention_30step": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 391.9842173544234,
+        "n_seeds": 10,
+        "seed_sd": 44.16890237115891
+      },
+      "target_violation_state_rate": {
+        "mean": 0.10500000000000001,
+        "n_seeds": 10,
+        "seed_sd": 0.011249142628509212
+      },
+      "S02_violation_state_rate": {
+        "mean": 0.09833333333333334,
+        "n_seeds": 10,
+        "seed_sd": 0.014593250596181885
+      },
+      "C03_violation_state_rate": {
+        "mean": 0.06666666666666667,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.9333333333333333,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "support_service_state_rate": {
+        "mean": 0.9333333333333333,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 10.545406085739996,
+        "n_seeds": 10,
+        "seed_sd": 0.18142740102263763
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.26400000000000023,
+        "n_seeds": 10,
+        "seed_sd": 0.006095940766375642
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.14333333333333334,
+        "n_seeds": 10,
+        "seed_sd": 0.01791612832955233
+      }
+    }
+  ],
+  "post_S02_recovery": [
+    {
+      "distance": 2000.0,
+      "method": "DG-QP",
+      "n_episodes": 20,
+      "post_S02_recovered_within_3_steps": {
+        "mean": 0.15,
+        "n_seeds": 10,
+        "seed_sd": 0.24152294576982397
+      },
+      "post_S02_confirmed_within_3_steps": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "post_S02_recovered_by_3_and_held_to_common_end": {
+        "mean": 0.15,
+        "n_seeds": 10,
+        "seed_sd": 0.24152294576982397
+      }
+    },
+    {
+      "distance": 2000.0,
+      "method": "JointHeuristic",
+      "n_episodes": 20,
+      "post_S02_recovered_within_3_steps": {
+        "mean": 0.15,
+        "n_seeds": 10,
+        "seed_sd": 0.24152294576982397
+      },
+      "post_S02_confirmed_within_3_steps": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "post_S02_recovered_by_3_and_held_to_common_end": {
+        "mean": 0.15,
+        "n_seeds": 10,
+        "seed_sd": 0.24152294576982397
+      }
+    },
+    {
+      "distance": 2000.0,
+      "method": "NoShield",
+      "n_episodes": 20,
+      "post_S02_recovered_within_3_steps": {
+        "mean": 0.4,
+        "n_seeds": 10,
+        "seed_sd": 0.31622776601683794
+      },
+      "post_S02_confirmed_within_3_steps": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "post_S02_recovered_by_3_and_held_to_common_end": {
+        "mean": 0.4,
+        "n_seeds": 10,
+        "seed_sd": 0.31622776601683794
+      }
+    },
+    {
+      "distance": 2000.0,
+      "method": "PartialShield",
+      "n_episodes": 20,
+      "post_S02_recovered_within_3_steps": {
+        "mean": 0.15,
+        "n_seeds": 10,
+        "seed_sd": 0.24152294576982397
+      },
+      "post_S02_confirmed_within_3_steps": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "post_S02_recovered_by_3_and_held_to_common_end": {
+        "mean": 0.15,
+        "n_seeds": 10,
+        "seed_sd": 0.24152294576982397
+      }
+    },
+    {
+      "distance": 2200.0,
+      "method": "DG-QP",
+      "n_episodes": 20,
+      "post_S02_recovered_within_3_steps": {
+        "mean": 0.6,
+        "n_seeds": 10,
+        "seed_sd": 0.3944053188733077
+      },
+      "post_S02_confirmed_within_3_steps": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "post_S02_recovered_by_3_and_held_to_common_end": {
+        "mean": 0.6,
+        "n_seeds": 10,
+        "seed_sd": 0.3944053188733077
+      }
+    },
+    {
+      "distance": 2200.0,
+      "method": "JointHeuristic",
+      "n_episodes": 20,
+      "post_S02_recovered_within_3_steps": {
+        "mean": 0.4,
+        "n_seeds": 10,
+        "seed_sd": 0.3944053188733077
+      },
+      "post_S02_confirmed_within_3_steps": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "post_S02_recovered_by_3_and_held_to_common_end": {
+        "mean": 0.4,
+        "n_seeds": 10,
+        "seed_sd": 0.3944053188733077
+      }
+    },
+    {
+      "distance": 2200.0,
+      "method": "NoShield",
+      "n_episodes": 20,
+      "post_S02_recovered_within_3_steps": {
+        "mean": 0.7,
+        "n_seeds": 10,
+        "seed_sd": 0.4216370213557839
+      },
+      "post_S02_confirmed_within_3_steps": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "post_S02_recovered_by_3_and_held_to_common_end": {
+        "mean": 0.7,
+        "n_seeds": 10,
+        "seed_sd": 0.4216370213557839
+      }
+    },
+    {
+      "distance": 2200.0,
+      "method": "PartialShield",
+      "n_episodes": 20,
+      "post_S02_recovered_within_3_steps": {
+        "mean": 0.7,
+        "n_seeds": 10,
+        "seed_sd": 0.4216370213557839
+      },
+      "post_S02_confirmed_within_3_steps": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "post_S02_recovered_by_3_and_held_to_common_end": {
+        "mean": 0.7,
+        "n_seeds": 10,
+        "seed_sd": 0.4216370213557839
+      }
+    },
+    {
+      "distance": 2400.0,
+      "method": "DG-QP",
+      "n_episodes": 20,
+      "post_S02_recovered_within_3_steps": {
+        "mean": 0.35,
+        "n_seeds": 10,
+        "seed_sd": 0.3374742788552764
+      },
+      "post_S02_confirmed_within_3_steps": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "post_S02_recovered_by_3_and_held_to_common_end": {
+        "mean": 0.35,
+        "n_seeds": 10,
+        "seed_sd": 0.3374742788552764
+      }
+    },
+    {
+      "distance": 2400.0,
+      "method": "JointHeuristic",
+      "n_episodes": 20,
+      "post_S02_recovered_within_3_steps": {
+        "mean": 0.15,
+        "n_seeds": 10,
+        "seed_sd": 0.24152294576982397
+      },
+      "post_S02_confirmed_within_3_steps": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "post_S02_recovered_by_3_and_held_to_common_end": {
+        "mean": 0.15,
+        "n_seeds": 10,
+        "seed_sd": 0.24152294576982397
+      }
+    },
+    {
+      "distance": 2400.0,
+      "method": "NoShield",
+      "n_episodes": 20,
+      "post_S02_recovered_within_3_steps": {
+        "mean": 0.8,
+        "n_seeds": 10,
+        "seed_sd": 0.25819888974716115
+      },
+      "post_S02_confirmed_within_3_steps": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "post_S02_recovered_by_3_and_held_to_common_end": {
+        "mean": 0.8,
+        "n_seeds": 10,
+        "seed_sd": 0.25819888974716115
+      }
+    },
+    {
+      "distance": 2400.0,
+      "method": "PartialShield",
+      "n_episodes": 20,
+      "post_S02_recovered_within_3_steps": {
+        "mean": 0.4,
+        "n_seeds": 10,
+        "seed_sd": 0.31622776601683794
+      },
+      "post_S02_confirmed_within_3_steps": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "post_S02_recovered_by_3_and_held_to_common_end": {
+        "mean": 0.4,
+        "n_seeds": 10,
+        "seed_sd": 0.31622776601683794
+      }
+    },
+    {
+      "distance": 2800.0,
+      "method": "DG-QP",
+      "n_episodes": 20,
+      "post_S02_recovered_within_3_steps": {
+        "mean": 0.75,
+        "n_seeds": 10,
+        "seed_sd": 0.3535533905932738
+      },
+      "post_S02_confirmed_within_3_steps": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "post_S02_recovered_by_3_and_held_to_common_end": {
+        "mean": 0.75,
+        "n_seeds": 10,
+        "seed_sd": 0.3535533905932738
+      }
+    },
+    {
+      "distance": 2800.0,
+      "method": "JointHeuristic",
+      "n_episodes": 20,
+      "post_S02_recovered_within_3_steps": {
+        "mean": 0.45,
+        "n_seeds": 10,
+        "seed_sd": 0.3689323936863109
+      },
+      "post_S02_confirmed_within_3_steps": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "post_S02_recovered_by_3_and_held_to_common_end": {
+        "mean": 0.45,
+        "n_seeds": 10,
+        "seed_sd": 0.3689323936863109
+      }
+    },
+    {
+      "distance": 2800.0,
+      "method": "NoShield",
+      "n_episodes": 20,
+      "post_S02_recovered_within_3_steps": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "post_S02_confirmed_within_3_steps": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "post_S02_recovered_by_3_and_held_to_common_end": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      }
+    },
+    {
+      "distance": 2800.0,
+      "method": "PartialShield",
+      "n_episodes": 20,
+      "post_S02_recovered_within_3_steps": {
+        "mean": 0.85,
+        "n_seeds": 10,
+        "seed_sd": 0.24152294576982397
+      },
+      "post_S02_confirmed_within_3_steps": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "post_S02_recovered_by_3_and_held_to_common_end": {
+        "mean": 0.85,
+        "n_seeds": 10,
+        "seed_sd": 0.24152294576982397
+      }
+    },
+    {
+      "distance": 3200.0,
+      "method": "DG-QP",
+      "n_episodes": 20,
+      "post_S02_recovered_within_3_steps": {
+        "mean": 0.85,
+        "n_seeds": 10,
+        "seed_sd": 0.24152294576982397
+      },
+      "post_S02_confirmed_within_3_steps": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "post_S02_recovered_by_3_and_held_to_common_end": {
+        "mean": 0.85,
+        "n_seeds": 10,
+        "seed_sd": 0.24152294576982397
+      }
+    },
+    {
+      "distance": 3200.0,
+      "method": "JointHeuristic",
+      "n_episodes": 20,
+      "post_S02_recovered_within_3_steps": {
+        "mean": 0.7,
+        "n_seeds": 10,
+        "seed_sd": 0.25819888974716115
+      },
+      "post_S02_confirmed_within_3_steps": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "post_S02_recovered_by_3_and_held_to_common_end": {
+        "mean": 0.7,
+        "n_seeds": 10,
+        "seed_sd": 0.25819888974716115
+      }
+    },
+    {
+      "distance": 3200.0,
+      "method": "NoShield",
+      "n_episodes": 20,
+      "post_S02_recovered_within_3_steps": {
+        "mean": 0.9,
+        "n_seeds": 10,
+        "seed_sd": 0.21081851067789195
+      },
+      "post_S02_confirmed_within_3_steps": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "post_S02_recovered_by_3_and_held_to_common_end": {
+        "mean": 0.9,
+        "n_seeds": 10,
+        "seed_sd": 0.21081851067789195
+      }
+    },
+    {
+      "distance": 3200.0,
+      "method": "PartialShield",
+      "n_episodes": 20,
+      "post_S02_recovered_within_3_steps": {
+        "mean": 0.9,
+        "n_seeds": 10,
+        "seed_sd": 0.21081851067789195
+      },
+      "post_S02_confirmed_within_3_steps": {
+        "mean": 0.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "post_S02_recovered_by_3_and_held_to_common_end": {
+        "mean": 0.9,
+        "n_seeds": 10,
+        "seed_sd": 0.21081851067789195
+      }
+    }
+  ],
+  "reference": [
+    {
+      "distance": 2000.0,
+      "n_episodes": 20,
+      "reference_recovered_by_3": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "grid_recovered_by_3": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "reference_minimum_separation_m": {
+        "mean": 284.24644418147443,
+        "n_seeds": 10,
+        "seed_sd": 48.40499622569599
+      },
+      "one_step_pair_distance_upper_bound_m": {
+        "mean": 294.1921671844501,
+        "n_seeds": 10,
+        "seed_sd": 49.09234746228315
+      }
+    },
+    {
+      "distance": 2200.0,
+      "n_episodes": 20,
+      "reference_recovered_by_3": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "grid_recovered_by_3": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "reference_minimum_separation_m": {
+        "mean": 328.4394874865257,
+        "n_seeds": 10,
+        "seed_sd": 70.85279354317574
+      },
+      "one_step_pair_distance_upper_bound_m": {
+        "mean": 338.4151637111287,
+        "n_seeds": 10,
+        "seed_sd": 71.2194034502476
+      }
+    },
+    {
+      "distance": 2400.0,
+      "n_episodes": 20,
+      "reference_recovered_by_3": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "grid_recovered_by_3": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "reference_minimum_separation_m": {
+        "mean": 273.5511071000589,
+        "n_seeds": 10,
+        "seed_sd": 33.83729776651486
+      },
+      "one_step_pair_distance_upper_bound_m": {
+        "mean": 284.2257529409884,
+        "n_seeds": 10,
+        "seed_sd": 34.68570010550051
+      }
+    },
+    {
+      "distance": 2800.0,
+      "n_episodes": 20,
+      "reference_recovered_by_3": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "grid_recovered_by_3": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "reference_minimum_separation_m": {
+        "mean": 332.10536532520456,
+        "n_seeds": 10,
+        "seed_sd": 65.2182312851736
+      },
+      "one_step_pair_distance_upper_bound_m": {
+        "mean": 343.84199143111147,
+        "n_seeds": 10,
+        "seed_sd": 66.21224696188864
+      }
+    },
+    {
+      "distance": 3200.0,
+      "n_episodes": 20,
+      "reference_recovered_by_3": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "grid_recovered_by_3": {
+        "mean": 1.0,
+        "n_seeds": 10,
+        "seed_sd": 0.0
+      },
+      "reference_minimum_separation_m": {
+        "mean": 384.5940962723688,
+        "n_seeds": 10,
+        "seed_sd": 39.596906644387204
+      },
+      "one_step_pair_distance_upper_bound_m": {
+        "mean": 393.7247807552472,
+        "n_seeds": 10,
+        "seed_sd": 38.81775606473516
+      }
+    }
+  ],
+  "exploratory_paired_statistics": [
+    {
+      "left": "DG-QP warning_now",
+      "right": "NoShield warning_now",
+      "metric": "target_safety_retention_30step",
+      "n_seeds": 10,
+      "seed_deltas": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_delta": 0.0,
+      "ci95_halfwidth_t": 0.0,
+      "sign_p_two_sided": 1.0,
+      "non_tie_seeds": 0,
+      "sign_p_holm_family12": 1.0
+    },
+    {
+      "left": "DG-QP warning_now",
+      "right": "NoShield warning_now",
+      "metric": "minimum_separation_from_warning_m",
+      "n_seeds": 10,
+      "seed_deltas": [
+        364.5819407967748,
+        396.7871109392325,
+        430.7863655873134,
+        375.6955633687876,
+        429.7040453689173,
+        414.91521230954504,
+        392.1106184012492,
+        450.47989559618173,
+        422.76607020682434,
+        407.77531258539324
+      ],
+      "mean_delta": 408.5602135160219,
+      "ci95_halfwidth_t": 19.023204693629456,
+      "sign_p_two_sided": 0.001953125,
+      "non_tie_seeds": 10,
+      "sign_p_holm_family12": 0.0234375
+    },
+    {
+      "left": "DG-QP warning_now",
+      "right": "PartialShield warning_now",
+      "metric": "target_safety_retention_30step",
+      "n_seeds": 10,
+      "seed_deltas": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_delta": 0.0,
+      "ci95_halfwidth_t": 0.0,
+      "sign_p_two_sided": 1.0,
+      "non_tie_seeds": 0,
+      "sign_p_holm_family12": 1.0
+    },
+    {
+      "left": "DG-QP warning_now",
+      "right": "PartialShield warning_now",
+      "metric": "minimum_separation_from_warning_m",
+      "n_seeds": 10,
+      "seed_deltas": [
+        370.0762206907187,
+        405.43350703350853,
+        436.8181268164982,
+        396.1987827593372,
+        442.7463008736944,
+        417.2517945224515,
+        398.6588929538916,
+        455.155777202137,
+        435.5291812550315,
+        417.4151880210238
+      ],
+      "mean_delta": 417.52837721282924,
+      "ci95_halfwidth_t": 18.40409975953283,
+      "sign_p_two_sided": 0.001953125,
+      "non_tie_seeds": 10,
+      "sign_p_holm_family12": 0.0234375
+    },
+    {
+      "left": "DG-QP warning_now",
+      "right": "JointHeuristic warning_now",
+      "metric": "target_safety_retention_30step",
+      "n_seeds": 10,
+      "seed_deltas": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_delta": 0.0,
+      "ci95_halfwidth_t": 0.0,
+      "sign_p_two_sided": 1.0,
+      "non_tie_seeds": 0,
+      "sign_p_holm_family12": 1.0
+    },
+    {
+      "left": "DG-QP warning_now",
+      "right": "JointHeuristic warning_now",
+      "metric": "minimum_separation_from_warning_m",
+      "n_seeds": 10,
+      "seed_deltas": [
+        385.0100564571176,
+        395.40903523268713,
+        441.8519861043875,
+        414.23728706374817,
+        450.60070901262253,
+        406.7243317438045,
+        393.6876802627977,
+        460.7131623071483,
+        446.3146235400476,
+        421.13795117991594
+      ],
+      "mean_delta": 421.5686822904277,
+      "ci95_halfwidth_t": 19.182332556477075,
+      "sign_p_two_sided": 0.001953125,
+      "non_tie_seeds": 10,
+      "sign_p_holm_family12": 0.0234375
+    },
+    {
+      "left": "DG-QP warning_now",
+      "right": "DG-QP warning_plus_1",
+      "metric": "target_safety_retention_30step",
+      "n_seeds": 10,
+      "seed_deltas": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_delta": 0.0,
+      "ci95_halfwidth_t": 0.0,
+      "sign_p_two_sided": 1.0,
+      "non_tie_seeds": 0,
+      "sign_p_holm_family12": 1.0
+    },
+    {
+      "left": "DG-QP warning_now",
+      "right": "DG-QP warning_plus_1",
+      "metric": "minimum_separation_from_warning_m",
+      "n_seeds": 10,
+      "seed_deltas": [
+        105.21246782064253,
+        114.96999668031772,
+        142.19298269183813,
+        106.13795683598953,
+        157.12504257058677,
+        133.25052428725184,
+        29.576814388773887,
+        183.48367996690865,
+        198.14124488175835,
+        126.96249361054208
+      ],
+      "mean_delta": 129.70532037346095,
+      "ci95_halfwidth_t": 33.639214360596405,
+      "sign_p_two_sided": 0.001953125,
+      "non_tie_seeds": 10,
+      "sign_p_holm_family12": 0.0234375
+    },
+    {
+      "left": "DG-QP warning_now",
+      "right": "DG-QP warning_plus_2",
+      "metric": "target_safety_retention_30step",
+      "n_seeds": 10,
+      "seed_deltas": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_delta": 0.0,
+      "ci95_halfwidth_t": 0.0,
+      "sign_p_two_sided": 1.0,
+      "non_tie_seeds": 0,
+      "sign_p_holm_family12": 1.0
+    },
+    {
+      "left": "DG-QP warning_now",
+      "right": "DG-QP warning_plus_2",
+      "metric": "minimum_separation_from_warning_m",
+      "n_seeds": 10,
+      "seed_deltas": [
+        290.4579152506466,
+        309.49607951132367,
+        345.882330655269,
+        280.60433731003013,
+        306.5243210171981,
+        316.1613332174461,
+        306.29875667280606,
+        365.1242856750506,
+        327.7654661220755,
+        324.7066884457631
+      ],
+      "mean_delta": 317.3021513877609,
+      "ci95_halfwidth_t": 17.899663776054943,
+      "sign_p_two_sided": 0.001953125,
+      "non_tie_seeds": 10,
+      "sign_p_holm_family12": 0.0234375
+    },
+    {
+      "left": "DG-QP warning_now",
+      "right": "DG-QP first_S02_violation",
+      "metric": "target_safety_retention_30step",
+      "n_seeds": 10,
+      "seed_deltas": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_delta": 0.0,
+      "ci95_halfwidth_t": 0.0,
+      "sign_p_two_sided": 1.0,
+      "non_tie_seeds": 0,
+      "sign_p_holm_family12": 1.0
+    },
+    {
+      "left": "DG-QP warning_now",
+      "right": "DG-QP first_S02_violation",
+      "metric": "minimum_separation_from_warning_m",
+      "n_seeds": 10,
+      "seed_deltas": [
+        368.8097041674285,
+        409.896427350173,
+        436.3799559099143,
+        404.28763080082354,
+        446.1348039692347,
+        413.8383988589692,
+        401.2780007836954,
+        454.5948724789229,
+        440.8279372805615,
+        417.77468065034003
+      ],
+      "mean_delta": 419.3822412250063,
+      "ci95_halfwidth_t": 18.37933760150501,
+      "sign_p_two_sided": 0.001953125,
+      "non_tie_seeds": 10,
+      "sign_p_holm_family12": 0.0234375
+    }
+  ],
+  "one_step_upper_bound_below_800_count": 100,
+  "reference_valid_three_step_witness_count": 100,
+  "grid_valid_three_step_witness_count": 100
+}

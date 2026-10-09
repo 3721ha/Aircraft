@@ -1,0 +1,15 @@
+# Minimal runtime for the Aircraft GCBF+ pretrained-checkpoint bridge.
+# The upstream requirements.txt also includes training, plotting and logging packages.
+flax>=0.7.2
+jax>=0.4.14
+jraph>=0.0.6.dev0
+jaxtyping>=0.2.21
+numpy>=1.25.2
+einops>=0.6.1
+tensorflow-probability>=0.21.0
+optax>=0.1.7
+scipy>=1.11.2
+pyyaml>=6.0.1
+equinox>=0.11.0
+attrs>=23.1.0
+jaxproxqp @ git+https://github.com/oswinso/jaxproxqp.git

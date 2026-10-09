@@ -1,0 +1,49 @@
+{
+  "method": "MAPPO-Lagrangian",
+  "implementation": "official separated MACPPOPolicy + R_MAPPO_Lagr + SeparatedReplayBuffer",
+  "repository": "https://github.com/chauncygu/Multi-Agent-Constrained-Policy-Optimisation",
+  "component": "MAPPO-Lagrangian",
+  "commit": "b80a9f5b4a0049125a827be8fb9c477f69ae021b",
+  "source_fingerprints": [
+    "b4154ae715fa0d1d24e72dbae5372c8b271ea9d64665019e52e1bb852f8993b1"
+  ],
+  "license": "MIT text present; upstream LICENSE contains unresolved merge markers",
+  "third_party_source_modified": false,
+  "adapter": "external_adapters/official_mappo_lagrangian.py",
+  "observation": "per-agent local observation; concatenated team observations for reward and cost critics",
+  "action_adapter": "common continuous Gaussian latent Box(5), clipped then decoded to mode, controls and target",
+  "training_cost": "terminal binary indicator of any trajectory-level hard-rule violation",
+  "truth_boundary": "ground truth forms the training cost only and is absent from actor observations",
+  "adaptation_limit": "mode and target are rounded at the simulator boundary",
+  "seed_policy": {
+    "training": "seed*100000 + 300000 + update (shared by all external baselines)",
+    "validation": "550000 + seed*1000 + index",
+    "test": "same frozen make_scenarios protocol as the paper benchmark"
+  },
+  "checkpoint_selection": "maximize conditional joint STL, then minimize truth hard violation, then maximize reward on validation scenarios",
+  "arguments": {
+    "seeds": [
+      11,
+      22,
+      33,
+      44,
+      55,
+      66,
+      77,
+      88,
+      99,
+      111
+    ],
+    "updates": 100,
+    "episodes": 40,
+    "horizon": 30,
+    "aircraft": 3,
+    "ppo_epoch": 5,
+    "safety_bound": 0.1,
+    "initial_multiplier": 0.78,
+    "multiplier_lr": 0.0005,
+    "cost_signal": "episode_binary",
+    "checkpoint_interval": 5,
+    "output": "results\\final_protocol_20261007\\official_10seed\\mappo_lagrangian"
+  }
+}

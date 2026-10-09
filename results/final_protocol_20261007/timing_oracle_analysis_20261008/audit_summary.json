@@ -1,0 +1,42 @@
+[
+  {
+    "directory": "results\\final_protocol_20261007\\timing_oracle_exact_10seed_20261008_v2",
+    "requested_cases": 50,
+    "ready_cases": 50,
+    "excluded_cases": 0,
+    "timing_branches": 800,
+    "trace_steps": 24000,
+    "reference_states_replayed": 300,
+    "verified_source_files": 23,
+    "all_checks_passed": true,
+    "unique_reference_physical_states": 5,
+    "input_sha256": {
+      "cases.json": "a5d2100863aaaec11ef4e060d00b9a3c5de263d5bd7dadd9d62ecb9ec6926188",
+      "oracle_per_seed.json": "9f7d3e37aacfbfbbb5580fa85cf0c3f731c5741a2ba142bcd9948554dc76f559",
+      "paper_table.md": "2cfc33a218409362d27871da216c5f7565d6950cf97a245d7e50aded1a6b4ff6",
+      "summary.json": "66e886c60e38e8f88baf64c4c4976af71a49499883c228ca48ff65f9279ea248",
+      "timing_per_seed.json": "796e32a52cc3935c3e993e15bc53cb391fb968c70d35956f08690ecc0ae11a19",
+      "timing_step_trace.jsonl.gz": "8b9c79ae28279f2380953411944673a9920ed5ae12cd083eea5606eb036233a2"
+    }
+  },
+  {
+    "directory": "results\\final_protocol_20261007\\timing_oracle_varied_10seed_20261008",
+    "requested_cases": 100,
+    "ready_cases": 100,
+    "excluded_cases": 0,
+    "timing_branches": 1600,
+    "trace_steps": 48000,
+    "reference_states_replayed": 600,
+    "verified_source_files": 23,
+    "all_checks_passed": true,
+    "unique_reference_physical_states": 100,
+    "input_sha256": {
+      "cases.json": "a25cff3ad6dc6e3e5039d862c4f4fac8926a13c8737c32961239bed594cf875a",
+      "oracle_per_seed.json": "1c77ef2b07dad084ab1d0f592b865afad43a731aa653ebf348c86fab8dd58dbf",
+      "paper_table.md": "d79b1d28116cba840b066bc4c784939590b74bd09cb724d6747ba8733820f11e",
+      "summary.json": "0fe6a7f22f9a7d410f6fd9e747a5a4326cfdcf6ab77edf995df69c1f4226a315",
+      "timing_per_seed.json": "64c46cef144280801ccb1462c062e78e20e62f6aeb7c12eb355dced430fc671d",
+      "timing_step_trace.jsonl.gz": "f09c54c1a8ffc57999a7aeff942bc29fc4143c60338f81a5c9c495a9437f40e7"
+    }
+  }
+]

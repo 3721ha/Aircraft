@@ -1,0 +1,34 @@
+| Scenario | Method | N | Truth violation | Target success | Intervention | QP fallback |
+|---|---:|---:|---:|---:|---:|---:|
+| capability_dwell | DG-QP | 10 | 0.093 | 1.000 | 1.230 | 0.000 |
+| capability_dwell | JointHeuristic | 10 | 0.180 | 1.000 | 0.513 | 0.000 |
+| capability_dwell | NoShield | 10 | 0.587 | 0.000 | 0.000 | 0.000 |
+| capability_dwell | PartialShield | 10 | 0.180 | 1.000 | 0.513 | 0.000 |
+| communication_intent | DG-QP | 10 | 0.000 | 1.000 | 1.417 | 0.000 |
+| communication_intent | JointHeuristic | 10 | 0.600 | 0.000 | 0.000 | 0.000 |
+| communication_intent | NoShield | 10 | 0.600 | 0.000 | 0.000 | 0.000 |
+| communication_intent | PartialShield | 10 | 0.600 | 0.000 | 0.000 | 0.000 |
+| coverage_resource | DG-QP | 10 | 0.117 | 0.100 | 1.343 | 0.000 |
+| coverage_resource | JointHeuristic | 10 | 0.183 | 0.000 | 0.690 | 0.000 |
+| coverage_resource | NoShield | 10 | 0.800 | 0.000 | 0.000 | 0.000 |
+| coverage_resource | PartialShield | 10 | 0.183 | 0.000 | 0.690 | 0.000 |
+| deadline_information | DG-QP | 10 | 0.000 | 1.000 | 1.513 | 0.000 |
+| deadline_information | JointHeuristic | 10 | 0.087 | 1.000 | 1.000 | 0.000 |
+| deadline_information | NoShield | 10 | 1.000 | 0.000 | 0.000 | 0.000 |
+| deadline_information | PartialShield | 10 | 0.087 | 1.000 | 1.000 | 0.000 |
+| dual_support | DG-QP | 10 | 0.000 | 1.000 | 1.507 | 0.000 |
+| dual_support | JointHeuristic | 10 | 0.087 | 1.000 | 0.007 | 0.000 |
+| dual_support | NoShield | 10 | 0.087 | 1.000 | 0.000 | 0.000 |
+| dual_support | PartialShield | 10 | 0.087 | 1.000 | 0.007 | 0.000 |
+| mission_recovery | DG-QP | 10 | 0.043 | 1.000 | 1.420 | 0.167 |
+| mission_recovery | JointHeuristic | 10 | 0.180 | 1.000 | 0.513 | 0.000 |
+| mission_recovery | NoShield | 10 | 0.587 | 0.000 | 0.000 | 0.000 |
+| mission_recovery | PartialShield | 10 | 0.180 | 1.000 | 0.513 | 0.000 |
+| risk_continuity | DG-QP | 10 | 0.000 | 1.000 | 1.530 | 0.000 |
+| risk_continuity | JointHeuristic | 10 | 0.593 | 1.000 | 0.090 | 0.000 |
+| risk_continuity | NoShield | 10 | 0.600 | 1.000 | 0.000 | 0.000 |
+| risk_continuity | PartialShield | 10 | 0.593 | 1.000 | 0.047 | 0.000 |
+| support_separation | DG-QP | 10 | 0.133 | 0.000 | 2.173 | 0.220 |
+| support_separation | JointHeuristic | 10 | 0.217 | 0.000 | 0.733 | 0.000 |
+| support_separation | NoShield | 10 | 0.220 | 0.000 | 0.000 | 0.000 |
+| support_separation | PartialShield | 10 | 0.220 | 0.000 | 0.250 | 0.000 |

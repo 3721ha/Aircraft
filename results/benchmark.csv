@@ -1,0 +1,11 @@
+policy,episodes,mean_reward,joint_satisfaction_rate,initially_feasible_episodes,conditional_joint_satisfaction_rate,mean_intervention_rate,mean_intervention_distance,online_hard_violation_rate,qp_infeasible_rate,conflict_rate,mean_belief_risk,mean_online_time_ms,tail_violation_rate,risk_calibration_brier
+nominal_unshielded,7,25.0961,0.0,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+nominal_shielded,7,25.82977,0.0,5,0.0,0.88571,1.18895,0.0,0.0,0.0,0.0,0.18871,1.0,0.0
+nominal_joint_shielded,7,27.57087,0.0,5,0.0,1.39048,1.52965,0.0,0.0,0.0,0.0,0.2025,1.0,0.0
+conservative_shielded,7,25.87442,0.0,5,0.0,0.22857,1.16772,0.0,0.0,0.0,0.0,0.17692,1.0,0.0
+belief_qp_shielded,7,23.87253,0.0,5,0.0,2.24286,1.38852,0.88571,0.17143,1.0,1.0,13.15722,1.0,0.87619
+fixed_penalty,7,27.88321,0.0,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+stl_robustness_greedy,7,25.7002,0.0,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+lagrangian_heuristic,7,26.52213,0.0,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0
+mappo_joint_shielded,7,27.98908,0.0,5,0.0,0.80476,1.81532,0.0,0.0,0.0,0.0,1.06013,1.0,0.0
+mappo_belief_qp_shielded,7,23.52365,0.0,5,0.0,1.26667,1.6451,0.65714,0.18095,0.6381,1.0,12.60784,1.0,0.85238

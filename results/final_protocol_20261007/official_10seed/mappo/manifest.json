@@ -1,0 +1,44 @@
+{
+  "method": "MAPPO",
+  "implementation": "marlbenchmark/on-policy official R_MAPPOPolicy + R_MAPPO + SharedReplayBuffer",
+  "repository": "https://github.com/marlbenchmark/on-policy",
+  "commit": "de66d7a4b23fac2513f56f96f73b3f5cb96695ac",
+  "source_fingerprints": [
+    "946c41e604f6ae7aa86276f33b9631f182cdc46b184adb9b21cdf2de22147d6d"
+  ],
+  "license": "MIT",
+  "third_party_source_modified": false,
+  "adapter": "external_adapters/official_mappo.py",
+  "observation": "Aircraft local ObservationEncoder for actor; concatenated team observations for centralized critic",
+  "action_adapter": "continuous Gaussian latent Box(5), clipped then decoded to mode, controls and target",
+  "adaptation_limit": "Mode and target are rounded at the simulator boundary; compare the legacy control grid as an adapter sensitivity check.",
+  "seed_policy": {
+    "training": "seed*100000 + 300000 + update (shared by all external baselines)",
+    "validation": "550000 + seed*1000 + index",
+    "test": "same frozen make_scenarios protocol as the paper benchmark"
+  },
+  "checkpoint_selection": "maximize conditional joint STL, then minimize truth hard violation, then maximize reward on validation scenarios",
+  "arguments": {
+    "seeds": [
+      11,
+      22,
+      33,
+      44,
+      55,
+      66,
+      77,
+      88,
+      99,
+      111
+    ],
+    "updates": 100,
+    "episodes": 40,
+    "horizon": 30,
+    "aircraft": 3,
+    "action_adapter": "continuous",
+    "control_bins": 11,
+    "ppo_epoch": 5,
+    "checkpoint_interval": 5,
+    "output": "results\\final_protocol_20261007\\official_10seed\\mappo"
+  }
+}

@@ -1,0 +1,4409 @@
+[
+  {
+    "status": "ready",
+    "warning_step": 0,
+    "s02_step": 3,
+    "initial": {
+      "absolute_state_step": 0,
+      "truth": {
+        "step": 0,
+        "aircraft": [
+          {
+            "uid": 0,
+            "position": [
+              0.0,
+              0.0,
+              5000.0
+            ],
+            "speed": 220.0,
+            "heading": 0.0,
+            "climb_angle": 0.0,
+            "roll": 0.0,
+            "pitch": 0.0,
+            "angle_of_attack": 0.0,
+            "load_factor": 1.0,
+            "energy": 0.8,
+            "resource": 0.45,
+            "capability": 1.0,
+            "role": "hold",
+            "c2_connected": true,
+            "sensor_degraded": false,
+            "id_confidence": 0.95,
+            "alive": true,
+            "last_message_step": 0,
+            "pending_support_since": 0,
+            "intervention_count": 0,
+            "mode_age": 0,
+            "dwell_violation": false,
+            "authorization_valid": true,
+            "intent_shared": true,
+            "data_age": 0,
+            "task_progress": 0.1,
+            "handover_confirmed": true,
+            "intervention_window": [],
+            "source_disagreement": 0.0,
+            "warning_pending": false,
+            "warning_age": 0,
+            "support_requested": true,
+            "assessment_due": false,
+            "last_task_action_step": null,
+            "replan_requested": false,
+            "task_authority": true,
+            "hazard_active": false,
+            "safe_dwell": 0,
+            "hazard_previous": false
+          },
+          {
+            "uid": 1,
+            "position": [
+              2000.0,
+              0.0,
+              5000.0
+            ],
+            "speed": 220.0,
+            "heading": 3.141592653589793,
+            "climb_angle": 0.0,
+            "roll": 0.0,
+            "pitch": 0.0,
+            "angle_of_attack": 0.0,
+            "load_factor": 1.0,
+            "energy": 0.8,
+            "resource": 0.9,
+            "capability": 1.0,
+            "role": "hold",
+            "c2_connected": true,
+            "sensor_degraded": false,
+            "id_confidence": 0.95,
+            "alive": true,
+            "last_message_step": 0,
+            "pending_support_since": null,
+            "intervention_count": 0,
+            "mode_age": 0,
+            "dwell_violation": false,
+            "authorization_valid": true,
+            "intent_shared": true,
+            "data_age": 0,
+            "task_progress": 0.1,
+            "handover_confirmed": true,
+            "intervention_window": [],
+            "source_disagreement": 0.0,
+            "warning_pending": false,
+            "warning_age": 0,
+            "support_requested": false,
+            "assessment_due": false,
+            "last_task_action_step": null,
+            "replan_requested": false,
+            "task_authority": false,
+            "hazard_active": false,
+            "safe_dwell": 0,
+            "hazard_previous": false
+          },
+          {
+            "uid": 2,
+            "position": [
+              0.0,
+              3000.0,
+              5100.0
+            ],
+            "speed": 220.0,
+            "heading": 0.0,
+            "climb_angle": 0.0,
+            "roll": 0.0,
+            "pitch": 0.0,
+            "angle_of_attack": 0.0,
+            "load_factor": 1.0,
+            "energy": 0.8,
+            "resource": 0.7,
+            "capability": 1.0,
+            "role": "hold",
+            "c2_connected": true,
+            "sensor_degraded": false,
+            "id_confidence": 0.95,
+            "alive": true,
+            "last_message_step": 0,
+            "pending_support_since": null,
+            "intervention_count": 0,
+            "mode_age": 0,
+            "dwell_violation": false,
+            "authorization_valid": true,
+            "intent_shared": true,
+            "data_age": 0,
+            "task_progress": 0.1,
+            "handover_confirmed": true,
+            "intervention_window": [],
+            "source_disagreement": 0.0,
+            "warning_pending": false,
+            "warning_age": 0,
+            "support_requested": false,
+            "assessment_due": false,
+            "last_task_action_step": null,
+            "replan_requested": false,
+            "task_authority": false,
+            "hazard_active": false,
+            "safe_dwell": 0,
+            "hazard_previous": false
+          }
+        ],
+        "opponent": [
+          7000.0,
+          0.0,
+          5000.0
+        ],
+        "separations": [
+          2000.0,
+          3001.6662039607268,
+          3606.9377593742865
+        ],
+        "coverage": 0,
+        "mission_active": true,
+        "task_progress": 0.10000000000000002,
+        "risk_budget": 0.7416666666666667
+      },
+      "truth_violations": [
+        "C02"
+      ],
+      "target_violations": [],
+      "s03_deadlines": {
+        "S03:0-1": 4
+      },
+      "pairs": [
+        {
+          "agents": [
+            0,
+            1
+          ],
+          "distance_m": 2000.0,
+          "ttc_s": 4.545454545454546,
+          "predicted_closest_distance_m": 2.5825643479143517e-13,
+          "unsafe_trend": true
+        },
+        {
+          "agents": [
+            0,
+            2
+          ],
+          "distance_m": 3001.6662039607268,
+          "ttc_s": null,
+          "predicted_closest_distance_m": null,
+          "unsafe_trend": false
+        },
+        {
+          "agents": [
+            1,
+            2
+          ],
+          "distance_m": 3606.9377593742865,
+          "ttc_s": 4.545454545454546,
+          "predicted_closest_distance_m": 3001.6662039607268,
+          "unsafe_trend": false
+        }
+      ],
+      "minimum_separation_m": 2000.0,
+      "rule_clear": true,
+      "restored_safe_state": false,
+      "actions": {}
+    },
+    "prefix": [
+      {
+        "absolute_state_step": 0,
+        "truth": {
+          "step": 0,
+          "aircraft": [
+            {
+              "uid": 0,
+              "position": [
+                0.0,
+                0.0,
+                5000.0
+              ],
+              "speed": 220.0,
+              "heading": 0.0,
+              "climb_angle": 0.0,
+              "roll": 0.0,
+              "pitch": 0.0,
+              "angle_of_attack": 0.0,
+              "load_factor": 1.0,
+              "energy": 0.8,
+              "resource": 0.45,
+              "capability": 1.0,
+              "role": "hold",
+              "c2_connected": true,
+              "sensor_degraded": false,
+              "id_confidence": 0.95,
+              "alive": true,
+              "last_message_step": 0,
+              "pending_support_since": 0,
+              "intervention_count": 0,
+              "mode_age": 0,
+              "dwell_violation": false,
+              "authorization_valid": true,
+              "intent_shared": true,
+              "data_age": 0,
+              "task_progress": 0.1,
+              "handover_confirmed": true,
+              "intervention_window": [],
+              "source_disagreement": 0.0,
+              "warning_pending": false,
+              "warning_age": 0,
+              "support_requested": true,
+              "assessment_due": false,
+              "last_task_action_step": null,
+              "replan_requested": false,
+              "task_authority": true,
+              "hazard_active": false,
+              "safe_dwell": 0,
+              "hazard_previous": false
+            },
+            {
+              "uid": 1,
+              "position": [
+                2000.0,
+                0.0,
+                5000.0
+              ],
+              "speed": 220.0,
+              "heading": 3.141592653589793,
+              "climb_angle": 0.0,
+              "roll": 0.0,
+              "pitch": 0.0,
+              "angle_of_attack": 0.0,
+              "load_factor": 1.0,
+              "energy": 0.8,
+              "resource": 0.9,
+              "capability": 1.0,
+              "role": "hold",
+              "c2_connected": true,
+              "sensor_degraded": false,
+              "id_confidence": 0.95,
+              "alive": true,
+              "last_message_step": 0,
+              "pending_support_since": null,
+              "intervention_count": 0,
+              "mode_age": 0,
+              "dwell_violation": false,
+              "authorization_valid": true,
+              "intent_shared": true,
+              "data_age": 0,
+              "task_progress": 0.1,
+              "handover_confirmed": true,
+              "intervention_window": [],
+              "source_disagreement": 0.0,
+              "warning_pending": false,
+              "warning_age": 0,
+              "support_requested": false,
+              "assessment_due": false,
+              "last_task_action_step": null,
+              "replan_requested": false,
+              "task_authority": false,
+              "hazard_active": false,
+              "safe_dwell": 0,
+              "hazard_previous": false
+            },
+            {
+              "uid": 2,
+              "position": [
+                0.0,
+                3000.0,
+                5100.0
+              ],
+              "speed": 220.0,
+              "heading": 0.0,
+              "climb_angle": 0.0,
+              "roll": 0.0,
+              "pitch": 0.0,
+              "angle_of_attack": 0.0,
+              "load_factor": 1.0,
+              "energy": 0.8,
+              "resource": 0.7,
+              "capability": 1.0,
+              "role": "hold",
+              "c2_connected": true,
+              "sensor_degraded": false,
+              "id_confidence": 0.95,
+              "alive": true,
+              "last_message_step": 0,
+              "pending_support_since": null,
+              "intervention_count": 0,
+              "mode_age": 0,
+              "dwell_violation": false,
+              "authorization_valid": true,
+              "intent_shared": true,
+              "data_age": 0,
+              "task_progress": 0.1,
+              "handover_confirmed": true,
+              "intervention_window": [],
+              "source_disagreement": 0.0,
+              "warning_pending": false,
+              "warning_age": 0,
+              "support_requested": false,
+              "assessment_due": false,
+              "last_task_action_step": null,
+              "replan_requested": false,
+              "task_authority": false,
+              "hazard_active": false,
+              "safe_dwell": 0,
+              "hazard_previous": false
+            }
+          ],
+          "opponent": [
+            7000.0,
+            0.0,
+            5000.0
+          ],
+          "separations": [
+            2000.0,
+            3001.6662039607268,
+            3606.9377593742865
+          ],
+          "coverage": 0,
+          "mission_active": true,
+          "task_progress": 0.10000000000000002,
+          "risk_budget": 0.7416666666666667
+        },
+        "truth_violations": [
+          "C02"
+        ],
+        "target_violations": [],
+        "s03_deadlines": {
+          "S03:0-1": 4
+        },
+        "pairs": [
+          {
+            "agents": [
+              0,
+              1
+            ],
+            "distance_m": 2000.0,
+            "ttc_s": 4.545454545454546,
+            "predicted_closest_distance_m": 2.5825643479143517e-13,
+            "unsafe_trend": true
+          },
+          {
+            "agents": [
+              0,
+              2
+            ],
+            "distance_m": 3001.6662039607268,
+            "ttc_s": null,
+            "predicted_closest_distance_m": null,
+            "unsafe_trend": false
+          },
+          {
+            "agents": [
+              1,
+              2
+            ],
+            "distance_m": 3606.9377593742865,
+            "ttc_s": 4.545454545454546,
+            "predicted_closest_distance_m": 3001.6662039607268,
+            "unsafe_trend": false
+          }
+        ],
+        "minimum_separation_m": 2000.0,
+        "rule_clear": true,
+        "restored_safe_state": false,
+        "actions": {}
+      },
+      {
+        "absolute_state_step": 1,
+        "truth": {
+          "step": 1,
+          "aircraft": [
+            {
+              "uid": 0,
+              "position": [
+                222.34618137073724,
+                4.892405323684622,
+                5000.0
+              ],
+              "speed": 222.4,
+              "heading": 0.022000000000000002,
+              "climb_angle": 0.0,
+              "roll": 0.0,
+              "pitch": 0.0,
+              "angle_of_attack": 0.0,
+              "load_factor": 1.0,
+              "energy": 0.8014000000000001,
+              "resource": 0.444,
+              "capability": 1.0,
+              "role": "critical",
+              "c2_connected": true,
+              "sensor_degraded": false,
+              "id_confidence": 0.95,
+              "alive": true,
+              "last_message_step": 0,
+              "pending_support_since": 0,
+              "intervention_count": 0,
+              "mode_age": 1,
+              "dwell_violation": false,
+              "authorization_valid": true,
+              "intent_shared": true,
+              "data_age": 0,
+              "task_progress": 0.112,
+              "handover_confirmed": true,
+              "intervention_window": [
+                0
+              ],
+              "source_disagreement": 0.0,
+              "warning_pending": false,
+              "warning_age": 0,
+              "support_requested": true,
+              "assessment_due": true,
+              "last_task_action_step": 0,
+              "replan_requested": false,
+              "task_authority": true,
+              "hazard_active": true,
+              "safe_dwell": 0,
+              "hazard_previous": false
+            },
+            {
+              "uid": 1,
+              "position": [
+                1777.6538186292628,
+                -4.8924053236845495,
+                5000.0
+              ],
+              "speed": 222.4,
+              "heading": 3.163592653589793,
+              "climb_angle": 0.0,
+              "roll": 0.0,
+              "pitch": 0.0,
+              "angle_of_attack": 0.0,
+              "load_factor": 1.0,
+              "energy": 0.8014000000000001,
+              "resource": 0.896,
+              "capability": 1.0,
+              "role": "cover",
+              "c2_connected": true,
+              "sensor_degraded": false,
+              "id_confidence": 0.95,
+              "alive": true,
+              "last_message_step": 0,
+              "pending_support_since": null,
+              "intervention_count": 0,
+              "mode_age": 1,
+              "dwell_violation": false,
+              "authorization_valid": true,
+              "intent_shared": true,
+              "data_age": 0,
+              "task_progress": 0.112,
+              "handover_confirmed": true,
+              "intervention_window": [
+                0
+              ],
+              "source_disagreement": 0.0,
+              "warning_pending": false,
+              "warning_age": 0,
+              "support_requested": false,
+              "assessment_due": false,
+              "last_task_action_step": null,
+              "replan_requested": false,
+              "task_authority": false,
+              "hazard_active": true,
+              "safe_dwell": 0,
+              "hazard_previous": false
+            },
+            {
+              "uid": 2,
+              "position": [
+                222.34618137073724,
+                3004.8924053236847,
+                5100.0
+              ],
+              "speed": 222.4,
+              "heading": 0.022000000000000002,
+              "climb_angle": 0.0,
+              "roll": 0.0,
+              "pitch": 0.0,
+              "angle_of_attack": 0.0,
+              "load_factor": 1.0,
+              "energy": 0.8014000000000001,
+              "resource": 0.694,
+              "capability": 1.0,
+              "role": "support",
+              "c2_connected": true,
+              "sensor_degraded": false,
+              "id_confidence": 0.95,
+              "alive": true,
+              "last_message_step": 0,
+              "pending_support_since": null,
+              "intervention_count": 0,
+              "mode_age": 1,
+              "dwell_violation": false,
+              "authorization_valid": true,
+              "intent_shared": true,
+              "data_age": 0,
+              "task_progress": 0.112,
+              "handover_confirmed": true,
+              "intervention_window": [
+                0
+              ],
+              "source_disagreement": 0.0,
+              "warning_pending": false,
+              "warning_age": 0,
+              "support_requested": false,
+              "assessment_due": true,
+              "last_task_action_step": 0,
+              "replan_requested": false,
+              "task_authority": false,
+              "hazard_active": true,
+              "safe_dwell": 0,
+              "hazard_previous": false
+            }
+          ],
+          "opponent": [
+            7000.0,
+            0.0,
+            5000.0
+          ],
+          "separations": [
+            1555.3384162406912,
+            3001.6662039607268,
+            3389.363723904284
+          ],
+          "coverage": 1.0,
+          "mission_active": true,
+          "task_progress": 0.112,
+          "risk_budget": 0.7397
+        },
+        "truth_violations": [
+          "C03:0",
+          "E01"
+        ],
+        "target_violations": [],
+        "s03_deadlines": {
+          "S03:0-1": 4
+        },
+        "pairs": [
+          {
+            "agents": [
+              0,
+              1
+            ],
+            "distance_m": 1555.3384162406912,
+            "ttc_s": 3.495314792088621,
+            "predicted_closest_distance_m": 43.99645075255923,
+            "unsafe_trend": true
+          },
+          {
+            "agents": [
+              0,
+              2
+            ],
+            "distance_m": 3001.6662039607268,
+            "ttc_s": null,
+            "predicted_closest_distance_m": null,
+            "unsafe_trend": false
+          },
+          {
+            "agents": [
+              1,
+              2
+            ],
+            "distance_m": 3389.363723904284,
+            "ttc_s": 3.346945466259397,
+            "predicted_closest_distance_m": 3044.9130060884995,
+            "unsafe_trend": false
+          }
+        ],
+        "minimum_separation_m": 1555.3384162406912,
+        "rule_clear": true,
+        "restored_safe_state": false,
+        "actions": {
+          "0": {
+            "mode": "critical",
+            "turn": 0.1,
+            "climb": 0.0,
+            "acceleration": 0.2,
+            "target": null,
+            "target_kind": "none"
+          },
+          "1": {
+            "mode": "cover",
+            "turn": 0.1,
+            "climb": 0.0,
+            "acceleration": 0.2,
+            "target": null,
+            "target_kind": "none"
+          },
+          "2": {
+            "mode": "support",
+            "turn": 0.1,
+            "climb": 0.0,
+            "acceleration": 0.2,
+            "target": null,
+            "target_kind": "none"
+          }
+        },
+        "reward": 0.9
+      },
+      {
+        "absolute_state_step": 2,
+        "truth": {
+          "step": 2,
+          "aircraft": [
+            {
+              "uid": 0,
+              "position": [
+                446.9286100756376,
+                14.78041407208011,
+                5000.0
+              ],
+              "speed": 224.8,
+              "heading": 0.044000000000000004,
+              "climb_angle": 0.0,
+              "roll": 0.0,
+              "pitch": 0.0,
+              "angle_of_attack": 0.0,
+              "load_factor": 1.0,
+              "energy": 0.8028000000000002,
+              "resource": 0.438,
+              "capability": 1.0,
+              "role": "critical",
+              "c2_connected": true,
+              "sensor_degraded": false,
+              "id_confidence": 0.95,
+              "alive": true,
+              "last_message_step": 1,
+              "pending_support_since": 0,
+              "intervention_count": 0,
+              "mode_age": 2,
+              "dwell_violation": false,
+              "authorization_valid": true,
+              "intent_shared": true,
+              "data_age": 0,
+              "task_progress": 0.124,
+              "handover_confirmed": true,
+              "intervention_window": [
+                0,
+                0
+              ],
+              "source_disagreement": 0.0,
+              "warning_pending": false,
+              "warning_age": 0,
+              "support_requested": true,
+              "assessment_due": true,
+              "last_task_action_step": 1,
+              "replan_requested": false,
+              "task_authority": true,
+              "hazard_active": true,
+              "safe_dwell": 0,
+              "hazard_previous": true
+            },
+            {
+              "uid": 1,
+              "position": [
+                1553.0713899243624,
+                -14.780414072079918,
+                5000.0
+              ],
+              "speed": 224.8,
+              "heading": 3.1855926535897927,
+              "climb_angle": 0.0,
+              "roll": 0.0,
+              "pitch": 0.0,
+              "angle_of_attack": 0.0,
+              "load_factor": 1.0,
+              "energy": 0.8028000000000002,
+              "resource": 0.892,
+              "capability": 1.0,
+              "role": "cover",
+              "c2_connected": true,
+              "sensor_degraded": false,
+              "id_confidence": 0.95,
+              "alive": true,
+              "last_message_step": 1,
+              "pending_support_since": null,
+              "intervention_count": 0,
+              "mode_age": 2,
+              "dwell_violation": false,
+              "authorization_valid": true,
+              "intent_shared": true,
+              "data_age": 0,
+              "task_progress": 0.124,
+              "handover_confirmed": true,
+              "intervention_window": [
+                0,
+                0
+              ],
+              "source_disagreement": 0.0,
+              "warning_pending": false,
+              "warning_age": 0,
+              "support_requested": false,
+              "assessment_due": false,
+              "last_task_action_step": null,
+              "replan_requested": false,
+              "task_authority": false,
+              "hazard_active": true,
+              "safe_dwell": 0,
+              "hazard_previous": true
+            },
+            {
+              "uid": 2,
+              "position": [
+                446.9286100756376,
+                3014.78041407208,
+                5100.0
+              ],
+              "speed": 224.8,
+              "heading": 0.044000000000000004,
+              "climb_angle": 0.0,
+              "roll": 0.0,
+              "pitch": 0.0,
+              "angle_of_attack": 0.0,
+              "load_factor": 1.0,
+              "energy": 0.8028000000000002,
+              "resource": 0.688,
+              "capability": 1.0,
+              "role": "support",
+              "c2_connected": true,
+              "sensor_degraded": false,
+              "id_confidence": 0.95,
+              "alive": true,
+              "last_message_step": 1,
+              "pending_support_since": null,
+              "intervention_count": 0,
+              "mode_age": 2,
+              "dwell_violation": false,
+              "authorization_valid": true,
+              "intent_shared": true,
+              "data_age": 0,
+              "task_progress": 0.124,
+              "handover_confirmed": true,
+              "intervention_window": [
+                0,
+                0
+              ],
+              "source_disagreement": 0.0,
+              "warning_pending": false,
+              "warning_age": 0,
+              "support_requested": false,
+              "assessment_due": true,
+              "last_task_action_step": 1,
+              "replan_requested": false,
+              "task_authority": false,
+              "hazard_active": true,
+              "safe_dwell": 0,
+              "hazard_previous": true
+            }
+          ],
+          "opponent": [
+            7000.0,
+            0.0,
+            5000.0
+          ],
+          "separations": [
+            1106.5377047222717,
+            3001.6662039607268,
+            3226.730645845264
+          ],
+          "coverage": 1.0,
+          "mission_active": true,
+          "task_progress": 0.124,
+          "risk_budget": 0.7377333333333335
+        },
+        "truth_violations": [
+          "C03:0",
+          "E01"
+        ],
+        "target_violations": [],
+        "s03_deadlines": {
+          "S03:0-1": 4
+        },
+        "pairs": [
+          {
+            "agents": [
+              0,
+              1
+            ],
+            "distance_m": 1106.5377047222717,
+            "ttc_s": 2.4550087846523643,
+            "predicted_closest_distance_m": 78.18679743444066,
+            "unsafe_trend": true
+          },
+          {
+            "agents": [
+              0,
+              2
+            ],
+            "distance_m": 3001.6662039607268,
+            "ttc_s": null,
+            "predicted_closest_distance_m": null,
+            "unsafe_trend": false
+          },
+          {
+            "agents": [
+              1,
+              2
+            ],
+            "distance_m": 3226.730645845264,
+            "ttc_s": 2.1615092025288885,
+            "predicted_closest_distance_m": 3076.9087028419053,
+            "unsafe_trend": false
+          }
+        ],
+        "minimum_separation_m": 1106.5377047222717,
+        "rule_clear": true,
+        "restored_safe_state": false,
+        "actions": {
+          "0": {
+            "mode": "critical",
+            "turn": 0.1,
+            "climb": 0.0,
+            "acceleration": 0.2,
+            "target": null,
+            "target_kind": "none"
+          },
+          "1": {
+            "mode": "cover",
+            "turn": 0.1,
+            "climb": 0.0,
+            "acceleration": 0.2,
+            "target": null,
+            "target_kind": "none"
+          },
+          "2": {
+            "mode": "support",
+            "turn": 0.1,
+            "climb": 0.0,
+            "acceleration": 0.2,
+            "target": null,
+            "target_kind": "none"
+          }
+        },
+        "reward": 0.9
+      },
+      {
+        "absolute_state_step": 3,
+        "truth": {
+          "step": 3,
+          "aircraft": [
+            {
+              "uid": 0,
+              "position": [
+                673.6339480770586,
+                29.76472992771722,
+                5000.0
+              ],
+              "speed": 227.20000000000002,
+              "heading": 0.066,
+              "climb_angle": 0.0,
+              "roll": 0.0,
+              "pitch": 0.0,
+              "angle_of_attack": 0.0,
+              "load_factor": 1.0,
+              "energy": 0.8042000000000002,
+              "resource": 0.432,
+              "capability": 1.0,
+              "role": "critical",
+              "c2_connected": true,
+              "sensor_degraded": false,
+              "id_confidence": 0.95,
+              "alive": true,
+              "last_message_step": 2,
+              "pending_support_since": 0,
+              "intervention_count": 0,
+              "mode_age": 3,
+              "dwell_violation": false,
+              "authorization_valid": true,
+              "intent_shared": true,
+              "data_age": 0,
+              "task_progress": 0.136,
+              "handover_confirmed": true,
+              "intervention_window": [
+                0,
+                0,
+                0
+              ],
+              "source_disagreement": 0.0,
+              "warning_pending": false,
+              "warning_age": 0,
+              "support_requested": true,
+              "assessment_due": true,
+              "last_task_action_step": 2,
+              "replan_requested": false,
+              "task_authority": true,
+              "hazard_active": true,
+              "safe_dwell": 0,
+              "hazard_previous": true
+            },
+            {
+              "uid": 1,
+              "position": [
+                1326.3660519229416,
+                -29.764729927716864,
+                5000.0
+              ],
+              "speed": 227.20000000000002,
+              "heading": 3.2075926535897925,
+              "climb_angle": 0.0,
+              "roll": 0.0,
+              "pitch": 0.0,
+              "angle_of_attack": 0.0,
+              "load_factor": 1.0,
+              "energy": 0.8042000000000002,
+              "resource": 0.888,
+              "capability": 1.0,
+              "role": "cover",
+              "c2_connected": true,
+              "sensor_degraded": false,
+              "id_confidence": 0.95,
+              "alive": true,
+              "last_message_step": 2,
+              "pending_support_since": null,
+              "intervention_count": 0,
+              "mode_age": 3,
+              "dwell_violation": false,
+              "authorization_valid": true,
+              "intent_shared": true,
+              "data_age": 0,
+              "task_progress": 0.136,
+              "handover_confirmed": true,
+              "intervention_window": [
+                0,
+                0,
+                0
+              ],
+              "source_disagreement": 0.0,
+              "warning_pending": false,
+              "warning_age": 0,
+              "support_requested": false,
+              "assessment_due": false,
+              "last_task_action_step": null,
+              "replan_requested": false,
+              "task_authority": false,
+              "hazard_active": true,
+              "safe_dwell": 0,
+              "hazard_previous": true
+            },
+            {
+              "uid": 2,
+              "position": [
+                673.6339480770586,
+                3029.7647299277173,
+                5100.0
+              ],
+              "speed": 227.20000000000002,
+              "heading": 0.066,
+              "climb_angle": 0.0,
+              "roll": 0.0,
+              "pitch": 0.0,
+              "angle_of_attack": 0.0,
+              "load_factor": 1.0,
+              "energy": 0.8042000000000002,
+              "resource": 0.6819999999999999,
+              "capability": 1.0,
+              "role": "support",
+              "c2_connected": true,
+              "sensor_degraded": false,
+              "id_confidence": 0.95,
+              "alive": true,
+              "last_message_step": 2,
+              "pending_support_since": null,
+              "intervention_count": 0,
+              "mode_age": 3,
+              "dwell_violation": false,
+              "authorization_valid": true,
+              "intent_shared": true,
+              "data_age": 0,
+              "task_progress": 0.136,
+              "handover_confirmed": true,
+              "intervention_window": [
+                0,
+                0,
+                0
+              ],
+              "source_disagreement": 0.0,
+              "warning_pending": false,
+              "warning_age": 0,
+              "support_requested": false,
+              "assessment_due": true,
+              "last_task_action_step": 2,
+              "replan_requested": false,
+              "task_authority": false,
+              "hazard_active": true,
+              "safe_dwell": 0,
+              "hazard_previous": true
+            }
+          ],
+          "opponent": [
+            7000.0,
+            0.0,
+            5000.0
+          ],
+          "separations": [
+            655.4410392870989,
+            3001.6662039607268,
+            3129.980785103058
+          ],
+          "coverage": 1.0,
+          "mission_active": true,
+          "task_progress": 0.136,
+          "risk_budget": 0.7357666666666667
+        },
+        "truth_violations": [
+          "C03:0",
+          "S02:0",
+          "E01"
+        ],
+        "target_violations": [
+          "S02:0"
+        ],
+        "s03_deadlines": {
+          "S03:0-1": 4
+        },
+        "pairs": [
+          {
+            "agents": [
+              0,
+              1
+            ],
+            "distance_m": 655.4410392870989,
+            "ttc_s": 1.4247026336924928,
+            "predicted_closest_distance_m": 102.44890110347438,
+            "unsafe_trend": true
+          },
+          {
+            "agents": [
+              0,
+              2
+            ],
+            "distance_m": 3001.6662039607268,
+            "ttc_s": null,
+            "predicted_closest_distance_m": null,
+            "unsafe_trend": false
+          },
+          {
+            "agents": [
+              1,
+              2
+            ],
+            "distance_m": 3129.980785103058,
+            "ttc_s": 0.9892794750105688,
+            "predicted_closest_distance_m": 3097.531881803623,
+            "unsafe_trend": false
+          }
+        ],
+        "minimum_separation_m": 655.4410392870989,
+        "rule_clear": false,
+        "restored_safe_state": false,
+        "actions": {
+          "0": {
+            "mode": "critical",
+            "turn": 0.1,
+            "climb": 0.0,
+            "acceleration": 0.2,
+            "target": null,
+            "target_kind": "none"
+          },
+          "1": {
+            "mode": "cover",
+            "turn": 0.1,
+            "climb": 0.0,
+            "acceleration": 0.2,
+            "target": null,
+            "target_kind": "none"
+          },
+          "2": {
+            "mode": "support",
+            "turn": 0.1,
+            "climb": 0.0,
+            "acceleration": 0.2,
+            "target": null,
+            "target_kind": "none"
+          }
+        },
+        "reward": 0.7193012991088736
+      }
+    ],
+    "takeovers": {
+      "warning_now": {
+        "state": {
+          "absolute_state_step": 0,
+          "truth": {
+            "step": 0,
+            "aircraft": [
+              {
+                "uid": 0,
+                "position": [
+                  0.0,
+                  0.0,
+                  5000.0
+                ],
+                "speed": 220.0,
+                "heading": 0.0,
+                "climb_angle": 0.0,
+                "roll": 0.0,
+                "pitch": 0.0,
+                "angle_of_attack": 0.0,
+                "load_factor": 1.0,
+                "energy": 0.8,
+                "resource": 0.45,
+                "capability": 1.0,
+                "role": "hold",
+                "c2_connected": true,
+                "sensor_degraded": false,
+                "id_confidence": 0.95,
+                "alive": true,
+                "last_message_step": 0,
+                "pending_support_since": 0,
+                "intervention_count": 0,
+                "mode_age": 0,
+                "dwell_violation": false,
+                "authorization_valid": true,
+                "intent_shared": true,
+                "data_age": 0,
+                "task_progress": 0.1,
+                "handover_confirmed": true,
+                "intervention_window": [],
+                "source_disagreement": 0.0,
+                "warning_pending": false,
+                "warning_age": 0,
+                "support_requested": true,
+                "assessment_due": false,
+                "last_task_action_step": null,
+                "replan_requested": false,
+                "task_authority": true,
+                "hazard_active": false,
+                "safe_dwell": 0,
+                "hazard_previous": false
+              },
+              {
+                "uid": 1,
+                "position": [
+                  2000.0,
+                  0.0,
+                  5000.0
+                ],
+                "speed": 220.0,
+                "heading": 3.141592653589793,
+                "climb_angle": 0.0,
+                "roll": 0.0,
+                "pitch": 0.0,
+                "angle_of_attack": 0.0,
+                "load_factor": 1.0,
+                "energy": 0.8,
+                "resource": 0.9,
+                "capability": 1.0,
+                "role": "hold",
+                "c2_connected": true,
+                "sensor_degraded": false,
+                "id_confidence": 0.95,
+                "alive": true,
+                "last_message_step": 0,
+                "pending_support_since": null,
+                "intervention_count": 0,
+                "mode_age": 0,
+                "dwell_violation": false,
+                "authorization_valid": true,
+                "intent_shared": true,
+                "data_age": 0,
+                "task_progress": 0.1,
+                "handover_confirmed": true,
+                "intervention_window": [],
+                "source_disagreement": 0.0,
+                "warning_pending": false,
+                "warning_age": 0,
+                "support_requested": false,
+                "assessment_due": false,
+                "last_task_action_step": null,
+                "replan_requested": false,
+                "task_authority": false,
+                "hazard_active": false,
+                "safe_dwell": 0,
+                "hazard_previous": false
+              },
+              {
+                "uid": 2,
+                "position": [
+                  0.0,
+                  3000.0,
+                  5100.0
+                ],
+                "speed": 220.0,
+                "heading": 0.0,
+                "climb_angle": 0.0,
+                "roll": 0.0,
+                "pitch": 0.0,
+                "angle_of_attack": 0.0,
+                "load_factor": 1.0,
+                "energy": 0.8,
+                "resource": 0.7,
+                "capability": 1.0,
+                "role": "hold",
+                "c2_connected": true,
+                "sensor_degraded": false,
+                "id_confidence": 0.95,
+                "alive": true,
+                "last_message_step": 0,
+                "pending_support_since": null,
+                "intervention_count": 0,
+                "mode_age": 0,
+                "dwell_violation": false,
+                "authorization_valid": true,
+                "intent_shared": true,
+                "data_age": 0,
+                "task_progress": 0.1,
+                "handover_confirmed": true,
+                "intervention_window": [],
+                "source_disagreement": 0.0,
+                "warning_pending": false,
+                "warning_age": 0,
+                "support_requested": false,
+                "assessment_due": false,
+                "last_task_action_step": null,
+                "replan_requested": false,
+                "task_authority": false,
+                "hazard_active": false,
+                "safe_dwell": 0,
+                "hazard_previous": false
+              }
+            ],
+            "opponent": [
+              7000.0,
+              0.0,
+              5000.0
+            ],
+            "separations": [
+              2000.0,
+              3001.6662039607268,
+              3606.9377593742865
+            ],
+            "coverage": 0,
+            "mission_active": true,
+            "task_progress": 0.10000000000000002,
+            "risk_budget": 0.7416666666666667
+          },
+          "truth_violations": [
+            "C02"
+          ],
+          "target_violations": [],
+          "s03_deadlines": {
+            "S03:0-1": 4
+          },
+          "pairs": [
+            {
+              "agents": [
+                0,
+                1
+              ],
+              "distance_m": 2000.0,
+              "ttc_s": 4.545454545454546,
+              "predicted_closest_distance_m": 2.5825643479143517e-13,
+              "unsafe_trend": true
+            },
+            {
+              "agents": [
+                0,
+                2
+              ],
+              "distance_m": 3001.6662039607268,
+              "ttc_s": null,
+              "predicted_closest_distance_m": null,
+              "unsafe_trend": false
+            },
+            {
+              "agents": [
+                1,
+                2
+              ],
+              "distance_m": 3606.9377593742865,
+              "ttc_s": 4.545454545454546,
+              "predicted_closest_distance_m": 3001.6662039607268,
+              "unsafe_trend": false
+            }
+          ],
+          "minimum_separation_m": 2000.0,
+          "rule_clear": true,
+          "restored_safe_state": false,
+          "actions": {}
+        },
+        "snapshot_sha256": "d8ff6d263d63378f411890526ad3e49ac315a0c4d2dad36aad391bd9d55554a5"
+      },
+      "warning_plus_1": {
+        "state": {
+          "absolute_state_step": 1,
+          "truth": {
+            "step": 1,
+            "aircraft": [
+              {
+                "uid": 0,
+                "position": [
+                  222.34618137073724,
+                  4.892405323684622,
+                  5000.0
+                ],
+                "speed": 222.4,
+                "heading": 0.022000000000000002,
+                "climb_angle": 0.0,
+                "roll": 0.0,
+                "pitch": 0.0,
+                "angle_of_attack": 0.0,
+                "load_factor": 1.0,
+                "energy": 0.8014000000000001,
+                "resource": 0.444,
+                "capability": 1.0,
+                "role": "critical",
+                "c2_connected": true,
+                "sensor_degraded": false,
+                "id_confidence": 0.95,
+                "alive": true,
+                "last_message_step": 0,
+                "pending_support_since": 0,
+                "intervention_count": 0,
+                "mode_age": 1,
+                "dwell_violation": false,
+                "authorization_valid": true,
+                "intent_shared": true,
+                "data_age": 0,
+                "task_progress": 0.112,
+                "handover_confirmed": true,
+                "intervention_window": [
+                  0
+                ],
+                "source_disagreement": 0.0,
+                "warning_pending": false,
+                "warning_age": 0,
+                "support_requested": true,
+                "assessment_due": true,
+                "last_task_action_step": 0,
+                "replan_requested": false,
+                "task_authority": true,
+                "hazard_active": true,
+                "safe_dwell": 0,
+                "hazard_previous": false
+              },
+              {
+                "uid": 1,
+                "position": [
+                  1777.6538186292628,
+                  -4.8924053236845495,
+                  5000.0
+                ],
+                "speed": 222.4,
+                "heading": 3.163592653589793,
+                "climb_angle": 0.0,
+                "roll": 0.0,
+                "pitch": 0.0,
+                "angle_of_attack": 0.0,
+                "load_factor": 1.0,
+                "energy": 0.8014000000000001,
+                "resource": 0.896,
+                "capability": 1.0,
+                "role": "cover",
+                "c2_connected": true,
+                "sensor_degraded": false,
+                "id_confidence": 0.95,
+                "alive": true,
+                "last_message_step": 0,
+                "pending_support_since": null,
+                "intervention_count": 0,
+                "mode_age": 1,
+                "dwell_violation": false,
+                "authorization_valid": true,
+                "intent_shared": true,
+                "data_age": 0,
+                "task_progress": 0.112,
+                "handover_confirmed": true,
+                "intervention_window": [
+                  0
+                ],
+                "source_disagreement": 0.0,
+                "warning_pending": false,
+                "warning_age": 0,
+                "support_requested": false,
+                "assessment_due": false,
+                "last_task_action_step": null,
+                "replan_requested": false,
+                "task_authority": false,
+                "hazard_active": true,
+                "safe_dwell": 0,
+                "hazard_previous": false
+              },
+              {
+                "uid": 2,
+                "position": [
+                  222.34618137073724,
+                  3004.8924053236847,
+                  5100.0
+                ],
+                "speed": 222.4,
+                "heading": 0.022000000000000002,
+                "climb_angle": 0.0,
+                "roll": 0.0,
+                "pitch": 0.0,
+                "angle_of_attack": 0.0,
+                "load_factor": 1.0,
+                "energy": 0.8014000000000001,
+                "resource": 0.694,
+                "capability": 1.0,
+                "role": "support",
+                "c2_connected": true,
+                "sensor_degraded": false,
+                "id_confidence": 0.95,
+                "alive": true,
+                "last_message_step": 0,
+                "pending_support_since": null,
+                "intervention_count": 0,
+                "mode_age": 1,
+                "dwell_violation": false,
+                "authorization_valid": true,
+                "intent_shared": true,
+                "data_age": 0,
+                "task_progress": 0.112,
+                "handover_confirmed": true,
+                "intervention_window": [
+                  0
+                ],
+                "source_disagreement": 0.0,
+                "warning_pending": false,
+                "warning_age": 0,
+                "support_requested": false,
+                "assessment_due": true,
+                "last_task_action_step": 0,
+                "replan_requested": false,
+                "task_authority": false,
+                "hazard_active": true,
+                "safe_dwell": 0,
+                "hazard_previous": false
+              }
+            ],
+            "opponent": [
+              7000.0,
+              0.0,
+              5000.0
+            ],
+            "separations": [
+              1555.3384162406912,
+              3001.6662039607268,
+              3389.363723904284
+            ],
+            "coverage": 1.0,
+            "mission_active": true,
+            "task_progress": 0.112,
+            "risk_budget": 0.7397
+          },
+          "truth_violations": [
+            "C03:0",
+            "E01"
+          ],
+          "target_violations": [],
+          "s03_deadlines": {
+            "S03:0-1": 4
+          },
+          "pairs": [
+            {
+              "agents": [
+                0,
+                1
+              ],
+              "distance_m": 1555.3384162406912,
+              "ttc_s": 3.495314792088621,
+              "predicted_closest_distance_m": 43.99645075255923,
+              "unsafe_trend": true
+            },
+            {
+              "agents": [
+                0,
+                2
+              ],
+              "distance_m": 3001.6662039607268,
+              "ttc_s": null,
+              "predicted_closest_distance_m": null,
+              "unsafe_trend": false
+            },
+            {
+              "agents": [
+                1,
+                2
+              ],
+              "distance_m": 3389.363723904284,
+              "ttc_s": 3.346945466259397,
+              "predicted_closest_distance_m": 3044.9130060884995,
+              "unsafe_trend": false
+            }
+          ],
+          "minimum_separation_m": 1555.3384162406912,
+          "rule_clear": true,
+          "restored_safe_state": false,
+          "actions": {
+            "0": {
+              "mode": "critical",
+              "turn": 0.1,
+              "climb": 0.0,
+              "acceleration": 0.2,
+              "target": null,
+              "target_kind": "none"
+            },
+            "1": {
+              "mode": "cover",
+              "turn": 0.1,
+              "climb": 0.0,
+              "acceleration": 0.2,
+              "target": null,
+              "target_kind": "none"
+            },
+            "2": {
+              "mode": "support",
+              "turn": 0.1,
+              "climb": 0.0,
+              "acceleration": 0.2,
+              "target": null,
+              "target_kind": "none"
+            }
+          },
+          "reward": 0.9
+        },
+        "snapshot_sha256": "5a84394e240e163bed908f9fd996cc22fe6bb3f8933316d6be518ca39748720f"
+      },
+      "warning_plus_2": {
+        "state": {
+          "absolute_state_step": 2,
+          "truth": {
+            "step": 2,
+            "aircraft": [
+              {
+                "uid": 0,
+                "position": [
+                  446.9286100756376,
+                  14.78041407208011,
+                  5000.0
+                ],
+                "speed": 224.8,
+                "heading": 0.044000000000000004,
+                "climb_angle": 0.0,
+                "roll": 0.0,
+                "pitch": 0.0,
+                "angle_of_attack": 0.0,
+                "load_factor": 1.0,
+                "energy": 0.8028000000000002,
+                "resource": 0.438,
+                "capability": 1.0,
+                "role": "critical",
+                "c2_connected": true,
+                "sensor_degraded": false,
+                "id_confidence": 0.95,
+                "alive": true,
+                "last_message_step": 1,
+                "pending_support_since": 0,
+                "intervention_count": 0,
+                "mode_age": 2,
+                "dwell_violation": false,
+                "authorization_valid": true,
+                "intent_shared": true,
+                "data_age": 0,
+                "task_progress": 0.124,
+                "handover_confirmed": true,
+                "intervention_window": [
+                  0,
+                  0
+                ],
+                "source_disagreement": 0.0,
+                "warning_pending": false,
+                "warning_age": 0,
+                "support_requested": true,
+                "assessment_due": true,
+                "last_task_action_step": 1,
+                "replan_requested": false,
+                "task_authority": true,
+                "hazard_active": true,
+                "safe_dwell": 0,
+                "hazard_previous": true
+              },
+              {
+                "uid": 1,
+                "position": [
+                  1553.0713899243624,
+                  -14.780414072079918,
+                  5000.0
+                ],
+                "speed": 224.8,
+                "heading": 3.1855926535897927,
+                "climb_angle": 0.0,
+                "roll": 0.0,
+                "pitch": 0.0,
+                "angle_of_attack": 0.0,
+                "load_factor": 1.0,
+                "energy": 0.8028000000000002,
+                "resource": 0.892,
+                "capability": 1.0,
+                "role": "cover",
+                "c2_connected": true,
+                "sensor_degraded": false,
+                "id_confidence": 0.95,
+                "alive": true,
+                "last_message_step": 1,
+                "pending_support_since": null,
+                "intervention_count": 0,
+                "mode_age": 2,
+                "dwell_violation": false,
+                "authorization_valid": true,
+                "intent_shared": true,
+                "data_age": 0,
+                "task_progress": 0.124,
+                "handover_confirmed": true,
+                "intervention_window": [
+                  0,
+                  0
+                ],
+                "source_disagreement": 0.0,
+                "warning_pending": false,
+                "warning_age": 0,
+                "support_requested": false,
+                "assessment_due": false,
+                "last_task_action_step": null,
+                "replan_requested": false,
+                "task_authority": false,
+                "hazard_active": true,
+                "safe_dwell": 0,
+                "hazard_previous": true
+              },
+              {
+                "uid": 2,
+                "position": [
+                  446.9286100756376,
+                  3014.78041407208,
+                  5100.0
+                ],
+                "speed": 224.8,
+                "heading": 0.044000000000000004,
+                "climb_angle": 0.0,
+                "roll": 0.0,
+                "pitch": 0.0,
+                "angle_of_attack": 0.0,
+                "load_factor": 1.0,
+                "energy": 0.8028000000000002,
+                "resource": 0.688,
+                "capability": 1.0,
+                "role": "support",
+                "c2_connected": true,
+                "sensor_degraded": false,
+                "id_confidence": 0.95,
+                "alive": true,
+                "last_message_step": 1,
+                "pending_support_since": null,
+                "intervention_count": 0,
+                "mode_age": 2,
+                "dwell_violation": false,
+                "authorization_valid": true,
+                "intent_shared": true,
+                "data_age": 0,
+                "task_progress": 0.124,
+                "handover_confirmed": true,
+                "intervention_window": [
+                  0,
+                  0
+                ],
+                "source_disagreement": 0.0,
+                "warning_pending": false,
+                "warning_age": 0,
+                "support_requested": false,
+                "assessment_due": true,
+                "last_task_action_step": 1,
+                "replan_requested": false,
+                "task_authority": false,
+                "hazard_active": true,
+                "safe_dwell": 0,
+                "hazard_previous": true
+              }
+            ],
+            "opponent": [
+              7000.0,
+              0.0,
+              5000.0
+            ],
+            "separations": [
+              1106.5377047222717,
+              3001.6662039607268,
+              3226.730645845264
+            ],
+            "coverage": 1.0,
+            "mission_active": true,
+            "task_progress": 0.124,
+            "risk_budget": 0.7377333333333335
+          },
+          "truth_violations": [
+            "C03:0",
+            "E01"
+          ],
+          "target_violations": [],
+          "s03_deadlines": {
+            "S03:0-1": 4
+          },
+          "pairs": [
+            {
+              "agents": [
+                0,
+                1
+              ],
+              "distance_m": 1106.5377047222717,
+              "ttc_s": 2.4550087846523643,
+              "predicted_closest_distance_m": 78.18679743444066,
+              "unsafe_trend": true
+            },
+            {
+              "agents": [
+                0,
+                2
+              ],
+              "distance_m": 3001.6662039607268,
+              "ttc_s": null,
+              "predicted_closest_distance_m": null,
+              "unsafe_trend": false
+            },
+            {
+              "agents": [
+                1,
+                2
+              ],
+              "distance_m": 3226.730645845264,
+              "ttc_s": 2.1615092025288885,
+              "predicted_closest_distance_m": 3076.9087028419053,
+              "unsafe_trend": false
+            }
+          ],
+          "minimum_separation_m": 1106.5377047222717,
+          "rule_clear": true,
+          "restored_safe_state": false,
+          "actions": {
+            "0": {
+              "mode": "critical",
+              "turn": 0.1,
+              "climb": 0.0,
+              "acceleration": 0.2,
+              "target": null,
+              "target_kind": "none"
+            },
+            "1": {
+              "mode": "cover",
+              "turn": 0.1,
+              "climb": 0.0,
+              "acceleration": 0.2,
+              "target": null,
+              "target_kind": "none"
+            },
+            "2": {
+              "mode": "support",
+              "turn": 0.1,
+              "climb": 0.0,
+              "acceleration": 0.2,
+              "target": null,
+              "target_kind": "none"
+            }
+          },
+          "reward": 0.9
+        },
+        "snapshot_sha256": "e473beec43b3b7d4e105333013b181db5a2c0f848715add57016be9a67f0e44f"
+      },
+      "first_S02_violation": {
+        "state": {
+          "absolute_state_step": 3,
+          "truth": {
+            "step": 3,
+            "aircraft": [
+              {
+                "uid": 0,
+                "position": [
+                  673.6339480770586,
+                  29.76472992771722,
+                  5000.0
+                ],
+                "speed": 227.20000000000002,
+                "heading": 0.066,
+                "climb_angle": 0.0,
+                "roll": 0.0,
+                "pitch": 0.0,
+                "angle_of_attack": 0.0,
+                "load_factor": 1.0,
+                "energy": 0.8042000000000002,
+                "resource": 0.432,
+                "capability": 1.0,
+                "role": "critical",
+                "c2_connected": true,
+                "sensor_degraded": false,
+                "id_confidence": 0.95,
+                "alive": true,
+                "last_message_step": 2,
+                "pending_support_since": 0,
+                "intervention_count": 0,
+                "mode_age": 3,
+                "dwell_violation": false,
+                "authorization_valid": true,
+                "intent_shared": true,
+                "data_age": 0,
+                "task_progress": 0.136,
+                "handover_confirmed": true,
+                "intervention_window": [
+                  0,
+                  0,
+                  0
+                ],
+                "source_disagreement": 0.0,
+                "warning_pending": false,
+                "warning_age": 0,
+                "support_requested": true,
+                "assessment_due": true,
+                "last_task_action_step": 2,
+                "replan_requested": false,
+                "task_authority": true,
+                "hazard_active": true,
+                "safe_dwell": 0,
+                "hazard_previous": true
+              },
+              {
+                "uid": 1,
+                "position": [
+                  1326.3660519229416,
+                  -29.764729927716864,
+                  5000.0
+                ],
+                "speed": 227.20000000000002,
+                "heading": 3.2075926535897925,
+                "climb_angle": 0.0,
+                "roll": 0.0,
+                "pitch": 0.0,
+                "angle_of_attack": 0.0,
+                "load_factor": 1.0,
+                "energy": 0.8042000000000002,
+                "resource": 0.888,
+                "capability": 1.0,
+                "role": "cover",
+                "c2_connected": true,
+                "sensor_degraded": false,
+                "id_confidence": 0.95,
+                "alive": true,
+                "last_message_step": 2,
+                "pending_support_since": null,
+                "intervention_count": 0,
+                "mode_age": 3,
+                "dwell_violation": false,
+                "authorization_valid": true,
+                "intent_shared": true,
+                "data_age": 0,
+                "task_progress": 0.136,
+                "handover_confirmed": true,
+                "intervention_window": [
+                  0,
+                  0,
+                  0
+                ],
+                "source_disagreement": 0.0,
+                "warning_pending": false,
+                "warning_age": 0,
+                "support_requested": false,
+                "assessment_due": false,
+                "last_task_action_step": null,
+                "replan_requested": false,
+                "task_authority": false,
+                "hazard_active": true,
+                "safe_dwell": 0,
+                "hazard_previous": true
+              },
+              {
+                "uid": 2,
+                "position": [
+                  673.6339480770586,
+                  3029.7647299277173,
+                  5100.0
+                ],
+                "speed": 227.20000000000002,
+                "heading": 0.066,
+                "climb_angle": 0.0,
+                "roll": 0.0,
+                "pitch": 0.0,
+                "angle_of_attack": 0.0,
+                "load_factor": 1.0,
+                "energy": 0.8042000000000002,
+                "resource": 0.6819999999999999,
+                "capability": 1.0,
+                "role": "support",
+                "c2_connected": true,
+                "sensor_degraded": false,
+                "id_confidence": 0.95,
+                "alive": true,
+                "last_message_step": 2,
+                "pending_support_since": null,
+                "intervention_count": 0,
+                "mode_age": 3,
+                "dwell_violation": false,
+                "authorization_valid": true,
+                "intent_shared": true,
+                "data_age": 0,
+                "task_progress": 0.136,
+                "handover_confirmed": true,
+                "intervention_window": [
+                  0,
+                  0,
+                  0
+                ],
+                "source_disagreement": 0.0,
+                "warning_pending": false,
+                "warning_age": 0,
+                "support_requested": false,
+                "assessment_due": true,
+                "last_task_action_step": 2,
+                "replan_requested": false,
+                "task_authority": false,
+                "hazard_active": true,
+                "safe_dwell": 0,
+                "hazard_previous": true
+              }
+            ],
+            "opponent": [
+              7000.0,
+              0.0,
+              5000.0
+            ],
+            "separations": [
+              655.4410392870989,
+              3001.6662039607268,
+              3129.980785103058
+            ],
+            "coverage": 1.0,
+            "mission_active": true,
+            "task_progress": 0.136,
+            "risk_budget": 0.7357666666666667
+          },
+          "truth_violations": [
+            "C03:0",
+            "S02:0",
+            "E01"
+          ],
+          "target_violations": [
+            "S02:0"
+          ],
+          "s03_deadlines": {
+            "S03:0-1": 4
+          },
+          "pairs": [
+            {
+              "agents": [
+                0,
+                1
+              ],
+              "distance_m": 655.4410392870989,
+              "ttc_s": 1.4247026336924928,
+              "predicted_closest_distance_m": 102.44890110347438,
+              "unsafe_trend": true
+            },
+            {
+              "agents": [
+                0,
+                2
+              ],
+              "distance_m": 3001.6662039607268,
+              "ttc_s": null,
+              "predicted_closest_distance_m": null,
+              "unsafe_trend": false
+            },
+            {
+              "agents": [
+                1,
+                2
+              ],
+              "distance_m": 3129.980785103058,
+              "ttc_s": 0.9892794750105688,
+              "predicted_closest_distance_m": 3097.531881803623,
+              "unsafe_trend": false
+            }
+          ],
+          "minimum_separation_m": 655.4410392870989,
+          "rule_clear": false,
+          "restored_safe_state": false,
+          "actions": {
+            "0": {
+              "mode": "critical",
+              "turn": 0.1,
+              "climb": 0.0,
+              "acceleration": 0.2,
+              "target": null,
+              "target_kind": "none"
+            },
+            "1": {
+              "mode": "cover",
+              "turn": 0.1,
+              "climb": 0.0,
+              "acceleration": 0.2,
+              "target": null,
+              "target_kind": "none"
+            },
+            "2": {
+              "mode": "support",
+              "turn": 0.1,
+              "climb": 0.0,
+              "acceleration": 0.2,
+              "target": null,
+              "target_kind": "none"
+            }
+          },
+          "reward": 0.7193012991088736
+        },
+        "snapshot_sha256": "7ffced154560e8bfd5bb4edd8dd12c37ef30c64f5eb3fd613702932761c28fe7"
+      }
+    },
+    "seed": 11,
+    "distance": 2000.0,
+    "episode": 0,
+    "scenario": {
+      "positions": [
+        [
+          0.0,
+          0.0,
+          5000.0
+        ],
+        [
+          2000.0,
+          0.0,
+          5000.0
+        ],
+        [
+          0.0,
+          3000.0,
+          5100.0
+        ]
+      ],
+      "resources": [
+        0.45,
+        0.9,
+        0.7
+      ],
+      "support_requested": {
+        "0": true
+      },
+      "task_progress": {
+        "0": 0.1,
+        "1": 0.1,
+        "2": 0.1
+      }
+    },
+    "environment_seed": 11
+  },
+  {
+    "status": "ready",
+    "warning_step": 0,
+    "s02_step": 4,
+    "initial": {
+      "absolute_state_step": 0,
+      "truth": {
+        "step": 0,
+        "aircraft": [
+          {
+            "uid": 0,
+            "position": [
+              0.0,
+              0.0,
+              5000.0
+            ],
+            "speed": 220.0,
+            "heading": 0.0,
+            "climb_angle": 0.0,
+            "roll": 0.0,
+            "pitch": 0.0,
+            "angle_of_attack": 0.0,
+            "load_factor": 1.0,
+            "energy": 0.8,
+            "resource": 0.45,
+            "capability": 1.0,
+            "role": "hold",
+            "c2_connected": true,
+            "sensor_degraded": false,
+            "id_confidence": 0.95,
+            "alive": true,
+            "last_message_step": 0,
+            "pending_support_since": 0,
+            "intervention_count": 0,
+            "mode_age": 0,
+            "dwell_violation": false,
+            "authorization_valid": true,
+            "intent_shared": true,
+            "data_age": 0,
+            "task_progress": 0.1,
+            "handover_confirmed": true,
+            "intervention_window": [],
+            "source_disagreement": 0.0,
+            "warning_pending": false,
+            "warning_age": 0,
+            "support_requested": true,
+            "assessment_due": false,
+            "last_task_action_step": null,
+            "replan_requested": false,
+            "task_authority": true,
+            "hazard_active": false,
+            "safe_dwell": 0,
+            "hazard_previous": false
+          },
+          {
+            "uid": 1,
+            "position": [
+              2400.0,
+              0.0,
+              5000.0
+            ],
+            "speed": 220.0,
+            "heading": 3.141592653589793,
+            "climb_angle": 0.0,
+            "roll": 0.0,
+            "pitch": 0.0,
+            "angle_of_attack": 0.0,
+            "load_factor": 1.0,
+            "energy": 0.8,
+            "resource": 0.9,
+            "capability": 1.0,
+            "role": "hold",
+            "c2_connected": true,
+            "sensor_degraded": false,
+            "id_confidence": 0.95,
+            "alive": true,
+            "last_message_step": 0,
+            "pending_support_since": null,
+            "intervention_count": 0,
+            "mode_age": 0,
+            "dwell_violation": false,
+            "authorization_valid": true,
+            "intent_shared": true,
+            "data_age": 0,
+            "task_progress": 0.1,
+            "handover_confirmed": true,
+            "intervention_window": [],
+            "source_disagreement": 0.0,
+            "warning_pending": false,
+            "warning_age": 0,
+            "support_requested": false,
+            "assessment_due": false,
+            "last_task_action_step": null,
+            "replan_requested": false,
+            "task_authority": false,
+            "hazard_active": false,
+            "safe_dwell": 0,
+            "hazard_previous": false
+          },
+          {
+            "uid": 2,
+            "position": [
+              0.0,
+              3000.0,
+              5100.0
+            ],
+            "speed": 220.0,
+            "heading": 0.0,
+            "climb_angle": 0.0,
+            "roll": 0.0,
+            "pitch": 0.0,
+            "angle_of_attack": 0.0,
+            "load_factor": 1.0,
+            "energy": 0.8,
+            "resource": 0.7,
+            "capability": 1.0,
+            "role": "hold",
+            "c2_connected": true,
+            "sensor_degraded": false,
+            "id_confidence": 0.95,
+            "alive": true,
+            "last_message_step": 0,
+            "pending_support_since": null,
+            "intervention_count": 0,
+            "mode_age": 0,
+            "dwell_violation": false,
+            "authorization_valid": true,
+            "intent_shared": true,
+            "data_age": 0,
+            "task_progress": 0.1,
+            "handover_confirmed": true,
+            "intervention_window": [],
+            "source_disagreement": 0.0,
+            "warning_pending": false,
+            "warning_age": 0,
+            "support_requested": false,
+            "assessment_due": false,
+            "last_task_action_step": null,
+            "replan_requested": false,
+            "task_authority": false,
+            "hazard_active": false,
+            "safe_dwell": 0,
+            "hazard_previous": false
+          }
+        ],
+        "opponent": [
+          7000.0,
+          0.0,
+          5000.0
+        ],
+        "separations": [
+          2400.0,
+          3001.6662039607268,
+          3843.175770115127
+        ],
+        "coverage": 0,
+        "mission_active": true,
+        "task_progress": 0.10000000000000002,
+        "risk_budget": 0.7416666666666667
+      },
+      "truth_violations": [
+        "C02"
+      ],
+      "target_violations": [],
+      "s03_deadlines": {
+        "S03:0-1": 4
+      },
+      "pairs": [
+        {
+          "agents": [
+            0,
+            1
+          ],
+          "distance_m": 2400.0,
+          "ttc_s": 5.454545454545454,
+          "predicted_closest_distance_m": 1.4695761589768238e-13,
+          "unsafe_trend": true
+        },
+        {
+          "agents": [
+            0,
+            2
+          ],
+          "distance_m": 3001.6662039607268,
+          "ttc_s": null,
+          "predicted_closest_distance_m": null,
+          "unsafe_trend": false
+        },
+        {
+          "agents": [
+            1,
+            2
+          ],
+          "distance_m": 3843.175770115127,
+          "ttc_s": 5.454545454545454,
+          "predicted_closest_distance_m": 3001.6662039607268,
+          "unsafe_trend": false
+        }
+      ],
+      "minimum_separation_m": 2400.0,
+      "rule_clear": true,
+      "restored_safe_state": false,
+      "actions": {}
+    },
+    "prefix": [
+      {
+        "absolute_state_step": 0,
+        "truth": {
+          "step": 0,
+          "aircraft": [
+            {
+              "uid": 0,
+              "position": [
+                0.0,
+                0.0,
+                5000.0
+              ],
+              "speed": 220.0,
+              "heading": 0.0,
+              "climb_angle": 0.0,
+              "roll": 0.0,
+              "pitch": 0.0,
+              "angle_of_attack": 0.0,
+              "load_factor": 1.0,
+              "energy": 0.8,
+              "resource": 0.45,
+              "capability": 1.0,
+              "role": "hold",
+              "c2_connected": true,
+              "sensor_degraded": false,
+              "id_confidence": 0.95,
+              "alive": true,
+              "last_message_step": 0,
+              "pending_support_since": 0,
+              "intervention_count": 0,
+              "mode_age": 0,
+              "dwell_violation": false,
+              "authorization_valid": true,
+              "intent_shared": true,
+              "data_age": 0,
+              "task_progress": 0.1,
+              "handover_confirmed": true,
+              "intervention_window": [],
+              "source_disagreement": 0.0,
+              "warning_pending": false,
+              "warning_age": 0,
+              "support_requested": true,
+              "assessment_due": false,
+              "last_task_action_step": null,
+              "replan_requested": false,
+              "task_authority": true,
+              "hazard_active": false,
+              "safe_dwell": 0,
+              "hazard_previous": false
+            },
+            {
+              "uid": 1,
+              "position": [
+                2400.0,
+                0.0,
+                5000.0
+              ],
+              "speed": 220.0,
+              "heading": 3.141592653589793,
+              "climb_angle": 0.0,
+              "roll": 0.0,
+              "pitch": 0.0,
+              "angle_of_attack": 0.0,
+              "load_factor": 1.0,
+              "energy": 0.8,
+              "resource": 0.9,
+              "capability": 1.0,
+              "role": "hold",
+              "c2_connected": true,
+              "sensor_degraded": false,
+              "id_confidence": 0.95,
+              "alive": true,
+              "last_message_step": 0,
+              "pending_support_since": null,
+              "intervention_count": 0,
+              "mode_age": 0,
+              "dwell_violation": false,
+              "authorization_valid": true,
+              "intent_shared": true,
+              "data_age": 0,
+              "task_progress": 0.1,
+              "handover_confirmed": true,
+              "intervention_window": [],
+              "source_disagreement": 0.0,
+              "warning_pending": false,
+              "warning_age": 0,
+              "support_requested": false,
+              "assessment_due": false,
+              "last_task_action_step": null,
+              "replan_requested": false,
+              "task_authority": false,
+              "hazard_active": false,
+              "safe_dwell": 0,
+              "hazard_previous": false
+            },
+            {
+              "uid": 2,
+              "position": [
+                0.0,
+                3000.0,
+                5100.0
+              ],
+              "speed": 220.0,
+              "heading": 0.0,
+              "climb_angle": 0.0,
+              "roll": 0.0,
+              "pitch": 0.0,
+              "angle_of_attack": 0.0,
+              "load_factor": 1.0,
+              "energy": 0.8,
+              "resource": 0.7,
+              "capability": 1.0,
+              "role": "hold",
+              "c2_connected": true,
+              "sensor_degraded": false,
+              "id_confidence": 0.95,
+              "alive": true,
+              "last_message_step": 0,
+              "pending_support_since": null,
+              "intervention_count": 0,
+              "mode_age": 0,
+              "dwell_violation": false,
+              "authorization_valid": true,
+              "intent_shared": true,
+              "data_age": 0,
+              "task_progress": 0.1,
+              "handover_confirmed": true,
+              "intervention_window": [],
+              "source_disagreement": 0.0,
+              "warning_pending": false,
+              "warning_age": 0,
+              "support_requested": false,
+              "assessment_due": false,
+              "last_task_action_step": null,
+              "replan_requested": false,
+              "task_authority": false,
+              "hazard_active": false,
+              "safe_dwell": 0,
+              "hazard_previous": false
+            }
+          ],
+          "opponent": [
+            7000.0,
+            0.0,
+            5000.0
+          ],
+          "separations": [
+            2400.0,
+            3001.6662039607268,
+            3843.175770115127
+          ],
+          "coverage": 0,
+          "mission_active": true,
+          "task_progress": 0.10000000000000002,
+          "risk_budget": 0.7416666666666667
+        },
+        "truth_violations": [
+          "C02"
+        ],
+        "target_violations": [],
+        "s03_deadlines": {
+          "S03:0-1": 4
+        },
+        "pairs": [
+          {
+            "agents": [
+              0,
+              1
+            ],
+            "distance_m": 2400.0,
+            "ttc_s": 5.454545454545454,
+            "predicted_closest_distance_m": 1.4695761589768238e-13,
+            "unsafe_trend": true
+          },
+          {
+            "agents": [
+              0,
+              2
+            ],
+            "distance_m": 3001.6662039607268,
+            "ttc_s": null,
+            "predicted_closest_distance_m": null,
+            "unsafe_trend": false
+          },
+          {
+            "agents": [
+              1,
+              2
+            ],
+            "distance_m": 3843.175770115127,
+            "ttc_s": 5.454545454545454,
+            "predicted_closest_distance_m": 3001.6662039607268,
+            "unsafe_trend": false
+          }
+        ],
+        "minimum_separation_m": 2400.0,
+        "rule_clear": true,
+        "restored_safe_state": false,
+        "actions": {}
+      },
+      {
+        "absolute_state_step": 1,
+        "truth": {
+          "step": 1,
+          "aircraft": [
+            {
+              "uid": 0,
+              "position": [
+                222.34618137073724,
+                4.892405323684622,
+                5000.0
+              ],
+              "speed": 222.4,
+              "heading": 0.022000000000000002,
+              "climb_angle": 0.0,
+              "roll": 0.0,
+              "pitch": 0.0,
+              "angle_of_attack": 0.0,
+              "load_factor": 1.0,
+              "energy": 0.8014000000000001,
+              "resource": 0.444,
+              "capability": 1.0,
+              "role": "critical",
+              "c2_connected": true,
+              "sensor_degraded": false,
+              "id_confidence": 0.95,
+              "alive": true,
+              "last_message_step": 0,
+              "pending_support_since": 0,
+              "intervention_count": 0,
+              "mode_age": 1,
+              "dwell_violation": false,
+              "authorization_valid": true,
+              "intent_shared": true,
+              "data_age": 0,
+              "task_progress": 0.112,
+              "handover_confirmed": true,
+              "intervention_window": [
+                0
+              ],
+              "source_disagreement": 0.0,
+              "warning_pending": false,
+              "warning_age": 0,
+              "support_requested": true,
+              "assessment_due": true,
+              "last_task_action_step": 0,
+              "replan_requested": false,
+              "task_authority": true,
+              "hazard_active": true,
+              "safe_dwell": 0,
+              "hazard_previous": false
+            },
+            {
+              "uid": 1,
+              "position": [
+                2177.653818629263,
+                -4.8924053236845495,
+                5000.0
+              ],
+              "speed": 222.4,
+              "heading": 3.163592653589793,
+              "climb_angle": 0.0,
+              "roll": 0.0,
+              "pitch": 0.0,
+              "angle_of_attack": 0.0,
+              "load_factor": 1.0,
+              "energy": 0.8014000000000001,
+              "resource": 0.896,
+              "capability": 1.0,
+              "role": "cover",
+              "c2_connected": true,
+              "sensor_degraded": false,
+              "id_confidence": 0.95,
+              "alive": true,
+              "last_message_step": 0,
+              "pending_support_since": null,
+              "intervention_count": 0,
+              "mode_age": 1,
+              "dwell_violation": false,
+              "authorization_valid": true,
+              "intent_shared": true,
+              "data_age": 0,
+              "task_progress": 0.112,
+              "handover_confirmed": true,
+              "intervention_window": [
+                0
+              ],
+              "source_disagreement": 0.0,
+              "warning_pending": false,
+              "warning_age": 0,
+              "support_requested": false,
+              "assessment_due": false,
+              "last_task_action_step": null,
+              "replan_requested": false,
+              "task_authority": false,
+              "hazard_active": true,
+              "safe_dwell": 0,
+              "hazard_previous": false
+            },
+            {
+              "uid": 2,
+              "position": [
+                222.34618137073724,
+                3004.8924053236847,
+                5100.0
+              ],
+              "speed": 222.4,
+              "heading": 0.022000000000000002,
+              "climb_angle": 0.0,
+              "roll": 0.0,
+              "pitch": 0.0,
+              "angle_of_attack": 0.0,
+              "load_factor": 1.0,
+              "energy": 0.8014000000000001,
+              "resource": 0.694,
+              "capability": 1.0,
+              "role": "support",
+              "c2_connected": true,
+              "sensor_degraded": false,
+              "id_confidence": 0.95,
+              "alive": true,
+              "last_message_step": 0,
+              "pending_support_since": null,
+              "intervention_count": 0,
+              "mode_age": 1,
+              "dwell_violation": false,
+              "authorization_valid": true,
+              "intent_shared": true,
+              "data_age": 0,
+              "task_progress": 0.112,
+              "handover_confirmed": true,
+              "intervention_window": [
+                0
+              ],
+              "source_disagreement": 0.0,
+              "warning_pending": false,
+              "warning_age": 0,
+              "support_requested": false,
+              "assessment_due": true,
+              "last_task_action_step": 0,
+              "replan_requested": false,
+              "task_authority": false,
+              "hazard_active": true,
+              "safe_dwell": 0,
+              "hazard_previous": false
+            }
+          ],
+          "opponent": [
+            7000.0,
+            0.0,
+            5000.0
+          ],
+          "separations": [
+            1955.332119830522,
+            3001.6662039607268,
+            3590.547668911407
+          ],
+          "coverage": 1.0,
+          "mission_active": true,
+          "task_progress": 0.112,
+          "risk_budget": 0.7397
+        },
+        "truth_violations": [
+          "C03:0",
+          "E01"
+        ],
+        "target_violations": [],
+        "s03_deadlines": {
+          "S03:0-1": 4
+        },
+        "pairs": [
+          {
+            "agents": [
+              0,
+              1
+            ],
+            "distance_m": 1955.332119830522,
+            "ttc_s": 4.394377750506345,
+            "predicted_closest_distance_m": 52.79574090307107,
+            "unsafe_trend": true
+          },
+          {
+            "agents": [
+              0,
+              2
+            ],
+            "distance_m": 3001.6662039607268,
+            "ttc_s": null,
+            "predicted_closest_distance_m": null,
+            "unsafe_trend": false
+          },
+          {
+            "agents": [
+              1,
+              2
+            ],
+            "distance_m": 3590.547668911407,
+            "ttc_s": 4.246008424677121,
+            "predicted_closest_distance_m": 3053.707563286745,
+            "unsafe_trend": false
+          }
+        ],
+        "minimum_separation_m": 1955.332119830522,
+        "rule_clear": true,
+        "restored_safe_state": false,
+        "actions": {
+          "0": {
+            "mode": "critical",
+            "turn": 0.1,
+            "climb": 0.0,
+            "acceleration": 0.2,
+            "target": null,
+            "target_kind": "none"
+          },
+          "1": {
+            "mode": "cover",
+            "turn": 0.1,
+            "climb": 0.0,
+            "acceleration": 0.2,
+            "target": null,
+            "target_kind": "none"
+          },
+          "2": {
+            "mode": "support",
+            "turn": 0.1,
+            "climb": 0.0,
+            "acceleration": 0.2,
+            "target": null,
+            "target_kind": "none"
+          }
+        },
+        "reward": 0.9
+      },
+      {
+        "absolute_state_step": 2,
+        "truth": {
+          "step": 2,
+          "aircraft": [
+            {
+              "uid": 0,
+              "position": [
+                446.9286100756376,
+                14.78041407208011,
+                5000.0
+              ],
+              "speed": 224.8,
+              "heading": 0.044000000000000004,
+              "climb_angle": 0.0,
+              "roll": 0.0,
+              "pitch": 0.0,
+              "angle_of_attack": 0.0,
+              "load_factor": 1.0,
+              "energy": 0.8028000000000002,
+              "resource": 0.438,
+              "capability": 1.0,
+              "role": "critical",
+              "c2_connected": true,
+              "sensor_degraded": false,
+              "id_confidence": 0.95,
+              "alive": true,
+              "last_message_step": 1,
+              "pending_support_since": 0,
+              "intervention_count": 0,
+              "mode_age": 2,
+              "dwell_violation": false,
+              "authorization_valid": true,
+              "intent_shared": true,
+              "data_age": 0,
+              "task_progress": 0.124,
+              "handover_confirmed": true,
+              "intervention_window": [
+                0,
+                0
+              ],
+              "source_disagreement": 0.0,
+              "warning_pending": false,
+              "warning_age": 0,
+              "support_requested": true,
+              "assessment_due": true,
+              "last_task_action_step": 1,
+              "replan_requested": false,
+              "task_authority": true,
+              "hazard_active": true,
+              "safe_dwell": 0,
+              "hazard_previous": true
+            },
+            {
+              "uid": 1,
+              "position": [
+                1953.0713899243624,
+                -14.780414072079918,
+                5000.0
+              ],
+              "speed": 224.8,
+              "heading": 3.1855926535897927,
+              "climb_angle": 0.0,
+              "roll": 0.0,
+              "pitch": 0.0,
+              "angle_of_attack": 0.0,
+              "load_factor": 1.0,
+              "energy": 0.8028000000000002,
+              "resource": 0.892,
+              "capability": 1.0,
+              "role": "cover",
+              "c2_connected": true,
+              "sensor_degraded": false,
+              "id_confidence": 0.95,
+              "alive": true,
+              "last_message_step": 1,
+              "pending_support_since": null,
+              "intervention_count": 0,
+              "mode_age": 2,
+              "dwell_violation": false,
+              "authorization_valid": true,
+              "intent_shared": true,
+              "data_age": 0,
+              "task_progress": 0.124,
+              "handover_confirmed": true,
+              "intervention_window": [
+                0,
+                0
+              ],
+              "source_disagreement": 0.0,
+              "warning_pending": false,
+              "warning_age": 0,
+              "support_requested": false,
+              "assessment_due": false,
+              "last_task_action_step": null,
+              "replan_requested": false,
+              "task_authority": false,
+              "hazard_active": true,
+              "safe_dwell": 0,
+              "hazard_previous": true
+            },
+            {
+              "uid": 2,
+              "position": [
+                446.9286100756376,
+                3014.78041407208,
+                5100.0
+              ],
+              "speed": 224.8,
+              "heading": 0.044000000000000004,
+              "climb_angle": 0.0,
+              "roll": 0.0,
+              "pitch": 0.0,
+              "angle_of_attack": 0.0,
+              "load_factor": 1.0,
+              "energy": 0.8028000000000002,
+              "resource": 0.688,
+              "capability": 1.0,
+              "role": "support",
+              "c2_connected": true,
+              "sensor_degraded": false,
+              "id_confidence": 0.95,
+              "alive": true,
+              "last_message_step": 1,
+              "pending_support_since": null,
+              "intervention_count": 0,
+              "mode_age": 2,
+              "dwell_violation": false,
+              "authorization_valid": true,
+              "intent_shared": true,
+              "data_age": 0,
+              "task_progress": 0.124,
+              "handover_confirmed": true,
+              "intervention_window": [
+                0,
+                0
+              ],
+              "source_disagreement": 0.0,
+              "warning_pending": false,
+              "warning_age": 0,
+              "support_requested": false,
+              "assessment_due": true,
+              "last_task_action_step": 1,
+              "replan_requested": false,
+              "task_authority": false,
+              "hazard_active": true,
+              "safe_dwell": 0,
+              "hazard_previous": true
+            }
+          ],
+          "opponent": [
+            7000.0,
+            0.0,
+            5000.0
+          ],
+          "separations": [
+            1506.4328447863227,
+            3001.6662039607268,
+            3384.775455582833
+          ],
+          "coverage": 1.0,
+          "mission_active": true,
+          "task_progress": 0.124,
+          "risk_budget": 0.7377333333333335
+        },
+        "truth_violations": [
+          "C03:0",
+          "E01"
+        ],
+        "target_violations": [],
+        "s03_deadlines": {
+          "S03:0-1": 4
+        },
+        "pairs": [
+          {
+            "agents": [
+              0,
+              1
+            ],
+            "distance_m": 1506.4328447863227,
+            "ttc_s": 3.343827428923351,
+            "predicted_closest_distance_m": 95.78111905080263,
+            "unsafe_trend": true
+          },
+          {
+            "agents": [
+              0,
+              2
+            ],
+            "distance_m": 3001.6662039607268,
+            "ttc_s": null,
+            "predicted_closest_distance_m": null,
+            "unsafe_trend": false
+          },
+          {
+            "agents": [
+              1,
+              2
+            ],
+            "distance_m": 3384.775455582833,
+            "ttc_s": 3.0503278467998753,
+            "predicted_closest_distance_m": 3094.493782747234,
+            "unsafe_trend": false
+          }
+        ],
+        "minimum_separation_m": 1506.4328447863227,
+        "rule_clear": true,
+        "restored_safe_state": false,
+        "actions": {
+          "0": {
+            "mode": "critical",
+            "turn": 0.1,
+            "climb": 0.0,
+            "acceleration": 0.2,
+            "target": null,
+            "target_kind": "none"
+          },
+          "1": {
+            "mode": "cover",
+            "turn": 0.1,
+            "climb": 0.0,
+            "acceleration": 0.2,
+            "target": null,
+            "target_kind": "none"
+          },
+          "2": {
+            "mode": "support",
+            "turn": 0.1,
+            "climb": 0.0,
+            "acceleration": 0.2,
+            "target": null,
+            "target_kind": "none"
+          }
+        },
+        "reward": 0.9
+      },
+      {
+        "absolute_state_step": 3,
+        "truth": {
+          "step": 3,
+          "aircraft": [
+            {
+              "uid": 0,
+              "position": [
+                673.6339480770586,
+                29.76472992771722,
+                5000.0
+              ],
+              "speed": 227.20000000000002,
+              "heading": 0.066,
+              "climb_angle": 0.0,
+              "roll": 0.0,
+              "pitch": 0.0,
+              "angle_of_attack": 0.0,
+              "load_factor": 1.0,
+              "energy": 0.8042000000000002,
+              "resource": 0.432,
+              "capability": 1.0,
+              "role": "critical",
+              "c2_connected": true,
+              "sensor_degraded": false,
+              "id_confidence": 0.95,
+              "alive": true,
+              "last_message_step": 2,
+              "pending_support_since": 0,
+              "intervention_count": 0,
+              "mode_age": 3,
+              "dwell_violation": false,
+              "authorization_valid": true,
+              "intent_shared": true,
+              "data_age": 0,
+              "task_progress": 0.136,
+              "handover_confirmed": true,
+              "intervention_window": [
+                0,
+                0,
+                0
+              ],
+              "source_disagreement": 0.0,
+              "warning_pending": false,
+              "warning_age": 0,
+              "support_requested": true,
+              "assessment_due": true,
+              "last_task_action_step": 2,
+              "replan_requested": false,
+              "task_authority": true,
+              "hazard_active": true,
+              "safe_dwell": 0,
+              "hazard_previous": true
+            },
+            {
+              "uid": 1,
+              "position": [
+                1726.3660519229416,
+                -29.764729927716864,
+                5000.0
+              ],
+              "speed": 227.20000000000002,
+              "heading": 3.2075926535897925,
+              "climb_angle": 0.0,
+              "roll": 0.0,
+              "pitch": 0.0,
+              "angle_of_attack": 0.0,
+              "load_factor": 1.0,
+              "energy": 0.8042000000000002,
+              "resource": 0.888,
+              "capability": 1.0,
+              "role": "cover",
+              "c2_connected": true,
+              "sensor_degraded": false,
+              "id_confidence": 0.95,
+              "alive": true,
+              "last_message_step": 2,
+              "pending_support_since": null,
+              "intervention_count": 0,
+              "mode_age": 3,
+              "dwell_violation": false,
+              "authorization_valid": true,
+              "intent_shared": true,
+              "data_age": 0,
+              "task_progress": 0.136,
+              "handover_confirmed": true,
+              "intervention_window": [
+                0,
+                0,
+                0
+              ],
+              "source_disagreement": 0.0,
+              "warning_pending": false,
+              "warning_age": 0,
+              "support_requested": false,
+              "assessment_due": false,
+              "last_task_action_step": null,
+              "replan_requested": false,
+              "task_authority": false,
+              "hazard_active": true,
+              "safe_dwell": 0,
+              "hazard_previous": true
+            },
+            {
+              "uid": 2,
+              "position": [
+                673.6339480770586,
+                3029.7647299277173,
+                5100.0
+              ],
+              "speed": 227.20000000000002,
+              "heading": 0.066,
+              "climb_angle": 0.0,
+              "roll": 0.0,
+              "pitch": 0.0,
+              "angle_of_attack": 0.0,
+              "load_factor": 1.0,
+              "energy": 0.8042000000000002,
+              "resource": 0.6819999999999999,
+              "capability": 1.0,
+              "role": "support",
+              "c2_connected": true,
+              "sensor_degraded": false,
+              "id_confidence": 0.95,
+              "alive": true,
+              "last_message_step": 2,
+              "pending_support_since": null,
+              "intervention_count": 0,
+              "mode_age": 3,
+              "dwell_violation": false,
+              "authorization_valid": true,
+              "intent_shared": true,
+              "data_age": 0,
+              "task_progress": 0.136,
+              "handover_confirmed": true,
+              "intervention_window": [
+                0,
+                0,
+                0
+              ],
+              "source_disagreement": 0.0,
+              "warning_pending": false,
+              "warning_age": 0,
+              "support_requested": false,
+              "assessment_due": true,
+              "last_task_action_step": 2,
+              "replan_requested": false,
+              "task_authority": false,
+              "hazard_active": true,
+              "safe_dwell": 0,
+              "hazard_previous": true
+            }
+          ],
+          "opponent": [
+            7000.0,
+            0.0,
+            5000.0
+          ],
+          "separations": [
+            1054.4138841358542,
+            3001.6662039607268,
+            3237.1230125206953
+          ],
+          "coverage": 1.0,
+          "mission_active": true,
+          "task_progress": 0.136,
+          "risk_budget": 0.7357666666666667
+        },
+        "truth_violations": [
+          "C03:0",
+          "E01"
+        ],
+        "target_violations": [],
+        "s03_deadlines": {
+          "S03:0-1": 4
+        },
+        "pairs": [
+          {
+            "agents": [
+              0,
+              1
+            ],
+            "distance_m": 1054.4138841358542,
+            "ttc_s": 2.303067766174194,
+            "predicted_closest_distance_m": 128.82973887748324,
+            "unsafe_trend": true
+          },
+          {
+            "agents": [
+              0,
+              2
+            ],
+            "distance_m": 3001.6662039607268,
+            "ttc_s": null,
+            "predicted_closest_distance_m": null,
+            "unsafe_trend": false
+          },
+          {
+            "agents": [
+              1,
+              2
+            ],
+            "distance_m": 3237.1230125206953,
+            "ttc_s": 1.8676446074922695,
+            "predicted_closest_distance_m": 3123.899084485931,
+            "unsafe_trend": false
+          }
+        ],
+        "minimum_separation_m": 1054.4138841358542,
+        "rule_clear": true,
+        "restored_safe_state": false,
+        "actions": {
+          "0": {
+            "mode": "critical",
+            "turn": 0.1,
+            "climb": 0.0,
+            "acceleration": 0.2,
+            "target": null,
+            "target_kind": "none"
+          },
+          "1": {
+            "mode": "cover",
+            "turn": 0.1,
+            "climb": 0.0,
+            "acceleration": 0.2,
+            "target": null,
+            "target_kind": "none"
+          },
+          "2": {
+            "mode": "support",
+            "turn": 0.1,
+            "climb": 0.0,
+            "acceleration": 0.2,
+            "target": null,
+            "target_kind": "none"
+          }
+        },
+        "reward": 0.9
+      },
+      {
+        "absolute_state_step": 4,
+        "truth": {
+          "step": 4,
+          "aircraft": [
+            {
+              "uid": 0,
+              "position": [
+                902.3455104375469,
+                49.94346236125969,
+                5000.0
+              ],
+              "speed": 229.60000000000002,
+              "heading": 0.08800000000000001,
+              "climb_angle": 0.0,
+              "roll": 0.0,
+              "pitch": 0.0,
+              "angle_of_attack": 0.0,
+              "load_factor": 1.0,
+              "energy": 0.8056000000000003,
+              "resource": 0.426,
+              "capability": 1.0,
+              "role": "critical",
+              "c2_connected": true,
+              "sensor_degraded": false,
+              "id_confidence": 0.95,
+              "alive": true,
+              "last_message_step": 3,
+              "pending_support_since": 0,
+              "intervention_count": 0,
+              "mode_age": 4,
+              "dwell_violation": false,
+              "authorization_valid": true,
+              "intent_shared": true,
+              "data_age": 0,
+              "task_progress": 0.14800000000000002,
+              "handover_confirmed": true,
+              "intervention_window": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "source_disagreement": 0.0,
+              "warning_pending": false,
+              "warning_age": 0,
+              "support_requested": true,
+              "assessment_due": true,
+              "last_task_action_step": 3,
+              "replan_requested": false,
+              "task_authority": true,
+              "hazard_active": true,
+              "safe_dwell": 0,
+              "hazard_previous": true
+            },
+            {
+              "uid": 1,
+              "position": [
+                1497.6544895624534,
+                -49.943462361259115,
+                5000.0
+              ],
+              "speed": 229.60000000000002,
+              "heading": 3.2295926535897923,
+              "climb_angle": 0.0,
+              "roll": 0.0,
+              "pitch": 0.0,
+              "angle_of_attack": 0.0,
+              "load_factor": 1.0,
+              "energy": 0.8056000000000003,
+              "resource": 0.884,
+              "capability": 1.0,
+              "role": "cover",
+              "c2_connected": true,
+              "sensor_degraded": false,
+              "id_confidence": 0.95,
+              "alive": true,
+              "last_message_step": 3,
+              "pending_support_since": null,
+              "intervention_count": 0,
+              "mode_age": 4,
+              "dwell_violation": false,
+              "authorization_valid": true,
+              "intent_shared": true,
+              "data_age": 0,
+              "task_progress": 0.14800000000000002,
+              "handover_confirmed": true,
+              "intervention_window": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "source_disagreement": 0.0,
+              "warning_pending": false,
+              "warning_age": 0,
+              "support_requested": false,
+              "assessment_due": false,
+              "last_task_action_step": null,
+              "replan_requested": false,
+              "task_authority": false,
+              "hazard_active": true,
+              "safe_dwell": 0,
+              "hazard_previous": true
+            },
+            {
+              "uid": 2,
+              "position": [
+                902.3455104375469,
+                3049.9434623612597,
+                5100.0
+              ],
+              "speed": 229.60000000000002,
+              "heading": 0.08800000000000001,
+              "climb_angle": 0.0,
+              "roll": 0.0,
+              "pitch": 0.0,
+              "angle_of_attack": 0.0,
+              "load_factor": 1.0,
+              "energy": 0.8056000000000003,
+              "resource": 0.6759999999999999,
+              "capability": 1.0,
+              "role": "support",
+              "c2_connected": true,
+              "sensor_degraded": false,
+              "id_confidence": 0.95,
+              "alive": true,
+              "last_message_step": 3,
+              "pending_support_since": null,
+              "intervention_count": 0,
+              "mode_age": 4,
+              "dwell_violation": false,
+              "authorization_valid": true,
+              "intent_shared": true,
+              "data_age": 0,
+              "task_progress": 0.14800000000000002,
+              "handover_confirmed": true,
+              "intervention_window": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "source_disagreement": 0.0,
+              "warning_pending": false,
+              "warning_age": 0,
+              "support_requested": false,
+              "assessment_due": true,
+              "last_task_action_step": 3,
+              "replan_requested": false,
+              "task_authority": false,
+              "hazard_active": true,
+              "safe_dwell": 0,
+              "hazard_previous": true
+            }
+          ],
+          "opponent": [
+            7000.0,
+            0.0,
+            5000.0
+          ],
+          "separations": [
+            603.6308295284963,
+            3001.6662039607268,
+            3158.1152174504928
+          ],
+          "coverage": 1.0,
+          "mission_active": true,
+          "task_progress": 0.14800000000000002,
+          "risk_budget": 0.7338000000000001
+        },
+        "truth_violations": [
+          "C03:0",
+          "S02:0",
+          "S03:0-1",
+          "E01"
+        ],
+        "target_violations": [
+          "S02:0",
+          "S03:0-1"
+        ],
+        "s03_deadlines": {
+          "S03:0-1": 4
+        },
+        "pairs": [
+          {
+            "agents": [
+              0,
+              1
+            ],
+            "distance_m": 603.6308295284963,
+            "ttc_s": 1.2722707342046495,
+            "predicted_closest_distance_m": 151.8200140144534,
+            "unsafe_trend": true
+          },
+          {
+            "agents": [
+              0,
+              2
+            ],
+            "distance_m": 3001.6662039607268,
+            "ttc_s": null,
+            "predicted_closest_distance_m": null,
+            "unsafe_trend": false
+          },
+          {
+            "agents": [
+              1,
+              2
+            ],
+            "distance_m": 3158.1152174504928,
+            "ttc_s": 0.6980995758669872,
+            "predicted_closest_distance_m": 3141.803354234961,
+            "unsafe_trend": false
+          }
+        ],
+        "minimum_separation_m": 603.6308295284963,
+        "rule_clear": false,
+        "restored_safe_state": false,
+        "actions": {
+          "0": {
+            "mode": "critical",
+            "turn": 0.1,
+            "climb": 0.0,
+            "acceleration": 0.2,
+            "target": null,
+            "target_kind": "none"
+          },
+          "1": {
+            "mode": "cover",
+            "turn": 0.1,
+            "climb": 0.0,
+            "acceleration": 0.2,
+            "target": null,
+            "target_kind": "none"
+          },
+          "2": {
+            "mode": "support",
+            "turn": 0.1,
+            "climb": 0.0,
+            "acceleration": 0.2,
+            "target": null,
+            "target_kind": "none"
+          }
+        },
+        "reward": 0.6545385369106204
+      }
+    ],
+    "takeovers": {
+      "warning_now": {
+        "state": {
+          "absolute_state_step": 0,
+          "truth": {
+            "step": 0,
+            "aircraft": [
+              {
+                "uid": 0,
+                "position": [
+                  0.0,
+                  0.0,
+                  5000.0
+                ],
+                "speed": 220.0,
+                "heading": 0.0,
+                "climb_angle": 0.0,
+                "roll": 0.0,
+                "pitch": 0.0,
+                "angle_of_attack": 0.0,
+                "load_factor": 1.0,
+                "energy": 0.8,
+                "resource": 0.45,
+                "capability": 1.0,
+                "role": "hold",
+                "c2_connected": true,
+                "sensor_degraded": false,
+                "id_confidence": 0.95,
+                "alive": true,
+                "last_message_step": 0,
+                "pending_support_since": 0,
+                "intervention_count": 0,
+                "mode_age": 0,
+                "dwell_violation": false,
+                "authorization_valid": true,
+                "intent_shared": true,
+                "data_age": 0,
+                "task_progress": 0.1,
+                "handover_confirmed": true,
+                "intervention_window": [],
+                "source_disagreement": 0.0,
+                "warning_pending": false,
+                "warning_age": 0,
+                "support_requested": true,
+                "assessment_due": false,
+                "last_task_action_step": null,
+                "replan_requested": false,
+                "task_authority": true,
+                "hazard_active": false,
+                "safe_dwell": 0,
+                "hazard_previous": false
+              },
+              {
+                "uid": 1,
+                "position": [
+                  2400.0,
+                  0.0,
+                  5000.0
+                ],
+                "speed": 220.0,
+                "heading": 3.141592653589793,
+                "climb_angle": 0.0,
+                "roll": 0.0,
+                "pitch": 0.0,
+                "angle_of_attack": 0.0,
+                "load_factor": 1.0,
+                "energy": 0.8,
+                "resource": 0.9,
+                "capability": 1.0,
+                "role": "hold",
+                "c2_connected": true,
+                "sensor_degraded": false,
+                "id_confidence": 0.95,
+                "alive": true,
+                "last_message_step": 0,
+                "pending_support_since": null,
+                "intervention_count": 0,
+                "mode_age": 0,
+                "dwell_violation": false,
+                "authorization_valid": true,
+                "intent_shared": true,
+                "data_age": 0,
+                "task_progress": 0.1,
+                "handover_confirmed": true,
+                "intervention_window": [],
+                "source_disagreement": 0.0,
+                "warning_pending": false,
+                "warning_age": 0,
+                "support_requested": false,
+                "assessment_due": false,
+                "last_task_action_step": null,
+                "replan_requested": false,
+                "task_authority": false,
+                "hazard_active": false,
+                "safe_dwell": 0,
+                "hazard_previous": false
+              },
+              {
+                "uid": 2,
+                "position": [
+                  0.0,
+                  3000.0,
+                  5100.0
+                ],
+                "speed": 220.0,
+                "heading": 0.0,
+                "climb_angle": 0.0,
+                "roll": 0.0,
+                "pitch": 0.0,
+                "angle_of_attack": 0.0,
+                "load_factor": 1.0,
+                "energy": 0.8,
+                "resource": 0.7,
+                "capability": 1.0,
+                "role": "hold",
+                "c2_connected": true,
+                "sensor_degraded": false,
+                "id_confidence": 0.95,
+                "alive": true,
+                "last_message_step": 0,
+                "pending_support_since": null,
+                "intervention_count": 0,
+                "mode_age": 0,
+                "dwell_violation": false,
+                "authorization_valid": true,
+                "intent_shared": true,
+                "data_age": 0,
+                "task_progress": 0.1,
+                "handover_confirmed": true,
+                "intervention_window": [],
+                "source_disagreement": 0.0,
+                "warning_pending": false,
+                "warning_age": 0,
+                "support_requested": false,
+                "assessment_due": false,
+                "last_task_action_step": null,
+                "replan_requested": false,
+                "task_authority": false,
+                "hazard_active": false,
+                "safe_dwell": 0,
+                "hazard_previous": false
+              }
+            ],
+            "opponent": [
+              7000.0,
+              0.0,
+              5000.0
+            ],
+            "separations": [
+              2400.0,
+              3001.6662039607268,
+              3843.175770115127
+            ],
+            "coverage": 0,
+            "mission_active": true,
+            "task_progress": 0.10000000000000002,
+            "risk_budget": 0.7416666666666667
+          },
+          "truth_violations": [
+            "C02"
+          ],
+          "target_violations": [],
+          "s03_deadlines": {
+            "S03:0-1": 4
+          },
+          "pairs": [
+            {
+              "agents": [
+                0,
+                1
+              ],
+              "distance_m": 2400.0,
+              "ttc_s": 5.454545454545454,
+              "predicted_closest_distance_m": 1.4695761589768238e-13,
+              "unsafe_trend": true
+            },
+            {
+              "agents": [
+                0,
+                2
+              ],
+              "distance_m": 3001.6662039607268,
+              "ttc_s": null,
+              "predicted_closest_distance_m": null,
+              "unsafe_trend": false
+            },
+            {
+              "agents": [
+                1,
+                2
+              ],
+              "distance_m": 3843.175770115127,
+              "ttc_s": 5.454545454545454,
+              "predicted_closest_distance_m": 3001.6662039607268,
+              "unsafe_trend": false
+            }
+          ],
+          "minimum_separation_m": 2400.0,
+          "rule_clear": true,
+          "restored_safe_state": false,
+          "actions": {}
+        },
+        "snapshot_sha256": "867f6ca66af2b561bdf7d23b0913aed7ba6116956f786d3b3ae05787e5d7d8e8"
+      },
+      "warning_plus_1": {
+        "state": {
+          "absolute_state_step": 1,
+          "truth": {
+            "step": 1,
+            "aircraft": [
+              {
+                "uid": 0,
+                "position": [
+                  222.34618137073724,
+                  4.892405323684622,
+                  5000.0
+                ],
+                "speed": 222.4,
+                "heading": 0.022000000000000002,
+                "climb_angle": 0.0,
+                "roll": 0.0,
+                "pitch": 0.0,
+                "angle_of_attack": 0.0,
+                "load_factor": 1.0,
+                "energy": 0.8014000000000001,
+                "resource": 0.444,
+                "capability": 1.0,
+                "role": "critical",
+                "c2_connected": true,
+                "sensor_degraded": false,
+                "id_confidence": 0.95,
+                "alive": true,
+                "last_message_step": 0,
+                "pending_support_since": 0,
+                "intervention_count": 0,
+                "mode_age": 1,
+                "dwell_violation": false,
+                "authorization_valid": true,
+                "intent_shared": true,
+                "data_age": 0,
+                "task_progress": 0.112,
+                "handover_confirmed": true,
+                "intervention_window": [
+                  0
+                ],
+                "source_disagreement": 0.0,
+                "warning_pending": false,
+                "warning_age": 0,
+                "support_requested": true,
+                "assessment_due": true,
+                "last_task_action_step": 0,
+                "replan_requested": false,
+                "task_authority": true,
+                "hazard_active": true,
+                "safe_dwell": 0,
+                "hazard_previous": false
+              },
+              {
+                "uid": 1,
+                "position": [
+                  2177.653818629263,
+                  -4.8924053236845495,
+                  5000.0
+                ],
+                "speed": 222.4,
+                "heading": 3.163592653589793,
+                "climb_angle": 0.0,
+                "roll": 0.0,
+                "pitch": 0.0,
+                "angle_of_attack": 0.0,
+                "load_factor": 1.0,
+                "energy": 0.8014000000000001,
+                "resource": 0.896,
+                "capability": 1.0,
+                "role": "cover",
+                "c2_connected": true,
+                "sensor_degraded": false,
+                "id_confidence": 0.95,
+                "alive": true,
+                "last_message_step": 0,
+                "pending_support_since": null,
+                "intervention_count": 0,
+                "mode_age": 1,
+                "dwell_violation": false,
+                "authorization_valid": true,
+                "intent_shared": true,
+                "data_age": 0,
+                "task_progress": 0.112,
+                "handover_confirmed": true,
+                "intervention_window": [
+                  0
+                ],
+                "source_disagreement": 0.0,
+                "warning_pending": false,
+                "warning_age": 0,
+                "support_requested": false,
+                "assessment_due": false,
+                "last_task_action_step": null,
+                "replan_requested": false,
+                "task_authority": false,
+                "hazard_active": true,
+                "safe_dwell": 0,
+                "hazard_previous": false
+              },
+              {
+                "uid": 2,
+                "position": [
+                  222.34618137073724,
+                  3004.8924053236847,
+                  5100.0
+                ],
+                "speed": 222.4,
+                "heading": 0.022000000000000002,
+                "climb_angle": 0.0,
+                "roll": 0.0,
+                "pitch": 0.0,
+                "angle_of_attack": 0.0,
+                "load_factor": 1.0,
+                "energy": 0.8014000000000001,
+                "resource": 0.694,
+                "capability": 1.0,
+                "role": "support",
+                "c2_connected": true,
+                "sensor_degraded": false,
+                "id_confidence": 0.95,
+                "alive": true,
+                "last_message_step": 0,
+                "pending_support_since": null,
+                "intervention_count": 0,
+                "mode_age": 1,
+                "dwell_violation": false,
+                "authorization_valid": true,
+                "intent_shared": true,
+                "data_age": 0,
+                "task_progress": 0.112,
+                "handover_confirmed": true,
+                "intervention_window": [
+                  0
+                ],
+                "source_disagreement": 0.0,
+                "warning_pending": false,
+                "warning_age": 0,
+                "support_requested": false,
+                "assessment_due": true,
+                "last_task_action_step": 0,
+                "replan_requested": false,
+                "task_authority": false,
+                "hazard_active": true,
+                "safe_dwell": 0,
+                "hazard_previous": false
+              }
+            ],
+            "opponent": [
+              7000.0,
+              0.0,
+              5000.0
+            ],
+            "separations": [
+              1955.332119830522,
+              3001.6662039607268,
+              3590.547668911407
+            ],
+            "coverage": 1.0,
+            "mission_active": true,
+            "task_progress": 0.112,
+            "risk_budget": 0.7397
+          },
+          "truth_violations": [
+            "C03:0",
+            "E01"
+          ],
+          "target_violations": [],
+          "s03_deadlines": {
+            "S03:0-1": 4
+          },
+          "pairs": [
+            {
+              "agents": [
+                0,
+                1
+              ],
+              "distance_m": 1955.332119830522,
+              "ttc_s": 4.394377750506345,
+              "predicted_closest_distance_m": 52.79574090307107,
+              "unsafe_trend": true
+            },
+            {
+              "agents": [
+                0,
+                2
+              ],
+              "distance_m": 3001.6662039607268,
+              "ttc_s": null,
+              "predicted_closest_distance_m": null,
+              "unsafe_trend": false
+            },
+            {
+              "agents": [
+                1,
+                2
+              ],
+              "distance_m": 3590.547668911407,
+              "ttc_s": 4.246008424677121,
+              "predicted_closest_distance_m": 3053.707563286745,
+              "unsafe_trend": false
+            }
+          ],
+          "minimum_separation_m": 1955.332119830522,
+          "rule_clear": true,
+          "restored_safe_state": false,
+          "actions": {
+            "0": {
+              "mode": "critical",
+              "turn": 0.1,
+              "climb": 0.0,
+              "acceleration": 0.2,
+              "target": null,
+              "target_kind": "none"
+            },
+            "1": {
+              "mode": "cover",
+              "turn": 0.1,
+              "climb": 0.0,
+              "acceleration": 0.2,
+              "target": null,
+              "target_kind": "none"
+            },
+            "2": {
+              "mode": "support",
+              "turn": 0.1,
+              "climb": 0.0,
+              "acceleration": 0.2,
+              "target": null,
+              "target_kind": "none"
+            }
+          },
+          "reward": 0.9
+        },
+        "snapshot_sha256": "263af258afd2942971e8c067d66ac224ae2152e805cbcea95178ac96ec4b256e"
+      },
+      "warning_plus_2": {
+        "state": {
+          "absolute_state_step": 2,
+          "truth": {
+            "step": 2,
+            "aircraft": [
+              {
+                "uid": 0,
+                "position": [
+                  446.9286100756376,
+                  14.78041407208011,
+                  5000.0
+                ],
+                "speed": 224.8,
+                "heading": 0.044000000000000004,
+                "climb_angle": 0.0,
+                "roll": 0.0,
+                "pitch": 0.0,
+                "angle_of_attack": 0.0,
+                "load_factor": 1.0,
+                "energy": 0.8028000000000002,
+                "resource": 0.438,
+                "capability": 1.0,
+                "role": "critical",
+                "c2_connected": true,
+                "sensor_degraded": false,
+                "id_confidence": 0.95,
+                "alive": true,
+                "last_message_step": 1,
+                "pending_support_since": 0,
+                "intervention_count": 0,
+                "mode_age": 2,
+                "dwell_violation": false,
+                "authorization_valid": true,
+                "intent_shared": true,
+                "data_age": 0,
+                "task_progress": 0.124,
+                "handover_confirmed": true,
+                "intervention_window": [
+                  0,
+                  0
+                ],
+                "source_disagreement": 0.0,
+                "warning_pending": false,
+                "warning_age": 0,
+                "support_requested": true,
+                "assessment_due": true,
+                "last_task_action_step": 1,
+                "replan_requested": false,
+                "task_authority": true,
+                "hazard_active": true,
+                "safe_dwell": 0,
+                "hazard_previous": true
+              },
+              {
+                "uid": 1,
+                "position": [
+                  1953.0713899243624,
+                  -14.780414072079918,
+                  5000.0
+                ],
+                "speed": 224.8,
+                "heading": 3.1855926535897927,
+                "climb_angle": 0.0,
+                "roll": 0.0,
+                "pitch": 0.0,
+                "angle_of_attack": 0.0,
+                "load_factor": 1.0,
+                "energy": 0.8028000000000002,
+                "resource": 0.892,
+                "capability": 1.0,
+                "role": "cover",
+                "c2_connected": true,
+                "sensor_degraded": false,
+                "id_confidence": 0.95,
+                "alive": true,
+                "last_message_step": 1,
+                "pending_support_since": null,
+                "intervention_count": 0,
+                "mode_age": 2,
+                "dwell_violation": false,
+                "authorization_valid": true,
+                "intent_shared": true,
+                "data_age": 0,
+                "task_progress": 0.124,
+                "handover_confirmed": true,
+                "intervention_window": [
+                  0,
+                  0
+                ],
+                "source_disagreement": 0.0,
+                "warning_pending": false,
+                "warning_age": 0,
+                "support_requested": false,
+                "assessment_due": false,
+                "last_task_action_step": null,
+                "replan_requested": false,
+                "task_authority": false,
+                "hazard_active": true,
+                "safe_dwell": 0,
+                "hazard_previous": true
+              },
+              {
+                "uid": 2,
+                "position": [
+                  446.9286100756376,
+                  3014.78041407208,
+                  5100.0
+                ],
+                "speed": 224.8,
+                "heading": 0.044000000000000004,
+                "climb_angle": 0.0,
+                "roll": 0.0,
+                "pitch": 0.0,
+                "angle_of_attack": 0.0,
+                "load_factor": 1.0,
+                "energy": 0.8028000000000002,
+                "resource": 0.688,
+                "capability": 1.0,
+                "role": "support",
+                "c2_connected": true,
+                "sensor_degraded": false,
+                "id_confidence": 0.95,
+                "alive": true,
+                "last_message_step": 1,
+                "pending_support_since": null,
+                "intervention_count": 0,
+                "mode_age": 2,
+                "dwell_violation": false,
+                "authorization_valid": true,
+                "intent_shared": true,
+                "data_age": 0,
+                "task_progress": 0.124,
+                "handover_confirmed": true,
+                "intervention_window": [
+                  0,
+                  0
+                ],
+                "source_disagreement": 0.0,
+                "warning_pending": false,
+                "warning_age": 0,
+                "support_requested": false,
+                "assessment_due": true,
+                "last_task_action_step": 1,
+                "replan_requested": false,
+                "task_authority": false,
+                "hazard_active": true,
+                "safe_dwell": 0,
+                "hazard_previous": true
+              }
+            ],
+            "opponent": [
+              7000.0,
+              0.0,
+              5000.0
+            ],
+            "separations": [
+              1506.4328447863227,
+              3001.6662039607268,
+              3384.775455582833
+            ],
+            "coverage": 1.0,
+            "mission_active": true,
+            "task_progress": 0.124,
+            "risk_budget": 0.7377333333333335
+          },
+          "truth_violations": [
+            "C03:0",
+            "E01"
+          ],
+          "target_violations": [],
+          "s03_deadlines": {
+            "S03:0-1": 4
+          },
+          "pairs": [
+            {
+              "agents": [
+                0,
+                1
+              ],
+              "distance_m": 1506.4328447863227,
+              "ttc_s": 3.343827428923351,
+              "predicted_closest_distance_m": 95.78111905080263,
+              "unsafe_trend": true
+            },
+            {
+              "agents": [
+                0,
+                2
+              ],
+              "distance_m": 3001.6662039607268,
+              "ttc_s": null,
+              "predicted_closest_distance_m": null,
+              "unsafe_trend": false
+            },
+            {
+              "agents": [
+                1,
+                2
+              ],
+              "distance_m": 3384.775455582833,
+              "ttc_s": 3.0503278467998753,
+              "predicted_closest_distance_m": 3094.493782747234,
+              "unsafe_trend": false
+            }
+          ],
+          "minimum_separation_m": 1506.4328447863227,
+          "rule_clear": true,
+          "restored_safe_state": false,
+          "actions": {
+            "0": {
+              "mode": "critical",
+              "turn": 0.1,
+              "climb": 0.0,
+              "acceleration": 0.2,
+              "target": null,
+              "target_kind": "none"
+            },
+            "1": {
+              "mode": "cover",
+              "turn": 0.1,
+              "climb": 0.0,
+              "acceleration": 0.2,
+              "target": null,
+              "target_kind": "none"
+            },
+            "2": {
+              "mode": "support",
+              "turn": 0.1,
+              "climb": 0.0,
+              "acceleration": 0.2,
+              "target": null,
+              "target_kind": "none"
+            }
+          },
+          "reward": 0.9
+        },
+        "snapshot_sha256": "79ca71e208d71c65ce0a0b08f2556f6591fbcba30887edd593cb20bd5e36b963"
+      },
+      "first_S02_violation": {
+        "state": {
+          "absolute_state_step": 4,
+          "truth": {
+            "step": 4,
+            "aircraft": [
+              {
+                "uid": 0,
+                "position": [
+                  902.3455104375469,
+                  49.94346236125969,
+                  5000.0
+                ],
+                "speed": 229.60000000000002,
+                "heading": 0.08800000000000001,
+                "climb_angle": 0.0,
+                "roll": 0.0,
+                "pitch": 0.0,
+                "angle_of_attack": 0.0,
+                "load_factor": 1.0,
+                "energy": 0.8056000000000003,
+                "resource": 0.426,
+                "capability": 1.0,
+                "role": "critical",
+                "c2_connected": true,
+                "sensor_degraded": false,
+                "id_confidence": 0.95,
+                "alive": true,
+                "last_message_step": 3,
+                "pending_support_since": 0,
+                "intervention_count": 0,
+                "mode_age": 4,
+                "dwell_violation": false,
+                "authorization_valid": true,
+                "intent_shared": true,
+                "data_age": 0,
+                "task_progress": 0.14800000000000002,
+                "handover_confirmed": true,
+                "intervention_window": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "source_disagreement": 0.0,
+                "warning_pending": false,
+                "warning_age": 0,
+                "support_requested": true,
+                "assessment_due": true,
+                "last_task_action_step": 3,
+                "replan_requested": false,
+                "task_authority": true,
+                "hazard_active": true,
+                "safe_dwell": 0,
+                "hazard_previous": true
+              },
+              {
+                "uid": 1,
+                "position": [
+                  1497.6544895624534,
+                  -49.943462361259115,
+                  5000.0
+                ],
+                "speed": 229.60000000000002,
+                "heading": 3.2295926535897923,
+                "climb_angle": 0.0,
+                "roll": 0.0,
+                "pitch": 0.0,
+                "angle_of_attack": 0.0,
+                "load_factor": 1.0,
+                "energy": 0.8056000000000003,
+                "resource": 0.884,
+                "capability": 1.0,
+                "role": "cover",
+                "c2_connected": true,
+                "sensor_degraded": false,
+                "id_confidence": 0.95,
+                "alive": true,
+                "last_message_step": 3,
+                "pending_support_since": null,
+                "intervention_count": 0,
+                "mode_age": 4,
+                "dwell_violation": false,
+                "authorization_valid": true,
+                "intent_shared": true,
+                "data_age": 0,
+                "task_progress": 0.14800000000000002,
+                "handover_confirmed": true,
+                "intervention_window": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "source_disagreement": 0.0,
+                "warning_pending": false,
+                "warning_age": 0,
+                "support_requested": false,
+                "assessment_due": false,
+                "last_task_action_step": null,
+                "replan_requested": false,
+                "task_authority": false,
+                "hazard_active": true,
+                "safe_dwell": 0,
+                "hazard_previous": true
+              },
+              {
+                "uid": 2,
+                "position": [
+                  902.3455104375469,
+                  3049.9434623612597,
+                  5100.0
+                ],
+                "speed": 229.60000000000002,
+                "heading": 0.08800000000000001,
+                "climb_angle": 0.0,
+                "roll": 0.0,
+                "pitch": 0.0,
+                "angle_of_attack": 0.0,
+                "load_factor": 1.0,
+                "energy": 0.8056000000000003,
+                "resource": 0.6759999999999999,
+                "capability": 1.0,
+                "role": "support",
+                "c2_connected": true,
+                "sensor_degraded": false,
+                "id_confidence": 0.95,
+                "alive": true,
+                "last_message_step": 3,
+                "pending_support_since": null,
+                "intervention_count": 0,
+                "mode_age": 4,
+                "dwell_violation": false,
+                "authorization_valid": true,
+                "intent_shared": true,
+                "data_age": 0,
+                "task_progress": 0.14800000000000002,
+                "handover_confirmed": true,
+                "intervention_window": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "source_disagreement": 0.0,
+                "warning_pending": false,
+                "warning_age": 0,
+                "support_requested": false,
+                "assessment_due": true,
+                "last_task_action_step": 3,
+                "replan_requested": false,
+                "task_authority": false,
+                "hazard_active": true,
+                "safe_dwell": 0,
+                "hazard_previous": true
+              }
+            ],
+            "opponent": [
+              7000.0,
+              0.0,
+              5000.0
+            ],
+            "separations": [
+              603.6308295284963,
+              3001.6662039607268,
+              3158.1152174504928
+            ],
+            "coverage": 1.0,
+            "mission_active": true,
+            "task_progress": 0.14800000000000002,
+            "risk_budget": 0.7338000000000001
+          },
+          "truth_violations": [
+            "C03:0",
+            "S02:0",
+            "S03:0-1",
+            "E01"
+          ],
+          "target_violations": [
+            "S02:0",
+            "S03:0-1"
+          ],
+          "s03_deadlines": {
+            "S03:0-1": 4
+          },
+          "pairs": [
+            {
+              "agents": [
+                0,
+                1
+              ],
+              "distance_m": 603.6308295284963,
+              "ttc_s": 1.2722707342046495,
+              "predicted_closest_distance_m": 151.8200140144534,
+              "unsafe_trend": true
+            },
+            {
+              "agents": [
+                0,
+                2
+              ],
+              "distance_m": 3001.6662039607268,
+              "ttc_s": null,
+              "predicted_closest_distance_m": null,
+              "unsafe_trend": false
+            },
+            {
+              "agents": [
+                1,
+                2
+              ],
+              "distance_m": 3158.1152174504928,
+              "ttc_s": 0.6980995758669872,
+              "predicted_closest_distance_m": 3141.803354234961,
+              "unsafe_trend": false
+            }
+          ],
+          "minimum_separation_m": 603.6308295284963,
+          "rule_clear": false,
+          "restored_safe_state": false,
+          "actions": {
+            "0": {
+              "mode": "critical",
+              "turn": 0.1,
+              "climb": 0.0,
+              "acceleration": 0.2,
+              "target": null,
+              "target_kind": "none"
+            },
+            "1": {
+              "mode": "cover",
+              "turn": 0.1,
+              "climb": 0.0,
+              "acceleration": 0.2,
+              "target": null,
+              "target_kind": "none"
+            },
+            "2": {
+              "mode": "support",
+              "turn": 0.1,
+              "climb": 0.0,
+              "acceleration": 0.2,
+              "target": null,
+              "target_kind": "none"
+            }
+          },
+          "reward": 0.6545385369106204
+        },
+        "snapshot_sha256": "2eeb249663887b32803e7e8cf06fda6e0739ad4d4add882ed0dd4da04b40a7dd"
+      }
+    },
+    "seed": 11,
+    "distance": 2400.0,
+    "episode": 0,
+    "scenario": {
+      "positions": [
+        [
+          0.0,
+          0.0,
+          5000.0
+        ],
+        [
+          2400.0,
+          0.0,
+          5000.0
+        ],
+        [
+          0.0,
+          3000.0,
+          5100.0
+        ]
+      ],
+      "resources": [
+        0.45,
+        0.9,
+        0.7
+      ],
+      "support_requested": {
+        "0": true
+      },
+      "task_progress": {
+        "0": 0.1,
+        "1": 0.1,
+        "2": 0.1
+      }
+    },
+    "environment_seed": 11
+  }
+]

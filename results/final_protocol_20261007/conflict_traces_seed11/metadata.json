@@ -1,0 +1,28 @@
+{
+  "seeds": [
+    11
+  ],
+  "methods": [
+    "proposed",
+    "mappo",
+    "happo",
+    "hatrpo",
+    "macpo",
+    "mappo_lagrangian",
+    "mat"
+  ],
+  "cases": [
+    "support_separation",
+    "coverage_resource",
+    "deadline_information",
+    "dual_support",
+    "mission_recovery",
+    "communication_intent",
+    "capability_dwell",
+    "risk_continuity"
+  ],
+  "horizon": 30,
+  "aircraft": 3,
+  "shared_qp": true,
+  "source": "rebuilt trained checkpoints; per-step observations, actions, belief reports, graph events and truth outcomes"
+}

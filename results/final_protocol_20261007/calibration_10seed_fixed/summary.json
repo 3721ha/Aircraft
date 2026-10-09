@@ -1,0 +1,1091 @@
+{
+  "metadata": {
+    "train_seeds": [
+      11,
+      22,
+      33,
+      44,
+      55,
+      66
+    ],
+    "test_seeds": [
+      77,
+      88,
+      99,
+      111
+    ],
+    "episodes": 40,
+    "horizon": 30,
+    "prediction_stage": "post_filter_executed_action",
+    "checkpoint_root": "results\\final_protocol_20261007\\proposed_10seed"
+  },
+  "train_raw": {
+    "count": 7200,
+    "brier": 0.019601633666614278,
+    "mean_predicted": 0.02787859070190613,
+    "empirical_rate": 0.009583333333333333,
+    "ece": 0.019626645525630572,
+    "bins": [
+      {
+        "lower": 0.0,
+        "upper": 0.1,
+        "count": 6990,
+        "mean_predicted": 0.0006603445075825271,
+        "empirical_rate": 0.0010014306151645207
+      },
+      {
+        "lower": 0.1,
+        "upper": 0.2,
+        "count": 4,
+        "mean_predicted": 0.14779863164753493,
+        "empirical_rate": 0.75
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.3,
+        "count": 4,
+        "mean_predicted": 0.26280044187700435,
+        "empirical_rate": 0.0
+      },
+      {
+        "lower": 0.3,
+        "upper": 0.4,
+        "count": 4,
+        "mean_predicted": 0.330697675501772,
+        "empirical_rate": 0.0
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.5,
+        "count": 3,
+        "mean_predicted": 0.4409003148473177,
+        "empirical_rate": 0.0
+      },
+      {
+        "lower": 0.5,
+        "upper": 0.6,
+        "count": 0,
+        "mean_predicted": 0.0,
+        "empirical_rate": 0.0
+      },
+      {
+        "lower": 0.6,
+        "upper": 0.7,
+        "count": 5,
+        "mean_predicted": 0.6487549136354286,
+        "empirical_rate": 0.0
+      },
+      {
+        "lower": 0.7,
+        "upper": 0.8,
+        "count": 4,
+        "mean_predicted": 0.7715815999747447,
+        "empirical_rate": 0.0
+      },
+      {
+        "lower": 0.8,
+        "upper": 0.9,
+        "count": 2,
+        "mean_predicted": 0.8492182827078353,
+        "empirical_rate": 0.0
+      },
+      {
+        "lower": 0.9,
+        "upper": 1.0,
+        "count": 184,
+        "mean_predicted": 0.9988783666933874,
+        "empirical_rate": 0.32065217391304346
+      }
+    ]
+  },
+  "test_raw": {
+    "count": 4800,
+    "brier": 0.015736468267057484,
+    "mean_predicted": 0.02589730285959174,
+    "empirical_rate": 0.009583333333333333,
+    "ece": 0.016313969526258403,
+    "bins": [
+      {
+        "lower": 0.0,
+        "upper": 0.1,
+        "count": 4675,
+        "mean_predicted": 0.0015970848608891236,
+        "empirical_rate": 0.000855614973262032
+      },
+      {
+        "lower": 0.1,
+        "upper": 0.2,
+        "count": 1,
+        "mean_predicted": 0.131329860419862,
+        "empirical_rate": 0.0
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.3,
+        "count": 3,
+        "mean_predicted": 0.24858869120983776,
+        "empirical_rate": 0.0
+      },
+      {
+        "lower": 0.3,
+        "upper": 0.4,
+        "count": 3,
+        "mean_predicted": 0.33928185615613016,
+        "empirical_rate": 0.0
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.5,
+        "count": 1,
+        "mean_predicted": 0.41930772811318073,
+        "empirical_rate": 0.0
+      },
+      {
+        "lower": 0.5,
+        "upper": 0.6,
+        "count": 3,
+        "mean_predicted": 0.5739553401167543,
+        "empirical_rate": 0.0
+      },
+      {
+        "lower": 0.6,
+        "upper": 0.7,
+        "count": 1,
+        "mean_predicted": 0.6467446583200758,
+        "empirical_rate": 0.0
+      },
+      {
+        "lower": 0.7,
+        "upper": 0.8,
+        "count": 1,
+        "mean_predicted": 0.7225924828483005,
+        "empirical_rate": 0.0
+      },
+      {
+        "lower": 0.8,
+        "upper": 0.9,
+        "count": 3,
+        "mean_predicted": 0.876185265924248,
+        "empirical_rate": 0.0
+      },
+      {
+        "lower": 0.9,
+        "upper": 1.0,
+        "count": 109,
+        "mean_predicted": 0.9982263652427646,
+        "empirical_rate": 0.3853211009174312
+      }
+    ]
+  },
+  "test_calibrated": {
+    "count": 4800,
+    "brier": 0.004255863675796793,
+    "mean_predicted": 0.009985255032921487,
+    "empirical_rate": 0.009583333333333333,
+    "ece": 0.0009019216995881546,
+    "bins": [
+      {
+        "lower": 0.0,
+        "upper": 0.1,
+        "count": 4728,
+        "mean_predicted": 0.0011384667003838294,
+        "empirical_rate": 0.0008460236886632825
+      },
+      {
+        "lower": 0.1,
+        "upper": 0.2,
+        "count": 0,
+        "mean_predicted": 0.0,
+        "empirical_rate": 0.0
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.3,
+        "count": 11,
+        "mean_predicted": 0.2545454545454545,
+        "empirical_rate": 0.36363636363636365
+      },
+      {
+        "lower": 0.3,
+        "upper": 0.4,
+        "count": 1,
+        "mean_predicted": 0.3333333333333333,
+        "empirical_rate": 0.0
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.5,
+        "count": 6,
+        "mean_predicted": 0.4148148148148148,
+        "empirical_rate": 0.3333333333333333
+      },
+      {
+        "lower": 0.5,
+        "upper": 0.6,
+        "count": 0,
+        "mean_predicted": 0.0,
+        "empirical_rate": 0.0
+      },
+      {
+        "lower": 0.6,
+        "upper": 0.7,
+        "count": 53,
+        "mean_predicted": 0.6832084087188766,
+        "empirical_rate": 0.6792452830188679
+      },
+      {
+        "lower": 0.7,
+        "upper": 0.8,
+        "count": 1,
+        "mean_predicted": 0.7142857142857143,
+        "empirical_rate": 0.0
+      },
+      {
+        "lower": 0.8,
+        "upper": 0.9,
+        "count": 0,
+        "mean_predicted": 0.0,
+        "empirical_rate": 0.0
+      },
+      {
+        "lower": 0.9,
+        "upper": 1.0,
+        "count": 0,
+        "mean_predicted": 0.0,
+        "empirical_rate": 0.0
+      }
+    ]
+  },
+  "rule_test_raw": {
+    "F06": {
+      "count": 4800,
+      "brier": 0.0,
+      "mean_predicted": 0.0,
+      "empirical_rate": 0.0,
+      "ece": 0.0,
+      "bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 4800,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        }
+      ]
+    },
+    "I01": {
+      "count": 442,
+      "brier": 0.0,
+      "mean_predicted": 0.0,
+      "empirical_rate": 0.0,
+      "ece": 0.0,
+      "bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 442,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        }
+      ]
+    },
+    "I02": {
+      "count": 442,
+      "brier": 0.00019136968390006645,
+      "mean_predicted": 0.0066121535486840565,
+      "empirical_rate": 0.0,
+      "ece": 0.0066121535486840565,
+      "bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 442,
+          "mean_predicted": 0.0066121535486840565,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        }
+      ]
+    },
+    "I03": {
+      "count": 442,
+      "brier": 0.0,
+      "mean_predicted": 0.0,
+      "empirical_rate": 0.0,
+      "ece": 0.0,
+      "bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 442,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        }
+      ]
+    },
+    "S01": {
+      "count": 4800,
+      "brier": 1.8621758810875625e-05,
+      "mean_predicted": 0.0008524233185523755,
+      "empirical_rate": 0.0,
+      "ece": 0.0008524233185523755,
+      "bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 4800,
+          "mean_predicted": 0.0008524233185523755,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        }
+      ]
+    },
+    "S02": {
+      "count": 4800,
+      "brier": 0.005065760841894053,
+      "mean_predicted": 0.01261550671057922,
+      "empirical_rate": 0.009583333333333333,
+      "ece": 0.005009486506180572,
+      "bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 4728,
+          "mean_predicted": 0.00010050523024774132,
+          "empirical_rate": 0.0008460236886632825
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 1,
+          "mean_predicted": 0.131329860419862,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 4,
+          "mean_predicted": 0.2391976274717418,
+          "empirical_rate": 0.25
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 3,
+          "mean_predicted": 0.33928185615613016,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 4,
+          "mean_predicted": 0.4556173130146177,
+          "empirical_rate": 0.75
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 5,
+          "mean_predicted": 0.5636798061532073,
+          "empirical_rate": 0.4
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 1,
+          "mean_predicted": 0.6467446583200758,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 2,
+          "mean_predicted": 0.7524470435539385,
+          "empirical_rate": 0.5
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 4,
+          "mean_predicted": 0.869516346476059,
+          "empirical_rate": 0.25
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 48,
+          "mean_predicted": 0.9938063568591048,
+          "empirical_rate": 0.7083333333333334
+        }
+      ]
+    },
+    "S03": {
+      "count": 4800,
+      "brier": 0.00625,
+      "mean_predicted": 0.00625,
+      "empirical_rate": 0.0,
+      "ece": 0.00625,
+      "bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 4770,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 30,
+          "mean_predicted": 1.0,
+          "empirical_rate": 0.0
+        }
+      ]
+    },
+    "S04": {
+      "count": 4800,
+      "brier": 0.0,
+      "mean_predicted": 0.0,
+      "empirical_rate": 0.0,
+      "ece": 0.0,
+      "bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 4800,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        }
+      ]
+    },
+    "S05": {
+      "count": 4800,
+      "brier": 0.011041666666666667,
+      "mean_predicted": 0.011041666666666667,
+      "empirical_rate": 0.0,
+      "ece": 0.011041666666666667,
+      "bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "count": 4747,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "count": 0,
+          "mean_predicted": 0.0,
+          "empirical_rate": 0.0
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "count": 53,
+          "mean_predicted": 1.0,
+          "empirical_rate": 0.0
+        }
+      ]
+    }
+  },
+  "rule_test_calibrated": {
+    "count": 30126,
+    "brier": 0.0006787099338951517,
+    "mean_predicted": 0.0017870583709242765,
+    "empirical_rate": 0.0015269202682068645,
+    "ece": 0.0003398035080151615,
+    "bins": [
+      {
+        "lower": 0.0,
+        "upper": 0.1,
+        "count": 30054,
+        "mean_predicted": 0.0003756693579509004,
+        "empirical_rate": 0.0001330937645571305
+      },
+      {
+        "lower": 0.1,
+        "upper": 0.2,
+        "count": 0,
+        "mean_predicted": 0.0,
+        "empirical_rate": 0.0
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.3,
+        "count": 11,
+        "mean_predicted": 0.2545454545454545,
+        "empirical_rate": 0.36363636363636365
+      },
+      {
+        "lower": 0.3,
+        "upper": 0.4,
+        "count": 1,
+        "mean_predicted": 0.3333333333333333,
+        "empirical_rate": 0.0
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.5,
+        "count": 6,
+        "mean_predicted": 0.4148148148148148,
+        "empirical_rate": 0.3333333333333333
+      },
+      {
+        "lower": 0.5,
+        "upper": 0.6,
+        "count": 0,
+        "mean_predicted": 0.0,
+        "empirical_rate": 0.0
+      },
+      {
+        "lower": 0.6,
+        "upper": 0.7,
+        "count": 53,
+        "mean_predicted": 0.6832084087188766,
+        "empirical_rate": 0.6792452830188679
+      },
+      {
+        "lower": 0.7,
+        "upper": 0.8,
+        "count": 1,
+        "mean_predicted": 0.7142857142857143,
+        "empirical_rate": 0.0
+      },
+      {
+        "lower": 0.8,
+        "upper": 0.9,
+        "count": 0,
+        "mean_predicted": 0.0,
+        "empirical_rate": 0.0
+      },
+      {
+        "lower": 0.9,
+        "upper": 1.0,
+        "count": 0,
+        "mean_predicted": 0.0,
+        "empirical_rate": 0.0
+      }
+    ]
+  },
+  "calibrator_mapping": {
+    "S05": {
+      "0": 0.0001408649105507818,
+      "9": 0.009523809523809525
+    },
+    "S04": {
+      "0": 0.00013885031935573453
+    },
+    "I01": {
+      "0": 0.0015873015873015873
+    },
+    "I02": {
+      "0": 0.0015873015873015873
+    },
+    "I03": {
+      "0": 0.0015873015873015873
+    },
+    "F06": {
+      "0": 0.00013885031935573453
+    },
+    "S01": {
+      "0": 0.00013885031935573453
+    },
+    "S02": {
+      "0": 0.0009866102889358704,
+      "9": 0.684931506849315,
+      "8": 0.4,
+      "3": 0.2857142857142857,
+      "7": 0.4444444444444444,
+      "2": 0.2857142857142857,
+      "1": 0.7142857142857143,
+      "6": 0.3333333333333333,
+      "5": 0.6666666666666666,
+      "4": 0.2
+    },
+    "S03": {
+      "0": 0.00013966480446927373,
+      "9": 0.022727272727272728
+    }
+  }
+}

@@ -1,0 +1,3612 @@
+[
+  {
+    "policy": "proposed_belief_stl_conflict_qp",
+    "episodes": 40,
+    "mean_reward": 28.62032,
+    "joint_satisfaction_rate": 0.925,
+    "mean_intervention_rate": 1.255,
+    "mean_intervention_distance": 1.08816,
+    "violation_rate": {
+      "C02": 0.025,
+      "C05": 0.075,
+      "E01": 0.425,
+      "E02": 1.0,
+      "E06": 0.1,
+      "S02": 0.075
+    },
+    "mean_first_violation_step": {
+      "C02": 0.0,
+      "C05": 17.667,
+      "E01": 5.059,
+      "E02": 1.0,
+      "E06": 24.5,
+      "S02": 1.333
+    },
+    "initial_infeasible_rate": 0.05,
+    "online_hard_violation_rate": 0.66583,
+    "post_shield_hard_violation_rate": 0.0325,
+    "post_truth_hard_violation_rate": 0.00917,
+    "qp_infeasible_rate": 0.01667,
+    "conflict_rate": 0.00583,
+    "replan_trigger_rate": 0.66833,
+    "mean_belief_risk": 0.03088,
+    "mean_pre_filter_belief_risk": 0.60595,
+    "mean_post_filter_belief_risk": 0.03088,
+    "mean_actor_time_ms": 5.10439,
+    "mean_online_time_ms": 6.93965,
+    "tail_violation_rate": 1.0,
+    "risk_calibration_brier": 0.02192,
+    "initially_feasible_episodes": 38,
+    "conditional_joint_satisfaction_rate": 0.97368,
+    "rule_conflict_event_rate": 5.43417,
+    "rule_rule_conflict_step_rate": 0.225,
+    "rule_rule_resolution_rate": 0.98124,
+    "mean_conflict_residual": 0.62386,
+    "mean_solver_agents": 3.0,
+    "mean_solver_components": 1.0,
+    "max_solver_component_size": 3,
+    "cross_component_violation_rate": 0.0,
+    "cross_component_repair_rate": 0.0,
+    "seed": 11,
+    "warm_start": {
+      "behavior_clone_loss": 0.007324483245611191,
+      "mode_accuracy": 1.0,
+      "samples": 3
+    },
+    "selected_update": 95,
+    "validation": {
+      "policy": "proposed_belief_stl_conflict_qp_validation",
+      "episodes": 12,
+      "mean_reward": 25.53429,
+      "joint_satisfaction_rate": 0.33333,
+      "mean_intervention_rate": 0.0,
+      "mean_intervention_distance": 0.0,
+      "violation_rate": {
+        "C03": 0.08333,
+        "C04": 0.16667,
+        "C05": 0.5,
+        "E01": 1.0,
+        "E02": 0.33333,
+        "E06": 0.25,
+        "F01": 0.41667,
+        "F03": 0.25,
+        "F04": 0.41667,
+        "I01": 0.08333,
+        "I02": 0.58333,
+        "I03": 0.41667,
+        "I04": 0.08333,
+        "I06": 0.08333,
+        "M03": 0.83333,
+        "M06": 0.25,
+        "S02": 0.25
+      },
+      "mean_first_violation_step": {
+        "C03": 8.0,
+        "C04": 12.0,
+        "C05": 6.167,
+        "E01": 0.0,
+        "E02": 22.75,
+        "E06": 19.667,
+        "F01": 10.2,
+        "F03": 19.667,
+        "F04": 11.6,
+        "I01": 0.0,
+        "I02": 0.0,
+        "I03": 3.0,
+        "I04": 0.0,
+        "I06": 17.0,
+        "M03": 20.7,
+        "M06": 19.667,
+        "S02": 1.333
+      },
+      "initial_infeasible_rate": 0.16667,
+      "online_hard_violation_rate": 0.0,
+      "post_shield_hard_violation_rate": 0.0,
+      "post_truth_hard_violation_rate": 0.6,
+      "qp_infeasible_rate": 0.0,
+      "conflict_rate": 0.0,
+      "replan_trigger_rate": 0.0,
+      "mean_belief_risk": 0.0,
+      "mean_pre_filter_belief_risk": 0.0,
+      "mean_post_filter_belief_risk": 0.0,
+      "mean_actor_time_ms": 4.84992,
+      "mean_online_time_ms": 0.0,
+      "tail_violation_rate": 1.0,
+      "risk_calibration_brier": 0.0,
+      "initially_feasible_episodes": 10,
+      "conditional_joint_satisfaction_rate": 0.4,
+      "rule_conflict_event_rate": 0.0,
+      "rule_rule_conflict_step_rate": 0.0,
+      "rule_rule_resolution_rate": 0.0,
+      "mean_conflict_residual": 0.0,
+      "mean_solver_agents": 0.0,
+      "mean_solver_components": 0.0,
+      "max_solver_component_size": 0,
+      "cross_component_violation_rate": 0.0,
+      "cross_component_repair_rate": 0.0
+    },
+    "validation_trace": [
+      {
+        "update": 0,
+        "score": [
+          0.4,
+          -0.6611111111111111,
+          25.856399998213547
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6611111111111111,
+        "mean_reward": 25.856399998213547
+      },
+      {
+        "update": 5,
+        "score": [
+          0.4,
+          -0.6611111111111111,
+          25.89833209884782
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6611111111111111,
+        "mean_reward": 25.89833209884782
+      },
+      {
+        "update": 10,
+        "score": [
+          0.4,
+          -0.6611111111111111,
+          26.014500063618815
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6611111111111111,
+        "mean_reward": 26.014500063618815
+      },
+      {
+        "update": 15,
+        "score": [
+          0.4,
+          -0.6611111111111111,
+          26.011474380200443
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6611111111111111,
+        "mean_reward": 26.011474380200443
+      },
+      {
+        "update": 20,
+        "score": [
+          0.4,
+          -0.6611111111111111,
+          26.0059966908661
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6611111111111111,
+        "mean_reward": 26.0059966908661
+      },
+      {
+        "update": 25,
+        "score": [
+          0.4,
+          -0.6638888888888889,
+          25.975190544583693
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6638888888888889,
+        "mean_reward": 25.975190544583693
+      },
+      {
+        "update": 30,
+        "score": [
+          0.4,
+          -0.6666666666666666,
+          25.928883419657534
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6666666666666666,
+        "mean_reward": 25.928883419657534
+      },
+      {
+        "update": 35,
+        "score": [
+          0.4,
+          -0.6638888888888889,
+          25.92629570563318
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6638888888888889,
+        "mean_reward": 25.92629570563318
+      },
+      {
+        "update": 40,
+        "score": [
+          0.4,
+          -0.6666666666666666,
+          25.778010022181665
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6666666666666666,
+        "mean_reward": 25.778010022181665
+      },
+      {
+        "update": 45,
+        "score": [
+          0.4,
+          -0.6666666666666666,
+          25.56897533366868
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6666666666666666,
+        "mean_reward": 25.56897533366868
+      },
+      {
+        "update": 50,
+        "score": [
+          0.4,
+          -0.6666666666666666,
+          25.514587546779335
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6666666666666666,
+        "mean_reward": 25.514587546779335
+      },
+      {
+        "update": 55,
+        "score": [
+          0.4,
+          -0.6666666666666666,
+          25.466461274966672
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6666666666666666,
+        "mean_reward": 25.466461274966672
+      },
+      {
+        "update": 60,
+        "score": [
+          0.4,
+          -0.6388888888888888,
+          25.506161777584946
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6388888888888888,
+        "mean_reward": 25.506161777584946
+      },
+      {
+        "update": 65,
+        "score": [
+          0.4,
+          -0.6333333333333333,
+          25.51111429724979
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6333333333333333,
+        "mean_reward": 25.51111429724979
+      },
+      {
+        "update": 70,
+        "score": [
+          0.4,
+          -0.625,
+          25.518517908631836
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.625,
+        "mean_reward": 25.518517908631836
+      },
+      {
+        "update": 75,
+        "score": [
+          0.4,
+          -0.6222222222222222,
+          25.516015774238113
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6222222222222222,
+        "mean_reward": 25.516015774238113
+      },
+      {
+        "update": 80,
+        "score": [
+          0.4,
+          -0.6194444444444445,
+          25.497416476289033
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6194444444444445,
+        "mean_reward": 25.497416476289033
+      },
+      {
+        "update": 85,
+        "score": [
+          0.4,
+          -0.6083333333333333,
+          25.527939675413705
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6083333333333333,
+        "mean_reward": 25.527939675413705
+      },
+      {
+        "update": 90,
+        "score": [
+          0.4,
+          -0.6083333333333333,
+          25.513485789495704
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6083333333333333,
+        "mean_reward": 25.513485789495704
+      },
+      {
+        "update": 95,
+        "score": [
+          0.4,
+          -0.6,
+          25.534290888047494
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6,
+        "mean_reward": 25.534290888047494
+      },
+      {
+        "update": 100,
+        "score": [
+          0.4,
+          -0.6,
+          25.244543147134237
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6,
+        "mean_reward": 25.244543147134237
+      }
+    ]
+  },
+  {
+    "policy": "proposed_belief_stl_conflict_qp",
+    "episodes": 40,
+    "mean_reward": 28.89648,
+    "joint_satisfaction_rate": 0.925,
+    "mean_intervention_rate": 1.26167,
+    "mean_intervention_distance": 1.02593,
+    "violation_rate": {
+      "C02": 0.025,
+      "C05": 0.025,
+      "E01": 0.425,
+      "E02": 1.0,
+      "E06": 0.1,
+      "S02": 0.075
+    },
+    "mean_first_violation_step": {
+      "C02": 0.0,
+      "C05": 29.0,
+      "E01": 4.471,
+      "E02": 1.0,
+      "E06": 24.5,
+      "S02": 1.333
+    },
+    "initial_infeasible_rate": 0.05,
+    "online_hard_violation_rate": 0.66,
+    "post_shield_hard_violation_rate": 0.0275,
+    "post_truth_hard_violation_rate": 0.01,
+    "qp_infeasible_rate": 0.015,
+    "conflict_rate": 0.00417,
+    "replan_trigger_rate": 0.67167,
+    "mean_belief_risk": 0.02611,
+    "mean_pre_filter_belief_risk": 0.59773,
+    "mean_post_filter_belief_risk": 0.02611,
+    "mean_actor_time_ms": 4.89309,
+    "mean_online_time_ms": 6.38773,
+    "tail_violation_rate": 1.0,
+    "risk_calibration_brier": 0.01809,
+    "initially_feasible_episodes": 38,
+    "conditional_joint_satisfaction_rate": 0.97368,
+    "rule_conflict_event_rate": 5.33583,
+    "rule_rule_conflict_step_rate": 0.19417,
+    "rule_rule_resolution_rate": 0.97849,
+    "mean_conflict_residual": 0.57977,
+    "mean_solver_agents": 3.0,
+    "mean_solver_components": 1.0,
+    "max_solver_component_size": 3,
+    "cross_component_violation_rate": 0.0,
+    "cross_component_repair_rate": 0.0,
+    "seed": 22,
+    "warm_start": {
+      "behavior_clone_loss": 0.007018878124654293,
+      "mode_accuracy": 1.0,
+      "samples": 3
+    },
+    "selected_update": 80,
+    "validation": {
+      "policy": "proposed_belief_stl_conflict_qp_validation",
+      "episodes": 12,
+      "mean_reward": 26.41446,
+      "joint_satisfaction_rate": 0.33333,
+      "mean_intervention_rate": 0.0,
+      "mean_intervention_distance": 0.0,
+      "violation_rate": {
+        "C03": 0.08333,
+        "C04": 0.33333,
+        "C05": 0.33333,
+        "E01": 1.0,
+        "E02": 0.5,
+        "E06": 0.25,
+        "F01": 0.33333,
+        "F03": 0.25,
+        "F04": 0.41667,
+        "I01": 0.08333,
+        "I02": 0.58333,
+        "I03": 0.41667,
+        "I04": 0.08333,
+        "I06": 0.08333,
+        "M03": 0.75,
+        "M06": 0.25,
+        "S02": 0.25
+      },
+      "mean_first_violation_step": {
+        "C03": 8.0,
+        "C04": 13.0,
+        "C05": 2.5,
+        "E01": 0.0,
+        "E02": 20.5,
+        "E06": 19.333,
+        "F01": 6.0,
+        "F03": 19.333,
+        "F04": 11.6,
+        "I01": 0.0,
+        "I02": 0.0,
+        "I03": 3.0,
+        "I04": 0.0,
+        "I06": 17.0,
+        "M03": 22.444,
+        "M06": 19.333,
+        "S02": 1.333
+      },
+      "initial_infeasible_rate": 0.16667,
+      "online_hard_violation_rate": 0.0,
+      "post_shield_hard_violation_rate": 0.0,
+      "post_truth_hard_violation_rate": 0.55556,
+      "qp_infeasible_rate": 0.0,
+      "conflict_rate": 0.0,
+      "replan_trigger_rate": 0.0,
+      "mean_belief_risk": 0.0,
+      "mean_pre_filter_belief_risk": 0.0,
+      "mean_post_filter_belief_risk": 0.0,
+      "mean_actor_time_ms": 4.70761,
+      "mean_online_time_ms": 0.0,
+      "tail_violation_rate": 1.0,
+      "risk_calibration_brier": 0.0,
+      "initially_feasible_episodes": 10,
+      "conditional_joint_satisfaction_rate": 0.4,
+      "rule_conflict_event_rate": 0.0,
+      "rule_rule_conflict_step_rate": 0.0,
+      "rule_rule_resolution_rate": 0.0,
+      "mean_conflict_residual": 0.0,
+      "mean_solver_agents": 0.0,
+      "mean_solver_components": 0.0,
+      "max_solver_component_size": 0,
+      "cross_component_violation_rate": 0.0,
+      "cross_component_repair_rate": 0.0
+    },
+    "validation_trace": [
+      {
+        "update": 0,
+        "score": [
+          0.4,
+          -0.5833333333333334,
+          22.686886347782234
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5833333333333334,
+        "mean_reward": 22.686886347782234
+      },
+      {
+        "update": 5,
+        "score": [
+          0.4,
+          -0.5833333333333334,
+          22.91817853600375
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5833333333333334,
+        "mean_reward": 22.91817853600375
+      },
+      {
+        "update": 10,
+        "score": [
+          0.4,
+          -0.5888888888888889,
+          24.083787745086934
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5888888888888889,
+        "mean_reward": 24.083787745086934
+      },
+      {
+        "update": 15,
+        "score": [
+          0.4,
+          -0.5916666666666667,
+          24.981177078835557
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5916666666666667,
+        "mean_reward": 24.981177078835557
+      },
+      {
+        "update": 20,
+        "score": [
+          0.4,
+          -0.5888888888888889,
+          24.955291328394434
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5888888888888889,
+        "mean_reward": 24.955291328394434
+      },
+      {
+        "update": 25,
+        "score": [
+          0.4,
+          -0.5888888888888889,
+          26.053630902634946
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5888888888888889,
+        "mean_reward": 26.053630902634946
+      },
+      {
+        "update": 30,
+        "score": [
+          0.4,
+          -0.5861111111111111,
+          25.440016740337963
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5861111111111111,
+        "mean_reward": 25.440016740337963
+      },
+      {
+        "update": 35,
+        "score": [
+          0.4,
+          -0.575,
+          25.736805996469602
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.575,
+        "mean_reward": 25.736805996469602
+      },
+      {
+        "update": 40,
+        "score": [
+          0.4,
+          -0.5638888888888889,
+          25.769205902793285
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5638888888888889,
+        "mean_reward": 25.769205902793285
+      },
+      {
+        "update": 45,
+        "score": [
+          0.4,
+          -0.5583333333333333,
+          26.10183765078254
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5583333333333333,
+        "mean_reward": 26.10183765078254
+      },
+      {
+        "update": 50,
+        "score": [
+          0.4,
+          -0.5583333333333333,
+          26.41833568959126
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5583333333333333,
+        "mean_reward": 26.41833568959126
+      },
+      {
+        "update": 55,
+        "score": [
+          0.4,
+          -0.5611111111111111,
+          26.467507221380597
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5611111111111111,
+        "mean_reward": 26.467507221380597
+      },
+      {
+        "update": 60,
+        "score": [
+          0.4,
+          -0.5583333333333333,
+          26.463935953262048
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5583333333333333,
+        "mean_reward": 26.463935953262048
+      },
+      {
+        "update": 65,
+        "score": [
+          0.4,
+          -0.5583333333333333,
+          26.498731312502155
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5583333333333333,
+        "mean_reward": 26.498731312502155
+      },
+      {
+        "update": 70,
+        "score": [
+          0.4,
+          -0.5583333333333333,
+          26.49240110267424
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5583333333333333,
+        "mean_reward": 26.49240110267424
+      },
+      {
+        "update": 75,
+        "score": [
+          0.4,
+          -0.5583333333333333,
+          26.46215706016673
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5583333333333333,
+        "mean_reward": 26.46215706016673
+      },
+      {
+        "update": 80,
+        "score": [
+          0.4,
+          -0.5555555555555556,
+          26.41446271214762
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5555555555555556,
+        "mean_reward": 26.41446271214762
+      },
+      {
+        "update": 85,
+        "score": [
+          0.4,
+          -0.5555555555555556,
+          26.389913279571655
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5555555555555556,
+        "mean_reward": 26.389913279571655
+      },
+      {
+        "update": 90,
+        "score": [
+          0.4,
+          -0.5555555555555556,
+          26.371225275777032
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5555555555555556,
+        "mean_reward": 26.371225275777032
+      },
+      {
+        "update": 95,
+        "score": [
+          0.4,
+          -0.5555555555555556,
+          26.368433915266976
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5555555555555556,
+        "mean_reward": 26.368433915266976
+      },
+      {
+        "update": 100,
+        "score": [
+          0.4,
+          -0.5555555555555556,
+          26.37652044634802
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5555555555555556,
+        "mean_reward": 26.37652044634802
+      }
+    ]
+  },
+  {
+    "policy": "proposed_belief_stl_conflict_qp",
+    "episodes": 40,
+    "mean_reward": 28.75024,
+    "joint_satisfaction_rate": 0.925,
+    "mean_intervention_rate": 1.25833,
+    "mean_intervention_distance": 1.12766,
+    "violation_rate": {
+      "C02": 0.025,
+      "C05": 0.1,
+      "E01": 0.45,
+      "E02": 1.0,
+      "E06": 0.1,
+      "M05": 0.025,
+      "S02": 0.075
+    },
+    "mean_first_violation_step": {
+      "C02": 0.0,
+      "C05": 20.75,
+      "E01": 4.056,
+      "E02": 1.0,
+      "E06": 24.5,
+      "M05": 7.0,
+      "S02": 1.333
+    },
+    "initial_infeasible_rate": 0.05,
+    "online_hard_violation_rate": 0.6525,
+    "post_shield_hard_violation_rate": 0.035,
+    "post_truth_hard_violation_rate": 0.01,
+    "qp_infeasible_rate": 0.01667,
+    "conflict_rate": 0.00333,
+    "replan_trigger_rate": 0.67167,
+    "mean_belief_risk": 0.03332,
+    "mean_pre_filter_belief_risk": 0.60538,
+    "mean_post_filter_belief_risk": 0.03332,
+    "mean_actor_time_ms": 4.95959,
+    "mean_online_time_ms": 6.09031,
+    "tail_violation_rate": 1.0,
+    "risk_calibration_brier": 0.02384,
+    "initially_feasible_episodes": 38,
+    "conditional_joint_satisfaction_rate": 0.97368,
+    "rule_conflict_event_rate": 5.175,
+    "rule_rule_conflict_step_rate": 0.195,
+    "rule_rule_resolution_rate": 0.97596,
+    "mean_conflict_residual": 0.6185,
+    "mean_solver_agents": 3.0,
+    "mean_solver_components": 1.0,
+    "max_solver_component_size": 3,
+    "cross_component_violation_rate": 0.0,
+    "cross_component_repair_rate": 0.0,
+    "seed": 33,
+    "warm_start": {
+      "behavior_clone_loss": 0.006457624025642872,
+      "mode_accuracy": 1.0,
+      "samples": 3
+    },
+    "selected_update": 100,
+    "validation": {
+      "policy": "proposed_belief_stl_conflict_qp_validation",
+      "episodes": 12,
+      "mean_reward": 26.33923,
+      "joint_satisfaction_rate": 0.33333,
+      "mean_intervention_rate": 0.0,
+      "mean_intervention_distance": 0.0,
+      "violation_rate": {
+        "C03": 0.08333,
+        "C04": 0.41667,
+        "C05": 0.41667,
+        "E01": 1.0,
+        "E02": 0.91667,
+        "E06": 0.25,
+        "F01": 0.33333,
+        "F03": 0.25,
+        "F04": 0.41667,
+        "I01": 0.08333,
+        "I02": 0.58333,
+        "I03": 0.41667,
+        "I04": 0.08333,
+        "I06": 0.08333,
+        "M03": 0.58333,
+        "M06": 0.25,
+        "S02": 0.25
+      },
+      "mean_first_violation_step": {
+        "C03": 8.0,
+        "C04": 7.4,
+        "C05": 7.6,
+        "E01": 0.0,
+        "E02": 8.727,
+        "E06": 18.667,
+        "F01": 5.75,
+        "F03": 18.667,
+        "F04": 11.2,
+        "I01": 0.0,
+        "I02": 0.0,
+        "I03": 3.2,
+        "I04": 0.0,
+        "I06": 13.0,
+        "M03": 16.143,
+        "M06": 18.667,
+        "S02": 1.333
+      },
+      "initial_infeasible_rate": 0.16667,
+      "online_hard_violation_rate": 0.0,
+      "post_shield_hard_violation_rate": 0.0,
+      "post_truth_hard_violation_rate": 0.51111,
+      "qp_infeasible_rate": 0.0,
+      "conflict_rate": 0.0,
+      "replan_trigger_rate": 0.0,
+      "mean_belief_risk": 0.0,
+      "mean_pre_filter_belief_risk": 0.0,
+      "mean_post_filter_belief_risk": 0.0,
+      "mean_actor_time_ms": 4.82052,
+      "mean_online_time_ms": 0.0,
+      "tail_violation_rate": 1.0,
+      "risk_calibration_brier": 0.0,
+      "initially_feasible_episodes": 10,
+      "conditional_joint_satisfaction_rate": 0.4,
+      "rule_conflict_event_rate": 0.0,
+      "rule_rule_conflict_step_rate": 0.0,
+      "rule_rule_resolution_rate": 0.0,
+      "mean_conflict_residual": 0.0,
+      "mean_solver_agents": 0.0,
+      "mean_solver_components": 0.0,
+      "max_solver_component_size": 0,
+      "cross_component_violation_rate": 0.0,
+      "cross_component_repair_rate": 0.0
+    },
+    "validation_trace": [
+      {
+        "update": 0,
+        "score": [
+          0.4,
+          -0.5527777777777778,
+          21.890399016716923
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5527777777777778,
+        "mean_reward": 21.890399016716923
+      },
+      {
+        "update": 5,
+        "score": [
+          0.4,
+          -0.5611111111111111,
+          23.127293508781218
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5611111111111111,
+        "mean_reward": 23.127293508781218
+      },
+      {
+        "update": 10,
+        "score": [
+          0.4,
+          -0.5583333333333333,
+          24.24470029000787
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5583333333333333,
+        "mean_reward": 24.24470029000787
+      },
+      {
+        "update": 15,
+        "score": [
+          0.4,
+          -0.5527777777777778,
+          23.810704056373424
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5527777777777778,
+        "mean_reward": 23.810704056373424
+      },
+      {
+        "update": 20,
+        "score": [
+          0.4,
+          -0.5527777777777778,
+          23.89197920461902
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5527777777777778,
+        "mean_reward": 23.89197920461902
+      },
+      {
+        "update": 25,
+        "score": [
+          0.4,
+          -0.5472222222222223,
+          24.025909516924713
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5472222222222223,
+        "mean_reward": 24.025909516924713
+      },
+      {
+        "update": 30,
+        "score": [
+          0.4,
+          -0.5472222222222223,
+          24.027129906415993
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5472222222222223,
+        "mean_reward": 24.027129906415993
+      },
+      {
+        "update": 35,
+        "score": [
+          0.4,
+          -0.5472222222222223,
+          23.734514035983228
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5472222222222223,
+        "mean_reward": 23.734514035983228
+      },
+      {
+        "update": 40,
+        "score": [
+          0.4,
+          -0.5472222222222223,
+          23.384237034528876
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5472222222222223,
+        "mean_reward": 23.384237034528876
+      },
+      {
+        "update": 45,
+        "score": [
+          0.4,
+          -0.5416666666666666,
+          23.46145540629608
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5416666666666666,
+        "mean_reward": 23.46145540629608
+      },
+      {
+        "update": 50,
+        "score": [
+          0.4,
+          -0.5388888888888889,
+          23.34723810230406
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5388888888888889,
+        "mean_reward": 23.34723810230406
+      },
+      {
+        "update": 55,
+        "score": [
+          0.4,
+          -0.5333333333333333,
+          23.294193545805367
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5333333333333333,
+        "mean_reward": 23.294193545805367
+      },
+      {
+        "update": 60,
+        "score": [
+          0.4,
+          -0.5194444444444445,
+          24.247374017981603
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5194444444444445,
+        "mean_reward": 24.247374017981603
+      },
+      {
+        "update": 65,
+        "score": [
+          0.4,
+          -0.5194444444444445,
+          24.539689069050013
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5194444444444445,
+        "mean_reward": 24.539689069050013
+      },
+      {
+        "update": 70,
+        "score": [
+          0.4,
+          -0.5194444444444445,
+          24.85890273856457
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5194444444444445,
+        "mean_reward": 24.85890273856457
+      },
+      {
+        "update": 75,
+        "score": [
+          0.4,
+          -0.5194444444444445,
+          25.36914876018358
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5194444444444445,
+        "mean_reward": 25.36914876018358
+      },
+      {
+        "update": 80,
+        "score": [
+          0.4,
+          -0.5194444444444445,
+          26.351302670705007
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5194444444444445,
+        "mean_reward": 26.351302670705007
+      },
+      {
+        "update": 85,
+        "score": [
+          0.4,
+          -0.5194444444444445,
+          26.54499860123113
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5194444444444445,
+        "mean_reward": 26.54499860123113
+      },
+      {
+        "update": 90,
+        "score": [
+          0.4,
+          -0.5166666666666667,
+          26.45743389366748
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5166666666666667,
+        "mean_reward": 26.45743389366748
+      },
+      {
+        "update": 95,
+        "score": [
+          0.4,
+          -0.5138888888888888,
+          26.42362671224255
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5138888888888888,
+        "mean_reward": 26.42362671224255
+      },
+      {
+        "update": 100,
+        "score": [
+          0.4,
+          -0.5111111111111111,
+          26.33922658006985
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5111111111111111,
+        "mean_reward": 26.33922658006985
+      }
+    ]
+  },
+  {
+    "policy": "proposed_belief_stl_conflict_qp",
+    "episodes": 40,
+    "mean_reward": 28.76162,
+    "joint_satisfaction_rate": 0.925,
+    "mean_intervention_rate": 1.38417,
+    "mean_intervention_distance": 1.09283,
+    "violation_rate": {
+      "C02": 0.025,
+      "C05": 0.1,
+      "E01": 0.425,
+      "E02": 1.0,
+      "E06": 0.1,
+      "F04": 0.025,
+      "M03": 0.025,
+      "M05": 0.05,
+      "S02": 0.075
+    },
+    "mean_first_violation_step": {
+      "C02": 0.0,
+      "C05": 19.25,
+      "E01": 8.706,
+      "E02": 1.0,
+      "E06": 24.5,
+      "F04": 12.0,
+      "M03": 28.0,
+      "M05": 13.5,
+      "S02": 1.333
+    },
+    "initial_infeasible_rate": 0.05,
+    "online_hard_violation_rate": 0.74417,
+    "post_shield_hard_violation_rate": 0.02667,
+    "post_truth_hard_violation_rate": 0.01,
+    "qp_infeasible_rate": 0.015,
+    "conflict_rate": 0.00417,
+    "replan_trigger_rate": 0.78167,
+    "mean_belief_risk": 0.02527,
+    "mean_pre_filter_belief_risk": 0.62656,
+    "mean_post_filter_belief_risk": 0.02527,
+    "mean_actor_time_ms": 4.97385,
+    "mean_online_time_ms": 6.37159,
+    "tail_violation_rate": 1.0,
+    "risk_calibration_brier": 0.01865,
+    "initially_feasible_episodes": 38,
+    "conditional_joint_satisfaction_rate": 0.97368,
+    "rule_conflict_event_rate": 5.47833,
+    "rule_rule_conflict_step_rate": 0.215,
+    "rule_rule_resolution_rate": 0.976,
+    "mean_conflict_residual": 0.64933,
+    "mean_solver_agents": 3.0,
+    "mean_solver_components": 1.0,
+    "max_solver_component_size": 3,
+    "cross_component_violation_rate": 0.0,
+    "cross_component_repair_rate": 0.0,
+    "seed": 44,
+    "warm_start": {
+      "behavior_clone_loss": 0.00708884559571743,
+      "mode_accuracy": 1.0,
+      "samples": 3
+    },
+    "selected_update": 85,
+    "validation": {
+      "policy": "proposed_belief_stl_conflict_qp_validation",
+      "episodes": 12,
+      "mean_reward": 24.39405,
+      "joint_satisfaction_rate": 0.25,
+      "mean_intervention_rate": 0.0,
+      "mean_intervention_distance": 0.0,
+      "violation_rate": {
+        "C03": 0.08333,
+        "C04": 0.25,
+        "C05": 0.33333,
+        "E01": 1.0,
+        "E02": 0.83333,
+        "E06": 0.25,
+        "F01": 0.33333,
+        "F03": 0.25,
+        "F04": 0.5,
+        "I01": 0.08333,
+        "I02": 0.58333,
+        "I03": 0.41667,
+        "I04": 0.08333,
+        "I06": 0.08333,
+        "M03": 0.66667,
+        "M06": 0.25,
+        "S02": 0.25
+      },
+      "mean_first_violation_step": {
+        "C03": 8.0,
+        "C04": 17.667,
+        "C05": 2.0,
+        "E01": 0.0,
+        "E02": 22.6,
+        "E06": 18.667,
+        "F01": 5.5,
+        "F03": 18.667,
+        "F04": 13.833,
+        "I01": 0.0,
+        "I02": 0.0,
+        "I03": 3.0,
+        "I04": 0.0,
+        "I06": 21.0,
+        "M03": 23.5,
+        "M06": 18.667,
+        "S02": 1.333
+      },
+      "initial_infeasible_rate": 0.16667,
+      "online_hard_violation_rate": 0.0,
+      "post_shield_hard_violation_rate": 0.0,
+      "post_truth_hard_violation_rate": 0.68889,
+      "qp_infeasible_rate": 0.0,
+      "conflict_rate": 0.0,
+      "replan_trigger_rate": 0.0,
+      "mean_belief_risk": 0.0,
+      "mean_pre_filter_belief_risk": 0.0,
+      "mean_post_filter_belief_risk": 0.0,
+      "mean_actor_time_ms": 4.71293,
+      "mean_online_time_ms": 0.0,
+      "tail_violation_rate": 1.0,
+      "risk_calibration_brier": 0.0,
+      "initially_feasible_episodes": 10,
+      "conditional_joint_satisfaction_rate": 0.3,
+      "rule_conflict_event_rate": 0.0,
+      "rule_rule_conflict_step_rate": 0.0,
+      "rule_rule_resolution_rate": 0.0,
+      "mean_conflict_residual": 0.0,
+      "mean_solver_agents": 0.0,
+      "mean_solver_components": 0.0,
+      "max_solver_component_size": 0,
+      "cross_component_violation_rate": 0.0,
+      "cross_component_repair_rate": 0.0
+    },
+    "validation_trace": [
+      {
+        "update": 0,
+        "score": [
+          0.3,
+          -0.7222222222222222,
+          25.73195184613738
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7222222222222222,
+        "mean_reward": 25.73195184613738
+      },
+      {
+        "update": 5,
+        "score": [
+          0.3,
+          -0.7222222222222222,
+          25.708348021856768
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7222222222222222,
+        "mean_reward": 25.708348021856768
+      },
+      {
+        "update": 10,
+        "score": [
+          0.3,
+          -0.7222222222222222,
+          25.65678322371024
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7222222222222222,
+        "mean_reward": 25.65678322371024
+      },
+      {
+        "update": 15,
+        "score": [
+          0.3,
+          -0.7222222222222222,
+          25.72670569941441
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7222222222222222,
+        "mean_reward": 25.72670569941441
+      },
+      {
+        "update": 20,
+        "score": [
+          0.3,
+          -0.7222222222222222,
+          25.755377313543843
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7222222222222222,
+        "mean_reward": 25.755377313543843
+      },
+      {
+        "update": 25,
+        "score": [
+          0.3,
+          -0.7222222222222222,
+          25.73481306854664
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7222222222222222,
+        "mean_reward": 25.73481306854664
+      },
+      {
+        "update": 30,
+        "score": [
+          0.3,
+          -0.7222222222222222,
+          25.716636910370553
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7222222222222222,
+        "mean_reward": 25.716636910370553
+      },
+      {
+        "update": 35,
+        "score": [
+          0.3,
+          -0.7222222222222222,
+          25.47698862108584
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7222222222222222,
+        "mean_reward": 25.47698862108584
+      },
+      {
+        "update": 40,
+        "score": [
+          0.3,
+          -0.7222222222222222,
+          25.439517594634253
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7222222222222222,
+        "mean_reward": 25.439517594634253
+      },
+      {
+        "update": 45,
+        "score": [
+          0.3,
+          -0.7222222222222222,
+          25.399567860045774
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7222222222222222,
+        "mean_reward": 25.399567860045774
+      },
+      {
+        "update": 50,
+        "score": [
+          0.3,
+          -0.7222222222222222,
+          25.40590917200612
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7222222222222222,
+        "mean_reward": 25.40590917200612
+      },
+      {
+        "update": 55,
+        "score": [
+          0.3,
+          -0.7222222222222222,
+          25.478200889519773
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7222222222222222,
+        "mean_reward": 25.478200889519773
+      },
+      {
+        "update": 60,
+        "score": [
+          0.3,
+          -0.7222222222222222,
+          25.422060445403577
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7222222222222222,
+        "mean_reward": 25.422060445403577
+      },
+      {
+        "update": 65,
+        "score": [
+          0.3,
+          -0.7222222222222222,
+          25.30737438272278
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7222222222222222,
+        "mean_reward": 25.30737438272278
+      },
+      {
+        "update": 70,
+        "score": [
+          0.3,
+          -0.7194444444444444,
+          25.021168751821264
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7194444444444444,
+        "mean_reward": 25.021168751821264
+      },
+      {
+        "update": 75,
+        "score": [
+          0.3,
+          -0.7166666666666667,
+          24.838440434180388
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7166666666666667,
+        "mean_reward": 24.838440434180388
+      },
+      {
+        "update": 80,
+        "score": [
+          0.3,
+          -0.7111111111111111,
+          24.544274081467588
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7111111111111111,
+        "mean_reward": 24.544274081467588
+      },
+      {
+        "update": 85,
+        "score": [
+          0.3,
+          -0.6888888888888889,
+          24.39404813189797
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.6888888888888889,
+        "mean_reward": 24.39404813189797
+      },
+      {
+        "update": 90,
+        "score": [
+          0.3,
+          -0.6972222222222222,
+          24.564595190749866
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.6972222222222222,
+        "mean_reward": 24.564595190749866
+      },
+      {
+        "update": 95,
+        "score": [
+          0.3,
+          -0.7111111111111111,
+          24.849284449633203
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7111111111111111,
+        "mean_reward": 24.849284449633203
+      },
+      {
+        "update": 100,
+        "score": [
+          0.3,
+          -0.7083333333333334,
+          24.68226922625192
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7083333333333334,
+        "mean_reward": 24.68226922625192
+      }
+    ]
+  },
+  {
+    "policy": "proposed_belief_stl_conflict_qp",
+    "episodes": 40,
+    "mean_reward": 28.55309,
+    "joint_satisfaction_rate": 0.925,
+    "mean_intervention_rate": 1.21417,
+    "mean_intervention_distance": 1.0531,
+    "violation_rate": {
+      "C02": 0.025,
+      "C05": 0.075,
+      "E01": 0.425,
+      "E02": 1.0,
+      "E06": 0.1,
+      "S02": 0.075
+    },
+    "mean_first_violation_step": {
+      "C02": 0.0,
+      "C05": 23.0,
+      "E01": 3.412,
+      "E02": 1.0,
+      "E06": 24.5,
+      "S02": 1.333
+    },
+    "initial_infeasible_rate": 0.05,
+    "online_hard_violation_rate": 0.6425,
+    "post_shield_hard_violation_rate": 0.025,
+    "post_truth_hard_violation_rate": 0.00917,
+    "qp_infeasible_rate": 0.01583,
+    "conflict_rate": 0.00417,
+    "replan_trigger_rate": 0.63583,
+    "mean_belief_risk": 0.02389,
+    "mean_pre_filter_belief_risk": 0.60728,
+    "mean_post_filter_belief_risk": 0.02389,
+    "mean_actor_time_ms": 4.94082,
+    "mean_online_time_ms": 6.0748,
+    "tail_violation_rate": 1.0,
+    "risk_calibration_brier": 0.01503,
+    "initially_feasible_episodes": 38,
+    "conditional_joint_satisfaction_rate": 0.97368,
+    "rule_conflict_event_rate": 4.9775,
+    "rule_rule_conflict_step_rate": 0.1925,
+    "rule_rule_resolution_rate": 0.97738,
+    "mean_conflict_residual": 0.5725,
+    "mean_solver_agents": 3.0,
+    "mean_solver_components": 1.0,
+    "max_solver_component_size": 3,
+    "cross_component_violation_rate": 0.0,
+    "cross_component_repair_rate": 0.0,
+    "seed": 55,
+    "warm_start": {
+      "behavior_clone_loss": 0.007079072296619415,
+      "mode_accuracy": 1.0,
+      "samples": 3
+    },
+    "selected_update": 100,
+    "validation": {
+      "policy": "proposed_belief_stl_conflict_qp_validation",
+      "episodes": 12,
+      "mean_reward": 25.94397,
+      "joint_satisfaction_rate": 0.33333,
+      "mean_intervention_rate": 0.0,
+      "mean_intervention_distance": 0.0,
+      "violation_rate": {
+        "C03": 0.08333,
+        "C04": 0.25,
+        "C05": 0.33333,
+        "E01": 1.0,
+        "E02": 1.0,
+        "E06": 0.25,
+        "F01": 0.33333,
+        "F03": 0.25,
+        "F04": 0.33333,
+        "I01": 0.08333,
+        "I02": 0.58333,
+        "I03": 0.41667,
+        "I04": 0.08333,
+        "I06": 0.08333,
+        "M03": 1.0,
+        "M06": 0.25,
+        "S02": 0.25
+      },
+      "mean_first_violation_step": {
+        "C03": 8.0,
+        "C04": 3.333,
+        "C05": 6.0,
+        "E01": 0.0,
+        "E02": 10.0,
+        "E06": 22.333,
+        "F01": 9.5,
+        "F03": 22.333,
+        "F04": 9.0,
+        "I01": 0.0,
+        "I02": 0.0,
+        "I03": 3.0,
+        "I04": 0.0,
+        "I06": 3.0,
+        "M03": 13.833,
+        "M06": 22.333,
+        "S02": 1.333
+      },
+      "initial_infeasible_rate": 0.16667,
+      "online_hard_violation_rate": 0.0,
+      "post_shield_hard_violation_rate": 0.0,
+      "post_truth_hard_violation_rate": 0.44722,
+      "qp_infeasible_rate": 0.0,
+      "conflict_rate": 0.0,
+      "replan_trigger_rate": 0.0,
+      "mean_belief_risk": 0.0,
+      "mean_pre_filter_belief_risk": 0.0,
+      "mean_post_filter_belief_risk": 0.0,
+      "mean_actor_time_ms": 4.74428,
+      "mean_online_time_ms": 0.0,
+      "tail_violation_rate": 1.0,
+      "risk_calibration_brier": 0.0,
+      "initially_feasible_episodes": 10,
+      "conditional_joint_satisfaction_rate": 0.4,
+      "rule_conflict_event_rate": 0.0,
+      "rule_rule_conflict_step_rate": 0.0,
+      "rule_rule_resolution_rate": 0.0,
+      "mean_conflict_residual": 0.0,
+      "mean_solver_agents": 0.0,
+      "mean_solver_components": 0.0,
+      "max_solver_component_size": 0,
+      "cross_component_violation_rate": 0.0,
+      "cross_component_repair_rate": 0.0
+    },
+    "validation_trace": [
+      {
+        "update": 0,
+        "score": [
+          0.4,
+          -0.5527777777777778,
+          27.306500728340605
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5527777777777778,
+        "mean_reward": 27.306500728340605
+      },
+      {
+        "update": 5,
+        "score": [
+          0.4,
+          -0.5555555555555556,
+          27.247095101267405
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5555555555555556,
+        "mean_reward": 27.247095101267405
+      },
+      {
+        "update": 10,
+        "score": [
+          0.4,
+          -0.5611111111111111,
+          27.080567900564404
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5611111111111111,
+        "mean_reward": 27.080567900564404
+      },
+      {
+        "update": 15,
+        "score": [
+          0.4,
+          -0.5555555555555556,
+          26.929281451863147
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5555555555555556,
+        "mean_reward": 26.929281451863147
+      },
+      {
+        "update": 20,
+        "score": [
+          0.4,
+          -0.5527777777777778,
+          26.859758623635226
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5527777777777778,
+        "mean_reward": 26.859758623635226
+      },
+      {
+        "update": 25,
+        "score": [
+          0.4,
+          -0.5638888888888889,
+          26.784221764291317
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5638888888888889,
+        "mean_reward": 26.784221764291317
+      },
+      {
+        "update": 30,
+        "score": [
+          0.4,
+          -0.55,
+          26.68836398696123
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.55,
+        "mean_reward": 26.68836398696123
+      },
+      {
+        "update": 35,
+        "score": [
+          0.4,
+          -0.5361111111111111,
+          26.529828584594615
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5361111111111111,
+        "mean_reward": 26.529828584594615
+      },
+      {
+        "update": 40,
+        "score": [
+          0.4,
+          -0.5333333333333333,
+          26.542590423868912
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5333333333333333,
+        "mean_reward": 26.542590423868912
+      },
+      {
+        "update": 45,
+        "score": [
+          0.4,
+          -0.5277777777777778,
+          26.511755074260265
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5277777777777778,
+        "mean_reward": 26.511755074260265
+      },
+      {
+        "update": 50,
+        "score": [
+          0.4,
+          -0.5277777777777778,
+          26.54786930919478
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5277777777777778,
+        "mean_reward": 26.54786930919478
+      },
+      {
+        "update": 55,
+        "score": [
+          0.4,
+          -0.5222222222222223,
+          26.54706598195925
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5222222222222223,
+        "mean_reward": 26.54706598195925
+      },
+      {
+        "update": 60,
+        "score": [
+          0.4,
+          -0.5222222222222223,
+          26.430177907657335
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5222222222222223,
+        "mean_reward": 26.430177907657335
+      },
+      {
+        "update": 65,
+        "score": [
+          0.4,
+          -0.5361111111111111,
+          26.292176036445408
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5361111111111111,
+        "mean_reward": 26.292176036445408
+      },
+      {
+        "update": 70,
+        "score": [
+          0.4,
+          -0.5638888888888889,
+          26.02484847098006
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5638888888888889,
+        "mean_reward": 26.02484847098006
+      },
+      {
+        "update": 75,
+        "score": [
+          0.4,
+          -0.6277777777777778,
+          25.871395843094533
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6277777777777778,
+        "mean_reward": 25.871395843094533
+      },
+      {
+        "update": 80,
+        "score": [
+          0.4,
+          -0.5138888888888888,
+          26.026227426405228
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5138888888888888,
+        "mean_reward": 26.026227426405228
+      },
+      {
+        "update": 85,
+        "score": [
+          0.4,
+          -0.475,
+          26.062483654772407
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.475,
+        "mean_reward": 26.062483654772407
+      },
+      {
+        "update": 90,
+        "score": [
+          0.4,
+          -0.46111111111111114,
+          26.095697791927417
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.46111111111111114,
+        "mean_reward": 26.095697791927417
+      },
+      {
+        "update": 95,
+        "score": [
+          0.4,
+          -0.4527777777777778,
+          25.98331383662436
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.4527777777777778,
+        "mean_reward": 25.98331383662436
+      },
+      {
+        "update": 100,
+        "score": [
+          0.4,
+          -0.44722222222222224,
+          25.943965711508202
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.44722222222222224,
+        "mean_reward": 25.943965711508202
+      }
+    ]
+  },
+  {
+    "policy": "proposed_belief_stl_conflict_qp",
+    "episodes": 40,
+    "mean_reward": 28.85888,
+    "joint_satisfaction_rate": 0.925,
+    "mean_intervention_rate": 1.3725,
+    "mean_intervention_distance": 1.14472,
+    "violation_rate": {
+      "C02": 0.025,
+      "C05": 0.025,
+      "E01": 0.375,
+      "E02": 1.0,
+      "E06": 0.1,
+      "S02": 0.075
+    },
+    "mean_first_violation_step": {
+      "C02": 0.0,
+      "C05": 24.0,
+      "E01": 9.333,
+      "E02": 1.0,
+      "E06": 24.5,
+      "S02": 1.333
+    },
+    "initial_infeasible_rate": 0.05,
+    "online_hard_violation_rate": 0.72833,
+    "post_shield_hard_violation_rate": 0.02917,
+    "post_truth_hard_violation_rate": 0.00917,
+    "qp_infeasible_rate": 0.01583,
+    "conflict_rate": 0.0025,
+    "replan_trigger_rate": 0.75,
+    "mean_belief_risk": 0.0278,
+    "mean_pre_filter_belief_risk": 0.63807,
+    "mean_post_filter_belief_risk": 0.0278,
+    "mean_actor_time_ms": 4.93316,
+    "mean_online_time_ms": 6.21011,
+    "tail_violation_rate": 1.0,
+    "risk_calibration_brier": 0.02008,
+    "initially_feasible_episodes": 38,
+    "conditional_joint_satisfaction_rate": 0.97368,
+    "rule_conflict_event_rate": 5.73917,
+    "rule_rule_conflict_step_rate": 0.19417,
+    "rule_rule_resolution_rate": 0.97996,
+    "mean_conflict_residual": 0.70558,
+    "mean_solver_agents": 3.0,
+    "mean_solver_components": 1.0,
+    "max_solver_component_size": 3,
+    "cross_component_violation_rate": 0.0,
+    "cross_component_repair_rate": 0.0,
+    "seed": 66,
+    "warm_start": {
+      "behavior_clone_loss": 0.007621158845722675,
+      "mode_accuracy": 1.0,
+      "samples": 3
+    },
+    "selected_update": 50,
+    "validation": {
+      "policy": "proposed_belief_stl_conflict_qp_validation",
+      "episodes": 12,
+      "mean_reward": 23.84214,
+      "joint_satisfaction_rate": 0.33333,
+      "mean_intervention_rate": 0.0,
+      "mean_intervention_distance": 0.0,
+      "violation_rate": {
+        "C03": 0.08333,
+        "C04": 0.16667,
+        "C05": 0.33333,
+        "E01": 1.0,
+        "E02": 0.66667,
+        "E06": 0.25,
+        "F01": 0.25,
+        "F03": 0.25,
+        "F04": 0.41667,
+        "I01": 0.08333,
+        "I02": 0.58333,
+        "I03": 0.41667,
+        "I04": 0.08333,
+        "I06": 0.08333,
+        "M03": 1.0,
+        "M06": 0.25,
+        "S02": 0.25
+      },
+      "mean_first_violation_step": {
+        "C03": 8.0,
+        "C04": 12.5,
+        "C05": 5.25,
+        "E01": 0.0,
+        "E02": 20.375,
+        "E06": 18.667,
+        "F01": 10.333,
+        "F03": 18.667,
+        "F04": 10.8,
+        "I01": 0.0,
+        "I02": 0.0,
+        "I03": 3.0,
+        "I04": 0.0,
+        "I06": 24.0,
+        "M03": 23.917,
+        "M06": 18.667,
+        "S02": 1.333
+      },
+      "initial_infeasible_rate": 0.16667,
+      "online_hard_violation_rate": 0.0,
+      "post_shield_hard_violation_rate": 0.0,
+      "post_truth_hard_violation_rate": 0.61667,
+      "qp_infeasible_rate": 0.0,
+      "conflict_rate": 0.0,
+      "replan_trigger_rate": 0.0,
+      "mean_belief_risk": 0.0,
+      "mean_pre_filter_belief_risk": 0.0,
+      "mean_post_filter_belief_risk": 0.0,
+      "mean_actor_time_ms": 4.72189,
+      "mean_online_time_ms": 0.0,
+      "tail_violation_rate": 1.0,
+      "risk_calibration_brier": 0.0,
+      "initially_feasible_episodes": 10,
+      "conditional_joint_satisfaction_rate": 0.4,
+      "rule_conflict_event_rate": 0.0,
+      "rule_rule_conflict_step_rate": 0.0,
+      "rule_rule_resolution_rate": 0.0,
+      "mean_conflict_residual": 0.0,
+      "mean_solver_agents": 0.0,
+      "mean_solver_components": 0.0,
+      "max_solver_component_size": 0,
+      "cross_component_violation_rate": 0.0,
+      "cross_component_repair_rate": 0.0
+    },
+    "validation_trace": [
+      {
+        "update": 0,
+        "score": [
+          0.4,
+          -0.6333333333333333,
+          24.800474351372355
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6333333333333333,
+        "mean_reward": 24.800474351372355
+      },
+      {
+        "update": 5,
+        "score": [
+          0.4,
+          -0.6388888888888888,
+          25.633785612644374
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6388888888888888,
+        "mean_reward": 25.633785612644374
+      },
+      {
+        "update": 10,
+        "score": [
+          0.4,
+          -0.6388888888888888,
+          25.589687286097952
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6388888888888888,
+        "mean_reward": 25.589687286097952
+      },
+      {
+        "update": 15,
+        "score": [
+          0.4,
+          -0.6444444444444445,
+          25.54466055983217
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6444444444444445,
+        "mean_reward": 25.54466055983217
+      },
+      {
+        "update": 20,
+        "score": [
+          0.4,
+          -0.6444444444444445,
+          25.43453659918656
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6444444444444445,
+        "mean_reward": 25.43453659918656
+      },
+      {
+        "update": 25,
+        "score": [
+          0.4,
+          -0.6444444444444445,
+          25.37514158696597
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6444444444444445,
+        "mean_reward": 25.37514158696597
+      },
+      {
+        "update": 30,
+        "score": [
+          0.4,
+          -0.6472222222222223,
+          25.213821669510708
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6472222222222223,
+        "mean_reward": 25.213821669510708
+      },
+      {
+        "update": 35,
+        "score": [
+          0.4,
+          -0.6444444444444445,
+          25.018191503693362
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6444444444444445,
+        "mean_reward": 25.018191503693362
+      },
+      {
+        "update": 40,
+        "score": [
+          0.4,
+          -0.6305555555555555,
+          24.475853159438923
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6305555555555555,
+        "mean_reward": 24.475853159438923
+      },
+      {
+        "update": 45,
+        "score": [
+          0.4,
+          -0.6277777777777778,
+          23.97008688037674
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6277777777777778,
+        "mean_reward": 23.97008688037674
+      },
+      {
+        "update": 50,
+        "score": [
+          0.4,
+          -0.6166666666666667,
+          23.84214224716169
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6166666666666667,
+        "mean_reward": 23.84214224716169
+      },
+      {
+        "update": 55,
+        "score": [
+          0.4,
+          -0.6305555555555555,
+          23.775865133514767
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6305555555555555,
+        "mean_reward": 23.775865133514767
+      },
+      {
+        "update": 60,
+        "score": [
+          0.4,
+          -0.6611111111111111,
+          23.604851509520646
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6611111111111111,
+        "mean_reward": 23.604851509520646
+      },
+      {
+        "update": 65,
+        "score": [
+          0.4,
+          -0.6611111111111111,
+          23.607052177033335
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6611111111111111,
+        "mean_reward": 23.607052177033335
+      },
+      {
+        "update": 70,
+        "score": [
+          0.4,
+          -0.6527777777777778,
+          23.3820829334973
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6527777777777778,
+        "mean_reward": 23.3820829334973
+      },
+      {
+        "update": 75,
+        "score": [
+          0.4,
+          -0.6583333333333333,
+          23.26640792437543
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6583333333333333,
+        "mean_reward": 23.26640792437543
+      },
+      {
+        "update": 80,
+        "score": [
+          0.4,
+          -0.6666666666666666,
+          23.08312767632094
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6666666666666666,
+        "mean_reward": 23.08312767632094
+      },
+      {
+        "update": 85,
+        "score": [
+          0.4,
+          -0.6666666666666666,
+          22.856511295390273
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6666666666666666,
+        "mean_reward": 22.856511295390273
+      },
+      {
+        "update": 90,
+        "score": [
+          0.4,
+          -0.6638888888888889,
+          22.558952676071886
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6638888888888889,
+        "mean_reward": 22.558952676071886
+      },
+      {
+        "update": 95,
+        "score": [
+          0.4,
+          -0.6611111111111111,
+          22.450195093723476
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6611111111111111,
+        "mean_reward": 22.450195093723476
+      },
+      {
+        "update": 100,
+        "score": [
+          0.4,
+          -0.6444444444444445,
+          22.409850403331234
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.6444444444444445,
+        "mean_reward": 22.409850403331234
+      }
+    ]
+  },
+  {
+    "policy": "proposed_belief_stl_conflict_qp",
+    "episodes": 40,
+    "mean_reward": 28.75994,
+    "joint_satisfaction_rate": 0.925,
+    "mean_intervention_rate": 1.34583,
+    "mean_intervention_distance": 1.22083,
+    "violation_rate": {
+      "C02": 0.025,
+      "C05": 0.05,
+      "E01": 0.425,
+      "E02": 1.0,
+      "E06": 0.1,
+      "S02": 0.075
+    },
+    "mean_first_violation_step": {
+      "C02": 0.0,
+      "C05": 25.0,
+      "E01": 7.529,
+      "E02": 1.0,
+      "E06": 24.5,
+      "S02": 1.333
+    },
+    "initial_infeasible_rate": 0.05,
+    "online_hard_violation_rate": 0.71167,
+    "post_shield_hard_violation_rate": 0.02833,
+    "post_truth_hard_violation_rate": 0.00917,
+    "qp_infeasible_rate": 0.015,
+    "conflict_rate": 0.00583,
+    "replan_trigger_rate": 0.72667,
+    "mean_belief_risk": 0.02752,
+    "mean_pre_filter_belief_risk": 0.6151,
+    "mean_post_filter_belief_risk": 0.02752,
+    "mean_actor_time_ms": 4.87297,
+    "mean_online_time_ms": 6.33878,
+    "tail_violation_rate": 1.0,
+    "risk_calibration_brier": 0.01847,
+    "initially_feasible_episodes": 38,
+    "conditional_joint_satisfaction_rate": 0.97368,
+    "rule_conflict_event_rate": 5.68167,
+    "rule_rule_conflict_step_rate": 0.22583,
+    "rule_rule_resolution_rate": 0.9798,
+    "mean_conflict_residual": 0.72431,
+    "mean_solver_agents": 3.0,
+    "mean_solver_components": 1.0,
+    "max_solver_component_size": 3,
+    "cross_component_violation_rate": 0.0,
+    "cross_component_repair_rate": 0.0,
+    "seed": 77,
+    "warm_start": {
+      "behavior_clone_loss": 0.007736275903880596,
+      "mode_accuracy": 1.0,
+      "samples": 3
+    },
+    "selected_update": 100,
+    "validation": {
+      "policy": "proposed_belief_stl_conflict_qp_validation",
+      "episodes": 12,
+      "mean_reward": 25.76726,
+      "joint_satisfaction_rate": 0.16667,
+      "mean_intervention_rate": 0.0,
+      "mean_intervention_distance": 0.0,
+      "violation_rate": {
+        "C03": 0.08333,
+        "C04": 0.08333,
+        "C05": 0.41667,
+        "E01": 1.0,
+        "E02": 0.16667,
+        "E06": 0.25,
+        "F01": 0.41667,
+        "F03": 0.25,
+        "F04": 0.41667,
+        "I01": 0.08333,
+        "I02": 0.58333,
+        "I03": 0.41667,
+        "I04": 0.08333,
+        "I06": 0.08333,
+        "M03": 0.75,
+        "M06": 0.25,
+        "S02": 0.25
+      },
+      "mean_first_violation_step": {
+        "C03": 8.0,
+        "C04": 0.0,
+        "C05": 5.4,
+        "E01": 0.0,
+        "E02": 10.0,
+        "E06": 19.0,
+        "F01": 8.6,
+        "F03": 19.0,
+        "F04": 11.0,
+        "I01": 0.0,
+        "I02": 0.0,
+        "I03": 3.0,
+        "I04": 0.0,
+        "I06": 4.0,
+        "M03": 23.556,
+        "M06": 19.0,
+        "S02": 1.333
+      },
+      "initial_infeasible_rate": 0.16667,
+      "online_hard_violation_rate": 0.0,
+      "post_shield_hard_violation_rate": 0.0,
+      "post_truth_hard_violation_rate": 0.68611,
+      "qp_infeasible_rate": 0.0,
+      "conflict_rate": 0.0,
+      "replan_trigger_rate": 0.0,
+      "mean_belief_risk": 0.0,
+      "mean_pre_filter_belief_risk": 0.0,
+      "mean_post_filter_belief_risk": 0.0,
+      "mean_actor_time_ms": 4.70947,
+      "mean_online_time_ms": 0.0,
+      "tail_violation_rate": 1.0,
+      "risk_calibration_brier": 0.0,
+      "initially_feasible_episodes": 10,
+      "conditional_joint_satisfaction_rate": 0.2,
+      "rule_conflict_event_rate": 0.0,
+      "rule_rule_conflict_step_rate": 0.0,
+      "rule_rule_resolution_rate": 0.0,
+      "mean_conflict_residual": 0.0,
+      "mean_solver_agents": 0.0,
+      "mean_solver_components": 0.0,
+      "max_solver_component_size": 0,
+      "cross_component_violation_rate": 0.0,
+      "cross_component_repair_rate": 0.0
+    },
+    "validation_trace": [
+      {
+        "update": 0,
+        "score": [
+          0.2,
+          -0.7472222222222222,
+          25.432527481399557
+        ],
+        "conditional_joint_stl": 0.2,
+        "post_truth_hard_violation_rate": 0.7472222222222222,
+        "mean_reward": 25.432527481399557
+      },
+      {
+        "update": 5,
+        "score": [
+          0.2,
+          -0.7472222222222222,
+          25.411916374354238
+        ],
+        "conditional_joint_stl": 0.2,
+        "post_truth_hard_violation_rate": 0.7472222222222222,
+        "mean_reward": 25.411916374354238
+      },
+      {
+        "update": 10,
+        "score": [
+          0.2,
+          -0.7472222222222222,
+          25.412151092394136
+        ],
+        "conditional_joint_stl": 0.2,
+        "post_truth_hard_violation_rate": 0.7472222222222222,
+        "mean_reward": 25.412151092394136
+      },
+      {
+        "update": 15,
+        "score": [
+          0.2,
+          -0.7472222222222222,
+          25.454637880983046
+        ],
+        "conditional_joint_stl": 0.2,
+        "post_truth_hard_violation_rate": 0.7472222222222222,
+        "mean_reward": 25.454637880983046
+      },
+      {
+        "update": 20,
+        "score": [
+          0.2,
+          -0.7472222222222222,
+          25.456850279529206
+        ],
+        "conditional_joint_stl": 0.2,
+        "post_truth_hard_violation_rate": 0.7472222222222222,
+        "mean_reward": 25.456850279529206
+      },
+      {
+        "update": 25,
+        "score": [
+          0.2,
+          -0.7472222222222222,
+          25.456448742748943
+        ],
+        "conditional_joint_stl": 0.2,
+        "post_truth_hard_violation_rate": 0.7472222222222222,
+        "mean_reward": 25.456448742748943
+      },
+      {
+        "update": 30,
+        "score": [
+          0.2,
+          -0.7472222222222222,
+          25.43591318561667
+        ],
+        "conditional_joint_stl": 0.2,
+        "post_truth_hard_violation_rate": 0.7472222222222222,
+        "mean_reward": 25.43591318561667
+      },
+      {
+        "update": 35,
+        "score": [
+          0.2,
+          -0.7472222222222222,
+          25.457202407807085
+        ],
+        "conditional_joint_stl": 0.2,
+        "post_truth_hard_violation_rate": 0.7472222222222222,
+        "mean_reward": 25.457202407807085
+      },
+      {
+        "update": 40,
+        "score": [
+          0.2,
+          -0.7472222222222222,
+          25.619346707282414
+        ],
+        "conditional_joint_stl": 0.2,
+        "post_truth_hard_violation_rate": 0.7472222222222222,
+        "mean_reward": 25.619346707282414
+      },
+      {
+        "update": 45,
+        "score": [
+          0.2,
+          -0.7472222222222222,
+          25.768297104618494
+        ],
+        "conditional_joint_stl": 0.2,
+        "post_truth_hard_violation_rate": 0.7472222222222222,
+        "mean_reward": 25.768297104618494
+      },
+      {
+        "update": 50,
+        "score": [
+          0.2,
+          -0.7472222222222222,
+          25.756894036595867
+        ],
+        "conditional_joint_stl": 0.2,
+        "post_truth_hard_violation_rate": 0.7472222222222222,
+        "mean_reward": 25.756894036595867
+      },
+      {
+        "update": 55,
+        "score": [
+          0.2,
+          -0.7472222222222222,
+          25.706177148363064
+        ],
+        "conditional_joint_stl": 0.2,
+        "post_truth_hard_violation_rate": 0.7472222222222222,
+        "mean_reward": 25.706177148363064
+      },
+      {
+        "update": 60,
+        "score": [
+          0.2,
+          -0.7472222222222222,
+          25.653952837035977
+        ],
+        "conditional_joint_stl": 0.2,
+        "post_truth_hard_violation_rate": 0.7472222222222222,
+        "mean_reward": 25.653952837035977
+      },
+      {
+        "update": 65,
+        "score": [
+          0.2,
+          -0.7472222222222222,
+          25.53757016099068
+        ],
+        "conditional_joint_stl": 0.2,
+        "post_truth_hard_violation_rate": 0.7472222222222222,
+        "mean_reward": 25.53757016099068
+      },
+      {
+        "update": 70,
+        "score": [
+          0.2,
+          -0.7472222222222222,
+          25.517487863259106
+        ],
+        "conditional_joint_stl": 0.2,
+        "post_truth_hard_violation_rate": 0.7472222222222222,
+        "mean_reward": 25.517487863259106
+      },
+      {
+        "update": 75,
+        "score": [
+          0.2,
+          -0.7472222222222222,
+          25.591669151558715
+        ],
+        "conditional_joint_stl": 0.2,
+        "post_truth_hard_violation_rate": 0.7472222222222222,
+        "mean_reward": 25.591669151558715
+      },
+      {
+        "update": 80,
+        "score": [
+          0.2,
+          -0.7472222222222222,
+          25.628178308004962
+        ],
+        "conditional_joint_stl": 0.2,
+        "post_truth_hard_violation_rate": 0.7472222222222222,
+        "mean_reward": 25.628178308004962
+      },
+      {
+        "update": 85,
+        "score": [
+          0.2,
+          -0.7472222222222222,
+          25.75585600259841
+        ],
+        "conditional_joint_stl": 0.2,
+        "post_truth_hard_violation_rate": 0.7472222222222222,
+        "mean_reward": 25.75585600259841
+      },
+      {
+        "update": 90,
+        "score": [
+          0.2,
+          -0.7361111111111112,
+          25.819859019937525
+        ],
+        "conditional_joint_stl": 0.2,
+        "post_truth_hard_violation_rate": 0.7361111111111112,
+        "mean_reward": 25.819859019937525
+      },
+      {
+        "update": 95,
+        "score": [
+          0.2,
+          -0.7111111111111111,
+          25.85623257376139
+        ],
+        "conditional_joint_stl": 0.2,
+        "post_truth_hard_violation_rate": 0.7111111111111111,
+        "mean_reward": 25.85623257376139
+      },
+      {
+        "update": 100,
+        "score": [
+          0.2,
+          -0.6861111111111111,
+          25.767264651189027
+        ],
+        "conditional_joint_stl": 0.2,
+        "post_truth_hard_violation_rate": 0.6861111111111111,
+        "mean_reward": 25.767264651189027
+      }
+    ]
+  },
+  {
+    "policy": "proposed_belief_stl_conflict_qp",
+    "episodes": 40,
+    "mean_reward": 28.71107,
+    "joint_satisfaction_rate": 0.925,
+    "mean_intervention_rate": 1.525,
+    "mean_intervention_distance": 1.08712,
+    "violation_rate": {
+      "C02": 0.025,
+      "C05": 0.05,
+      "E01": 0.45,
+      "E02": 1.0,
+      "E06": 0.1,
+      "S02": 0.075
+    },
+    "mean_first_violation_step": {
+      "C02": 0.0,
+      "C05": 19.5,
+      "E01": 6.556,
+      "E02": 1.0,
+      "E06": 24.5,
+      "S02": 1.333
+    },
+    "initial_infeasible_rate": 0.05,
+    "online_hard_violation_rate": 0.66167,
+    "post_shield_hard_violation_rate": 0.02333,
+    "post_truth_hard_violation_rate": 0.01,
+    "qp_infeasible_rate": 0.0175,
+    "conflict_rate": 0.0025,
+    "replan_trigger_rate": 0.755,
+    "mean_belief_risk": 0.02529,
+    "mean_pre_filter_belief_risk": 0.58898,
+    "mean_post_filter_belief_risk": 0.02529,
+    "mean_actor_time_ms": 4.89722,
+    "mean_online_time_ms": 6.86868,
+    "tail_violation_rate": 1.0,
+    "risk_calibration_brier": 0.01077,
+    "initially_feasible_episodes": 38,
+    "conditional_joint_satisfaction_rate": 0.97368,
+    "rule_conflict_event_rate": 5.16417,
+    "rule_rule_conflict_step_rate": 0.20083,
+    "rule_rule_resolution_rate": 0.95,
+    "mean_conflict_residual": 0.72145,
+    "mean_solver_agents": 3.0,
+    "mean_solver_components": 1.0,
+    "max_solver_component_size": 3,
+    "cross_component_violation_rate": 0.0,
+    "cross_component_repair_rate": 0.0,
+    "seed": 88,
+    "warm_start": {
+      "behavior_clone_loss": 0.00682044867426157,
+      "mode_accuracy": 1.0,
+      "samples": 3
+    },
+    "selected_update": 100,
+    "validation": {
+      "policy": "proposed_belief_stl_conflict_qp_validation",
+      "episodes": 12,
+      "mean_reward": 26.14413,
+      "joint_satisfaction_rate": 0.25,
+      "mean_intervention_rate": 0.0,
+      "mean_intervention_distance": 0.0,
+      "violation_rate": {
+        "C03": 0.08333,
+        "C04": 0.25,
+        "C05": 0.33333,
+        "E01": 1.0,
+        "E02": 0.83333,
+        "E06": 0.25,
+        "F01": 0.33333,
+        "F03": 0.25,
+        "F04": 0.41667,
+        "I01": 0.08333,
+        "I02": 0.58333,
+        "I03": 0.41667,
+        "I04": 0.08333,
+        "I06": 0.08333,
+        "M03": 0.91667,
+        "M06": 0.25,
+        "S02": 0.25
+      },
+      "mean_first_violation_step": {
+        "C03": 8.0,
+        "C04": 7.0,
+        "C05": 5.25,
+        "E01": 0.0,
+        "E02": 9.9,
+        "E06": 19.667,
+        "F01": 8.75,
+        "F03": 19.667,
+        "F04": 11.6,
+        "I01": 0.0,
+        "I02": 0.0,
+        "I03": 3.0,
+        "I04": 0.0,
+        "I06": 15.0,
+        "M03": 18.727,
+        "M06": 19.667,
+        "S02": 1.333
+      },
+      "initial_infeasible_rate": 0.16667,
+      "online_hard_violation_rate": 0.0,
+      "post_shield_hard_violation_rate": 0.0,
+      "post_truth_hard_violation_rate": 0.525,
+      "qp_infeasible_rate": 0.0,
+      "conflict_rate": 0.0,
+      "replan_trigger_rate": 0.0,
+      "mean_belief_risk": 0.0,
+      "mean_pre_filter_belief_risk": 0.0,
+      "mean_post_filter_belief_risk": 0.0,
+      "mean_actor_time_ms": 4.74572,
+      "mean_online_time_ms": 0.0,
+      "tail_violation_rate": 1.0,
+      "risk_calibration_brier": 0.0,
+      "initially_feasible_episodes": 10,
+      "conditional_joint_satisfaction_rate": 0.3,
+      "rule_conflict_event_rate": 0.0,
+      "rule_rule_conflict_step_rate": 0.0,
+      "rule_rule_resolution_rate": 0.0,
+      "mean_conflict_residual": 0.0,
+      "mean_solver_agents": 0.0,
+      "mean_solver_components": 0.0,
+      "max_solver_component_size": 0,
+      "cross_component_violation_rate": 0.0,
+      "cross_component_repair_rate": 0.0
+    },
+    "validation_trace": [
+      {
+        "update": 0,
+        "score": [
+          0.3,
+          -0.6277777777777778,
+          23.281370547596065
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.6277777777777778,
+        "mean_reward": 23.281370547596065
+      },
+      {
+        "update": 5,
+        "score": [
+          0.3,
+          -0.6305555555555555,
+          23.67562242273313
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.6305555555555555,
+        "mean_reward": 23.67562242273313
+      },
+      {
+        "update": 10,
+        "score": [
+          0.3,
+          -0.625,
+          24.394783257061864
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.625,
+        "mean_reward": 24.394783257061864
+      },
+      {
+        "update": 15,
+        "score": [
+          0.3,
+          -0.6083333333333333,
+          25.010035947462768
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.6083333333333333,
+        "mean_reward": 25.010035947462768
+      },
+      {
+        "update": 20,
+        "score": [
+          0.3,
+          -0.6111111111111112,
+          25.293801411726236
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.6111111111111112,
+        "mean_reward": 25.293801411726236
+      },
+      {
+        "update": 25,
+        "score": [
+          0.3,
+          -0.5972222222222222,
+          25.57809063132784
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.5972222222222222,
+        "mean_reward": 25.57809063132784
+      },
+      {
+        "update": 30,
+        "score": [
+          0.3,
+          -0.5944444444444444,
+          25.763110993557763
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.5944444444444444,
+        "mean_reward": 25.763110993557763
+      },
+      {
+        "update": 35,
+        "score": [
+          0.3,
+          -0.5777777777777777,
+          25.787700595138418
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.5777777777777777,
+        "mean_reward": 25.787700595138418
+      },
+      {
+        "update": 40,
+        "score": [
+          0.3,
+          -0.5777777777777777,
+          25.788172431322383
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.5777777777777777,
+        "mean_reward": 25.788172431322383
+      },
+      {
+        "update": 45,
+        "score": [
+          0.3,
+          -0.5722222222222222,
+          25.856193808400885
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.5722222222222222,
+        "mean_reward": 25.856193808400885
+      },
+      {
+        "update": 50,
+        "score": [
+          0.3,
+          -0.5777777777777777,
+          26.049784022825445
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.5777777777777777,
+        "mean_reward": 26.049784022825445
+      },
+      {
+        "update": 55,
+        "score": [
+          0.3,
+          -0.5777777777777777,
+          26.133480710115705
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.5777777777777777,
+        "mean_reward": 26.133480710115705
+      },
+      {
+        "update": 60,
+        "score": [
+          0.3,
+          -0.5833333333333334,
+          26.157300242189223
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.5833333333333334,
+        "mean_reward": 26.157300242189223
+      },
+      {
+        "update": 65,
+        "score": [
+          0.3,
+          -0.5972222222222222,
+          26.1372559046617
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.5972222222222222,
+        "mean_reward": 26.1372559046617
+      },
+      {
+        "update": 70,
+        "score": [
+          0.3,
+          -0.5916666666666667,
+          26.097624355926417
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.5916666666666667,
+        "mean_reward": 26.097624355926417
+      },
+      {
+        "update": 75,
+        "score": [
+          0.3,
+          -0.5777777777777777,
+          26.099872830484177
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.5777777777777777,
+        "mean_reward": 26.099872830484177
+      },
+      {
+        "update": 80,
+        "score": [
+          0.3,
+          -0.575,
+          26.06892181579975
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.575,
+        "mean_reward": 26.06892181579975
+      },
+      {
+        "update": 85,
+        "score": [
+          0.3,
+          -0.5666666666666667,
+          26.083976959203323
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.5666666666666667,
+        "mean_reward": 26.083976959203323
+      },
+      {
+        "update": 90,
+        "score": [
+          0.3,
+          -0.5416666666666666,
+          26.10412530370566
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.5416666666666666,
+        "mean_reward": 26.10412530370566
+      },
+      {
+        "update": 95,
+        "score": [
+          0.3,
+          -0.5388888888888889,
+          26.098014044915555
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.5388888888888889,
+        "mean_reward": 26.098014044915555
+      },
+      {
+        "update": 100,
+        "score": [
+          0.3,
+          -0.525,
+          26.144125652144496
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.525,
+        "mean_reward": 26.144125652144496
+      }
+    ]
+  },
+  {
+    "policy": "proposed_belief_stl_conflict_qp",
+    "episodes": 40,
+    "mean_reward": 28.52787,
+    "joint_satisfaction_rate": 0.925,
+    "mean_intervention_rate": 1.27,
+    "mean_intervention_distance": 1.13168,
+    "violation_rate": {
+      "C02": 0.025,
+      "C05": 0.1,
+      "E01": 0.425,
+      "E02": 1.0,
+      "E06": 0.1,
+      "S02": 0.075
+    },
+    "mean_first_violation_step": {
+      "C02": 0.0,
+      "C05": 20.0,
+      "E01": 3.647,
+      "E02": 1.0,
+      "E06": 24.5,
+      "S02": 1.333
+    },
+    "initial_infeasible_rate": 0.05,
+    "online_hard_violation_rate": 0.66167,
+    "post_shield_hard_violation_rate": 0.02833,
+    "post_truth_hard_violation_rate": 0.01,
+    "qp_infeasible_rate": 0.01667,
+    "conflict_rate": 0.00667,
+    "replan_trigger_rate": 0.675,
+    "mean_belief_risk": 0.02628,
+    "mean_pre_filter_belief_risk": 0.62056,
+    "mean_post_filter_belief_risk": 0.02628,
+    "mean_actor_time_ms": 4.89082,
+    "mean_online_time_ms": 6.43491,
+    "tail_violation_rate": 1.0,
+    "risk_calibration_brier": 0.01678,
+    "initially_feasible_episodes": 38,
+    "conditional_joint_satisfaction_rate": 0.97368,
+    "rule_conflict_event_rate": 4.97,
+    "rule_rule_conflict_step_rate": 0.20417,
+    "rule_rule_resolution_rate": 0.97122,
+    "mean_conflict_residual": 0.63188,
+    "mean_solver_agents": 3.0,
+    "mean_solver_components": 1.0,
+    "max_solver_component_size": 3,
+    "cross_component_violation_rate": 0.0,
+    "cross_component_repair_rate": 0.0,
+    "seed": 99,
+    "warm_start": {
+      "behavior_clone_loss": 0.0071173859760165215,
+      "mode_accuracy": 1.0,
+      "samples": 3
+    },
+    "selected_update": 100,
+    "validation": {
+      "policy": "proposed_belief_stl_conflict_qp_validation",
+      "episodes": 12,
+      "mean_reward": 26.54898,
+      "joint_satisfaction_rate": 0.33333,
+      "mean_intervention_rate": 0.0,
+      "mean_intervention_distance": 0.0,
+      "violation_rate": {
+        "C03": 0.08333,
+        "C04": 0.33333,
+        "C05": 0.33333,
+        "E01": 1.0,
+        "E02": 0.5,
+        "E06": 0.16667,
+        "F01": 0.25,
+        "F03": 0.16667,
+        "F04": 0.33333,
+        "I01": 0.08333,
+        "I02": 0.58333,
+        "I03": 0.41667,
+        "I04": 0.08333,
+        "I06": 0.08333,
+        "M03": 0.83333,
+        "M06": 0.16667,
+        "S02": 0.25
+      },
+      "mean_first_violation_step": {
+        "C03": 8.0,
+        "C04": 12.0,
+        "C05": 5.0,
+        "E01": 0.0,
+        "E02": 17.0,
+        "E06": 17.5,
+        "F01": 10.0,
+        "F03": 17.5,
+        "F04": 7.75,
+        "I01": 0.0,
+        "I02": 0.0,
+        "I03": 3.0,
+        "I04": 0.0,
+        "I06": 11.0,
+        "M03": 16.8,
+        "M06": 17.5,
+        "S02": 1.333
+      },
+      "initial_infeasible_rate": 0.16667,
+      "online_hard_violation_rate": 0.0,
+      "post_shield_hard_violation_rate": 0.0,
+      "post_truth_hard_violation_rate": 0.48333,
+      "qp_infeasible_rate": 0.0,
+      "conflict_rate": 0.0,
+      "replan_trigger_rate": 0.0,
+      "mean_belief_risk": 0.0,
+      "mean_pre_filter_belief_risk": 0.0,
+      "mean_post_filter_belief_risk": 0.0,
+      "mean_actor_time_ms": 4.72383,
+      "mean_online_time_ms": 0.0,
+      "tail_violation_rate": 1.0,
+      "risk_calibration_brier": 0.0,
+      "initially_feasible_episodes": 10,
+      "conditional_joint_satisfaction_rate": 0.4,
+      "rule_conflict_event_rate": 0.0,
+      "rule_rule_conflict_step_rate": 0.0,
+      "rule_rule_resolution_rate": 0.0,
+      "mean_conflict_residual": 0.0,
+      "mean_solver_agents": 0.0,
+      "mean_solver_components": 0.0,
+      "max_solver_component_size": 0,
+      "cross_component_violation_rate": 0.0,
+      "cross_component_repair_rate": 0.0
+    },
+    "validation_trace": [
+      {
+        "update": 0,
+        "score": [
+          0.4,
+          -0.5944444444444444,
+          26.56502254272473
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5944444444444444,
+        "mean_reward": 26.56502254272473
+      },
+      {
+        "update": 5,
+        "score": [
+          0.4,
+          -0.5944444444444444,
+          26.793342117939574
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5944444444444444,
+        "mean_reward": 26.793342117939574
+      },
+      {
+        "update": 10,
+        "score": [
+          0.4,
+          -0.5833333333333334,
+          26.767468786400045
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5833333333333334,
+        "mean_reward": 26.767468786400045
+      },
+      {
+        "update": 15,
+        "score": [
+          0.4,
+          -0.5833333333333334,
+          26.882738292725236
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5833333333333334,
+        "mean_reward": 26.882738292725236
+      },
+      {
+        "update": 20,
+        "score": [
+          0.4,
+          -0.5833333333333334,
+          26.94746617938033
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5833333333333334,
+        "mean_reward": 26.94746617938033
+      },
+      {
+        "update": 25,
+        "score": [
+          0.4,
+          -0.5777777777777777,
+          26.897445913173247
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5777777777777777,
+        "mean_reward": 26.897445913173247
+      },
+      {
+        "update": 30,
+        "score": [
+          0.4,
+          -0.5638888888888889,
+          26.84006611783936
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5638888888888889,
+        "mean_reward": 26.84006611783936
+      },
+      {
+        "update": 35,
+        "score": [
+          0.4,
+          -0.5611111111111111,
+          26.456726581340103
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5611111111111111,
+        "mean_reward": 26.456726581340103
+      },
+      {
+        "update": 40,
+        "score": [
+          0.4,
+          -0.5583333333333333,
+          26.95710514401301
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5583333333333333,
+        "mean_reward": 26.95710514401301
+      },
+      {
+        "update": 45,
+        "score": [
+          0.4,
+          -0.5527777777777778,
+          26.860650739208946
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5527777777777778,
+        "mean_reward": 26.860650739208946
+      },
+      {
+        "update": 50,
+        "score": [
+          0.4,
+          -0.5555555555555556,
+          26.878739695819803
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5555555555555556,
+        "mean_reward": 26.878739695819803
+      },
+      {
+        "update": 55,
+        "score": [
+          0.4,
+          -0.5555555555555556,
+          26.945469478534022
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5555555555555556,
+        "mean_reward": 26.945469478534022
+      },
+      {
+        "update": 60,
+        "score": [
+          0.4,
+          -0.5555555555555556,
+          26.984551342353885
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5555555555555556,
+        "mean_reward": 26.984551342353885
+      },
+      {
+        "update": 65,
+        "score": [
+          0.4,
+          -0.55,
+          26.96879230074872
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.55,
+        "mean_reward": 26.96879230074872
+      },
+      {
+        "update": 70,
+        "score": [
+          0.4,
+          -0.5388888888888889,
+          26.931753178415544
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5388888888888889,
+        "mean_reward": 26.931753178415544
+      },
+      {
+        "update": 75,
+        "score": [
+          0.4,
+          -0.5111111111111111,
+          26.806062798421408
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.5111111111111111,
+        "mean_reward": 26.806062798421408
+      },
+      {
+        "update": 80,
+        "score": [
+          0.4,
+          -0.49722222222222223,
+          26.513474388132483
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.49722222222222223,
+        "mean_reward": 26.513474388132483
+      },
+      {
+        "update": 85,
+        "score": [
+          0.4,
+          -0.49444444444444446,
+          26.520451846655945
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.49444444444444446,
+        "mean_reward": 26.520451846655945
+      },
+      {
+        "update": 90,
+        "score": [
+          0.4,
+          -0.49444444444444446,
+          26.5460923740476
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.49444444444444446,
+        "mean_reward": 26.5460923740476
+      },
+      {
+        "update": 95,
+        "score": [
+          0.4,
+          -0.49166666666666664,
+          26.527476811911786
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.49166666666666664,
+        "mean_reward": 26.527476811911786
+      },
+      {
+        "update": 100,
+        "score": [
+          0.4,
+          -0.48333333333333334,
+          26.54898016137865
+        ],
+        "conditional_joint_stl": 0.4,
+        "post_truth_hard_violation_rate": 0.48333333333333334,
+        "mean_reward": 26.54898016137865
+      }
+    ]
+  },
+  {
+    "policy": "proposed_belief_stl_conflict_qp",
+    "episodes": 40,
+    "mean_reward": 28.78524,
+    "joint_satisfaction_rate": 0.925,
+    "mean_intervention_rate": 1.46583,
+    "mean_intervention_distance": 1.12275,
+    "violation_rate": {
+      "C02": 0.025,
+      "C05": 0.1,
+      "E01": 0.35,
+      "E02": 1.0,
+      "E06": 0.1,
+      "M03": 0.025,
+      "M04": 0.025,
+      "S02": 0.075
+    },
+    "mean_first_violation_step": {
+      "C02": 0.0,
+      "C05": 20.0,
+      "E01": 3.0,
+      "E02": 1.0,
+      "E06": 24.5,
+      "M03": 24.0,
+      "M04": 5.0,
+      "S02": 1.333
+    },
+    "initial_infeasible_rate": 0.05,
+    "online_hard_violation_rate": 0.7675,
+    "post_shield_hard_violation_rate": 0.02583,
+    "post_truth_hard_violation_rate": 0.00917,
+    "qp_infeasible_rate": 0.01583,
+    "conflict_rate": 0.00583,
+    "replan_trigger_rate": 0.79667,
+    "mean_belief_risk": 0.0245,
+    "mean_pre_filter_belief_risk": 0.66431,
+    "mean_post_filter_belief_risk": 0.0245,
+    "mean_actor_time_ms": 4.89066,
+    "mean_online_time_ms": 6.19405,
+    "tail_violation_rate": 1.0,
+    "risk_calibration_brier": 0.01693,
+    "initially_feasible_episodes": 38,
+    "conditional_joint_satisfaction_rate": 0.97368,
+    "rule_conflict_event_rate": 5.8825,
+    "rule_rule_conflict_step_rate": 0.22167,
+    "rule_rule_resolution_rate": 0.97967,
+    "mean_conflict_residual": 0.70848,
+    "mean_solver_agents": 3.0,
+    "mean_solver_components": 1.0,
+    "max_solver_component_size": 3,
+    "cross_component_violation_rate": 0.0,
+    "cross_component_repair_rate": 0.0,
+    "seed": 111,
+    "warm_start": {
+      "behavior_clone_loss": 0.007713093422353268,
+      "mode_accuracy": 1.0,
+      "samples": 3
+    },
+    "selected_update": 55,
+    "validation": {
+      "policy": "proposed_belief_stl_conflict_qp_validation",
+      "episodes": 12,
+      "mean_reward": 25.9385,
+      "joint_satisfaction_rate": 0.25,
+      "mean_intervention_rate": 0.0,
+      "mean_intervention_distance": 0.0,
+      "violation_rate": {
+        "C03": 0.08333,
+        "C04": 0.08333,
+        "C05": 0.33333,
+        "E01": 1.0,
+        "E02": 0.25,
+        "E06": 0.25,
+        "F01": 0.25,
+        "F03": 0.25,
+        "F04": 0.5,
+        "I01": 0.08333,
+        "I02": 0.58333,
+        "I03": 0.41667,
+        "I04": 0.08333,
+        "I06": 0.08333,
+        "M06": 0.25,
+        "S02": 0.25
+      },
+      "mean_first_violation_step": {
+        "C03": 8.0,
+        "C04": 0.0,
+        "C05": 1.25,
+        "E01": 0.0,
+        "E02": 28.667,
+        "E06": 18.667,
+        "F01": 13.0,
+        "F03": 18.667,
+        "F04": 13.667,
+        "I01": 0.0,
+        "I02": 0.0,
+        "I03": 3.0,
+        "I04": 0.0,
+        "I06": 24.0,
+        "M06": 18.667,
+        "S02": 1.333
+      },
+      "initial_infeasible_rate": 0.16667,
+      "online_hard_violation_rate": 0.0,
+      "post_shield_hard_violation_rate": 0.0,
+      "post_truth_hard_violation_rate": 0.73056,
+      "qp_infeasible_rate": 0.0,
+      "conflict_rate": 0.0,
+      "replan_trigger_rate": 0.0,
+      "mean_belief_risk": 0.0,
+      "mean_pre_filter_belief_risk": 0.0,
+      "mean_post_filter_belief_risk": 0.0,
+      "mean_actor_time_ms": 4.71228,
+      "mean_online_time_ms": 0.0,
+      "tail_violation_rate": 1.0,
+      "risk_calibration_brier": 0.0,
+      "initially_feasible_episodes": 10,
+      "conditional_joint_satisfaction_rate": 0.3,
+      "rule_conflict_event_rate": 0.0,
+      "rule_rule_conflict_step_rate": 0.0,
+      "rule_rule_resolution_rate": 0.0,
+      "mean_conflict_residual": 0.0,
+      "mean_solver_agents": 0.0,
+      "mean_solver_components": 0.0,
+      "max_solver_component_size": 0,
+      "cross_component_violation_rate": 0.0,
+      "cross_component_repair_rate": 0.0
+    },
+    "validation_trace": [
+      {
+        "update": 0,
+        "score": [
+          0.3,
+          -0.7305555555555555,
+          25.763438299499068
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7305555555555555,
+        "mean_reward": 25.763438299499068
+      },
+      {
+        "update": 5,
+        "score": [
+          0.3,
+          -0.7305555555555555,
+          25.793771029583073
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7305555555555555,
+        "mean_reward": 25.793771029583073
+      },
+      {
+        "update": 10,
+        "score": [
+          0.3,
+          -0.7305555555555555,
+          25.803679360496613
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7305555555555555,
+        "mean_reward": 25.803679360496613
+      },
+      {
+        "update": 15,
+        "score": [
+          0.3,
+          -0.7305555555555555,
+          25.803692172101297
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7305555555555555,
+        "mean_reward": 25.803692172101297
+      },
+      {
+        "update": 20,
+        "score": [
+          0.3,
+          -0.7305555555555555,
+          25.782581374489947
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7305555555555555,
+        "mean_reward": 25.782581374489947
+      },
+      {
+        "update": 25,
+        "score": [
+          0.3,
+          -0.7305555555555555,
+          25.803630585815224
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7305555555555555,
+        "mean_reward": 25.803630585815224
+      },
+      {
+        "update": 30,
+        "score": [
+          0.3,
+          -0.7305555555555555,
+          25.853706666319678
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7305555555555555,
+        "mean_reward": 25.853706666319678
+      },
+      {
+        "update": 35,
+        "score": [
+          0.3,
+          -0.7305555555555555,
+          25.84599333329339
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7305555555555555,
+        "mean_reward": 25.84599333329339
+      },
+      {
+        "update": 40,
+        "score": [
+          0.3,
+          -0.7305555555555555,
+          25.82758175837721
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7305555555555555,
+        "mean_reward": 25.82758175837721
+      },
+      {
+        "update": 45,
+        "score": [
+          0.3,
+          -0.7305555555555555,
+          25.806501030030976
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7305555555555555,
+        "mean_reward": 25.806501030030976
+      },
+      {
+        "update": 50,
+        "score": [
+          0.3,
+          -0.7305555555555555,
+          25.912046311763575
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7305555555555555,
+        "mean_reward": 25.912046311763575
+      },
+      {
+        "update": 55,
+        "score": [
+          0.3,
+          -0.7305555555555555,
+          25.9384962737326
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7305555555555555,
+        "mean_reward": 25.9384962737326
+      },
+      {
+        "update": 60,
+        "score": [
+          0.3,
+          -0.7305555555555555,
+          25.911706269541625
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7305555555555555,
+        "mean_reward": 25.911706269541625
+      },
+      {
+        "update": 65,
+        "score": [
+          0.3,
+          -0.7305555555555555,
+          25.891044842754855
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7305555555555555,
+        "mean_reward": 25.891044842754855
+      },
+      {
+        "update": 70,
+        "score": [
+          0.3,
+          -0.7305555555555555,
+          25.912748532136575
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7305555555555555,
+        "mean_reward": 25.912748532136575
+      },
+      {
+        "update": 75,
+        "score": [
+          0.3,
+          -0.7305555555555555,
+          25.914339672822223
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7305555555555555,
+        "mean_reward": 25.914339672822223
+      },
+      {
+        "update": 80,
+        "score": [
+          0.3,
+          -0.7305555555555555,
+          25.877769395642066
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7305555555555555,
+        "mean_reward": 25.877769395642066
+      },
+      {
+        "update": 85,
+        "score": [
+          0.3,
+          -0.7305555555555555,
+          25.877390046627
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7305555555555555,
+        "mean_reward": 25.877390046627
+      },
+      {
+        "update": 90,
+        "score": [
+          0.3,
+          -0.7305555555555555,
+          25.868731294003567
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7305555555555555,
+        "mean_reward": 25.868731294003567
+      },
+      {
+        "update": 95,
+        "score": [
+          0.3,
+          -0.7305555555555555,
+          25.890308995068143
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7305555555555555,
+        "mean_reward": 25.890308995068143
+      },
+      {
+        "update": 100,
+        "score": [
+          0.3,
+          -0.7305555555555555,
+          25.891919596455697
+        ],
+        "conditional_joint_stl": 0.3,
+        "post_truth_hard_violation_rate": 0.7305555555555555,
+        "mean_reward": 25.891919596455697
+      }
+    ]
+  }
+]

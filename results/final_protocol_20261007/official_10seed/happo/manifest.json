@@ -1,0 +1,48 @@
+{
+  "method": "HAPPO",
+  "implementation": "official HAPPO_Policy + HAPPO + SeparatedReplayBuffer",
+  "repository": "https://github.com/marlbenchmark/on-policy",
+  "commit": "de66d7a4b23fac2513f56f96f73b3f5cb96695ac",
+  "source_fingerprints": [
+    "946c41e604f6ae7aa86276f33b9631f182cdc46b184adb9b21cdf2de22147d6d"
+  ],
+  "license": "MIT",
+  "third_party_source_modified": false,
+  "adapter": "external_adapters/official_happo.py",
+  "observation": "separate local actor observations; concatenated team observations for centralized critics",
+  "action_adapter": "common continuous Gaussian latent Box(5), clipped then decoded to mode, controls and target",
+  "safety_constraint": "none; HAPPO is an unconstrained heterogeneous MARL baseline",
+  "compatibility_note": "none",
+  "adaptation_limit": "mode and target are rounded at the simulator boundary",
+  "seed_policy": {
+    "training": "seed*100000 + 300000 + update (shared by all external baselines)",
+    "validation": "550000 + seed*1000 + index",
+    "test": "same frozen make_scenarios protocol as the paper benchmark"
+  },
+  "checkpoint_selection": "maximize conditional joint STL, then minimize truth hard violation, then maximize reward on validation scenarios",
+  "arguments": {
+    "algorithm": "happo",
+    "seeds": [
+      11,
+      22,
+      33,
+      44,
+      55,
+      66,
+      77,
+      88,
+      99,
+      111
+    ],
+    "updates": 100,
+    "episodes": 40,
+    "horizon": 30,
+    "aircraft": 3,
+    "ppo_epoch": 5,
+    "kl_threshold": 0.01,
+    "line_search_steps": 10,
+    "accept_ratio": 0.5,
+    "checkpoint_interval": 5,
+    "output": "results\\final_protocol_20261007\\official_10seed\\happo"
+  }
+}

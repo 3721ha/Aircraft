@@ -1,0 +1,26 @@
+{
+  "backend": "jsbsim",
+  "methods": [
+    "proposed",
+    "mappo",
+    "macpo",
+    "mat"
+  ],
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55,
+    66,
+    77,
+    88,
+    99,
+    111
+  ],
+  "episodes": 12,
+  "horizon": 60,
+  "decision_horizon": 30,
+  "zero_shot": true,
+  "checkpoint_protocol": "rebuilt decision-level checkpoints; no JSBSim fine-tuning"
+}

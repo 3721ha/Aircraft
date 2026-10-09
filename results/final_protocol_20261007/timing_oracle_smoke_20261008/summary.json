@@ -1,0 +1,2231 @@
+{
+  "metadata": {
+    "protocol": "warning_clock_timing_plus_truth_recovery_reference_v1",
+    "seeds": [
+      11
+    ],
+    "distances": [
+      2000.0,
+      2400.0
+    ],
+    "episodes_per_seed_distance": 1,
+    "position_jitter_m": 0,
+    "horizon_from_warning": 30,
+    "timings": [
+      "warning_now",
+      "warning_plus_1",
+      "warning_plus_2",
+      "first_S02_violation"
+    ],
+    "target_rules": [
+      "S02",
+      "S03"
+    ],
+    "protocol_overrides": {
+      "support_response_deadline": 0,
+      "noise_position": 0.0,
+      "noise_speed": 0.0,
+      "belief_ttc_threshold": 6.0,
+      "safe_trend_window": 4
+    },
+    "warning_definition": "First unsafe TTC/closest-distance trend on a shared unshielded prefix, assessed offline in truth. Not expired S03 and not an operational online trigger.",
+    "comparison_clock": "Every branch ends 30 executed steps after the same warning; pre-takeover violations/rewards are included. No reset of S03 history.",
+    "nominal_policy": "fixed rule_agnostic_policy; shield ablation, not learned-policy evaluation",
+    "reference_definition": "82 fixed 3-step sequences plus multi-start full-truth SLSQP max-min sampled separation with physically valid state and restored safety at step 3; validated in actual environment, not certified global upper bound.",
+    "oracle_starts": 3,
+    "oracle_maxiter": 80,
+    "unique_oracle_physical_states": 2,
+    "requested_cases": 2,
+    "ready_cases": 2,
+    "excluded_cases": 0,
+    "code_sha256": {
+      "D:\\project\\vsproject\\Aircraft\\run_intervention_timing_oracle_experiments.py": "a2e5a3d3666f46da3f020be00601f9a877768075e378a4d13e2d2fff5ab98207",
+      "run_post_violation_recovery_experiments.py": "1d8a4ebe0a96fc144f97d6e99ac825d2d4332d87a3a66dc082a9d0f95bfd1cdd",
+      "run_short_recovery_experiments.py": "f290db1d52a9047a149579a4e7af6e08e345731bc617b4d4ab2a8d7e93c464fc",
+      "aircraft_sim\\__init__.py": "1c30dea3f76fb8c840ff26a2318b3a7354e4475237d38ec1f5feef9e148d82e2",
+      "aircraft_sim\\baselines.py": "adf9a0cd7ba2aa2616d9d2392d716e7fd1cc1c741200bead3007cb3f7d0299a4",
+      "aircraft_sim\\belief.py": "d3616e05ceddd1d6b489727ae581d3783896549d075828fcf55d2f2c3fccde88",
+      "aircraft_sim\\config.py": "6fc19d45e7989c0f69598cae129448419879be0c1c9f6abd8c3f309188e8d5c6",
+      "aircraft_sim\\env.py": "37d7577017f42790fe5c90b15369128141de175b6d37e1a0ae4c051ee377a4eb",
+      "aircraft_sim\\evaluation.py": "ea0265dcce06af5de53e49d8f0d5fb6089372d59621abec8f66aa8ed3f70de4e",
+      "aircraft_sim\\high_fidelity.py": "f236e48282ca5e31d9b703d195c647d885a367a736dee2c047e1147913328374",
+      "aircraft_sim\\jsbsim_env.py": "e419d4b6f1ff958087ea83bbefb8d99f0d10797bb6d2703508d1ca07834ad576",
+      "aircraft_sim\\mappo.py": "f076ef2dd8742cf277a40e11881f710cfa725244b56689db67b99c9386c07b8f",
+      "aircraft_sim\\metrics.py": "7189025f91ee205a4fa8353f29565a02221ff50806b3c252fc8bb4b3fc4e4d39",
+      "aircraft_sim\\models.py": "19588887f064934e50f6b5e5dc75054070b18d6f8849dadd7e5daf0b1be45be5",
+      "aircraft_sim\\policies.py": "b676b830d1470b8b27d2bdc575f10700de4c979314e443ef968ceec994c1f8a0",
+      "aircraft_sim\\qp_shield.py": "01f7cd7eb0a7854333bc66a5b86ffcac8360470aa531ecef0e3dc19aefbe6f11",
+      "aircraft_sim\\risk_calibration.py": "8d2a3a09f4ad82a93eac2d803317a20d9b06e1d6649ad0ceaf9a68fab658d7fd",
+      "aircraft_sim\\rl_api.py": "2a5db9f46e847ef2d099483a8188bee437eae728d6880c6fcd0bb89af93e245c",
+      "aircraft_sim\\rule_graph.py": "ccba638cc81e7873c899afe58d00094e57a1402ad05109fa45120995768e010e",
+      "aircraft_sim\\rules.py": "13cd3567db92eac41885ecd10574dcf8f0149e5ff05544bb6ff40de09e56f036",
+      "aircraft_sim\\scenarios.py": "9e1dee4a3b9406420577e9fab41eed1f07a47c5c608087af0e9bb8810c2b60cb",
+      "aircraft_sim\\shield.py": "70fd21bd78a95be534b93131c7662941996de23f5c53aad86d104b43fe1e9483",
+      "aircraft_sim\\stl.py": "0e1d0087e896d554650a87d8613482563e0f1e9a0065c528979c52abbf77c450"
+    }
+  },
+  "timing_summary": [
+    {
+      "distance": 2000.0,
+      "timing": "first_S02_violation",
+      "method": "DG-QP",
+      "n_episodes": 1,
+      "target_safety_retention_3step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 229.63020287366083,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_violation_state_rate": {
+        "mean": 0.13333333333333333,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_within_3_steps_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C03_violation_state_rate": {
+        "mean": 0.1,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.9,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "support_service_state_rate": {
+        "mean": 0.9,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 10.329867334511722,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.26666666666666683,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.1,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    },
+    {
+      "distance": 2000.0,
+      "timing": "first_S02_violation",
+      "method": "JointHeuristic",
+      "n_episodes": 1,
+      "target_safety_retention_3step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 230.06914173908874,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_violation_state_rate": {
+        "mean": 0.13333333333333333,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_within_3_steps_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C03_violation_state_rate": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "support_service_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 25.640437274958806,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.3433333333333336,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    },
+    {
+      "distance": 2000.0,
+      "timing": "first_S02_violation",
+      "method": "NoShield",
+      "n_episodes": 1,
+      "target_safety_retention_3step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 219.3695399487707,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_violation_state_rate": {
+        "mean": 0.13333333333333333,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_within_3_steps_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C03_violation_state_rate": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "support_service_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 25.426734514066737,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.3600000000000002,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    },
+    {
+      "distance": 2000.0,
+      "timing": "first_S02_violation",
+      "method": "PartialShield",
+      "n_episodes": 1,
+      "target_safety_retention_3step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 224.8772158682814,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_violation_state_rate": {
+        "mean": 0.13333333333333333,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_within_3_steps_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C03_violation_state_rate": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.1,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "support_service_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 23.88512361204089,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.33666666666666695,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    },
+    {
+      "distance": 2000.0,
+      "timing": "warning_now",
+      "method": "DG-QP",
+      "n_episodes": 1,
+      "target_safety_retention_3step": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 663.1055892654,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_violation_state_rate": {
+        "mean": 0.03333333333333333,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_within_3_steps_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C03_violation_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C02_violation_state_rate": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "support_service_state_rate": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 10.328881986581752,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.2600000000000001,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.06666666666666667,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    },
+    {
+      "distance": 2000.0,
+      "timing": "warning_now",
+      "method": "JointHeuristic",
+      "n_episodes": 1,
+      "target_safety_retention_3step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 230.06914173908874,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_violation_state_rate": {
+        "mean": 0.13333333333333333,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_within_3_steps_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C03_violation_state_rate": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "support_service_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 25.640437274958806,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.3433333333333336,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    },
+    {
+      "distance": 2000.0,
+      "timing": "warning_now",
+      "method": "NoShield",
+      "n_episodes": 1,
+      "target_safety_retention_3step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 219.3695399487707,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_violation_state_rate": {
+        "mean": 0.13333333333333333,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_within_3_steps_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C03_violation_state_rate": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "support_service_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 25.426734514066737,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.3600000000000002,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    },
+    {
+      "distance": 2000.0,
+      "timing": "warning_now",
+      "method": "PartialShield",
+      "n_episodes": 1,
+      "target_safety_retention_3step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 224.8772158682814,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_violation_state_rate": {
+        "mean": 0.13333333333333333,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_within_3_steps_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C03_violation_state_rate": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.1,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "support_service_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 23.88512361204089,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.33666666666666695,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    },
+    {
+      "distance": 2000.0,
+      "timing": "warning_plus_1",
+      "method": "DG-QP",
+      "n_episodes": 1,
+      "target_safety_retention_3step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 351.0575480083922,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_violation_state_rate": {
+        "mean": 0.13333333333333333,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_within_3_steps_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C03_violation_state_rate": {
+        "mean": 0.03333333333333333,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.9666666666666667,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "support_service_state_rate": {
+        "mean": 0.9666666666666667,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 9.62505220554928,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.2600000000000001,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.16666666666666666,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    },
+    {
+      "distance": 2000.0,
+      "timing": "warning_plus_1",
+      "method": "JointHeuristic",
+      "n_episodes": 1,
+      "target_safety_retention_3step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 230.06914173908874,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_violation_state_rate": {
+        "mean": 0.13333333333333333,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_within_3_steps_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C03_violation_state_rate": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "support_service_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 25.640437274958806,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.3433333333333336,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    },
+    {
+      "distance": 2000.0,
+      "timing": "warning_plus_1",
+      "method": "NoShield",
+      "n_episodes": 1,
+      "target_safety_retention_3step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 219.3695399487707,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_violation_state_rate": {
+        "mean": 0.13333333333333333,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_within_3_steps_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C03_violation_state_rate": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "support_service_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 25.426734514066737,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.3600000000000002,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    },
+    {
+      "distance": 2000.0,
+      "timing": "warning_plus_1",
+      "method": "PartialShield",
+      "n_episodes": 1,
+      "target_safety_retention_3step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 224.8772158682814,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_violation_state_rate": {
+        "mean": 0.13333333333333333,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_within_3_steps_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C03_violation_state_rate": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.1,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "support_service_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 23.88512361204089,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.33666666666666695,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    },
+    {
+      "distance": 2000.0,
+      "timing": "warning_plus_2",
+      "method": "DG-QP",
+      "n_episodes": 1,
+      "target_safety_retention_3step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 134.09672089575017,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_violation_state_rate": {
+        "mean": 0.13333333333333333,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_within_3_steps_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C03_violation_state_rate": {
+        "mean": 0.06666666666666667,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.9333333333333333,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "support_service_state_rate": {
+        "mean": 0.9333333333333333,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 9.492872941286935,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.26666666666666683,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.13333333333333333,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    },
+    {
+      "distance": 2000.0,
+      "timing": "warning_plus_2",
+      "method": "JointHeuristic",
+      "n_episodes": 1,
+      "target_safety_retention_3step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 230.06914173908874,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_violation_state_rate": {
+        "mean": 0.13333333333333333,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_within_3_steps_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C03_violation_state_rate": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "support_service_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 25.640437274958806,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.3433333333333336,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    },
+    {
+      "distance": 2000.0,
+      "timing": "warning_plus_2",
+      "method": "NoShield",
+      "n_episodes": 1,
+      "target_safety_retention_3step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 219.3695399487707,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_violation_state_rate": {
+        "mean": 0.13333333333333333,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_within_3_steps_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C03_violation_state_rate": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "support_service_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 25.426734514066737,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.3600000000000002,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    },
+    {
+      "distance": 2000.0,
+      "timing": "warning_plus_2",
+      "method": "PartialShield",
+      "n_episodes": 1,
+      "target_safety_retention_3step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 224.8772158682814,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_violation_state_rate": {
+        "mean": 0.13333333333333333,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_within_3_steps_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C03_violation_state_rate": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.1,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "support_service_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 23.88512361204089,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.33666666666666695,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    },
+    {
+      "distance": 2400.0,
+      "timing": "first_S02_violation",
+      "method": "DG-QP",
+      "n_episodes": 1,
+      "target_safety_retention_3step": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 206.0420293428011,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_violation_state_rate": {
+        "mean": 0.13333333333333333,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_within_3_steps_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C03_violation_state_rate": {
+        "mean": 0.13333333333333333,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.8666666666666667,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "support_service_state_rate": {
+        "mean": 0.8666666666666667,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 10.948643390266056,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.2733333333333335,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.1,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    },
+    {
+      "distance": 2400.0,
+      "timing": "first_S02_violation",
+      "method": "JointHeuristic",
+      "n_episodes": 1,
+      "target_safety_retention_3step": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 205.24528671909704,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_violation_state_rate": {
+        "mean": 0.13333333333333333,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_within_3_steps_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C03_violation_state_rate": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "support_service_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 25.75937948931816,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.3433333333333336,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    },
+    {
+      "distance": 2400.0,
+      "timing": "first_S02_violation",
+      "method": "NoShield",
+      "n_episodes": 1,
+      "target_safety_retention_3step": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 201.82736812089212,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_violation_state_rate": {
+        "mean": 0.1,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_within_3_steps_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C03_violation_state_rate": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "support_service_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 25.49810495878724,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.3600000000000002,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    },
+    {
+      "distance": 2400.0,
+      "timing": "first_S02_violation",
+      "method": "PartialShield",
+      "n_episodes": 1,
+      "target_safety_retention_3step": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 201.3286428717381,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_violation_state_rate": {
+        "mean": 0.13333333333333333,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_within_3_steps_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C03_violation_state_rate": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.1,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "support_service_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 24.02381103124115,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.33666666666666695,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    },
+    {
+      "distance": 2400.0,
+      "timing": "warning_now",
+      "method": "DG-QP",
+      "n_episodes": 1,
+      "target_safety_retention_3step": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 688.0659037550281,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_violation_state_rate": {
+        "mean": 0.06666666666666667,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_within_3_steps_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C03_violation_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C02_violation_state_rate": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "support_service_state_rate": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 10.360082379693788,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.2600000000000001,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.1,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    },
+    {
+      "distance": 2400.0,
+      "timing": "warning_now",
+      "method": "JointHeuristic",
+      "n_episodes": 1,
+      "target_safety_retention_3step": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 226.34445415666815,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_violation_state_rate": {
+        "mean": 0.16666666666666666,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_within_3_steps_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C03_violation_state_rate": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "support_service_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 25.695663354815185,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.33666666666666695,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    },
+    {
+      "distance": 2400.0,
+      "timing": "warning_now",
+      "method": "NoShield",
+      "n_episodes": 1,
+      "target_safety_retention_3step": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 201.82736812089212,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_violation_state_rate": {
+        "mean": 0.1,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_within_3_steps_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C03_violation_state_rate": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "support_service_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 25.49810495878724,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.3600000000000002,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    },
+    {
+      "distance": 2400.0,
+      "timing": "warning_now",
+      "method": "PartialShield",
+      "n_episodes": 1,
+      "target_safety_retention_3step": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 201.3286428717381,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_violation_state_rate": {
+        "mean": 0.13333333333333333,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_within_3_steps_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C03_violation_state_rate": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.1,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "support_service_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 24.02381103124115,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.33666666666666695,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    },
+    {
+      "distance": 2400.0,
+      "timing": "warning_plus_1",
+      "method": "DG-QP",
+      "n_episodes": 1,
+      "target_safety_retention_3step": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 515.744066647944,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_violation_state_rate": {
+        "mean": 0.1,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_within_3_steps_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C03_violation_state_rate": {
+        "mean": 0.03333333333333333,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.9666666666666667,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "support_service_state_rate": {
+        "mean": 0.9666666666666667,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 10.355323918764247,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.2600000000000001,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.2,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    },
+    {
+      "distance": 2400.0,
+      "timing": "warning_plus_1",
+      "method": "JointHeuristic",
+      "n_episodes": 1,
+      "target_safety_retention_3step": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 226.34445415666815,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_violation_state_rate": {
+        "mean": 0.16666666666666666,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_within_3_steps_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C03_violation_state_rate": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "support_service_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 25.695663354815185,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.33666666666666695,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    },
+    {
+      "distance": 2400.0,
+      "timing": "warning_plus_1",
+      "method": "NoShield",
+      "n_episodes": 1,
+      "target_safety_retention_3step": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 201.82736812089212,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_violation_state_rate": {
+        "mean": 0.1,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_within_3_steps_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C03_violation_state_rate": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "support_service_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 25.49810495878724,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.3600000000000002,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    },
+    {
+      "distance": 2400.0,
+      "timing": "warning_plus_1",
+      "method": "PartialShield",
+      "n_episodes": 1,
+      "target_safety_retention_3step": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 201.3286428717381,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_violation_state_rate": {
+        "mean": 0.13333333333333333,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_within_3_steps_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C03_violation_state_rate": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.1,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "support_service_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 24.02381103124115,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.33666666666666695,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    },
+    {
+      "distance": 2400.0,
+      "timing": "warning_plus_2",
+      "method": "DG-QP",
+      "n_episodes": 1,
+      "target_safety_retention_3step": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 368.3475515968484,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_violation_state_rate": {
+        "mean": 0.13333333333333333,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_within_3_steps_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C03_violation_state_rate": {
+        "mean": 0.06666666666666667,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.9333333333333333,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "support_service_state_rate": {
+        "mean": 0.9333333333333333,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 10.169588716289198,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.26666666666666683,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.16666666666666666,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    },
+    {
+      "distance": 2400.0,
+      "timing": "warning_plus_2",
+      "method": "JointHeuristic",
+      "n_episodes": 1,
+      "target_safety_retention_3step": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 226.34445415666815,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_violation_state_rate": {
+        "mean": 0.16666666666666666,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_within_3_steps_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C03_violation_state_rate": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "support_service_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 25.695663354815185,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.33666666666666695,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    },
+    {
+      "distance": 2400.0,
+      "timing": "warning_plus_2",
+      "method": "NoShield",
+      "n_episodes": 1,
+      "target_safety_retention_3step": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 201.82736812089212,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_violation_state_rate": {
+        "mean": 0.1,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_within_3_steps_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C03_violation_state_rate": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "support_service_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 25.49810495878724,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.3600000000000002,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    },
+    {
+      "distance": 2400.0,
+      "timing": "warning_plus_2",
+      "method": "PartialShield",
+      "n_episodes": 1,
+      "target_safety_retention_3step": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_safety_retention_30step": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "minimum_separation_from_warning_m": {
+        "mean": 201.3286428717381,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "target_violation_state_rate": {
+        "mean": 0.13333333333333333,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_within_3_steps_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "risk_resolved_by_3_and_held_to_30": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C03_violation_state_rate": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "C02_violation_state_rate": {
+        "mean": 0.1,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "support_service_state_rate": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "cumulative_reward_from_warning": {
+        "mean": 24.02381103124115,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "mean_task_progress_gain": {
+        "mean": 0.33666666666666695,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "qp_fallback_rate_from_warning": {
+        "mean": 0.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    }
+  ],
+  "oracle_summary": [
+    {
+      "distance": 2000.0,
+      "n_episodes": 1,
+      "reference_recovered_by_3": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "grid_recovered_by_3": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "reference_minimum_separation_m": {
+        "mean": 303.20430831255925,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "one_step_pair_distance_upper_bound_m": {
+        "mean": 312.1473866946239,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    },
+    {
+      "distance": 2400.0,
+      "n_episodes": 1,
+      "reference_recovered_by_3": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "grid_recovered_by_3": {
+        "mean": 1.0,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "reference_minimum_separation_m": {
+        "mean": 296.39060867798617,
+        "seed_sd": null,
+        "n_seeds": 1
+      },
+      "one_step_pair_distance_upper_bound_m": {
+        "mean": 308.67895309214015,
+        "seed_sd": null,
+        "n_seeds": 1
+      }
+    }
+  ]
+}

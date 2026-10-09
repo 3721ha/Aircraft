@@ -1,0 +1,48 @@
+{
+  "protocol": "shared actor/critic architecture, initialization, train/validation/test seed families, update budget and checkpoint rule",
+  "third_party_reproduction_status": "internal integration references; do not label as official SOTA reproductions",
+  "seed_families": {
+    "warm_start": "seed*100000 + 80000 + episode",
+    "training": "seed*100000 + 300000 + update",
+    "validation": "550000 + seed*1000 + index",
+    "test": "seed*10000 + episode plus fixed templates"
+  },
+  "checkpoint_selection": "maximize conditional joint STL, then minimize truth hard violation, then maximize reward",
+  "selected_methods": [
+    "proposed_belief_stl_conflict_qp"
+  ],
+  "methods": {
+    "proposed_belief_stl_conflict_qp": {
+      "objective": "task",
+      "shield": "proposed"
+    }
+  },
+  "arguments": {
+    "methods": [
+      "proposed_belief_stl_conflict_qp"
+    ],
+    "seeds": [
+      11,
+      22,
+      33,
+      44,
+      55,
+      66,
+      77,
+      88,
+      99,
+      111
+    ],
+    "updates": 100,
+    "episodes": 40,
+    "horizon": 30,
+    "aircraft": 3,
+    "warmstart_epochs": 100,
+    "ppo_epoch": 2,
+    "checkpoint_interval": 5,
+    "fixed_penalty_coef": 0.35,
+    "stl_reward_coef": 0.2,
+    "safety_bound": 0.1,
+    "output": "results\\final_protocol_20261007\\proposed_10seed"
+  }
+}

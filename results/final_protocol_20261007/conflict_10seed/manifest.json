@@ -1,0 +1,27 @@
+{
+  "seeds": [
+    101,
+    202,
+    303,
+    404,
+    505,
+    606,
+    707,
+    808,
+    909,
+    1001
+  ],
+  "horizon": 30,
+  "aircraft": 3,
+  "initial_feasible_only": true,
+  "scenarios": [
+    "support_separation",
+    "coverage_resource",
+    "deadline_information",
+    "dual_support",
+    "mission_recovery",
+    "communication_intent",
+    "capability_dwell",
+    "risk_continuity"
+  ]
+}

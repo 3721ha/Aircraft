@@ -1,0 +1,36 @@
+﻿场景,case,t,方法,执行动作A0/A1/A2,全部真值记录,核心冲突规则后果,QP状态
+失联—意图,communication_intent,0,本文方法,RECOVER/COVER/SUPPORT,无违规,无核心违规,optimal
+失联—意图,communication_intent,0,MAPPO,RECOVER/RECOVER/RECOVER,C02,C02,optimal
+失联—意图,communication_intent,0,HAPPO,RECOVER/COVER/COVER,无违规,无核心违规,optimal
+失联—意图,communication_intent,0,HATRPO,RECOVER/RECOVER/RECOVER,C02,C02,optimal
+失联—意图,communication_intent,0,MACPO,RECOVER/COVER/RECOVER,无违规,无核心违规,optimal
+失联—意图,communication_intent,0,MAPPO-Lagrangian,EXIT/RECOVER/COVER,无违规,无核心违规,optimal
+失联—意图,communication_intent,0,MAT,RECOVER/RECOVER/COVER,无违规,无核心违规,optimal
+时限—信息,deadline_information,0,本文方法,RECOVER/COVER/SUPPORT,M02,M02,optimal
+时限—信息,deadline_information,0,MAPPO,RECOVER/RECOVER/RECOVER,"C02, M02","C02, M02",optimal
+时限—信息,deadline_information,0,HAPPO,RECOVER/COVER/COVER,M02,M02,optimal
+时限—信息,deadline_information,0,HATRPO,RECOVER/RECOVER/RECOVER,"C02, M02","C02, M02",optimal
+时限—信息,deadline_information,0,MACPO,RECOVER/COVER/RECOVER,M02,M02,optimal
+时限—信息,deadline_information,0,MAPPO-Lagrangian,EXIT/RECOVER/COVER,M02,M02,optimal
+时限—信息,deadline_information,0,MAT,RECOVER/RECOVER/COVER,M02,M02,optimal
+双支援,dual_support,1,本文方法,HOLD/COVER/SUPPORT,"C03:1, E02:0",C03:1,optimal
+双支援,dual_support,1,MAPPO,RECOVER/RECOVER/RECOVER,"C03:0, C03:1, C02","C03:0, C03:1, C02",optimal
+双支援,dual_support,1,HAPPO,COVER/COVER/SUPPORT,"C03:1, E01, E02:1",C03:1,optimal
+双支援,dual_support,1,HATRPO,RECOVER/RECOVER/RECOVER,"C03:0, C03:1, C02","C03:0, C03:1, C02",optimal
+双支援,dual_support,1,MACPO,RECOVER/COVER/RECOVER,"C03:0, C03:1","C03:0, C03:1",optimal
+双支援,dual_support,1,MAPPO-Lagrangian,EXIT/RECOVER/SUPPORT,"C03:1, C02","C03:1, C02",optimal
+双支援,dual_support,1,MAT,RECOVER/RECOVER/SUPPORT,"C03:1, C02","C03:1, C02",optimal
+支援—安全,support_separation,0,本文方法,CRITICAL/SUPPORT/SUPPORT,"C02, E01",C02,optimal
+支援—安全,support_separation,0,MAPPO,RECOVER/RECOVER/RECOVER,"C03:0, C02","C03:0, C02",optimal
+支援—安全,support_separation,0,HAPPO,COVER/SUPPORT/COVER,E01,无核心违规,infeasible_fallback
+支援—安全,support_separation,0,HATRPO,RECOVER/RECOVER/SUPPORT,C02,C02,optimal
+支援—安全,support_separation,0,MACPO,RECOVER/SUPPORT/RECOVER,C02,C02,optimal
+支援—安全,support_separation,0,MAPPO-Lagrangian,EXIT/RECOVER/SUPPORT,C02,C02,optimal
+支援—安全,support_separation,0,MAT,RECOVER/RECOVER/SUPPORT,C02,C02,optimal
+低资源—覆盖,coverage_resource,16,本文方法,EXIT/COVER/SUPPORT,E02:2,无核心违规,optimal
+低资源—覆盖,coverage_resource,16,MAPPO,RECOVER/RECOVER/RECOVER,C02,C02,optimal
+低资源—覆盖,coverage_resource,16,HAPPO,RECOVER/COVER/COVER,无违规,无核心违规,optimal
+低资源—覆盖,coverage_resource,16,HATRPO,RECOVER/RECOVER/COVER,无违规,无核心违规,optimal
+低资源—覆盖,coverage_resource,16,MACPO,RECOVER/COVER/RECOVER,无违规,无核心违规,optimal
+低资源—覆盖,coverage_resource,16,MAPPO-Lagrangian,EXIT/RECOVER/COVER,无违规,无核心违规,optimal
+低资源—覆盖,coverage_resource,16,MAT,RECOVER/RECOVER/COVER,无违规,无核心违规,optimal

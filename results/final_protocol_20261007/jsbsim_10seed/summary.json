@@ -1,0 +1,302 @@
+{
+  "metadata": {
+    "backend": "jsbsim",
+    "methods": [
+      "proposed",
+      "mappo",
+      "macpo",
+      "mat"
+    ],
+    "seeds": [
+      11,
+      22,
+      33,
+      44,
+      55,
+      66,
+      77,
+      88,
+      99,
+      111
+    ],
+    "episodes": 12,
+    "horizon": 60,
+    "decision_horizon": 30,
+    "zero_shot": true,
+    "checkpoint_protocol": "rebuilt decision-level checkpoints; no JSBSim fine-tuning"
+  },
+  "methods": [
+    {
+      "policy": "proposed_shared_qp",
+      "seeds": 10,
+      "mean_reward": {
+        "mean": 54.838922,
+        "std": 1.410218,
+        "ci95": 0.874062
+      },
+      "joint_satisfaction_rate": {
+        "mean": 0.583332,
+        "std": 0.103934,
+        "ci95": 0.064419
+      },
+      "conditional_joint_satisfaction_rate": {
+        "mean": 0.7,
+        "std": 0.124722,
+        "ci95": 0.077303
+      },
+      "post_truth_hard_violation_rate": {
+        "mean": 0.041528,
+        "std": 0.019505,
+        "ci95": 0.012089
+      },
+      "mean_intervention_rate": {
+        "mean": 1.319028,
+        "std": 0.100849,
+        "ci95": 0.062507
+      },
+      "mean_online_time_ms": {
+        "mean": 7.409444,
+        "std": 0.810244,
+        "ci95": 0.502195
+      }
+    },
+    {
+      "policy": "proposed_unshielded",
+      "seeds": 10,
+      "mean_reward": {
+        "mean": 49.419728,
+        "std": 3.178749,
+        "ci95": 1.970209
+      },
+      "joint_satisfaction_rate": {
+        "mean": 0.324999,
+        "std": 0.09977,
+        "ci95": 0.061838
+      },
+      "conditional_joint_satisfaction_rate": {
+        "mean": 0.39,
+        "std": 0.119722,
+        "ci95": 0.074204
+      },
+      "post_truth_hard_violation_rate": {
+        "mean": 0.511945,
+        "std": 0.051119,
+        "ci95": 0.031684
+      },
+      "mean_intervention_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci95": 0.0
+      },
+      "mean_online_time_ms": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci95": 0.0
+      }
+    },
+    {
+      "policy": "mappo_shared_qp",
+      "seeds": 10,
+      "mean_reward": {
+        "mean": 28.245731,
+        "std": 14.737243,
+        "ci95": 9.134238
+      },
+      "joint_satisfaction_rate": {
+        "mean": 0.258333,
+        "std": 0.329726,
+        "ci95": 0.204366
+      },
+      "conditional_joint_satisfaction_rate": {
+        "mean": 0.31,
+        "std": 0.395671,
+        "ci95": 0.245239
+      },
+      "post_truth_hard_violation_rate": {
+        "mean": 0.176666,
+        "std": 0.148121,
+        "ci95": 0.091806
+      },
+      "mean_intervention_rate": {
+        "mean": 0.524721,
+        "std": 0.195541,
+        "ci95": 0.121198
+      },
+      "mean_online_time_ms": {
+        "mean": 11.078496,
+        "std": 3.836443,
+        "ci95": 2.377852
+      }
+    },
+    {
+      "policy": "mappo_unshielded",
+      "seeds": 10,
+      "mean_reward": {
+        "mean": 29.110596,
+        "std": 14.924311,
+        "ci95": 9.250184
+      },
+      "joint_satisfaction_rate": {
+        "mean": 0.225,
+        "std": 0.309445,
+        "ci95": 0.191796
+      },
+      "conditional_joint_satisfaction_rate": {
+        "mean": 0.27,
+        "std": 0.371334,
+        "ci95": 0.230155
+      },
+      "post_truth_hard_violation_rate": {
+        "mean": 0.219167,
+        "std": 0.143568,
+        "ci95": 0.088984
+      },
+      "mean_intervention_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci95": 0.0
+      },
+      "mean_online_time_ms": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci95": 0.0
+      }
+    },
+    {
+      "policy": "macpo_shared_qp",
+      "seeds": 10,
+      "mean_reward": {
+        "mean": 38.889511,
+        "std": 10.235227,
+        "ci95": 6.343859
+      },
+      "joint_satisfaction_rate": {
+        "mean": 0.166666,
+        "std": 0.235701,
+        "ci95": 0.146089
+      },
+      "conditional_joint_satisfaction_rate": {
+        "mean": 0.2,
+        "std": 0.282843,
+        "ci95": 0.175308
+      },
+      "post_truth_hard_violation_rate": {
+        "mean": 0.112222,
+        "std": 0.045665,
+        "ci95": 0.028303
+      },
+      "mean_intervention_rate": {
+        "mean": 0.587083,
+        "std": 0.110024,
+        "ci95": 0.068194
+      },
+      "mean_online_time_ms": {
+        "mean": 8.403847,
+        "std": 0.978135,
+        "ci95": 0.606254
+      }
+    },
+    {
+      "policy": "macpo_unshielded",
+      "seeds": 10,
+      "mean_reward": {
+        "mean": 41.268114,
+        "std": 10.460508,
+        "ci95": 6.48349
+      },
+      "joint_satisfaction_rate": {
+        "mean": 0.141667,
+        "std": 0.200501,
+        "ci95": 0.124272
+      },
+      "conditional_joint_satisfaction_rate": {
+        "mean": 0.17,
+        "std": 0.240601,
+        "ci95": 0.149126
+      },
+      "post_truth_hard_violation_rate": {
+        "mean": 0.184722,
+        "std": 0.04578,
+        "ci95": 0.028375
+      },
+      "mean_intervention_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci95": 0.0
+      },
+      "mean_online_time_ms": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci95": 0.0
+      }
+    },
+    {
+      "policy": "mat_shared_qp",
+      "seeds": 10,
+      "mean_reward": {
+        "mean": 25.674405,
+        "std": 13.835314,
+        "ci95": 8.575217
+      },
+      "joint_satisfaction_rate": {
+        "mean": 0.283334,
+        "std": 0.31476,
+        "ci95": 0.19509
+      },
+      "conditional_joint_satisfaction_rate": {
+        "mean": 0.34,
+        "std": 0.377712,
+        "ci95": 0.234109
+      },
+      "post_truth_hard_violation_rate": {
+        "mean": 0.115556,
+        "std": 0.085873,
+        "ci95": 0.053225
+      },
+      "mean_intervention_rate": {
+        "mean": 0.511667,
+        "std": 0.237477,
+        "ci95": 0.14719
+      },
+      "mean_online_time_ms": {
+        "mean": 11.711845,
+        "std": 2.653798,
+        "ci95": 1.644841
+      }
+    },
+    {
+      "policy": "mat_unshielded",
+      "seeds": 10,
+      "mean_reward": {
+        "mean": 26.120745,
+        "std": 13.783161,
+        "ci95": 8.542892
+      },
+      "joint_satisfaction_rate": {
+        "mean": 0.274999,
+        "std": 0.306941,
+        "ci95": 0.190244
+      },
+      "conditional_joint_satisfaction_rate": {
+        "mean": 0.33,
+        "std": 0.36833,
+        "ci95": 0.228293
+      },
+      "post_truth_hard_violation_rate": {
+        "mean": 0.164305,
+        "std": 0.119475,
+        "ci95": 0.074051
+      },
+      "mean_intervention_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci95": 0.0
+      },
+      "mean_online_time_ms": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci95": 0.0
+      }
+    }
+  ]
+}
