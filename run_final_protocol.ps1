@@ -74,6 +74,21 @@ try {
         "--output", (Join-Path $conflictRoot "statistical_summary")
     )
 
+    $componentRoot = Join-Path $RunRoot "component_ablation_10seed"
+    Invoke-PythonStep "controlled component ablation (10 seeds)" @(
+        "run_component_ablation.py",
+        "--seeds", "101", "202", "303", "404", "505", "606", "707", "808", "909", "1001",
+        "--horizon", "30",
+        "--initial-feasible-only",
+        "--output", $componentRoot
+    )
+
+    Invoke-PythonStep "controlled component ablation statistics" @(
+        "analyze_component_ablation.py",
+        "--input", (Join-Path $componentRoot "per_seed.json"),
+        "--output", (Join-Path $componentRoot "statistical_summary")
+    )
+
     $jsbsimRoot = Join-Path $RunRoot "jsbsim_10seed"
     Invoke-PythonStep "JSBSim zero-shot validation" @(
         "run_high_fidelity_checkpoint_comparison.py",

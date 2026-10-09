@@ -16,7 +16,7 @@ from scipy.optimize import Bounds, minimize
 from .belief import BeliefSTLMonitor, BeliefRuleReport
 from .config import SimConfig
 from .models import Action, Mode
-from .rule_graph import RuleAgentDependencyGraph, RuleAgentGraphSnapshot
+from .rule_graph import RuleAgentDependencyGraph, RuleAgentGraphSnapshot, rule_category
 from .rules import is_hard_rule
 from .shield import Intervention
 
@@ -51,10 +51,25 @@ class ConflictAwareQPSafetyShield:
     rollout transition info by :class:`RolloutCollector`.
     """
 
+    # Fixed ordering used only by the no-dynamic-priority ablation.  The
+    # ordering mirrors the paper's P0--P5 hierarchy and is independent of
+    # belief probability, time-to-violation, and graph scope.
+    FIXED_CATEGORY_PRIORITY = {
+        "physical": 6,
+        "authorization": 5,
+        "fault_resource": 4,
+        "coordination": 3,
+        "mission": 2,
+        "efficiency": 1,
+    }
+
     def __init__(self, config: SimConfig, monitor: Optional[BeliefSTLMonitor] = None,
                  kappa: float = 2.0, alpha: float = 0.05, safety_buffer: float = 20.0,
                  allow_soft_relaxation: bool = True, sparse_active_set: bool = True,
-                 active_set_margin: float = 200.0):
+                 active_set_margin: float = 200.0,
+                 use_dependency_graph: bool = True,
+                 use_dynamic_priority: bool = True,
+                 use_continuous_qp: bool = True):
         # Accept either SimConfig or an AircraftEnv for ergonomic integration.
         self.cfg = getattr(config, "cfg", config)
         self.monitor = monitor or BeliefSTLMonitor(self.cfg, kappa=kappa)
@@ -64,6 +79,11 @@ class ConflictAwareQPSafetyShield:
         self.allow_soft_relaxation = allow_soft_relaxation
         self.sparse_active_set = sparse_active_set
         self.active_set_margin = float(active_set_margin)
+        # These switches are deliberately limited to controlled component
+        # ablations.  The default keeps the complete DG-QP behavior unchanged.
+        self.use_dependency_graph = bool(use_dependency_graph)
+        self.use_dynamic_priority = bool(use_dynamic_priority)
+        self.use_continuous_qp = bool(use_continuous_qp)
         self.rule_graph = RuleAgentDependencyGraph()
         self.last_solution = QPResidualSolution()
         self.intervention_history: Dict[int, List[int]] = {}
@@ -181,6 +201,12 @@ class ConflictAwareQPSafetyShield:
         mode = 0.0 if a.mode == b.mode else 1.0
         return mode + abs(a.turn - b.turn) + abs(a.climb - b.climb) + abs(a.acceleration - b.acceleration)
 
+    def _proposal_priority(self, rule: str, node) -> tuple[float, str]:
+        """Return the priority key used for discrete arbitration proposals."""
+        if self.use_dynamic_priority:
+            return float(node.dynamic_priority), rule
+        return float(self.FIXED_CATEGORY_PRIORITY.get(rule_category(rule), 0)), rule
+
     def _select_modes(self, observations: Dict[int, dict], nominal: Dict[int, Action], report: BeliefRuleReport, graph: RuleAgentGraphSnapshot):
         selected = {i: action.clipped() for i, action in nominal.items()}
         reasons: Dict[int, List[str]] = {i: [] for i in selected}
@@ -195,7 +221,8 @@ class ConflictAwareQPSafetyShield:
                         action.acceleration if acceleration is None else acceleration,
                         action.target, action.target_kind,
                     )
-                    proposals.append((node.dynamic_priority, rule, corrected, reason))
+                    priority, tie_break = self._proposal_priority(rule, node)
+                    proposals.append((priority, tie_break, corrected, reason))
 
             for rule in (f"I01:{i}", f"I02:{i}", f"I03:{i}", f"I04:{i}", f"I05:{i}"):
                 if rule in report.violations and action.mode == Mode.CRITICAL:
@@ -489,6 +516,12 @@ class ConflictAwareQPSafetyShield:
             nominal,
             active_rules=("C02",) if coverage_threatened else (),
         )
+        if not self.use_dependency_graph:
+            # Keep the same rule reports and node priorities, but remove all
+            # explicit rule--rule events and dependency edges.  This is the
+            # controlled flat-rule ablation, not a reduced-coverage baseline.
+            graph.edges = {}
+            graph.conflicts = []
         selected, mode_reasons = self._select_modes(observations, nominal, report, graph)
         ids, solver_components = self._active_solver_agents(selected, report, all_ids)
         # An empty active set means every aircraft is comfortably separated
@@ -498,7 +531,10 @@ class ConflictAwareQPSafetyShield:
         controls0 = [[selected[i].turn, selected[i].climb, selected[i].acceleration] for i in solver_ids]
         x0 = np.asarray(controls0, dtype=float).reshape(-1)
         solution = QPResidualSolution(nominal_actions=dict(nominal), belief_report=report, dependency_graph=graph)
-        solution.agent_rule_conflicts = {i: [node.key for node in graph.rules_for_agent(i)] for i in all_ids}
+        solution.agent_rule_conflicts = (
+            {i: [node.key for node in graph.rules_for_agent(i)] for i in all_ids}
+            if self.use_dependency_graph else {}
+        )
         solution.solver_agents = list(solver_ids)
         solution.solver_components = solver_components
         hard_violations = [v for v in report.violations if is_hard_rule(v)]
@@ -518,46 +554,52 @@ class ConflictAwareQPSafetyShield:
                     reason = component_reason
             return controls, statuses, objective, reason
 
-        component_statuses = []
-        component_objective = 0.0
-        component_reason = None
-        solved, component_statuses, component_objective, component_reason = solve_components(solver_components)
-        solved_controls.update(solved)
-        if component_reason:
-            solution.infeasibility_reason = component_reason
-
-        # Sparse components are selected from nominal geometry.  Validate the
-        # merged controls against every pair before exposing them to the
-        # environment; a residual can otherwise create a new cross-component
-        # collision that was absent at active-set construction time.
-        unsafe_pairs = self._unsafe_pairs(solved_controls, all_ids, report)
-        cross_pairs = self._cross_component_pairs(unsafe_pairs, solver_components)
-        solution.cross_component_violations = len(cross_pairs)
-        for _ in range(2):
-            if not cross_pairs:
-                break
-            solution.cross_component_repairs += 1
-            solver_components = self._merge_components(solver_components, cross_pairs)
-            solver_ids = sorted({agent for component in solver_components for agent in component})
+        if self.use_continuous_qp:
+            component_statuses = []
+            component_objective = 0.0
+            component_reason = None
             solved, component_statuses, component_objective, component_reason = solve_components(solver_components)
-            solved_controls = {i: [selected[i].turn, selected[i].climb, selected[i].acceleration] for i in all_ids}
             solved_controls.update(solved)
             if component_reason:
                 solution.infeasibility_reason = component_reason
+
+            # Sparse components are selected from nominal geometry.  Validate
+            # merged controls against every pair before exposing them.
             unsafe_pairs = self._unsafe_pairs(solved_controls, all_ids, report)
             cross_pairs = self._cross_component_pairs(unsafe_pairs, solver_components)
-        solution.solver_agents = list(solver_ids)
-        solution.solver_components = solver_components
-        if any(status != "optimal" for status in component_statuses):
-            solution.status = "infeasible_fallback"
-            if solution.infeasibility_reason is None:
-                solution.infeasibility_reason = "component_hard_feasibility_failure"
-        elif unsafe_pairs:
-            solution.status = "infeasible_fallback"
-            solution.infeasibility_reason = "cross_component_hard_safety_failure"
+            solution.cross_component_violations = len(cross_pairs)
+            for _ in range(2):
+                if not cross_pairs:
+                    break
+                solution.cross_component_repairs += 1
+                solver_components = self._merge_components(solver_components, cross_pairs)
+                solver_ids = sorted({agent for component in solver_components for agent in component})
+                solved, component_statuses, component_objective, component_reason = solve_components(solver_components)
+                solved_controls = {i: [selected[i].turn, selected[i].climb, selected[i].acceleration] for i in all_ids}
+                solved_controls.update(solved)
+                if component_reason:
+                    solution.infeasibility_reason = component_reason
+                unsafe_pairs = self._unsafe_pairs(solved_controls, all_ids, report)
+                cross_pairs = self._cross_component_pairs(unsafe_pairs, solver_components)
+            solution.solver_agents = list(solver_ids)
+            solution.solver_components = solver_components
+            if any(status != "optimal" for status in component_statuses):
+                solution.status = "infeasible_fallback"
+                if solution.infeasibility_reason is None:
+                    solution.infeasibility_reason = "component_hard_feasibility_failure"
+            elif unsafe_pairs:
+                solution.status = "infeasible_fallback"
+                solution.infeasibility_reason = "cross_component_hard_safety_failure"
+            else:
+                solution.status = "optimal"
+            solution.objective = component_objective
         else:
-            solution.status = "optimal"
-        solution.objective = component_objective
+            # Gate-only ablation keeps the same belief reports, graph and
+            # discrete mode arbitration, but exposes no continuous correction.
+            solution.solver_agents = []
+            solution.solver_components = []
+            solution.status = "gate_only"
+            solution.objective = 0.0
         # Soft coverage is explicitly recorded as relaxed when no COVER role
         # remains after hard arbitration.
         if not any(a.mode == Mode.COVER for a in selected.values()):

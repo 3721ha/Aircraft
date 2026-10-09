@@ -1,0 +1,48 @@
+{
+  "protocol": "controlled_component_ablation_v1",
+  "seeds": [
+    101,
+    202,
+    303,
+    404,
+    505,
+    606,
+    707,
+    808,
+    909,
+    1001
+  ],
+  "horizon": 30,
+  "aircraft": 3,
+  "initial_feasible_only": true,
+  "scenarios": [
+    "support_separation",
+    "coverage_resource",
+    "deadline_information",
+    "dual_support",
+    "mission_recovery",
+    "communication_intent",
+    "capability_dwell",
+    "risk_continuity"
+  ],
+  "variants": {
+    "DG-QP": {},
+    "No-Graph": {
+      "use_dependency_graph": false
+    },
+    "Fixed-Priority": {
+      "use_dynamic_priority": false
+    },
+    "Gate-Only": {
+      "use_continuous_qp": false
+    }
+  },
+  "common_rule_coverage": true,
+  "nominal_policy": "rule_agnostic_policy",
+  "variant_definitions": {
+    "DG-QP": "dependency graph + dynamic priority + continuous residual QP",
+    "No-Graph": "same full rule reports and priorities, no explicit dependency edges/conflict events",
+    "Fixed-Priority": "dependency graph + fixed P0-P5 priority, no probability/urgency reordering",
+    "Gate-Only": "dependency graph + dynamic priority + discrete gating, no continuous residual solve"
+  }
+}

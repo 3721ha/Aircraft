@@ -1,0 +1,302 @@
+[
+  {
+    "component": "dependency_graph",
+    "ablation": "No-Graph",
+    "metric": "mean_reward",
+    "n": 10,
+    "mean_delta_better": 0.0,
+    "ci95_halfwidth": 0.0,
+    "sign_p_two_sided": 1.0,
+    "mean_delta_raw_full_minus_ablation": 0.0
+  },
+  {
+    "component": "dependency_graph",
+    "ablation": "No-Graph",
+    "metric": "joint_satisfaction_rate",
+    "n": 10,
+    "mean_delta_better": 0.0,
+    "ci95_halfwidth": 0.0,
+    "sign_p_two_sided": 1.0,
+    "mean_delta_raw_full_minus_ablation": 0.0
+  },
+  {
+    "component": "dependency_graph",
+    "ablation": "No-Graph",
+    "metric": "conditional_joint_satisfaction_rate",
+    "n": 10,
+    "mean_delta_better": 0.0,
+    "ci95_halfwidth": 0.0,
+    "sign_p_two_sided": 1.0,
+    "mean_delta_raw_full_minus_ablation": 0.0
+  },
+  {
+    "component": "dependency_graph",
+    "ablation": "No-Graph",
+    "metric": "post_truth_hard_violation_rate",
+    "n": 10,
+    "mean_delta_better": 0.0,
+    "ci95_halfwidth": 0.0,
+    "sign_p_two_sided": 1.0,
+    "mean_delta_raw_full_minus_ablation": 0.0
+  },
+  {
+    "component": "dependency_graph",
+    "ablation": "No-Graph",
+    "metric": "target_hard_success_rate",
+    "n": 10,
+    "mean_delta_better": 0.0,
+    "ci95_halfwidth": 0.0,
+    "sign_p_two_sided": 1.0,
+    "mean_delta_raw_full_minus_ablation": 0.0
+  },
+  {
+    "component": "dependency_graph",
+    "ablation": "No-Graph",
+    "metric": "mean_intervention_rate",
+    "n": 10,
+    "mean_delta_better": 0.0,
+    "ci95_halfwidth": 0.0,
+    "sign_p_two_sided": 1.0,
+    "mean_delta_raw_full_minus_ablation": 0.0
+  },
+  {
+    "component": "dependency_graph",
+    "ablation": "No-Graph",
+    "metric": "mean_online_time_ms",
+    "n": 10,
+    "mean_delta_better": -0.13826391601469376,
+    "ci95_halfwidth": 0.5352117044167016,
+    "sign_p_two_sided": 0.75390625,
+    "mean_delta_raw_full_minus_ablation": -0.13826391601469376
+  },
+  {
+    "component": "dependency_graph",
+    "ablation": "No-Graph",
+    "metric": "qp_infeasible_rate",
+    "n": 10,
+    "mean_delta_better": 0.0,
+    "ci95_halfwidth": 0.0,
+    "sign_p_two_sided": 1.0,
+    "mean_delta_raw_full_minus_ablation": 0.0
+  },
+  {
+    "component": "dependency_graph",
+    "ablation": "No-Graph",
+    "metric": "rule_rule_conflict_step_rate",
+    "n": 10,
+    "mean_delta_better": 0.5175,
+    "ci95_halfwidth": 0.03816582028690757,
+    "sign_p_two_sided": 0.001953125,
+    "mean_delta_raw_full_minus_ablation": 0.5175
+  },
+  {
+    "component": "dependency_graph",
+    "ablation": "No-Graph",
+    "metric": "rule_rule_resolution_rate",
+    "n": 10,
+    "mean_delta_better": 0.8294642857142858,
+    "ci95_halfwidth": 0.06302254882459422,
+    "sign_p_two_sided": 0.001953125,
+    "mean_delta_raw_full_minus_ablation": 0.8294642857142858
+  },
+  {
+    "component": "dynamic_priority",
+    "ablation": "Fixed-Priority",
+    "metric": "mean_reward",
+    "n": 10,
+    "mean_delta_better": 0.0,
+    "ci95_halfwidth": 0.0,
+    "sign_p_two_sided": 1.0,
+    "mean_delta_raw_full_minus_ablation": 0.0
+  },
+  {
+    "component": "dynamic_priority",
+    "ablation": "Fixed-Priority",
+    "metric": "joint_satisfaction_rate",
+    "n": 10,
+    "mean_delta_better": 0.0,
+    "ci95_halfwidth": 0.0,
+    "sign_p_two_sided": 1.0,
+    "mean_delta_raw_full_minus_ablation": 0.0
+  },
+  {
+    "component": "dynamic_priority",
+    "ablation": "Fixed-Priority",
+    "metric": "conditional_joint_satisfaction_rate",
+    "n": 10,
+    "mean_delta_better": 0.0,
+    "ci95_halfwidth": 0.0,
+    "sign_p_two_sided": 1.0,
+    "mean_delta_raw_full_minus_ablation": 0.0
+  },
+  {
+    "component": "dynamic_priority",
+    "ablation": "Fixed-Priority",
+    "metric": "post_truth_hard_violation_rate",
+    "n": 10,
+    "mean_delta_better": 0.0,
+    "ci95_halfwidth": 0.0,
+    "sign_p_two_sided": 1.0,
+    "mean_delta_raw_full_minus_ablation": 0.0
+  },
+  {
+    "component": "dynamic_priority",
+    "ablation": "Fixed-Priority",
+    "metric": "target_hard_success_rate",
+    "n": 10,
+    "mean_delta_better": 0.0,
+    "ci95_halfwidth": 0.0,
+    "sign_p_two_sided": 1.0,
+    "mean_delta_raw_full_minus_ablation": 0.0
+  },
+  {
+    "component": "dynamic_priority",
+    "ablation": "Fixed-Priority",
+    "metric": "mean_intervention_rate",
+    "n": 10,
+    "mean_delta_better": 0.0,
+    "ci95_halfwidth": 0.0,
+    "sign_p_two_sided": 1.0,
+    "mean_delta_raw_full_minus_ablation": 0.0
+  },
+  {
+    "component": "dynamic_priority",
+    "ablation": "Fixed-Priority",
+    "metric": "mean_online_time_ms",
+    "n": 10,
+    "mean_delta_better": 0.3568338340846819,
+    "ci95_halfwidth": 0.7140182958947354,
+    "sign_p_two_sided": 1.0,
+    "mean_delta_raw_full_minus_ablation": 0.3568338340846819
+  },
+  {
+    "component": "dynamic_priority",
+    "ablation": "Fixed-Priority",
+    "metric": "qp_infeasible_rate",
+    "n": 10,
+    "mean_delta_better": 0.0,
+    "ci95_halfwidth": 0.0,
+    "sign_p_two_sided": 1.0,
+    "mean_delta_raw_full_minus_ablation": 0.0
+  },
+  {
+    "component": "dynamic_priority",
+    "ablation": "Fixed-Priority",
+    "metric": "rule_rule_conflict_step_rate",
+    "n": 10,
+    "mean_delta_better": 0.0,
+    "ci95_halfwidth": 0.0,
+    "sign_p_two_sided": 1.0,
+    "mean_delta_raw_full_minus_ablation": 0.0
+  },
+  {
+    "component": "dynamic_priority",
+    "ablation": "Fixed-Priority",
+    "metric": "rule_rule_resolution_rate",
+    "n": 10,
+    "mean_delta_better": 0.0,
+    "ci95_halfwidth": 0.0,
+    "sign_p_two_sided": 1.0,
+    "mean_delta_raw_full_minus_ablation": 0.0
+  },
+  {
+    "component": "continuous_qp",
+    "ablation": "Gate-Only",
+    "metric": "mean_reward",
+    "n": 10,
+    "mean_delta_better": -0.0017570480501344576,
+    "ci95_halfwidth": 0.01447214502300311,
+    "sign_p_two_sided": 0.75390625,
+    "mean_delta_raw_full_minus_ablation": -0.0017570480501344576
+  },
+  {
+    "component": "continuous_qp",
+    "ablation": "Gate-Only",
+    "metric": "joint_satisfaction_rate",
+    "n": 10,
+    "mean_delta_better": 0.0125,
+    "ci95_halfwidth": 0.02827696453497756,
+    "sign_p_two_sided": 1.0,
+    "mean_delta_raw_full_minus_ablation": 0.0125
+  },
+  {
+    "component": "continuous_qp",
+    "ablation": "Gate-Only",
+    "metric": "conditional_joint_satisfaction_rate",
+    "n": 10,
+    "mean_delta_better": 0.0125,
+    "ci95_halfwidth": 0.02827696453497756,
+    "sign_p_two_sided": 1.0,
+    "mean_delta_raw_full_minus_ablation": 0.0125
+  },
+  {
+    "component": "continuous_qp",
+    "ablation": "Gate-Only",
+    "metric": "post_truth_hard_violation_rate",
+    "n": 10,
+    "mean_delta_better": 0.002083333333333333,
+    "ci95_halfwidth": 0.0028966747960835542,
+    "sign_p_two_sided": 0.25,
+    "mean_delta_raw_full_minus_ablation": -0.002083333333333333
+  },
+  {
+    "component": "continuous_qp",
+    "ablation": "Gate-Only",
+    "metric": "target_hard_success_rate",
+    "n": 10,
+    "mean_delta_better": 0.0,
+    "ci95_halfwidth": 0.0,
+    "sign_p_two_sided": 1.0,
+    "mean_delta_raw_full_minus_ablation": 0.0
+  },
+  {
+    "component": "continuous_qp",
+    "ablation": "Gate-Only",
+    "metric": "mean_intervention_rate",
+    "n": 10,
+    "mean_delta_better": 0.033333333333333326,
+    "ci95_halfwidth": 0.005620374657560965,
+    "sign_p_two_sided": 0.001953125,
+    "mean_delta_raw_full_minus_ablation": 0.033333333333333326
+  },
+  {
+    "component": "continuous_qp",
+    "ablation": "Gate-Only",
+    "metric": "mean_online_time_ms",
+    "n": 10,
+    "mean_delta_better": 11.625513875333127,
+    "ci95_halfwidth": 2.7847058663079167,
+    "sign_p_two_sided": 0.001953125,
+    "mean_delta_raw_full_minus_ablation": 11.625513875333127
+  },
+  {
+    "component": "continuous_qp",
+    "ablation": "Gate-Only",
+    "metric": "qp_infeasible_rate",
+    "n": 0,
+    "mean_delta_better": 0.0,
+    "ci95_halfwidth": 0.0,
+    "sign_p_two_sided": 1.0,
+    "mean_delta_raw_full_minus_ablation": 0.0
+  },
+  {
+    "component": "continuous_qp",
+    "ablation": "Gate-Only",
+    "metric": "rule_rule_conflict_step_rate",
+    "n": 10,
+    "mean_delta_better": 0.0,
+    "ci95_halfwidth": 0.0,
+    "sign_p_two_sided": 1.0,
+    "mean_delta_raw_full_minus_ablation": 0.0
+  },
+  {
+    "component": "continuous_qp",
+    "ablation": "Gate-Only",
+    "metric": "rule_rule_resolution_rate",
+    "n": 10,
+    "mean_delta_better": -0.00820312500000001,
+    "ci95_halfwidth": 0.007840786464978324,
+    "sign_p_two_sided": 0.0703125,
+    "mean_delta_raw_full_minus_ablation": -0.00820312500000001
+  }
+]
