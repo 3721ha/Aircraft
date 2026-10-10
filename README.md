@@ -1,112 +1,173 @@
-# Aircraft 仿真器原型
+# Aircraft 多机规则冲突仿真器
 
-这是一个与 `note2.md` / `paper_note.md` 对齐的决策级多机仿真器原型。它把专家知识落成可执行接口，并保留部分可观测条件下的双监测器边界：
+本项目是面向多飞行器协同决策的决策级仿真器与安全仲裁实验代码。系统在局部观测和通信不完整条件下运行名义多智能体策略，并通过在线信念 STL 监测、规则—智能体依赖关系和连续残差安全优化处理规则冲突。
 
-- `AircraftEnv`：三维质点动力学、资源/能量、通信丢失、传感器噪声和局部观测。
-- `RuleMonitor.evaluate_truth`：只读完整真值，用于离线评测。
-- `RuleMonitor.evaluate_observation`：兼容旧版的确定性局部规则检查。
-- `BeliefSTLMonitor`：基于局部观测/通信历史的高斯信念更新，输出违反概率和保守鲁棒度下界。
-- `ConflictAwareQPSafetyShield`：硬规则优先、软规则可松弛的联合残差 QP/SQP 安全层；显式记录冲突和不可行回退。
-- `SafetyShield`：对名义高层动作做最小残差修正；没有硬安全可行动作时进入 `RECOVER` 回退。
-- `scenarios.py`：边界、通信中断、低资源、低识别置信度和多机冲突场景模板。
+当前仓库对应论文 `Aircraft--v6.0.docx` 的最终代码版本。旧论文归档为 `Aircraft--v6.0_old.docx`，不参与实验入口。
 
-运行：
+## 主要模块
 
-```powershell
-python run_sim.py
-python run_rollout.py
+```text
+aircraft_sim/
+  env.py          决策级多机环境与局部观测
+  rules.py        真值规则监测和规则语义
+  belief.py       在线信念更新、违约概率和 STL 鲁棒度
+  rule_graph.py   规则—智能体依赖图与冲突记录
+  qp_shield.py    动态仲裁和连续残差 QP/SQP 安全层
+  mappo.py        本文策略的 MAPPO 风格训练与更新接口
+  evaluation.py   统一评测指标和轨迹记录
+  scenarios.py    冲突场景模板
+  baselines.py    训练型基线策略
+external_adapters/   官方方法适配器
+external_methods/    第三方方法源码入口
+tests/               回归测试
+results/             实验结果和可追溯日志
 ```
 
-动作语义是 `HOLD`、`SUPPORT`、`COVER`、`RECOVER`、`EXIT`、`CRITICAL`，后续可将名义动作来源替换为 MAPPO，而不改变环境、规则和安全层接口。
+本文方法的在线流程为：
 
-`RolloutCollector` 同时保存名义动作和屏蔽后的执行动作，供干预一致学习使用；`ObservationEncoder` 输出固定维度向量，`ActionCodec` 完成策略向量和语义动作之间的转换。
-
-训练示例：
-
-```powershell
-python run_train.py
-python run_experiment.py
+```text
+局部观测
+  -> 信念更新与规则概率估计
+  -> 规则—智能体依赖图
+  -> 动态优先级离散仲裁
+  -> 连续残差 QP/SQP
+  -> 执行安全动作与冲突日志
 ```
 
-`MAPPOPolicy` 使用共享 actor 和集中式 critic，PPO 更新中包含安全层动作蒸馏损失，减少后续运行时干预。
+动作集合为 `HOLD`、`SUPPORT`、`COVER`、`RECOVER`、`EXIT` 和 `CRITICAL`。环境真值只用于离线评测，安全层的在线输入为局部观测和通信历史。
 
-可训练安全基线的统一烟雾实验：
+## 环境安装与测试
 
-```powershell
-python run_trainable_baselines.py --seeds 11 --updates 2 --episodes 4 --horizon 10 --warmstart-epochs 10 --output results/trainable_baselines_smoke
-```
-
-正式运行时增加种子、更新数和测试回合数。该入口包含无约束 MAPPO、固定惩罚、STL 奖励、
-Lagrangian、内部 MACPO 参考、短时域物理 CBF-QP/SQP 和完整方法。内部参考用于接口验证，不能替代
-待接入的第三方官方实现。
-
-官方 MAPPO 已固定为 `marlbenchmark/on-policy` commit
-`de66d7a4b23fac2513f56f96f73b3f5cb96695ac`，第三方目录保持只读式原样，Aircraft 适配代码位于
-`external_adapters/official_mappo.py`。最小闭环命令：
+建议使用 Python 3.10 或更高版本，并安装项目依赖：
 
 ```powershell
-python run_official_mappo.py --seeds 11 --updates 1 --episodes 4 --horizon 4 --control-bins 5 --ppo-epoch 1 --output results/official_mappo_smoke
+python -m pip install numpy scipy torch pytest
+python -m pytest -q
 ```
 
-这条命令只验证官方 actor、critic、buffer、PPO 更新和 checkpoint 重载，不构成正式性能结果。
+当前回归测试覆盖环境、规则、在线信念、QP 安全层、训练接口和实验协议。最终版本通过 70 个测试。
 
-官方约束 MARL 已固定到
-`chauncygu/Multi-Agent-Constrained-Policy-Optimisation` commit
-`b80a9f5b4a0049125a827be8fb9c477f69ae021b`。MACPO 和 MAPPO-Lagrangian 的最小闭环命令为：
+## 最终实验协议
+
+完整协议入口为：
 
 ```powershell
-python run_official_macpo.py --seeds 11 --updates 1 --episodes 2 --horizon 3 --ppo-epoch 1 --line-search-steps 2 --output results/official_macpo_smoke
-python run_official_mappo_lagrangian.py --seeds 11 --updates 1 --episodes 2 --horizon 3 --ppo-epoch 1 --output results/official_mappo_lagrangian_smoke
-python run_official_happo.py --seeds 11 --updates 1 --episodes 2 --horizon 3 --ppo-epoch 1 --output results/official_happo_smoke
-python run_official_hatrpo.py --seeds 11 --updates 1 --episodes 2 --horizon 3 --line-search-steps 2 --output results/official_hatrpo_smoke
-python run_official_mat.py --seeds 11 --updates 1 --episodes 2 --horizon 3 --ppo-epoch 1 --output results/official_mat_smoke
+.\run_final_protocol.ps1
 ```
 
-正式外部对比默认统一使用连续 `Box(5)` 潜动作和轨迹级硬规则二值代价。早期采用离散 MAPPO
-动作或逐步 MACPO 成本的结果属于诊断实验，不能直接放入最终公平对比表。
+该脚本依次运行回归测试、本文方法十种子训练、七种方法十种子对比、冲突消融和 JSBSim 验证。完整结果统一保存到：
 
-六种完整规则官方方法可由同一入口按共享训练/验证/测试协议运行。`--resume` 只复用参数完全匹配且
-结果文件完整的方法，长实验中断后可以续跑：
+```text
+results/final_protocol_20261007/
+```
+
+主要结果目录如下：
+
+```text
+official_10seed/                       七种方法十种子主实验
+proposed_10seed/                       本文方法训练、checkpoint 和训练记录
+conflict_10seed/                       原四类冲突消融
+component_ablation_10seed/             依赖图、动态优先级和连续 QP 受控消融
+calibration_10seed_fixed/              风险校准实验
+short_recovery_paper_protocol_10seed/  第 6.5 节高冲突短期压力测试
+jsbsim_10seed/                         JSBSim F-16 六自由度验证
+conflict_traces_seed11/                真实冲突案例逐步日志
+```
+
+主实验重点文件包括 `summary.json`、`per_seed.json`、`per_episode.json` 和 `manifest.json`。统计汇总目录同时保存 `paper_table.md`、配对差值和完整 JSON 数据，便于复核论文表格。
+
+## 基线与官方代码
+
+MAPPO 官方仓库固定为 `marlbenchmark/on-policy` 的 commit：
+
+```text
+de66d7a4b23fac2513f56f96f73b3f5cb96695ac
+```
+
+MACPO 官方仓库固定为 `chauncygu/Multi-Agent-Constrained-Policy-Optimisation` 的 commit：
+
+```text
+b80a9f5b4a0049125a827be8fb9c477f69ae021b
+```
+
+主对比方法包括本文方法、MAPPO、HAPPO、HATRPO、MACPO、MAPPO-Lagrangian 和 MAT。MAT 使用集中式联合信息，只作为理想信息条件下的参考上界；其信息假设不等同于本文和其他分散执行方法。
+
+训练型基线入口：
 
 ```powershell
-python run_trainable_baselines.py --methods proposed_belief_stl_conflict_qp --seeds 11 22 33 44 55 --updates 100 --episodes 40 --horizon 30 --warmstart-epochs 100 --output results/proposed_official_protocol
-python run_official_comparison.py --seeds 11 22 33 44 55 --updates 100 --episodes 40 --horizon 30 --resume --proposed-results results/proposed_official_protocol --output results/official_comparison
+python run_trainable_baselines.py `
+  --methods proposed_belief_stl_conflict_qp `
+  --seeds 11 22 33 44 55 66 77 88 99 111 `
+  --updates 100 --episodes 40 --horizon 30 `
+  --warmstart-epochs 100 `
+  --output results/proposed_10seed
 ```
 
-第二条命令会校验本文方法的种子、预算和检查点选择口径，并生成“本文方法 + 六种官方对照”的七行主表源数据；
-旧版 `trainable_baselines` 结果不满足新外部协议时会被明确拒绝，不能静默混入。
-
-GCBF+ 是仅处理 S01/S02/S03 的物理安全屏蔽器，必须在独立 Python 3.10/JAX 环境运行并单列专项表，
-不能把它的物理规则满足率与上述方法的完整规则联合满足率混入一张表。安装和运行步骤见
-`external_methods/inbox/gcbfplus/REPO_INFO.md`。
-
-正式结果完成后可直接生成论文表格和配对审计，不会重新训练：
+官方方法对比入口：
 
 ```powershell
-python analyze_official_results.py --results results/official_comparison
+python run_official_comparison.py `
+  --seeds 11 22 33 44 55 66 77 88 99 111 `
+  --updates 100 --episodes 40 --horizon 30 `
+  --ppo-epoch 5 --checkpoint-interval 5 `
+  --line-search-steps 10 --safety-bound 0.1 `
+  --proposed-results results/proposed_10seed `
+  --output results/official_10seed
 ```
 
-输出 `main_table.csv/.md`、`paired_comparison.json` 和 `scenario_breakdown.csv/.json`。
+## 组件消融
 
-冲突核心创新的聚焦实验只保留初始真值可行、运行中触发规则冲突的模板，并报告目标硬规则成功率：
+`run_component_ablation.py` 对四种配置使用相同场景、策略和随机种子：
+
+| 配置 | 依赖图 | 动态优先级 | 连续残差 QP |
+|---|---:|---:|---:|
+| DG-QP | 是 | 是 | 是 |
+| No-Graph | 否 | 是 | 是 |
+| Fixed-Priority | 是 | 否 | 是 |
+| Gate-Only | 是 | 是 | 否 |
+
+组件消融只分析每个组件的受控净收益，不替换主实验结果：
 
 ```powershell
-python run_conflict_arbitration_experiments.py --seeds 101 202 303 404 505 606 707 808 909 1001 --horizon 30 --initial-feasible-only --output results/conflict_arbitration_focus
-python analyze_conflict_arbitration.py --input results/conflict_arbitration_focus/per_seed.json --output results/conflict_arbitration_focus/statistical_summary
+python run_component_ablation.py `
+  --seeds 101 202 303 404 505 606 707 808 909 1001 `
+  --horizon 30 --initial-feasible-only `
+  --output results/component_ablation_10seed
+
+python analyze_component_ablation.py `
+  --input results/component_ablation_10seed/per_seed.json `
+  --output results/component_ablation_10seed/statistical_summary
 ```
 
-其中 `hard_target_rule_violation_count_per_step` 只统计 P0--P2 硬规则，`soft_target_rule_violation_count_per_step`
-单独统计协同/任务连续性残差；`target_hard_success_rate` 是整条轨迹无硬目标违规的比例，`initial_feasible_rate`
-用于确认样本不是从一开始就不可行。分析脚本同时生成 `paper_table.md/.csv` 和 `excluded_cases.json`；双支援这类
-结构性不可同时满足的模板，应结合仲裁事件和保留的软规则残差解释，不能单独以目标成功率判定算法失败。
+## 动态优先级受控激活实验
 
-主表中的 `Actor inference ms` 是所有方法生成名义动作的平均墙钟时间；`Shield online ms` 是安全层
-`filter` 的平均墙钟时间。无安全层基线的 Shield 列显示为 0，仅表示未调用安全层，不代表策略推理为 0。
+该实验是独立的机制验证，不修改主实验、原八类场景或安全层默认行为。它构造同一智能体同时面对 `I02` 信息规则和 `F04` 资源规则的状态，比较动态优先级与固定 P0--P5 顺序的离散仲裁动作。
 
-QP/SQP 残差求解依赖 `numpy`、`scipy` 和 `torch`；当前实现仍是决策级仿真，不代表六自由度飞控认证。
+```powershell
+python run_dynamic_priority_activation.py `
+  --seeds 101 202 303 404 505 606 707 808 909 1001 `
+  --horizon 10 `
+  --output results/final_protocol_20261007/dynamic_priority_activation_10seed
 
-可用 `python run_high_fidelity_validation.py --backend surrogate --include-mappo --updates 20` 运行固定策略和 MAPPO 的迁移验证。该验证代理增加执行器滞后和控制变化率限制，输出会明确标注 `lagged_3dof_validation_proxy`；它用于论文中的跨动力学趋势检查，不能替代 JSBSim/六自由度验证。若要尝试 JSBSim，请先单独安装可选 `jsbsim` 依赖并准备飞行器 XML，随后使用 `--backend jsbsim`，缺少配置时程序会显式停止。
+python analyze_dynamic_priority_activation.py `
+  --input results/final_protocol_20261007/dynamic_priority_activation_10seed/per_seed.json `
+  --output results/final_protocol_20261007/dynamic_priority_activation_10seed/statistical_summary
+```
 
-论文实验口径、基线、场景划分和指标定义见 [`EXPERIMENT_PROTOCOL.md`](EXPERIMENT_PROTOCOL.md)。
+该实验的主要终点是规则同时激活时的离散动作差异率，而不是总体 Reward 或安全率提升。这样可以把动态优先级的机制作用与主实验的总体性能结论区分开。
 
-`run_experiment.py` 在冻结场景集上比较无屏蔽名义策略、屏蔽策略、保守策略和 MAPPO 策略，并生成 `results/benchmark.json`、`results/benchmark.csv`、`results/pareto_front.json` 与 `results/training_curve.json`。评估结果区分干预前触发、干预后残余风险、规则冲突、重规划触发、QP 不可行回退率和平均在线求解时间。
+## 高保真验证
+
+JSBSim 验证入口为：
+
+```powershell
+python run_high_fidelity_validation.py --backend jsbsim
+```
+
+如本机未安装 JSBSim 或缺少 F-16 飞行器 XML，程序会明确报告依赖问题。`surrogate` 后端只能用于跨动力学趋势检查，不能替代 JSBSim 六自由度结果。
+
+## 复现原则
+
+所有正式实验应保留命令参数、随机种子、方法配置、逐种子结果和运行日志。结果目录中的 `manifest.json` 记录协议版本和关键参数；论文中的统计表应从对应结果目录重新生成，而不是手工修改旧表。
+
+安全层在线计算使用 `numpy`、`scipy` 和 `torch`。当前环境是决策级多机仿真器，不能将其表述为已经完成真实飞控认证或实机部署验证。

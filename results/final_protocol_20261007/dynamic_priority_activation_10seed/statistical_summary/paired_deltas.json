@@ -1,0 +1,92 @@
+[
+  {
+    "seed": 101,
+    "dynamic_mode": "exit",
+    "fixed_mode": "recover",
+    "mode_different": true,
+    "reward_delta_dynamic_minus_fixed": 0.0,
+    "joint_stl_delta_dynamic_minus_fixed": 0.0,
+    "truth_violation_delta_dynamic_minus_fixed": 0.0
+  },
+  {
+    "seed": 202,
+    "dynamic_mode": "recover",
+    "fixed_mode": "recover",
+    "mode_different": false,
+    "reward_delta_dynamic_minus_fixed": 0.0,
+    "joint_stl_delta_dynamic_minus_fixed": 0.0,
+    "truth_violation_delta_dynamic_minus_fixed": 0.0
+  },
+  {
+    "seed": 303,
+    "dynamic_mode": "exit",
+    "fixed_mode": "recover",
+    "mode_different": true,
+    "reward_delta_dynamic_minus_fixed": 0.0,
+    "joint_stl_delta_dynamic_minus_fixed": 0.0,
+    "truth_violation_delta_dynamic_minus_fixed": 0.0
+  },
+  {
+    "seed": 404,
+    "dynamic_mode": "recover",
+    "fixed_mode": "recover",
+    "mode_different": false,
+    "reward_delta_dynamic_minus_fixed": 0.0,
+    "joint_stl_delta_dynamic_minus_fixed": 0.0,
+    "truth_violation_delta_dynamic_minus_fixed": 0.0
+  },
+  {
+    "seed": 505,
+    "dynamic_mode": "recover",
+    "fixed_mode": "recover",
+    "mode_different": false,
+    "reward_delta_dynamic_minus_fixed": 0.0,
+    "joint_stl_delta_dynamic_minus_fixed": 0.0,
+    "truth_violation_delta_dynamic_minus_fixed": 0.0
+  },
+  {
+    "seed": 606,
+    "dynamic_mode": "exit",
+    "fixed_mode": "recover",
+    "mode_different": true,
+    "reward_delta_dynamic_minus_fixed": 0.0,
+    "joint_stl_delta_dynamic_minus_fixed": 0.0,
+    "truth_violation_delta_dynamic_minus_fixed": 0.0
+  },
+  {
+    "seed": 707,
+    "dynamic_mode": "exit",
+    "fixed_mode": "recover",
+    "mode_different": true,
+    "reward_delta_dynamic_minus_fixed": 0.0,
+    "joint_stl_delta_dynamic_minus_fixed": 0.0,
+    "truth_violation_delta_dynamic_minus_fixed": 0.0
+  },
+  {
+    "seed": 808,
+    "dynamic_mode": "exit",
+    "fixed_mode": "recover",
+    "mode_different": true,
+    "reward_delta_dynamic_minus_fixed": 0.0,
+    "joint_stl_delta_dynamic_minus_fixed": 0.0,
+    "truth_violation_delta_dynamic_minus_fixed": 0.0
+  },
+  {
+    "seed": 909,
+    "dynamic_mode": "recover",
+    "fixed_mode": "recover",
+    "mode_different": false,
+    "reward_delta_dynamic_minus_fixed": 0.0,
+    "joint_stl_delta_dynamic_minus_fixed": 0.0,
+    "truth_violation_delta_dynamic_minus_fixed": 0.0
+  },
+  {
+    "seed": 1001,
+    "dynamic_mode": "exit",
+    "fixed_mode": "recover",
+    "mode_different": true,
+    "reward_delta_dynamic_minus_fixed": 0.0,
+    "joint_stl_delta_dynamic_minus_fixed": 0.0,
+    "truth_violation_delta_dynamic_minus_fixed": 0.0
+  }
+]

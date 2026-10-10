@@ -1,0 +1,2480 @@
+[
+  {
+    "seed": 101,
+    "scenario": "information_resource_priority_conflict",
+    "variant": "Dynamic-Priority",
+    "dynamic_priority_enabled": true,
+    "initial_target_pair_active": true,
+    "dynamic_fixed_mode_difference": 1.0,
+    "initial_arbitration": {
+      "active_rules": [
+        "C06",
+        "E01",
+        "F04:0",
+        "I02:0"
+      ],
+      "target_rules_active": [
+        "I02:0",
+        "F04:0"
+      ],
+      "target_rule_probabilities": {
+        "I02:0": 0.790889,
+        "F04:0": 1.0
+      },
+      "dynamic_priorities": {
+        "F04:0": 8.0,
+        "I02:0": 5.372666
+      },
+      "nominal_actions": {
+        "0": {
+          "mode": "critical",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "selected_actions": {
+        "0": {
+          "mode": "exit",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.0,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "agent0_selected_mode": "exit",
+      "status": "optimal",
+      "infeasibility_reason": null
+    },
+    "metrics": {
+      "policy": "Dynamic-Priority",
+      "episodes": 1,
+      "mean_reward": 8.98,
+      "joint_satisfaction_rate": 1.0,
+      "mean_intervention_rate": 1.5,
+      "mean_intervention_distance": 1.2,
+      "violation_rate": {
+        "E02": 1.0,
+        "E06": 1.0
+      },
+      "mean_first_violation_step": {
+        "E02": 1.0,
+        "E06": 4.0
+      },
+      "initial_infeasible_rate": 1.0,
+      "online_hard_violation_rate": 1.0,
+      "post_shield_hard_violation_rate": 0.5,
+      "post_truth_hard_violation_rate": 0.0,
+      "qp_infeasible_rate": 0.0,
+      "conflict_rate": 0.0,
+      "replan_trigger_rate": 0.7,
+      "mean_belief_risk": 0.5,
+      "mean_pre_filter_belief_risk": 1.0,
+      "mean_post_filter_belief_risk": 0.5,
+      "mean_actor_time_ms": 0.01219,
+      "mean_online_time_ms": 10.42291,
+      "tail_violation_rate": 1.0,
+      "risk_calibration_brier": 0.5,
+      "initially_feasible_episodes": 0,
+      "conditional_joint_satisfaction_rate": 0.0,
+      "rule_conflict_event_rate": 6.9,
+      "rule_rule_conflict_step_rate": 1.0,
+      "rule_rule_resolution_rate": 1.0,
+      "mean_conflict_residual": 0.74198,
+      "mean_solver_agents": 3.0,
+      "mean_solver_components": 1.0,
+      "max_solver_component_size": 3,
+      "cross_component_violation_rate": 0.0,
+      "cross_component_repair_rate": 0.0
+    }
+  },
+  {
+    "seed": 101,
+    "scenario": "information_resource_priority_conflict",
+    "variant": "Fixed-Priority",
+    "dynamic_priority_enabled": false,
+    "initial_target_pair_active": true,
+    "dynamic_fixed_mode_difference": 1.0,
+    "initial_arbitration": {
+      "active_rules": [
+        "C06",
+        "E01",
+        "F04:0",
+        "I02:0"
+      ],
+      "target_rules_active": [
+        "I02:0",
+        "F04:0"
+      ],
+      "target_rule_probabilities": {
+        "I02:0": 0.790889,
+        "F04:0": 1.0
+      },
+      "dynamic_priorities": {
+        "F04:0": 8.0,
+        "I02:0": 5.372666
+      },
+      "nominal_actions": {
+        "0": {
+          "mode": "critical",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "selected_actions": {
+        "0": {
+          "mode": "recover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "agent0_selected_mode": "recover",
+      "status": "optimal",
+      "infeasibility_reason": null
+    },
+    "metrics": {
+      "policy": "Fixed-Priority",
+      "episodes": 1,
+      "mean_reward": 8.98,
+      "joint_satisfaction_rate": 1.0,
+      "mean_intervention_rate": 1.5,
+      "mean_intervention_distance": 1.13333,
+      "violation_rate": {
+        "E02": 1.0,
+        "E06": 1.0
+      },
+      "mean_first_violation_step": {
+        "E02": 1.0,
+        "E06": 4.0
+      },
+      "initial_infeasible_rate": 1.0,
+      "online_hard_violation_rate": 1.0,
+      "post_shield_hard_violation_rate": 0.5,
+      "post_truth_hard_violation_rate": 0.0,
+      "qp_infeasible_rate": 0.0,
+      "conflict_rate": 0.0,
+      "replan_trigger_rate": 0.7,
+      "mean_belief_risk": 0.5,
+      "mean_pre_filter_belief_risk": 1.0,
+      "mean_post_filter_belief_risk": 0.5,
+      "mean_actor_time_ms": 0.01054,
+      "mean_online_time_ms": 9.29215,
+      "tail_violation_rate": 1.0,
+      "risk_calibration_brier": 0.5,
+      "initially_feasible_episodes": 0,
+      "conditional_joint_satisfaction_rate": 0.0,
+      "rule_conflict_event_rate": 6.8,
+      "rule_rule_conflict_step_rate": 1.0,
+      "rule_rule_resolution_rate": 1.0,
+      "mean_conflict_residual": 0.69846,
+      "mean_solver_agents": 3.0,
+      "mean_solver_components": 1.0,
+      "max_solver_component_size": 3,
+      "cross_component_violation_rate": 0.0,
+      "cross_component_repair_rate": 0.0
+    }
+  },
+  {
+    "seed": 202,
+    "scenario": "information_resource_priority_conflict",
+    "variant": "Dynamic-Priority",
+    "dynamic_priority_enabled": true,
+    "initial_target_pair_active": true,
+    "dynamic_fixed_mode_difference": 0.0,
+    "initial_arbitration": {
+      "active_rules": [
+        "C06",
+        "E01",
+        "F04:0",
+        "I02:0",
+        "S05:0"
+      ],
+      "target_rules_active": [
+        "I02:0",
+        "F04:0"
+      ],
+      "target_rule_probabilities": {
+        "I02:0": 0.740359,
+        "F04:0": 1.0
+      },
+      "dynamic_priorities": {
+        "F04:0": 8.0,
+        "I02:0": 5.221076
+      },
+      "nominal_actions": {
+        "0": {
+          "mode": "critical",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "selected_actions": {
+        "0": {
+          "mode": "recover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.0,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "agent0_selected_mode": "recover",
+      "status": "optimal",
+      "infeasibility_reason": null
+    },
+    "metrics": {
+      "policy": "Dynamic-Priority",
+      "episodes": 1,
+      "mean_reward": 8.98,
+      "joint_satisfaction_rate": 1.0,
+      "mean_intervention_rate": 1.5,
+      "mean_intervention_distance": 1.2,
+      "violation_rate": {
+        "E02": 1.0,
+        "E06": 1.0
+      },
+      "mean_first_violation_step": {
+        "E02": 1.0,
+        "E06": 4.0
+      },
+      "initial_infeasible_rate": 1.0,
+      "online_hard_violation_rate": 1.0,
+      "post_shield_hard_violation_rate": 1.0,
+      "post_truth_hard_violation_rate": 0.0,
+      "qp_infeasible_rate": 0.0,
+      "conflict_rate": 0.0,
+      "replan_trigger_rate": 0.7,
+      "mean_belief_risk": 1.0,
+      "mean_pre_filter_belief_risk": 1.0,
+      "mean_post_filter_belief_risk": 1.0,
+      "mean_actor_time_ms": 0.0106,
+      "mean_online_time_ms": 10.76648,
+      "tail_violation_rate": 1.0,
+      "risk_calibration_brier": 1.0,
+      "initially_feasible_episodes": 0,
+      "conditional_joint_satisfaction_rate": 0.0,
+      "rule_conflict_event_rate": 7.3,
+      "rule_rule_conflict_step_rate": 1.0,
+      "rule_rule_resolution_rate": 1.0,
+      "mean_conflict_residual": 0.75556,
+      "mean_solver_agents": 3.0,
+      "mean_solver_components": 1.0,
+      "max_solver_component_size": 3,
+      "cross_component_violation_rate": 0.0,
+      "cross_component_repair_rate": 0.0
+    }
+  },
+  {
+    "seed": 202,
+    "scenario": "information_resource_priority_conflict",
+    "variant": "Fixed-Priority",
+    "dynamic_priority_enabled": false,
+    "initial_target_pair_active": true,
+    "dynamic_fixed_mode_difference": 0.0,
+    "initial_arbitration": {
+      "active_rules": [
+        "C06",
+        "E01",
+        "F04:0",
+        "I02:0",
+        "S05:0"
+      ],
+      "target_rules_active": [
+        "I02:0",
+        "F04:0"
+      ],
+      "target_rule_probabilities": {
+        "I02:0": 0.740359,
+        "F04:0": 1.0
+      },
+      "dynamic_priorities": {
+        "F04:0": 8.0,
+        "I02:0": 5.221076
+      },
+      "nominal_actions": {
+        "0": {
+          "mode": "critical",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "selected_actions": {
+        "0": {
+          "mode": "recover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.0,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "agent0_selected_mode": "recover",
+      "status": "optimal",
+      "infeasibility_reason": null
+    },
+    "metrics": {
+      "policy": "Fixed-Priority",
+      "episodes": 1,
+      "mean_reward": 8.98,
+      "joint_satisfaction_rate": 1.0,
+      "mean_intervention_rate": 1.5,
+      "mean_intervention_distance": 1.2,
+      "violation_rate": {
+        "E02": 1.0,
+        "E06": 1.0
+      },
+      "mean_first_violation_step": {
+        "E02": 1.0,
+        "E06": 4.0
+      },
+      "initial_infeasible_rate": 1.0,
+      "online_hard_violation_rate": 1.0,
+      "post_shield_hard_violation_rate": 1.0,
+      "post_truth_hard_violation_rate": 0.0,
+      "qp_infeasible_rate": 0.0,
+      "conflict_rate": 0.0,
+      "replan_trigger_rate": 0.7,
+      "mean_belief_risk": 1.0,
+      "mean_pre_filter_belief_risk": 1.0,
+      "mean_post_filter_belief_risk": 1.0,
+      "mean_actor_time_ms": 0.01086,
+      "mean_online_time_ms": 20.93623,
+      "tail_violation_rate": 1.0,
+      "risk_calibration_brier": 1.0,
+      "initially_feasible_episodes": 0,
+      "conditional_joint_satisfaction_rate": 0.0,
+      "rule_conflict_event_rate": 7.3,
+      "rule_rule_conflict_step_rate": 1.0,
+      "rule_rule_resolution_rate": 1.0,
+      "mean_conflict_residual": 0.75556,
+      "mean_solver_agents": 3.0,
+      "mean_solver_components": 1.0,
+      "max_solver_component_size": 3,
+      "cross_component_violation_rate": 0.0,
+      "cross_component_repair_rate": 0.0
+    }
+  },
+  {
+    "seed": 303,
+    "scenario": "information_resource_priority_conflict",
+    "variant": "Dynamic-Priority",
+    "dynamic_priority_enabled": true,
+    "initial_target_pair_active": true,
+    "dynamic_fixed_mode_difference": 1.0,
+    "initial_arbitration": {
+      "active_rules": [
+        "C06",
+        "E01",
+        "F04:0",
+        "I02:0"
+      ],
+      "target_rules_active": [
+        "I02:0",
+        "F04:0"
+      ],
+      "target_rule_probabilities": {
+        "I02:0": 0.945515,
+        "F04:0": 1.0
+      },
+      "dynamic_priorities": {
+        "F04:0": 8.0,
+        "I02:0": 5.836544
+      },
+      "nominal_actions": {
+        "0": {
+          "mode": "critical",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "selected_actions": {
+        "0": {
+          "mode": "exit",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.0,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "agent0_selected_mode": "exit",
+      "status": "optimal",
+      "infeasibility_reason": null
+    },
+    "metrics": {
+      "policy": "Dynamic-Priority",
+      "episodes": 1,
+      "mean_reward": 8.98,
+      "joint_satisfaction_rate": 1.0,
+      "mean_intervention_rate": 1.5,
+      "mean_intervention_distance": 1.2,
+      "violation_rate": {
+        "E02": 1.0,
+        "E06": 1.0
+      },
+      "mean_first_violation_step": {
+        "E02": 1.0,
+        "E06": 4.0
+      },
+      "initial_infeasible_rate": 1.0,
+      "online_hard_violation_rate": 1.0,
+      "post_shield_hard_violation_rate": 0.1,
+      "post_truth_hard_violation_rate": 0.0,
+      "qp_infeasible_rate": 0.0,
+      "conflict_rate": 0.0,
+      "replan_trigger_rate": 0.7,
+      "mean_belief_risk": 0.1,
+      "mean_pre_filter_belief_risk": 1.0,
+      "mean_post_filter_belief_risk": 0.1,
+      "mean_actor_time_ms": 0.01081,
+      "mean_online_time_ms": 10.12607,
+      "tail_violation_rate": 1.0,
+      "risk_calibration_brier": 0.1,
+      "initially_feasible_episodes": 0,
+      "conditional_joint_satisfaction_rate": 0.0,
+      "rule_conflict_event_rate": 7.0,
+      "rule_rule_conflict_step_rate": 1.0,
+      "rule_rule_resolution_rate": 1.0,
+      "mean_conflict_residual": 0.74545,
+      "mean_solver_agents": 3.0,
+      "mean_solver_components": 1.0,
+      "max_solver_component_size": 3,
+      "cross_component_violation_rate": 0.0,
+      "cross_component_repair_rate": 0.0
+    }
+  },
+  {
+    "seed": 303,
+    "scenario": "information_resource_priority_conflict",
+    "variant": "Fixed-Priority",
+    "dynamic_priority_enabled": false,
+    "initial_target_pair_active": true,
+    "dynamic_fixed_mode_difference": 1.0,
+    "initial_arbitration": {
+      "active_rules": [
+        "C06",
+        "E01",
+        "F04:0",
+        "I02:0"
+      ],
+      "target_rules_active": [
+        "I02:0",
+        "F04:0"
+      ],
+      "target_rule_probabilities": {
+        "I02:0": 0.945515,
+        "F04:0": 1.0
+      },
+      "dynamic_priorities": {
+        "F04:0": 8.0,
+        "I02:0": 5.836544
+      },
+      "nominal_actions": {
+        "0": {
+          "mode": "critical",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "selected_actions": {
+        "0": {
+          "mode": "recover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "agent0_selected_mode": "recover",
+      "status": "optimal",
+      "infeasibility_reason": null
+    },
+    "metrics": {
+      "policy": "Fixed-Priority",
+      "episodes": 1,
+      "mean_reward": 8.98,
+      "joint_satisfaction_rate": 1.0,
+      "mean_intervention_rate": 1.5,
+      "mean_intervention_distance": 1.08,
+      "violation_rate": {
+        "E02": 1.0,
+        "E06": 1.0
+      },
+      "mean_first_violation_step": {
+        "E02": 1.0,
+        "E06": 4.0
+      },
+      "initial_infeasible_rate": 1.0,
+      "online_hard_violation_rate": 1.0,
+      "post_shield_hard_violation_rate": 0.1,
+      "post_truth_hard_violation_rate": 0.0,
+      "qp_infeasible_rate": 0.0,
+      "conflict_rate": 0.0,
+      "replan_trigger_rate": 0.7,
+      "mean_belief_risk": 0.1,
+      "mean_pre_filter_belief_risk": 1.0,
+      "mean_post_filter_belief_risk": 0.1,
+      "mean_actor_time_ms": 0.01115,
+      "mean_online_time_ms": 9.8828,
+      "tail_violation_rate": 1.0,
+      "risk_calibration_brier": 0.1,
+      "initially_feasible_episodes": 0,
+      "conditional_joint_satisfaction_rate": 0.0,
+      "rule_conflict_event_rate": 6.8,
+      "rule_rule_conflict_step_rate": 1.0,
+      "rule_rule_resolution_rate": 1.0,
+      "mean_conflict_residual": 0.65846,
+      "mean_solver_agents": 3.0,
+      "mean_solver_components": 1.0,
+      "max_solver_component_size": 3,
+      "cross_component_violation_rate": 0.0,
+      "cross_component_repair_rate": 0.0
+    }
+  },
+  {
+    "seed": 404,
+    "scenario": "information_resource_priority_conflict",
+    "variant": "Dynamic-Priority",
+    "dynamic_priority_enabled": true,
+    "initial_target_pair_active": true,
+    "dynamic_fixed_mode_difference": 0.0,
+    "initial_arbitration": {
+      "active_rules": [
+        "C06",
+        "E01",
+        "F04:0",
+        "I02:0",
+        "S05:0"
+      ],
+      "target_rules_active": [
+        "I02:0",
+        "F04:0"
+      ],
+      "target_rule_probabilities": {
+        "I02:0": 0.888933,
+        "F04:0": 1.0
+      },
+      "dynamic_priorities": {
+        "F04:0": 8.0,
+        "I02:0": 5.666799
+      },
+      "nominal_actions": {
+        "0": {
+          "mode": "critical",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "selected_actions": {
+        "0": {
+          "mode": "recover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.0,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "agent0_selected_mode": "recover",
+      "status": "optimal",
+      "infeasibility_reason": null
+    },
+    "metrics": {
+      "policy": "Dynamic-Priority",
+      "episodes": 1,
+      "mean_reward": 8.98,
+      "joint_satisfaction_rate": 1.0,
+      "mean_intervention_rate": 1.5,
+      "mean_intervention_distance": 1.2,
+      "violation_rate": {
+        "E02": 1.0,
+        "E06": 1.0
+      },
+      "mean_first_violation_step": {
+        "E02": 1.0,
+        "E06": 4.0
+      },
+      "initial_infeasible_rate": 1.0,
+      "online_hard_violation_rate": 1.0,
+      "post_shield_hard_violation_rate": 0.3,
+      "post_truth_hard_violation_rate": 0.0,
+      "qp_infeasible_rate": 0.0,
+      "conflict_rate": 0.0,
+      "replan_trigger_rate": 0.7,
+      "mean_belief_risk": 0.3,
+      "mean_pre_filter_belief_risk": 1.0,
+      "mean_post_filter_belief_risk": 0.3,
+      "mean_actor_time_ms": 0.0115,
+      "mean_online_time_ms": 9.66086,
+      "tail_violation_rate": 1.0,
+      "risk_calibration_brier": 0.3,
+      "initially_feasible_episodes": 0,
+      "conditional_joint_satisfaction_rate": 0.0,
+      "rule_conflict_event_rate": 7.0,
+      "rule_rule_conflict_step_rate": 1.0,
+      "rule_rule_resolution_rate": 1.0,
+      "mean_conflict_residual": 0.74545,
+      "mean_solver_agents": 3.0,
+      "mean_solver_components": 1.0,
+      "max_solver_component_size": 3,
+      "cross_component_violation_rate": 0.0,
+      "cross_component_repair_rate": 0.0
+    }
+  },
+  {
+    "seed": 404,
+    "scenario": "information_resource_priority_conflict",
+    "variant": "Fixed-Priority",
+    "dynamic_priority_enabled": false,
+    "initial_target_pair_active": true,
+    "dynamic_fixed_mode_difference": 0.0,
+    "initial_arbitration": {
+      "active_rules": [
+        "C06",
+        "E01",
+        "F04:0",
+        "I02:0",
+        "S05:0"
+      ],
+      "target_rules_active": [
+        "I02:0",
+        "F04:0"
+      ],
+      "target_rule_probabilities": {
+        "I02:0": 0.888933,
+        "F04:0": 1.0
+      },
+      "dynamic_priorities": {
+        "F04:0": 8.0,
+        "I02:0": 5.666799
+      },
+      "nominal_actions": {
+        "0": {
+          "mode": "critical",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "selected_actions": {
+        "0": {
+          "mode": "recover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.0,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "agent0_selected_mode": "recover",
+      "status": "optimal",
+      "infeasibility_reason": null
+    },
+    "metrics": {
+      "policy": "Fixed-Priority",
+      "episodes": 1,
+      "mean_reward": 8.98,
+      "joint_satisfaction_rate": 1.0,
+      "mean_intervention_rate": 1.5,
+      "mean_intervention_distance": 1.10667,
+      "violation_rate": {
+        "E02": 1.0,
+        "E06": 1.0
+      },
+      "mean_first_violation_step": {
+        "E02": 1.0,
+        "E06": 4.0
+      },
+      "initial_infeasible_rate": 1.0,
+      "online_hard_violation_rate": 1.0,
+      "post_shield_hard_violation_rate": 0.3,
+      "post_truth_hard_violation_rate": 0.0,
+      "qp_infeasible_rate": 0.0,
+      "conflict_rate": 0.0,
+      "replan_trigger_rate": 0.7,
+      "mean_belief_risk": 0.3,
+      "mean_pre_filter_belief_risk": 1.0,
+      "mean_post_filter_belief_risk": 0.3,
+      "mean_actor_time_ms": 0.01917,
+      "mean_online_time_ms": 9.22891,
+      "tail_violation_rate": 1.0,
+      "risk_calibration_brier": 0.3,
+      "initially_feasible_episodes": 0,
+      "conditional_joint_satisfaction_rate": 0.0,
+      "rule_conflict_event_rate": 6.6,
+      "rule_rule_conflict_step_rate": 1.0,
+      "rule_rule_resolution_rate": 1.0,
+      "mean_conflict_residual": 0.675,
+      "mean_solver_agents": 3.0,
+      "mean_solver_components": 1.0,
+      "max_solver_component_size": 3,
+      "cross_component_violation_rate": 0.0,
+      "cross_component_repair_rate": 0.0
+    }
+  },
+  {
+    "seed": 505,
+    "scenario": "information_resource_priority_conflict",
+    "variant": "Dynamic-Priority",
+    "dynamic_priority_enabled": true,
+    "initial_target_pair_active": false,
+    "dynamic_fixed_mode_difference": 0.0,
+    "initial_arbitration": {
+      "active_rules": [
+        "C06",
+        "E01",
+        "I02:0"
+      ],
+      "target_rules_active": [
+        "I02:0"
+      ],
+      "target_rule_probabilities": {
+        "I02:0": 0.962342
+      },
+      "dynamic_priorities": {
+        "I02:0": 5.887027
+      },
+      "nominal_actions": {
+        "0": {
+          "mode": "critical",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "selected_actions": {
+        "0": {
+          "mode": "recover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "agent0_selected_mode": "recover",
+      "status": "optimal",
+      "infeasibility_reason": null
+    },
+    "metrics": {
+      "policy": "Dynamic-Priority",
+      "episodes": 1,
+      "mean_reward": 8.98,
+      "joint_satisfaction_rate": 1.0,
+      "mean_intervention_rate": 1.5,
+      "mean_intervention_distance": 1.18667,
+      "violation_rate": {
+        "E02": 1.0,
+        "E06": 1.0
+      },
+      "mean_first_violation_step": {
+        "E02": 1.0,
+        "E06": 4.0
+      },
+      "initial_infeasible_rate": 1.0,
+      "online_hard_violation_rate": 1.0,
+      "post_shield_hard_violation_rate": 0.1,
+      "post_truth_hard_violation_rate": 0.0,
+      "qp_infeasible_rate": 0.0,
+      "conflict_rate": 0.0,
+      "replan_trigger_rate": 0.7,
+      "mean_belief_risk": 0.1,
+      "mean_pre_filter_belief_risk": 0.99623,
+      "mean_post_filter_belief_risk": 0.1,
+      "mean_actor_time_ms": 0.01337,
+      "mean_online_time_ms": 10.05242,
+      "tail_violation_rate": 1.0,
+      "risk_calibration_brier": 0.1,
+      "initially_feasible_episodes": 0,
+      "conditional_joint_satisfaction_rate": 0.0,
+      "rule_conflict_event_rate": 6.6,
+      "rule_rule_conflict_step_rate": 0.9,
+      "rule_rule_resolution_rate": 1.0,
+      "mean_conflict_residual": 0.7381,
+      "mean_solver_agents": 3.0,
+      "mean_solver_components": 1.0,
+      "max_solver_component_size": 3,
+      "cross_component_violation_rate": 0.0,
+      "cross_component_repair_rate": 0.0
+    }
+  },
+  {
+    "seed": 505,
+    "scenario": "information_resource_priority_conflict",
+    "variant": "Fixed-Priority",
+    "dynamic_priority_enabled": false,
+    "initial_target_pair_active": false,
+    "dynamic_fixed_mode_difference": 0.0,
+    "initial_arbitration": {
+      "active_rules": [
+        "C06",
+        "E01",
+        "I02:0"
+      ],
+      "target_rules_active": [
+        "I02:0"
+      ],
+      "target_rule_probabilities": {
+        "I02:0": 0.962342
+      },
+      "dynamic_priorities": {
+        "I02:0": 5.887027
+      },
+      "nominal_actions": {
+        "0": {
+          "mode": "critical",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "selected_actions": {
+        "0": {
+          "mode": "recover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "agent0_selected_mode": "recover",
+      "status": "optimal",
+      "infeasibility_reason": null
+    },
+    "metrics": {
+      "policy": "Fixed-Priority",
+      "episodes": 1,
+      "mean_reward": 8.98,
+      "joint_satisfaction_rate": 1.0,
+      "mean_intervention_rate": 1.5,
+      "mean_intervention_distance": 1.08,
+      "violation_rate": {
+        "E02": 1.0,
+        "E06": 1.0
+      },
+      "mean_first_violation_step": {
+        "E02": 1.0,
+        "E06": 4.0
+      },
+      "initial_infeasible_rate": 1.0,
+      "online_hard_violation_rate": 1.0,
+      "post_shield_hard_violation_rate": 0.1,
+      "post_truth_hard_violation_rate": 0.0,
+      "qp_infeasible_rate": 0.0,
+      "conflict_rate": 0.0,
+      "replan_trigger_rate": 0.7,
+      "mean_belief_risk": 0.1,
+      "mean_pre_filter_belief_risk": 0.99623,
+      "mean_post_filter_belief_risk": 0.1,
+      "mean_actor_time_ms": 0.00936,
+      "mean_online_time_ms": 8.74824,
+      "tail_violation_rate": 1.0,
+      "risk_calibration_brier": 0.1,
+      "initially_feasible_episodes": 0,
+      "conditional_joint_satisfaction_rate": 0.0,
+      "rule_conflict_event_rate": 6.2,
+      "rule_rule_conflict_step_rate": 0.9,
+      "rule_rule_resolution_rate": 1.0,
+      "mean_conflict_residual": 0.65082,
+      "mean_solver_agents": 3.0,
+      "mean_solver_components": 1.0,
+      "max_solver_component_size": 3,
+      "cross_component_violation_rate": 0.0,
+      "cross_component_repair_rate": 0.0
+    }
+  },
+  {
+    "seed": 606,
+    "scenario": "information_resource_priority_conflict",
+    "variant": "Dynamic-Priority",
+    "dynamic_priority_enabled": true,
+    "initial_target_pair_active": true,
+    "dynamic_fixed_mode_difference": 1.0,
+    "initial_arbitration": {
+      "active_rules": [
+        "C06",
+        "E01",
+        "F04:0",
+        "I02:0"
+      ],
+      "target_rules_active": [
+        "I02:0",
+        "F04:0"
+      ],
+      "target_rule_probabilities": {
+        "I02:0": 0.375435,
+        "F04:0": 1.0
+      },
+      "dynamic_priorities": {
+        "F04:0": 8.0,
+        "I02:0": 4.126304
+      },
+      "nominal_actions": {
+        "0": {
+          "mode": "critical",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "selected_actions": {
+        "0": {
+          "mode": "exit",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.0,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "agent0_selected_mode": "exit",
+      "status": "optimal",
+      "infeasibility_reason": null
+    },
+    "metrics": {
+      "policy": "Dynamic-Priority",
+      "episodes": 1,
+      "mean_reward": 8.98,
+      "joint_satisfaction_rate": 1.0,
+      "mean_intervention_rate": 1.5,
+      "mean_intervention_distance": 1.2,
+      "violation_rate": {
+        "E02": 1.0,
+        "E06": 1.0
+      },
+      "mean_first_violation_step": {
+        "E02": 1.0,
+        "E06": 4.0
+      },
+      "initial_infeasible_rate": 1.0,
+      "online_hard_violation_rate": 1.0,
+      "post_shield_hard_violation_rate": 0.0,
+      "post_truth_hard_violation_rate": 0.0,
+      "qp_infeasible_rate": 0.0,
+      "conflict_rate": 0.0,
+      "replan_trigger_rate": 0.7,
+      "mean_belief_risk": 0.0,
+      "mean_pre_filter_belief_risk": 1.0,
+      "mean_post_filter_belief_risk": 0.0,
+      "mean_actor_time_ms": 0.01245,
+      "mean_online_time_ms": 11.90092,
+      "tail_violation_rate": 1.0,
+      "risk_calibration_brier": 0.0,
+      "initially_feasible_episodes": 0,
+      "conditional_joint_satisfaction_rate": 0.0,
+      "rule_conflict_event_rate": 6.3,
+      "rule_rule_conflict_step_rate": 1.0,
+      "rule_rule_resolution_rate": 1.0,
+      "mean_conflict_residual": 0.72,
+      "mean_solver_agents": 3.0,
+      "mean_solver_components": 1.0,
+      "max_solver_component_size": 3,
+      "cross_component_violation_rate": 0.0,
+      "cross_component_repair_rate": 0.0
+    }
+  },
+  {
+    "seed": 606,
+    "scenario": "information_resource_priority_conflict",
+    "variant": "Fixed-Priority",
+    "dynamic_priority_enabled": false,
+    "initial_target_pair_active": true,
+    "dynamic_fixed_mode_difference": 1.0,
+    "initial_arbitration": {
+      "active_rules": [
+        "C06",
+        "E01",
+        "F04:0",
+        "I02:0"
+      ],
+      "target_rules_active": [
+        "I02:0",
+        "F04:0"
+      ],
+      "target_rule_probabilities": {
+        "I02:0": 0.375435,
+        "F04:0": 1.0
+      },
+      "dynamic_priorities": {
+        "F04:0": 8.0,
+        "I02:0": 4.126304
+      },
+      "nominal_actions": {
+        "0": {
+          "mode": "critical",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "selected_actions": {
+        "0": {
+          "mode": "recover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "agent0_selected_mode": "recover",
+      "status": "optimal",
+      "infeasibility_reason": null
+    },
+    "metrics": {
+      "policy": "Fixed-Priority",
+      "episodes": 1,
+      "mean_reward": 8.98,
+      "joint_satisfaction_rate": 1.0,
+      "mean_intervention_rate": 1.5,
+      "mean_intervention_distance": 1.06667,
+      "violation_rate": {
+        "E02": 1.0,
+        "E06": 1.0
+      },
+      "mean_first_violation_step": {
+        "E02": 1.0,
+        "E06": 4.0
+      },
+      "initial_infeasible_rate": 1.0,
+      "online_hard_violation_rate": 1.0,
+      "post_shield_hard_violation_rate": 0.0,
+      "post_truth_hard_violation_rate": 0.0,
+      "qp_infeasible_rate": 0.0,
+      "conflict_rate": 0.0,
+      "replan_trigger_rate": 0.7,
+      "mean_belief_risk": 0.0,
+      "mean_pre_filter_belief_risk": 1.0,
+      "mean_post_filter_belief_risk": 0.0,
+      "mean_actor_time_ms": 0.01159,
+      "mean_online_time_ms": 10.62391,
+      "tail_violation_rate": 1.0,
+      "risk_calibration_brier": 0.0,
+      "initially_feasible_episodes": 0,
+      "conditional_joint_satisfaction_rate": 0.0,
+      "rule_conflict_event_rate": 6.3,
+      "rule_rule_conflict_step_rate": 1.0,
+      "rule_rule_resolution_rate": 1.0,
+      "mean_conflict_residual": 0.6336,
+      "mean_solver_agents": 3.0,
+      "mean_solver_components": 1.0,
+      "max_solver_component_size": 3,
+      "cross_component_violation_rate": 0.0,
+      "cross_component_repair_rate": 0.0
+    }
+  },
+  {
+    "seed": 707,
+    "scenario": "information_resource_priority_conflict",
+    "variant": "Dynamic-Priority",
+    "dynamic_priority_enabled": true,
+    "initial_target_pair_active": true,
+    "dynamic_fixed_mode_difference": 1.0,
+    "initial_arbitration": {
+      "active_rules": [
+        "C06",
+        "E01",
+        "F04:0",
+        "I02:0"
+      ],
+      "target_rules_active": [
+        "I02:0",
+        "F04:0"
+      ],
+      "target_rule_probabilities": {
+        "I02:0": 0.989482,
+        "F04:0": 1.0
+      },
+      "dynamic_priorities": {
+        "F04:0": 8.0,
+        "I02:0": 5.968446
+      },
+      "nominal_actions": {
+        "0": {
+          "mode": "critical",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "selected_actions": {
+        "0": {
+          "mode": "exit",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.0,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "agent0_selected_mode": "exit",
+      "status": "optimal",
+      "infeasibility_reason": null
+    },
+    "metrics": {
+      "policy": "Dynamic-Priority",
+      "episodes": 1,
+      "mean_reward": 8.98,
+      "joint_satisfaction_rate": 1.0,
+      "mean_intervention_rate": 1.5,
+      "mean_intervention_distance": 1.2,
+      "violation_rate": {
+        "E02": 1.0,
+        "E06": 1.0
+      },
+      "mean_first_violation_step": {
+        "E02": 1.0,
+        "E06": 4.0
+      },
+      "initial_infeasible_rate": 1.0,
+      "online_hard_violation_rate": 1.0,
+      "post_shield_hard_violation_rate": 0.7,
+      "post_truth_hard_violation_rate": 0.0,
+      "qp_infeasible_rate": 0.0,
+      "conflict_rate": 0.0,
+      "replan_trigger_rate": 0.7,
+      "mean_belief_risk": 0.7,
+      "mean_pre_filter_belief_risk": 1.0,
+      "mean_post_filter_belief_risk": 0.7,
+      "mean_actor_time_ms": 0.01284,
+      "mean_online_time_ms": 10.57121,
+      "tail_violation_rate": 1.0,
+      "risk_calibration_brier": 0.7,
+      "initially_feasible_episodes": 0,
+      "conditional_joint_satisfaction_rate": 0.0,
+      "rule_conflict_event_rate": 7.2,
+      "rule_rule_conflict_step_rate": 1.0,
+      "rule_rule_resolution_rate": 1.0,
+      "mean_conflict_residual": 0.75455,
+      "mean_solver_agents": 3.0,
+      "mean_solver_components": 1.0,
+      "max_solver_component_size": 3,
+      "cross_component_violation_rate": 0.0,
+      "cross_component_repair_rate": 0.0
+    }
+  },
+  {
+    "seed": 707,
+    "scenario": "information_resource_priority_conflict",
+    "variant": "Fixed-Priority",
+    "dynamic_priority_enabled": false,
+    "initial_target_pair_active": true,
+    "dynamic_fixed_mode_difference": 1.0,
+    "initial_arbitration": {
+      "active_rules": [
+        "C06",
+        "E01",
+        "F04:0",
+        "I02:0"
+      ],
+      "target_rules_active": [
+        "I02:0",
+        "F04:0"
+      ],
+      "target_rule_probabilities": {
+        "I02:0": 0.989482,
+        "F04:0": 1.0
+      },
+      "dynamic_priorities": {
+        "F04:0": 8.0,
+        "I02:0": 5.968446
+      },
+      "nominal_actions": {
+        "0": {
+          "mode": "critical",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "selected_actions": {
+        "0": {
+          "mode": "recover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "agent0_selected_mode": "recover",
+      "status": "optimal",
+      "infeasibility_reason": null
+    },
+    "metrics": {
+      "policy": "Fixed-Priority",
+      "episodes": 1,
+      "mean_reward": 8.98,
+      "joint_satisfaction_rate": 1.0,
+      "mean_intervention_rate": 1.5,
+      "mean_intervention_distance": 1.16,
+      "violation_rate": {
+        "E02": 1.0,
+        "E06": 1.0
+      },
+      "mean_first_violation_step": {
+        "E02": 1.0,
+        "E06": 4.0
+      },
+      "initial_infeasible_rate": 1.0,
+      "online_hard_violation_rate": 1.0,
+      "post_shield_hard_violation_rate": 0.7,
+      "post_truth_hard_violation_rate": 0.0,
+      "qp_infeasible_rate": 0.0,
+      "conflict_rate": 0.0,
+      "replan_trigger_rate": 0.7,
+      "mean_belief_risk": 0.7,
+      "mean_pre_filter_belief_risk": 1.0,
+      "mean_post_filter_belief_risk": 0.7,
+      "mean_actor_time_ms": 0.01076,
+      "mean_online_time_ms": 10.39782,
+      "tail_violation_rate": 1.0,
+      "risk_calibration_brier": 0.7,
+      "initially_feasible_episodes": 0,
+      "conditional_joint_satisfaction_rate": 0.0,
+      "rule_conflict_event_rate": 6.9,
+      "rule_rule_conflict_step_rate": 1.0,
+      "rule_rule_resolution_rate": 1.0,
+      "mean_conflict_residual": 0.71938,
+      "mean_solver_agents": 3.0,
+      "mean_solver_components": 1.0,
+      "max_solver_component_size": 3,
+      "cross_component_violation_rate": 0.0,
+      "cross_component_repair_rate": 0.0
+    }
+  },
+  {
+    "seed": 808,
+    "scenario": "information_resource_priority_conflict",
+    "variant": "Dynamic-Priority",
+    "dynamic_priority_enabled": true,
+    "initial_target_pair_active": true,
+    "dynamic_fixed_mode_difference": 1.0,
+    "initial_arbitration": {
+      "active_rules": [
+        "C06",
+        "E01",
+        "F04:0",
+        "I02:0"
+      ],
+      "target_rules_active": [
+        "I02:0",
+        "F04:0"
+      ],
+      "target_rule_probabilities": {
+        "I02:0": 0.715328,
+        "F04:0": 1.0
+      },
+      "dynamic_priorities": {
+        "F04:0": 8.0,
+        "I02:0": 5.145984
+      },
+      "nominal_actions": {
+        "0": {
+          "mode": "critical",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "selected_actions": {
+        "0": {
+          "mode": "exit",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.0,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "agent0_selected_mode": "exit",
+      "status": "optimal",
+      "infeasibility_reason": null
+    },
+    "metrics": {
+      "policy": "Dynamic-Priority",
+      "episodes": 1,
+      "mean_reward": 8.98,
+      "joint_satisfaction_rate": 1.0,
+      "mean_intervention_rate": 1.5,
+      "mean_intervention_distance": 1.2,
+      "violation_rate": {
+        "E02": 1.0,
+        "E06": 1.0
+      },
+      "mean_first_violation_step": {
+        "E02": 1.0,
+        "E06": 4.0
+      },
+      "initial_infeasible_rate": 1.0,
+      "online_hard_violation_rate": 1.0,
+      "post_shield_hard_violation_rate": 0.5,
+      "post_truth_hard_violation_rate": 0.0,
+      "qp_infeasible_rate": 0.0,
+      "conflict_rate": 0.0,
+      "replan_trigger_rate": 0.7,
+      "mean_belief_risk": 0.5,
+      "mean_pre_filter_belief_risk": 1.0,
+      "mean_post_filter_belief_risk": 0.5,
+      "mean_actor_time_ms": 0.01363,
+      "mean_online_time_ms": 10.49553,
+      "tail_violation_rate": 1.0,
+      "risk_calibration_brier": 0.5,
+      "initially_feasible_episodes": 0,
+      "conditional_joint_satisfaction_rate": 0.0,
+      "rule_conflict_event_rate": 7.2,
+      "rule_rule_conflict_step_rate": 1.0,
+      "rule_rule_resolution_rate": 1.0,
+      "mean_conflict_residual": 0.75224,
+      "mean_solver_agents": 3.0,
+      "mean_solver_components": 1.0,
+      "max_solver_component_size": 3,
+      "cross_component_violation_rate": 0.0,
+      "cross_component_repair_rate": 0.0
+    }
+  },
+  {
+    "seed": 808,
+    "scenario": "information_resource_priority_conflict",
+    "variant": "Fixed-Priority",
+    "dynamic_priority_enabled": false,
+    "initial_target_pair_active": true,
+    "dynamic_fixed_mode_difference": 1.0,
+    "initial_arbitration": {
+      "active_rules": [
+        "C06",
+        "E01",
+        "F04:0",
+        "I02:0"
+      ],
+      "target_rules_active": [
+        "I02:0",
+        "F04:0"
+      ],
+      "target_rule_probabilities": {
+        "I02:0": 0.715328,
+        "F04:0": 1.0
+      },
+      "dynamic_priorities": {
+        "F04:0": 8.0,
+        "I02:0": 5.145984
+      },
+      "nominal_actions": {
+        "0": {
+          "mode": "critical",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "selected_actions": {
+        "0": {
+          "mode": "recover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "agent0_selected_mode": "recover",
+      "status": "optimal",
+      "infeasibility_reason": null
+    },
+    "metrics": {
+      "policy": "Fixed-Priority",
+      "episodes": 1,
+      "mean_reward": 8.98,
+      "joint_satisfaction_rate": 1.0,
+      "mean_intervention_rate": 1.5,
+      "mean_intervention_distance": 1.13333,
+      "violation_rate": {
+        "E02": 1.0,
+        "E06": 1.0
+      },
+      "mean_first_violation_step": {
+        "E02": 1.0,
+        "E06": 4.0
+      },
+      "initial_infeasible_rate": 1.0,
+      "online_hard_violation_rate": 1.0,
+      "post_shield_hard_violation_rate": 0.5,
+      "post_truth_hard_violation_rate": 0.0,
+      "qp_infeasible_rate": 0.0,
+      "conflict_rate": 0.0,
+      "replan_trigger_rate": 0.7,
+      "mean_belief_risk": 0.5,
+      "mean_pre_filter_belief_risk": 1.0,
+      "mean_post_filter_belief_risk": 0.5,
+      "mean_actor_time_ms": 0.02107,
+      "mean_online_time_ms": 10.52049,
+      "tail_violation_rate": 1.0,
+      "risk_calibration_brier": 0.5,
+      "initially_feasible_episodes": 0,
+      "conditional_joint_satisfaction_rate": 0.0,
+      "rule_conflict_event_rate": 6.8,
+      "rule_rule_conflict_step_rate": 1.0,
+      "rule_rule_resolution_rate": 1.0,
+      "mean_conflict_residual": 0.7,
+      "mean_solver_agents": 3.0,
+      "mean_solver_components": 1.0,
+      "max_solver_component_size": 3,
+      "cross_component_violation_rate": 0.0,
+      "cross_component_repair_rate": 0.0
+    }
+  },
+  {
+    "seed": 909,
+    "scenario": "information_resource_priority_conflict",
+    "variant": "Dynamic-Priority",
+    "dynamic_priority_enabled": true,
+    "initial_target_pair_active": true,
+    "dynamic_fixed_mode_difference": 0.0,
+    "initial_arbitration": {
+      "active_rules": [
+        "C06",
+        "E01",
+        "F04:0",
+        "I02:0",
+        "S05:0"
+      ],
+      "target_rules_active": [
+        "I02:0",
+        "F04:0"
+      ],
+      "target_rule_probabilities": {
+        "I02:0": 0.23833,
+        "F04:0": 1.0
+      },
+      "dynamic_priorities": {
+        "F04:0": 8.0,
+        "I02:0": 3.714989
+      },
+      "nominal_actions": {
+        "0": {
+          "mode": "critical",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "selected_actions": {
+        "0": {
+          "mode": "recover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.0,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "agent0_selected_mode": "recover",
+      "status": "optimal",
+      "infeasibility_reason": null
+    },
+    "metrics": {
+      "policy": "Dynamic-Priority",
+      "episodes": 1,
+      "mean_reward": 8.98,
+      "joint_satisfaction_rate": 1.0,
+      "mean_intervention_rate": 1.5,
+      "mean_intervention_distance": 1.2,
+      "violation_rate": {
+        "E02": 1.0,
+        "E06": 1.0
+      },
+      "mean_first_violation_step": {
+        "E02": 1.0,
+        "E06": 4.0
+      },
+      "initial_infeasible_rate": 1.0,
+      "online_hard_violation_rate": 1.0,
+      "post_shield_hard_violation_rate": 0.9,
+      "post_truth_hard_violation_rate": 0.0,
+      "qp_infeasible_rate": 0.0,
+      "conflict_rate": 0.0,
+      "replan_trigger_rate": 0.7,
+      "mean_belief_risk": 0.9,
+      "mean_pre_filter_belief_risk": 1.0,
+      "mean_post_filter_belief_risk": 0.9,
+      "mean_actor_time_ms": 0.01055,
+      "mean_online_time_ms": 9.407,
+      "tail_violation_rate": 1.0,
+      "risk_calibration_brier": 0.9,
+      "initially_feasible_episodes": 0,
+      "conditional_joint_satisfaction_rate": 0.0,
+      "rule_conflict_event_rate": 7.4,
+      "rule_rule_conflict_step_rate": 1.0,
+      "rule_rule_resolution_rate": 1.0,
+      "mean_conflict_residual": 0.75882,
+      "mean_solver_agents": 3.0,
+      "mean_solver_components": 1.0,
+      "max_solver_component_size": 3,
+      "cross_component_violation_rate": 0.0,
+      "cross_component_repair_rate": 0.0
+    }
+  },
+  {
+    "seed": 909,
+    "scenario": "information_resource_priority_conflict",
+    "variant": "Fixed-Priority",
+    "dynamic_priority_enabled": false,
+    "initial_target_pair_active": true,
+    "dynamic_fixed_mode_difference": 0.0,
+    "initial_arbitration": {
+      "active_rules": [
+        "C06",
+        "E01",
+        "F04:0",
+        "I02:0",
+        "S05:0"
+      ],
+      "target_rules_active": [
+        "I02:0",
+        "F04:0"
+      ],
+      "target_rule_probabilities": {
+        "I02:0": 0.23833,
+        "F04:0": 1.0
+      },
+      "dynamic_priorities": {
+        "F04:0": 8.0,
+        "I02:0": 3.714989
+      },
+      "nominal_actions": {
+        "0": {
+          "mode": "critical",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "selected_actions": {
+        "0": {
+          "mode": "recover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.0,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "agent0_selected_mode": "recover",
+      "status": "optimal",
+      "infeasibility_reason": null
+    },
+    "metrics": {
+      "policy": "Fixed-Priority",
+      "episodes": 1,
+      "mean_reward": 8.98,
+      "joint_satisfaction_rate": 1.0,
+      "mean_intervention_rate": 1.5,
+      "mean_intervention_distance": 1.18667,
+      "violation_rate": {
+        "E02": 1.0,
+        "E06": 1.0
+      },
+      "mean_first_violation_step": {
+        "E02": 1.0,
+        "E06": 4.0
+      },
+      "initial_infeasible_rate": 1.0,
+      "online_hard_violation_rate": 1.0,
+      "post_shield_hard_violation_rate": 0.9,
+      "post_truth_hard_violation_rate": 0.0,
+      "qp_infeasible_rate": 0.0,
+      "conflict_rate": 0.0,
+      "replan_trigger_rate": 0.7,
+      "mean_belief_risk": 0.9,
+      "mean_pre_filter_belief_risk": 1.0,
+      "mean_post_filter_belief_risk": 0.9,
+      "mean_actor_time_ms": 0.0099,
+      "mean_online_time_ms": 9.16702,
+      "tail_violation_rate": 1.0,
+      "risk_calibration_brier": 0.9,
+      "initially_feasible_episodes": 0,
+      "conditional_joint_satisfaction_rate": 0.0,
+      "rule_conflict_event_rate": 7.2,
+      "rule_rule_conflict_step_rate": 1.0,
+      "rule_rule_resolution_rate": 1.0,
+      "mean_conflict_residual": 0.74478,
+      "mean_solver_agents": 3.0,
+      "mean_solver_components": 1.0,
+      "max_solver_component_size": 3,
+      "cross_component_violation_rate": 0.0,
+      "cross_component_repair_rate": 0.0
+    }
+  },
+  {
+    "seed": 1001,
+    "scenario": "information_resource_priority_conflict",
+    "variant": "Dynamic-Priority",
+    "dynamic_priority_enabled": true,
+    "initial_target_pair_active": true,
+    "dynamic_fixed_mode_difference": 1.0,
+    "initial_arbitration": {
+      "active_rules": [
+        "C06",
+        "E01",
+        "F04:0",
+        "I02:0"
+      ],
+      "target_rules_active": [
+        "I02:0",
+        "F04:0"
+      ],
+      "target_rule_probabilities": {
+        "I02:0": 0.993718,
+        "F04:0": 1.0
+      },
+      "dynamic_priorities": {
+        "F04:0": 8.0,
+        "I02:0": 5.981155
+      },
+      "nominal_actions": {
+        "0": {
+          "mode": "critical",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "selected_actions": {
+        "0": {
+          "mode": "exit",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.0,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "agent0_selected_mode": "exit",
+      "status": "optimal",
+      "infeasibility_reason": null
+    },
+    "metrics": {
+      "policy": "Dynamic-Priority",
+      "episodes": 1,
+      "mean_reward": 8.98,
+      "joint_satisfaction_rate": 1.0,
+      "mean_intervention_rate": 1.5,
+      "mean_intervention_distance": 1.2,
+      "violation_rate": {
+        "E02": 1.0,
+        "E06": 1.0
+      },
+      "mean_first_violation_step": {
+        "E02": 1.0,
+        "E06": 4.0
+      },
+      "initial_infeasible_rate": 1.0,
+      "online_hard_violation_rate": 1.0,
+      "post_shield_hard_violation_rate": 0.0,
+      "post_truth_hard_violation_rate": 0.0,
+      "qp_infeasible_rate": 0.0,
+      "conflict_rate": 0.0,
+      "replan_trigger_rate": 0.7,
+      "mean_belief_risk": 0.0,
+      "mean_pre_filter_belief_risk": 1.0,
+      "mean_post_filter_belief_risk": 0.0,
+      "mean_actor_time_ms": 0.01003,
+      "mean_online_time_ms": 9.17236,
+      "tail_violation_rate": 1.0,
+      "risk_calibration_brier": 0.0,
+      "initially_feasible_episodes": 0,
+      "conditional_joint_satisfaction_rate": 0.0,
+      "rule_conflict_event_rate": 6.5,
+      "rule_rule_conflict_step_rate": 1.0,
+      "rule_rule_resolution_rate": 1.0,
+      "mean_conflict_residual": 0.72756,
+      "mean_solver_agents": 3.0,
+      "mean_solver_components": 1.0,
+      "max_solver_component_size": 3,
+      "cross_component_violation_rate": 0.0,
+      "cross_component_repair_rate": 0.0
+    }
+  },
+  {
+    "seed": 1001,
+    "scenario": "information_resource_priority_conflict",
+    "variant": "Fixed-Priority",
+    "dynamic_priority_enabled": false,
+    "initial_target_pair_active": true,
+    "dynamic_fixed_mode_difference": 1.0,
+    "initial_arbitration": {
+      "active_rules": [
+        "C06",
+        "E01",
+        "F04:0",
+        "I02:0"
+      ],
+      "target_rules_active": [
+        "I02:0",
+        "F04:0"
+      ],
+      "target_rule_probabilities": {
+        "I02:0": 0.993718,
+        "F04:0": 1.0
+      },
+      "dynamic_priorities": {
+        "F04:0": 8.0,
+        "I02:0": 5.981155
+      },
+      "nominal_actions": {
+        "0": {
+          "mode": "critical",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "selected_actions": {
+        "0": {
+          "mode": "recover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "1": {
+          "mode": "cover",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        },
+        "2": {
+          "mode": "support",
+          "turn": 0.1,
+          "climb": 0.0,
+          "acceleration": 0.2,
+          "target": null,
+          "target_kind": "none"
+        }
+      },
+      "agent0_selected_mode": "recover",
+      "status": "optimal",
+      "infeasibility_reason": null
+    },
+    "metrics": {
+      "policy": "Fixed-Priority",
+      "episodes": 1,
+      "mean_reward": 8.98,
+      "joint_satisfaction_rate": 1.0,
+      "mean_intervention_rate": 1.5,
+      "mean_intervention_distance": 1.06667,
+      "violation_rate": {
+        "E02": 1.0,
+        "E06": 1.0
+      },
+      "mean_first_violation_step": {
+        "E02": 1.0,
+        "E06": 4.0
+      },
+      "initial_infeasible_rate": 1.0,
+      "online_hard_violation_rate": 1.0,
+      "post_shield_hard_violation_rate": 0.0,
+      "post_truth_hard_violation_rate": 0.0,
+      "qp_infeasible_rate": 0.0,
+      "conflict_rate": 0.0,
+      "replan_trigger_rate": 0.7,
+      "mean_belief_risk": 0.0,
+      "mean_pre_filter_belief_risk": 1.0,
+      "mean_post_filter_belief_risk": 0.0,
+      "mean_actor_time_ms": 0.01013,
+      "mean_online_time_ms": 8.87212,
+      "tail_violation_rate": 1.0,
+      "risk_calibration_brier": 0.0,
+      "initially_feasible_episodes": 0,
+      "conditional_joint_satisfaction_rate": 0.0,
+      "rule_conflict_event_rate": 6.5,
+      "rule_rule_conflict_step_rate": 1.0,
+      "rule_rule_resolution_rate": 1.0,
+      "mean_conflict_residual": 0.63937,
+      "mean_solver_agents": 3.0,
+      "mean_solver_components": 1.0,
+      "max_solver_component_size": 3,
+      "cross_component_violation_rate": 0.0,
+      "cross_component_repair_rate": 0.0
+    }
+  }
+]
